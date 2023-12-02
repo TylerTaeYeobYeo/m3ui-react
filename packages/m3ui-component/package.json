@@ -1,0 +1,26 @@
+{
+  "name": "m3ui-component",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Taeyeob Yeo <id1423fo@gmail.com>",
+  "homepage": "https://github.com/TylerTaeYeobYeo/m3ui-react#readme",
+  "license": "ISC",
+  "main": "src/index.tsx",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TylerTaeYeobYeo/m3ui-react.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/m3ui-component.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/TylerTaeYeobYeo/m3ui-react/issues"
+  }
+}
