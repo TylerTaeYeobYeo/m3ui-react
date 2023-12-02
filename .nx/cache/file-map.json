@@ -1,0 +1,72 @@
+{
+  "version": "6.0",
+  "nxVersion": "17.1.3",
+  "deps": {
+    "@nrwl/storybook": "^17.1.3",
+    "@nx/storybook": "^17.1.3",
+    "@types/node": "^20.10.2",
+    "lerna": "^8.0.0",
+    "storybook": "^7.6.3",
+    "storybook-addon-package-json": "^2.0.0",
+    "typescript": "^5.3.2"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": ".gitignore",
+        "hash": "8587836968507943632"
+      },
+      {
+        "file": ".nx/cache/d/daemon.log",
+        "hash": "13393599586617366641"
+      },
+      {
+        "file": ".nx/cache/d/server-process.json",
+        "hash": "10454363774250271037"
+      },
+      {
+        "file": ".nx/cache/file-map.json",
+        "hash": "6968304585748660897"
+      },
+      {
+        "file": ".nx/cache/lockfile.hash",
+        "hash": "6086366747627190891"
+      },
+      {
+        "file": ".nx/cache/parsed-lock-file.json",
+        "hash": "17462597065586609601"
+      },
+      {
+        "file": ".nx/cache/project-graph.json",
+        "hash": "5080147931636392980"
+      },
+      {
+        "file": "LICENSE",
+        "hash": "17931472986242981258"
+      },
+      {
+        "file": "lerna.json",
+        "hash": "10307142885639291195"
+      },
+      {
+        "file": "nx.json",
+        "hash": "3708778410224749267"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "7733264091560477363"
+      },
+      {
+        "file": "package.json",
+        "hash": "6259559118006728371"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "5551157465727780730"
+      }
+    ],
+    "projectFileMap": {}
+  }
+}

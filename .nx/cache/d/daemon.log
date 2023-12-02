@@ -1,0 +1,192 @@
+[NX Daemon Server] - 2023-12-02T03:07:55.554Z - Started listening on: \\.\pipe\nx\C:\Users\y_jos\AppData\Local\Temp\5258c81ff6231af17b60\d.sock
+[NX Daemon Server] - 2023-12-02T03:07:55.555Z - [WATCHER]: Subscribed to changes within: E:\Code\m3ui-react (native)
+[NX Daemon Server] - 2023-12-02T03:07:55.560Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-12-02T03:07:55.562Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2023-12-02T03:07:55.562Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-12-02T03:07:55.563Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-12-02T03:07:55.766Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T03:07:55.766Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T03:07:55.766Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T03:07:55.817Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2023-12-02T03:07:55.818Z - Time taken for 'total for creating and serializing project graph' 253.46460000006482ms
+[NX Daemon Server] - 2023-12-02T03:07:55.818Z - Done responding to the client project-graph
+[NX Daemon Server] - 2023-12-02T03:07:55.818Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 254. Response time: 1.
+[NX Daemon Server] - 2023-12-02T03:07:56.289Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2023-12-02T03:07:56.319Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T03:07:56.320Z - [WATCHER]: nx.json was modified
+[NX Daemon Server] - 2023-12-02T03:07:56.436Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T03:07:56.436Z - [REQUEST]: nx.json
+[NX Daemon Server] - 2023-12-02T03:07:56.436Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T03:07:56.454Z - Time taken for 'hash changed files from watcher' 0.3000999999931082ms
+[NX Daemon Server] - 2023-12-02T03:08:30.765Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-12-02T03:08:30.765Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2023-12-02T03:08:30.766Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-12-02T03:08:30.767Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-12-02T03:08:30.767Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2023-12-02T03:08:30.768Z - Time taken for 'total for creating and serializing project graph' 0.1594999999506399ms
+[NX Daemon Server] - 2023-12-02T03:08:30.768Z - Done responding to the client project-graph
+[NX Daemon Server] - 2023-12-02T03:08:30.768Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2023-12-02T03:08:30.805Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2023-12-02T03:10:33.961Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T03:10:33.962Z - [WATCHER]: package.json was modified
+[NX Daemon Server] - 2023-12-02T03:10:34.022Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T03:10:34.176Z - [WATCHER]: .nx/cache/d/server-process.json was deleted
+[NX Daemon Server] - 2023-12-02T03:10:34.183Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T03:10:34.183Z - [REQUEST]: package.json
+[NX Daemon Server] - 2023-12-02T03:10:34.183Z - [REQUEST]: .nx/cache/d/server-process.json
+
+ >  NX   Failed to parse npm lockfile
+
+   Please open an issue at `https://github.com/nrwl/nx/issues/new?template=1-bug.yml` and provide a reproduction.
+   
+Original error: Source project does not exist: npm:@types/node
+
+
+   Error: Source project does not exist: npm:@types/node
+    at validateCommonDependencyRules (E:\Code\m3ui-react\node_modules\nx\src\project-graph\project-graph-builder.js:318:15)
+    at validateDependency (E:\Code\m3ui-react\node_modules\nx\src\project-graph\project-graph-builder.js:313:5)
+    at E:\Code\m3ui-react\node_modules\nx\src\plugins\js\lock-file\npm-parser.js:156:76
+    at Array.forEach (<anonymous>)
+    at E:\Code\m3ui-react\node_modules\nx\src\plugins\js\lock-file\npm-parser.js:148:45
+    at Array.forEach (<anonymous>)
+    at E:\Code\m3ui-react\node_modules\nx\src\plugins\js\lock-file\npm-parser.js:146:15
+    at Array.forEach (<anonymous>)
+    at getDependencies (E:\Code\m3ui-react\node_modules\nx\src\plugins\js\lock-file\npm-parser.js:136:39)
+    at getNpmLockfileDependencies (E:\Code\m3ui-react\node_modules\nx\src\plugins\js\lock-file\npm-parser.js:33:12)
+
+[NX Daemon Server] - 2023-12-02T03:10:34.192Z - Error detected when creating a project graph: Failed to process project dependencies with "nx-js-graph-plugin".
+Source project does not exist: npm:@types/node
+[NX Daemon Server] - 2023-12-02T03:10:34.192Z - Time taken for 'hash changed files from watcher' 0.1437999999616295ms
+[NX Daemon Server] - 2023-12-02T03:10:34.198Z - [WATCHER]: Stopping the watcher for E:\Code\m3ui-react (sources)
+[NX Daemon Server] - 2023-12-02T03:10:34.198Z - [WATCHER]: Stopping the watcher for E:\Code\m3ui-react (sources)
+[NX Daemon Server] - 2023-12-02T03:10:34.198Z - [WATCHER]: Stopping the watcher for E:\Code\m3ui-react (outputs)
+[NX Daemon Server] - 2023-12-02T03:10:34.198Z - Server stopped because: "this process is no longer the current daemon (native)"
+[NX Daemon Server] - 2023-12-02T03:32:18.234Z - Started listening on: \\.\pipe\nx\C:\Users\y_jos\AppData\Local\Temp\5258c81ff6231af17b60\d.sock
+[NX Daemon Server] - 2023-12-02T03:32:18.236Z - [WATCHER]: Subscribed to changes within: E:\Code\m3ui-react (native)
+[NX Daemon Server] - 2023-12-02T03:32:18.241Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-12-02T03:32:18.244Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2023-12-02T03:32:18.244Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-12-02T03:32:18.245Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-12-02T03:32:18.406Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T03:32:18.407Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T03:32:18.407Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T03:32:18.477Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2023-12-02T03:32:18.479Z - Time taken for 'total for creating and serializing project graph' 232.12910000002012ms
+[NX Daemon Server] - 2023-12-02T03:32:18.480Z - Done responding to the client project-graph
+[NX Daemon Server] - 2023-12-02T03:32:18.480Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 232. Response time: 3.
+[NX Daemon Server] - 2023-12-02T03:32:18.523Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2023-12-02T03:32:36.890Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-12-02T03:32:36.891Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2023-12-02T03:32:36.891Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-12-02T03:32:36.893Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-12-02T03:32:36.893Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2023-12-02T03:32:36.894Z - Time taken for 'total for creating and serializing project graph' 0.200999999884516ms
+[NX Daemon Server] - 2023-12-02T03:32:36.894Z - Done responding to the client project-graph
+[NX Daemon Server] - 2023-12-02T03:32:36.894Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2023-12-02T03:32:36.938Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2023-12-02T03:36:31.716Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T03:36:31.718Z - [WATCHER]: package.json was modified
+[NX Daemon Server] - 2023-12-02T03:36:31.842Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T03:36:31.842Z - [REQUEST]: package.json
+[NX Daemon Server] - 2023-12-02T03:36:31.842Z - [REQUEST]: 
+
+ >  NX   Failed to parse npm lockfile
+
+   Please open an issue at `https://github.com/nrwl/nx/issues/new?template=1-bug.yml` and provide a reproduction.
+   
+Original error: Source project does not exist: npm:@ampproject/remapping
+
+
+   Error: Source project does not exist: npm:@ampproject/remapping
+    at validateCommonDependencyRules (E:\Code\m3ui-react\node_modules\nx\src\project-graph\project-graph-builder.js:318:15)
+    at validateDependency (E:\Code\m3ui-react\node_modules\nx\src\project-graph\project-graph-builder.js:313:5)
+    at E:\Code\m3ui-react\node_modules\nx\src\plugins\js\lock-file\npm-parser.js:156:76
+    at Array.forEach (<anonymous>)
+    at E:\Code\m3ui-react\node_modules\nx\src\plugins\js\lock-file\npm-parser.js:148:45
+    at Array.forEach (<anonymous>)
+    at E:\Code\m3ui-react\node_modules\nx\src\plugins\js\lock-file\npm-parser.js:146:15
+    at Array.forEach (<anonymous>)
+    at getDependencies (E:\Code\m3ui-react\node_modules\nx\src\plugins\js\lock-file\npm-parser.js:136:39)
+    at getNpmLockfileDependencies (E:\Code\m3ui-react\node_modules\nx\src\plugins\js\lock-file\npm-parser.js:33:12)
+
+[NX Daemon Server] - 2023-12-02T03:36:31.854Z - Error detected when creating a project graph: Failed to process project dependencies with "nx-js-graph-plugin".
+Source project does not exist: npm:@ampproject/remapping
+[NX Daemon Server] - 2023-12-02T03:36:31.855Z - Time taken for 'hash changed files from watcher' 0.1650000000372529ms
+[NX Daemon Server] - 2023-12-02T03:36:31.887Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T03:36:31.888Z - [WATCHER]: Stopping the watcher for E:\Code\m3ui-react (sources)
+[NX Daemon Server] - 2023-12-02T03:36:31.888Z - [WATCHER]: Stopping the watcher for E:\Code\m3ui-react (outputs)
+[NX Daemon Server] - 2023-12-02T03:36:31.888Z - Server stopped because: "Lock file changed"
+[NX Daemon Server] - 2023-12-02T03:36:52.039Z - Started listening on: \\.\pipe\nx\C:\Users\y_jos\AppData\Local\Temp\5258c81ff6231af17b60\d.sock
+[NX Daemon Server] - 2023-12-02T03:36:52.041Z - [WATCHER]: Subscribed to changes within: E:\Code\m3ui-react (native)
+[NX Daemon Server] - 2023-12-02T03:36:52.043Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-12-02T03:36:52.045Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2023-12-02T03:36:52.045Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-12-02T03:36:52.046Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-12-02T03:36:52.112Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T03:36:52.112Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T03:36:52.112Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T03:36:52.172Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2023-12-02T03:36:52.173Z - Time taken for 'total for creating and serializing project graph' 125.65219999989495ms
+[NX Daemon Server] - 2023-12-02T03:36:52.174Z - Done responding to the client project-graph
+[NX Daemon Server] - 2023-12-02T03:36:52.174Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 126. Response time: 2.
+[NX Daemon Server] - 2023-12-02T03:37:09.947Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2023-12-02T03:37:56.946Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T03:37:56.947Z - [WATCHER]: package.json was modified
+[NX Daemon Server] - 2023-12-02T03:37:57.063Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T03:37:57.063Z - [REQUEST]: package.json
+[NX Daemon Server] - 2023-12-02T03:37:57.063Z - [REQUEST]: 
+
+ >  NX   Failed to parse npm lockfile
+
+   Please open an issue at `https://github.com/nrwl/nx/issues/new?template=1-bug.yml` and provide a reproduction.
+   
+Original error: Source project does not exist: npm:@aw-web-design/x-default-browser
+
+
+   Error: Source project does not exist: npm:@aw-web-design/x-default-browser
+    at validateCommonDependencyRules (E:\Code\m3ui-react\node_modules\nx\src\project-graph\project-graph-builder.js:318:15)
+    at validateDependency (E:\Code\m3ui-react\node_modules\nx\src\project-graph\project-graph-builder.js:313:5)
+    at E:\Code\m3ui-react\node_modules\nx\src\plugins\js\lock-file\npm-parser.js:156:76
+    at Array.forEach (<anonymous>)
+    at E:\Code\m3ui-react\node_modules\nx\src\plugins\js\lock-file\npm-parser.js:148:45
+    at Array.forEach (<anonymous>)
+    at E:\Code\m3ui-react\node_modules\nx\src\plugins\js\lock-file\npm-parser.js:146:15
+    at Array.forEach (<anonymous>)
+    at getDependencies (E:\Code\m3ui-react\node_modules\nx\src\plugins\js\lock-file\npm-parser.js:136:39)
+    at getNpmLockfileDependencies (E:\Code\m3ui-react\node_modules\nx\src\plugins\js\lock-file\npm-parser.js:33:12)
+
+[NX Daemon Server] - 2023-12-02T03:37:57.086Z - Error detected when creating a project graph: Failed to process project dependencies with "nx-js-graph-plugin".
+Source project does not exist: npm:@aw-web-design/x-default-browser
+[NX Daemon Server] - 2023-12-02T03:37:57.086Z - Time taken for 'hash changed files from watcher' 0.21010000025853515ms
+[NX Daemon Server] - 2023-12-02T03:37:57.120Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T03:37:57.120Z - [WATCHER]: Stopping the watcher for E:\Code\m3ui-react (sources)
+[NX Daemon Server] - 2023-12-02T03:37:57.120Z - [WATCHER]: Stopping the watcher for E:\Code\m3ui-react (outputs)
+[NX Daemon Server] - 2023-12-02T03:37:57.120Z - Server stopped because: "Lock file changed"
+[NX Daemon Server] - 2023-12-02T03:38:08.220Z - Started listening on: \\.\pipe\nx\C:\Users\y_jos\AppData\Local\Temp\5258c81ff6231af17b60\d.sock
+[NX Daemon Server] - 2023-12-02T03:38:08.222Z - [WATCHER]: Subscribed to changes within: E:\Code\m3ui-react (native)
+[NX Daemon Server] - 2023-12-02T03:38:08.229Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-12-02T03:38:08.231Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2023-12-02T03:38:08.231Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-12-02T03:38:08.232Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-12-02T03:38:08.286Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T03:38:08.286Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T03:38:08.286Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T03:38:08.353Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2023-12-02T03:38:08.355Z - Time taken for 'total for creating and serializing project graph' 120.9598000003025ms
+[NX Daemon Server] - 2023-12-02T03:38:08.355Z - Done responding to the client project-graph
+[NX Daemon Server] - 2023-12-02T03:38:08.355Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 121. Response time: 2.
+[NX Daemon Server] - 2023-12-02T03:38:15.020Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2023-12-02T03:38:20.428Z - [WATCHER]: packages/component was deleted
+[NX Daemon Server] - 2023-12-02T03:38:20.429Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T03:38:20.661Z - Error detected when recomputing project file map: ENOENT: no such file or directory, open 'E:\Code\m3ui-react\packages\component\package.json'
+[NX Daemon Server] - 2023-12-02T03:38:20.661Z - Time taken for 'hash changed files from watcher' 0.06870000017806888ms
+[NX Daemon Server] - 2023-12-02T03:40:25.700Z - [WATCHER]: package.json was modified
+[NX Daemon Server] - 2023-12-02T03:40:25.700Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T03:40:25.842Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T03:40:25.842Z - [REQUEST]: package.json
+[NX Daemon Server] - 2023-12-02T03:40:25.842Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T03:40:25.906Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T03:40:25.907Z - Time taken for 'hash changed files from watcher' 0.026200000196695328ms
+[NX Daemon Server] - 2023-12-02T03:40:25.907Z - [WATCHER]: Stopping the watcher for E:\Code\m3ui-react (sources)
+[NX Daemon Server] - 2023-12-02T03:40:25.907Z - [WATCHER]: Stopping the watcher for E:\Code\m3ui-react (outputs)
+[NX Daemon Server] - 2023-12-02T03:40:25.907Z - Server stopped because: "Lock file changed"
