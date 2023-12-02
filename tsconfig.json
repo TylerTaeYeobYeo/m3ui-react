@@ -11,7 +11,7 @@
     "sourceMap": true,
     "lib": ["es2020", "dom"],
     "jsx": "preserve",
-    "moduleResolution": "node",
+    "moduleResolution": "Node",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "noEmit": true,

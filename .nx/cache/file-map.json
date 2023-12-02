@@ -2,9 +2,16 @@
   "version": "6.0",
   "nxVersion": "17.1.3",
   "deps": {
+    "@emotion/eslint-plugin": "^11.11.0",
     "@nrwl/storybook": "^17.1.3",
     "@nx/storybook": "^17.1.3",
     "@types/node": "^20.10.2",
+    "@types/react": "^18.2.40",
+    "@types/react-dom": "^18.2.17",
+    "@typescript-eslint/eslint-plugin": "^6.13.1",
+    "@typescript-eslint/parser": "^6.13.1",
+    "eslint": "^8.55.0",
+    "eslint-plugin-react": "^7.33.2",
     "lerna": "^8.0.0",
     "storybook": "^7.6.3",
     "storybook-addon-package-json": "^2.0.0",
@@ -15,32 +22,36 @@
   "fileMap": {
     "nonProjectFiles": [
       {
+        "file": ".eslintrc.json",
+        "hash": "12753824309122042850"
+      },
+      {
         "file": ".gitignore",
-        "hash": "8587836968507943632"
+        "hash": "4021397564797490730"
       },
       {
         "file": ".nx/cache/d/daemon.log",
-        "hash": "13393599586617366641"
+        "hash": "766076596635774441"
       },
       {
         "file": ".nx/cache/d/server-process.json",
-        "hash": "10454363774250271037"
+        "hash": "1819844489412005800"
       },
       {
         "file": ".nx/cache/file-map.json",
-        "hash": "6968304585748660897"
+        "hash": "3079217722290096757"
       },
       {
         "file": ".nx/cache/lockfile.hash",
-        "hash": "6086366747627190891"
+        "hash": "5964816750920568164"
       },
       {
         "file": ".nx/cache/parsed-lock-file.json",
-        "hash": "17462597065586609601"
+        "hash": "11296976935837106172"
       },
       {
         "file": ".nx/cache/project-graph.json",
-        "hash": "5080147931636392980"
+        "hash": "1721620563500954002"
       },
       {
         "file": "LICENSE",
@@ -56,17 +67,124 @@
       },
       {
         "file": "package-lock.json",
-        "hash": "7733264091560477363"
+        "hash": "13965609892384237009"
       },
       {
         "file": "package.json",
-        "hash": "6259559118006728371"
+        "hash": "5324993826293757697"
       },
       {
         "file": "tsconfig.json",
-        "hash": "5551157465727780730"
+        "hash": "10915015516448959963"
       }
     ],
-    "projectFileMap": {}
+    "projectFileMap": {
+      "m3ui-component": [
+        {
+          "file": "packages/m3ui-component/README.md",
+          "hash": "3986819806583887532"
+        },
+        {
+          "file": "packages/m3ui-component/__tests__/m3ui-component.test.js",
+          "hash": "13050455624711120056"
+        },
+        {
+          "file": "packages/m3ui-component/lib/components/Theme/ThemeProvider.tsx",
+          "hash": "14664988747637826331"
+        },
+        {
+          "file": "packages/m3ui-component/lib/components/Typography/TypographySetting.tsx",
+          "hash": "3769287418397480354"
+        },
+        {
+          "file": "packages/m3ui-component/lib/components/Typography/index.tsx",
+          "hash": "5032274710932484328"
+        },
+        {
+          "file": "packages/m3ui-component/lib/constants/typography.constant.ts",
+          "hash": "6757759696683634272"
+        },
+        {
+          "file": "packages/m3ui-component/lib/contexts/theme.context.ts",
+          "hash": "16921788255044750255"
+        },
+        {
+          "file": "packages/m3ui-component/lib/index.tsx",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "packages/m3ui-component/lib/utils/string.util.ts",
+          "hash": "16169427390546716463"
+        },
+        {
+          "file": "packages/m3ui-component/package.json",
+          "hash": "13042633966605708442",
+          "deps": [
+            "npm:@emotion/react",
+            "npm:@emotion/styled"
+          ]
+        },
+        {
+          "file": "packages/m3ui-component/tsconfig.json",
+          "hash": "7553186516307468989"
+        },
+        {
+          "file": "packages/m3ui-component/lib/provider/index.tsx",
+          "hash": "8660444354426360953"
+        },
+        {
+          "file": "packages/m3ui-component/lib/provider/ThemeProvider/index.tsx",
+          "hash": "12960624891493004706"
+        },
+        {
+          "file": "packages/m3ui-component/lib/provider/ThemeProvider/ThemeProvider.tsx",
+          "hash": "14664988747637826331"
+        },
+        {
+          "file": "packages/m3ui-component/lib/provider/theme-provider/theme-provider.tsx",
+          "hash": "6907493109023680029"
+        },
+        {
+          "file": "packages/m3ui-component/lib/provider/typography/typography-config.tsx",
+          "hash": "3865316753597050219"
+        },
+        {
+          "file": "packages/m3ui-component/lib/provider/theme-provider/index.tsx",
+          "hash": "8660444354426360953"
+        },
+        {
+          "file": "packages/m3ui-component/lib/provider/typography/index.tsx",
+          "hash": "13732612642894680434"
+        },
+        {
+          "file": "packages/m3ui-component/lib/constants/color.constant.ts",
+          "hash": "15163711149725097559"
+        },
+        {
+          "file": "packages/m3ui-component/lib/core/typyes/index.ts",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "packages/m3ui-component/lib/utils/color.util.ts",
+          "hash": "12816145786723161478"
+        },
+        {
+          "file": "packages/m3ui-component/lib/provider/color/color-config.tsx",
+          "hash": "618453735766282494"
+        },
+        {
+          "file": "packages/m3ui-component/lib/provider/color/color.constant.ts",
+          "hash": "4909627772633140468"
+        },
+        {
+          "file": "packages/m3ui-component/lib/provider/typography/typography.constant.ts",
+          "hash": "10186313276412926377"
+        },
+        {
+          "file": "packages/m3ui-component/lib/provider/theme-provider/theme.context.ts",
+          "hash": "16336025398998129959"
+        }
+      ]
+    }
   }
 }

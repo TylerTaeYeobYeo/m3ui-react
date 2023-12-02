@@ -190,3 +190,1495 @@ Source project does not exist: npm:@aw-web-design/x-default-browser
 [NX Daemon Server] - 2023-12-02T03:40:25.907Z - [WATCHER]: Stopping the watcher for E:\Code\m3ui-react (sources)
 [NX Daemon Server] - 2023-12-02T03:40:25.907Z - [WATCHER]: Stopping the watcher for E:\Code\m3ui-react (outputs)
 [NX Daemon Server] - 2023-12-02T03:40:25.907Z - Server stopped because: "Lock file changed"
+[NX Daemon Server] - 2023-12-02T07:55:47.460Z - Started listening on: \\.\pipe\nx\C:\Users\y_jos\AppData\Local\Temp\5258c81ff6231af17b60\d.sock
+[NX Daemon Server] - 2023-12-02T07:55:47.918Z - [WATCHER]: Subscribed to changes within: e:\Code\m3ui-react (native)
+[NX Daemon Server] - 2023-12-02T07:55:47.919Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-12-02T07:55:47.920Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2023-12-02T07:55:47.922Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-12-02T07:55:47.924Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-12-02T07:55:54.515Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T07:55:54.515Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T07:55:54.515Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T07:55:54.986Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2023-12-02T07:55:54.989Z - Time taken for 'total for creating and serializing project graph' 7062.223300002515ms
+[NX Daemon Server] - 2023-12-02T07:55:54.989Z - Done responding to the client project-graph
+[NX Daemon Server] - 2023-12-02T07:55:54.989Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 7062. Response time: 3.
+[NX Daemon Server] - 2023-12-02T07:55:54.994Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2023-12-02T07:55:54.995Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-12-02T07:55:54.995Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2023-12-02T07:55:54.995Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-12-02T07:55:54.997Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2023-12-02T07:55:54.997Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2023-12-02T07:55:54.997Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2023-12-02T07:56:11.967Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T07:56:11.967Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T07:56:11.968Z - [WATCHER]: packages/m3ui-component/lib/components/Theme/ThemeProvider.tsx was modified
+[NX Daemon Server] - 2023-12-02T07:56:11.970Z - [WATCHER]: packages/m3ui-component/lib/components/Theme/ThemeProvider.tsx was modified
+[NX Daemon Server] - 2023-12-02T07:56:12.104Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T07:56:12.104Z - [REQUEST]: packages/m3ui-component/lib/components/Theme/ThemeProvider.tsx
+[NX Daemon Server] - 2023-12-02T07:56:12.104Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T07:56:12.406Z - Time taken for 'hash changed files from watcher' 0.19510000199079514ms
+[NX Daemon Server] - 2023-12-02T07:56:24.013Z - [WATCHER]: packages/m3ui-component/lib/contexts/theme.context.ts was modified
+[NX Daemon Server] - 2023-12-02T07:56:24.013Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T07:56:24.228Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T07:56:24.228Z - [REQUEST]: packages/m3ui-component/lib/contexts/theme.context.ts
+[NX Daemon Server] - 2023-12-02T07:56:24.228Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T07:56:24.251Z - Time taken for 'hash changed files from watcher' 0.2782000005245209ms
+[NX Daemon Server] - 2023-12-02T07:56:26.089Z - [WATCHER]: packages/m3ui-component/lib/components/Theme/ThemeProvider.tsx was modified
+[NX Daemon Server] - 2023-12-02T07:56:26.099Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T07:56:26.501Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T07:56:26.501Z - [REQUEST]: packages/m3ui-component/lib/components/Theme/ThemeProvider.tsx
+[NX Daemon Server] - 2023-12-02T07:56:26.501Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T07:56:26.523Z - Time taken for 'hash changed files from watcher' 0.41930000111460686ms
+[NX Daemon Server] - 2023-12-02T07:56:29.715Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T07:56:29.716Z - [WATCHER]: packages/m3ui-component/lib/components/Theme/ThemeProvider.tsx was modified
+[NX Daemon Server] - 2023-12-02T07:56:30.534Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T07:56:30.534Z - [REQUEST]: packages/m3ui-component/lib/components/Theme/ThemeProvider.tsx
+[NX Daemon Server] - 2023-12-02T07:56:30.534Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T07:56:30.556Z - Time taken for 'hash changed files from watcher' 0.18530000001192093ms
+[NX Daemon Server] - 2023-12-02T07:56:57.083Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T07:56:57.085Z - [WATCHER]: packages/m3ui-component/lib/components/Theme was deleted
+[NX Daemon Server] - 2023-12-02T07:56:58.702Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T07:56:58.702Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T07:56:58.702Z - [REQUEST]: packages/m3ui-component/lib/components/Theme
+[NX Daemon Server] - 2023-12-02T07:56:58.724Z - Time taken for 'hash changed files from watcher' 0.07030000165104866ms
+[NX Daemon Server] - 2023-12-02T07:57:20.403Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T07:57:20.404Z - [WATCHER]: packages/m3ui-component/lib/provider/index.tsx was created or restored
+[NX Daemon Server] - 2023-12-02T07:57:20.522Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T07:57:20.522Z - [REQUEST]: packages/m3ui-component/lib/provider/index.tsx
+[NX Daemon Server] - 2023-12-02T07:57:20.522Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T07:57:20.553Z - Time taken for 'hash changed files from watcher' 0.20670000091195107ms
+[NX Daemon Server] - 2023-12-02T07:57:26.270Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T07:57:26.271Z - [WATCHER]: packages/m3ui-component/lib/components/ThemeProvider was deleted
+[NX Daemon Server] - 2023-12-02T07:57:26.492Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T07:57:26.492Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T07:57:26.492Z - [REQUEST]: packages/m3ui-component/lib/components/ThemeProvider
+[NX Daemon Server] - 2023-12-02T07:57:26.518Z - Time taken for 'hash changed files from watcher' 0.05950000137090683ms
+[NX Daemon Server] - 2023-12-02T07:57:29.876Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T07:57:29.877Z - [WATCHER]: packages/m3ui-component/lib/components/Typography was deleted
+[NX Daemon Server] - 2023-12-02T07:57:30.286Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T07:57:30.286Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T07:57:30.286Z - [REQUEST]: packages/m3ui-component/lib/components/Typography
+[NX Daemon Server] - 2023-12-02T07:57:30.307Z - Time taken for 'hash changed files from watcher' 0.060200002044439316ms
+[NX Daemon Server] - 2023-12-02T07:57:45.796Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T07:57:45.797Z - [WATCHER]: packages/m3ui-component/lib/provider/index.tsx was modified
+[NX Daemon Server] - 2023-12-02T07:57:46.621Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T07:57:46.621Z - [REQUEST]: packages/m3ui-component/lib/provider/index.tsx
+[NX Daemon Server] - 2023-12-02T07:57:46.621Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T07:57:46.642Z - Time taken for 'hash changed files from watcher' 0.42720000073313713ms
+[NX Daemon Server] - 2023-12-02T07:57:53.519Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T07:57:53.521Z - [WATCHER]: packages/m3ui-component/lib/provider/ThemeProvider/index.tsx was created or restored
+[NX Daemon Server] - 2023-12-02T07:57:53.636Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T07:57:53.636Z - [REQUEST]: packages/m3ui-component/lib/provider/ThemeProvider/index.tsx
+[NX Daemon Server] - 2023-12-02T07:57:53.636Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T07:57:53.659Z - Time taken for 'hash changed files from watcher' 0.32910000160336494ms
+[NX Daemon Server] - 2023-12-02T07:57:57.931Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T07:57:57.932Z - [WATCHER]: packages/m3ui-component/lib/provider/ThemeProvider/index.tsx was modified
+[NX Daemon Server] - 2023-12-02T07:57:58.141Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T07:57:58.141Z - [REQUEST]: packages/m3ui-component/lib/provider/ThemeProvider/index.tsx
+[NX Daemon Server] - 2023-12-02T07:57:58.141Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T07:57:58.164Z - Time taken for 'hash changed files from watcher' 0.20420000329613686ms
+[NX Daemon Server] - 2023-12-02T07:58:27.797Z - [WATCHER]: packages/m3ui-component/lib/provider/ThemeProvider/Typography was deleted
+[NX Daemon Server] - 2023-12-02T07:58:27.797Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T07:58:28.211Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T07:58:28.211Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T07:58:28.211Z - [REQUEST]: packages/m3ui-component/lib/provider/ThemeProvider/Typography
+[NX Daemon Server] - 2023-12-02T07:58:28.232Z - Time taken for 'hash changed files from watcher' 0.05829999968409538ms
+[NX Daemon Server] - 2023-12-02T07:58:34.538Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T07:58:34.539Z - [WATCHER]: packages/m3ui-component/lib/provider/ThemeProvider/index.tsx was modified
+[NX Daemon Server] - 2023-12-02T07:58:34.915Z - [WATCHER]: packages/m3ui-component/lib/provider/ThemeProvider/ThemeProvider.tsx was modified
+[NX Daemon Server] - 2023-12-02T07:58:34.915Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T07:58:35.368Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T07:58:35.369Z - [REQUEST]: packages/m3ui-component/lib/provider/ThemeProvider/index.tsx,packages/m3ui-component/lib/provider/ThemeProvider/ThemeProvider.tsx
+[NX Daemon Server] - 2023-12-02T07:58:35.369Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T07:58:35.391Z - Time taken for 'hash changed files from watcher' 2.0099999979138374ms
+[NX Daemon Server] - 2023-12-02T07:58:42.026Z - [WATCHER]: packages/m3ui-component/lib/provider/ThemeProvider/ThemeProvider.tsx was modified
+[NX Daemon Server] - 2023-12-02T07:58:42.026Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T07:58:43.639Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T07:58:43.639Z - [REQUEST]: packages/m3ui-component/lib/provider/ThemeProvider/ThemeProvider.tsx
+[NX Daemon Server] - 2023-12-02T07:58:43.639Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T07:58:43.657Z - Time taken for 'hash changed files from watcher' 0.27470000088214874ms
+[NX Daemon Server] - 2023-12-02T07:58:44.656Z - [WATCHER]: packages/m3ui-component/lib/provider/ThemeProvider/ThemeProvider.tsx was modified
+[NX Daemon Server] - 2023-12-02T07:58:44.656Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T07:58:47.877Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T07:58:47.877Z - [REQUEST]: packages/m3ui-component/lib/provider/ThemeProvider/ThemeProvider.tsx
+[NX Daemon Server] - 2023-12-02T07:58:47.877Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T07:58:47.900Z - Time taken for 'hash changed files from watcher' 0.21770000085234642ms
+[NX Daemon Server] - 2023-12-02T07:59:25.963Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T07:59:25.966Z - [WATCHER]: packages/m3ui-component/lib/provider/Color was created or restored
+[NX Daemon Server] - 2023-12-02T07:59:26.078Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T07:59:26.078Z - [REQUEST]: packages/m3ui-component/lib/provider/Color
+[NX Daemon Server] - 2023-12-02T07:59:26.078Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T07:59:26.098Z - Time taken for 'hash changed files from watcher' 0.26350000128149986ms
+[NX Daemon Server] - 2023-12-02T07:59:29.003Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T07:59:29.004Z - [WATCHER]: packages/m3ui-component/lib/provider/Color was deleted
+[NX Daemon Server] - 2023-12-02T07:59:29.214Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T07:59:29.214Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T07:59:29.214Z - [REQUEST]: packages/m3ui-component/lib/provider/Color
+[NX Daemon Server] - 2023-12-02T07:59:29.235Z - Time taken for 'hash changed files from watcher' 0.12299999967217445ms
+[NX Daemon Server] - 2023-12-02T07:59:44.248Z - [WATCHER]: packages/m3ui-component/lib/provider/ThemeProvider was deleted
+[NX Daemon Server] - 2023-12-02T07:59:44.248Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T07:59:44.661Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T07:59:44.661Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T07:59:44.661Z - [REQUEST]: packages/m3ui-component/lib/provider/ThemeProvider
+[NX Daemon Server] - 2023-12-02T07:59:44.680Z - Time taken for 'hash changed files from watcher' 0.0771000012755394ms
+[NX Daemon Server] - 2023-12-02T07:59:50.503Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T07:59:50.504Z - [WATCHER]: 1 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2023-12-02T07:59:50.620Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T07:59:50.620Z - [REQUEST]: packages/m3ui-component/lib/provider/theme-provider/theme-provider.tsx
+[NX Daemon Server] - 2023-12-02T07:59:50.620Z - [REQUEST]: packages/m3ui-component/lib/provider/theme-provider/ThemeProvider.tsx
+[NX Daemon Server] - 2023-12-02T07:59:50.642Z - Time taken for 'hash changed files from watcher' 0.3027999997138977ms
+[NX Daemon Server] - 2023-12-02T08:00:09.032Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:00:09.033Z - [WATCHER]: 1 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2023-12-02T08:00:09.147Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:00:09.147Z - [REQUEST]: packages/m3ui-component/lib/provider/typography/typography-setting.tsx
+[NX Daemon Server] - 2023-12-02T08:00:09.147Z - [REQUEST]: packages/m3ui-component/lib/provider/typography/TypographyConfig.tsx
+[NX Daemon Server] - 2023-12-02T08:00:09.168Z - Time taken for 'hash changed files from watcher' 0.223300002515316ms
+[NX Daemon Server] - 2023-12-02T08:00:26.164Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:00:26.165Z - [WATCHER]: 1 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2023-12-02T08:00:26.282Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:00:26.282Z - [REQUEST]: packages/m3ui-component/lib/provider/typography/typography-config.tsx
+[NX Daemon Server] - 2023-12-02T08:00:26.282Z - [REQUEST]: packages/m3ui-component/lib/provider/typography/typography-setting.tsx
+[NX Daemon Server] - 2023-12-02T08:00:26.305Z - Time taken for 'hash changed files from watcher' 0.2256000004708767ms
+[NX Daemon Server] - 2023-12-02T08:00:42.437Z - [WATCHER]: 0 file(s) created or restored, 2 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2023-12-02T08:00:42.437Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:00:42.645Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:00:42.645Z - [REQUEST]: packages/m3ui-component/lib/provider/typography/typography-config.tsx,packages/m3ui-component/lib/provider/theme-provider/theme-provider.tsx
+[NX Daemon Server] - 2023-12-02T08:00:42.645Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:00:42.667Z - Time taken for 'hash changed files from watcher' 0.371799997985363ms
+[NX Daemon Server] - 2023-12-02T08:00:42.915Z - [WATCHER]: packages/m3ui-component/lib/provider/theme-provider/theme-provider.tsx was modified
+[NX Daemon Server] - 2023-12-02T08:00:42.915Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:00:43.326Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:00:43.326Z - [REQUEST]: packages/m3ui-component/lib/provider/theme-provider/theme-provider.tsx
+[NX Daemon Server] - 2023-12-02T08:00:43.326Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:00:43.345Z - Time taken for 'hash changed files from watcher' 0.21819999814033508ms
+[NX Daemon Server] - 2023-12-02T08:00:48.949Z - [WATCHER]: packages/m3ui-component/lib/provider/typography/typography-config.tsx was modified
+[NX Daemon Server] - 2023-12-02T08:00:48.949Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:00:49.762Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:00:49.762Z - [REQUEST]: packages/m3ui-component/lib/provider/typography/typography-config.tsx
+[NX Daemon Server] - 2023-12-02T08:00:49.762Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:00:49.782Z - Time taken for 'hash changed files from watcher' 0.24120000004768372ms
+[NX Daemon Server] - 2023-12-02T08:00:54.455Z - [WATCHER]: packages/m3ui-component/lib/provider/typography/typography-config.tsx was modified
+[NX Daemon Server] - 2023-12-02T08:00:54.455Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:00:56.074Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:00:56.074Z - [REQUEST]: packages/m3ui-component/lib/provider/typography/typography-config.tsx
+[NX Daemon Server] - 2023-12-02T08:00:56.074Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:00:56.093Z - Time taken for 'hash changed files from watcher' 0.20319999754428864ms
+[NX Daemon Server] - 2023-12-02T08:01:03.845Z - [WATCHER]: packages/m3ui-component/lib/provider/typography/typography-config.tsx was modified
+[NX Daemon Server] - 2023-12-02T08:01:03.845Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:01:07.058Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:01:07.058Z - [REQUEST]: packages/m3ui-component/lib/provider/typography/typography-config.tsx
+[NX Daemon Server] - 2023-12-02T08:01:07.058Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:01:07.076Z - Time taken for 'hash changed files from watcher' 0.22600000351667404ms
+[NX Daemon Server] - 2023-12-02T08:01:12.078Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:01:12.079Z - [WATCHER]: packages/m3ui-component/lib/provider/typography/index.tsx was modified
+[NX Daemon Server] - 2023-12-02T08:01:13.690Z - [WATCHER]: packages/m3ui-component/lib/provider/theme-provider/theme-provider.tsx was modified
+[NX Daemon Server] - 2023-12-02T08:01:13.690Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:01:14.371Z - [WATCHER]: packages/m3ui-component/lib/provider/theme-provider/index.tsx was modified
+[NX Daemon Server] - 2023-12-02T08:01:14.371Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:01:14.961Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:01:14.964Z - [WATCHER]: packages/m3ui-component/lib/provider/index.tsx was modified
+[NX Daemon Server] - 2023-12-02T08:01:15.054Z - [WATCHER]: packages/m3ui-component/lib/provider/index.tsx was modified
+[NX Daemon Server] - 2023-12-02T08:01:15.054Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:01:18.496Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:01:18.496Z - [REQUEST]: packages/m3ui-component/lib/provider/typography/index.tsx,packages/m3ui-component/lib/provider/theme-provider/theme-provider.tsx,packages/m3ui-component/lib/provider/theme-provider/index.tsx,packages/m3ui-component/lib/provider/index.tsx
+[NX Daemon Server] - 2023-12-02T08:01:18.496Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:01:18.514Z - Time taken for 'hash changed files from watcher' 1.2393999993801117ms
+[NX Daemon Server] - 2023-12-02T08:01:36.913Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:01:36.914Z - [WATCHER]: packages/m3ui-component/lib/provider/break-point was created or restored
+[NX Daemon Server] - 2023-12-02T08:01:37.032Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:01:37.032Z - [REQUEST]: packages/m3ui-component/lib/provider/break-point
+[NX Daemon Server] - 2023-12-02T08:01:37.032Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:01:37.052Z - Time taken for 'hash changed files from watcher' 0.6341000013053417ms
+[NX Daemon Server] - 2023-12-02T08:01:40.535Z - [WATCHER]: packages/m3ui-component/lib/provider/break-point was deleted
+[NX Daemon Server] - 2023-12-02T08:01:40.535Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:01:40.749Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:01:40.749Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:01:40.749Z - [REQUEST]: packages/m3ui-component/lib/provider/break-point
+[NX Daemon Server] - 2023-12-02T08:01:40.767Z - Time taken for 'hash changed files from watcher' 0.18279999867081642ms
+[NX Daemon Server] - 2023-12-02T08:02:24.972Z - [WATCHER]: packages/m3ui-component/lib/style was deleted
+[NX Daemon Server] - 2023-12-02T08:02:24.972Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:02:25.389Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:02:25.389Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:02:25.389Z - [REQUEST]: packages/m3ui-component/lib/style
+[NX Daemon Server] - 2023-12-02T08:02:25.407Z - Time taken for 'hash changed files from watcher' 0.20409999787807465ms
+[NX Daemon Server] - 2023-12-02T08:02:33.122Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:02:33.124Z - [WATCHER]: packages/m3ui-component/lib/asset was deleted
+[NX Daemon Server] - 2023-12-02T08:02:33.935Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:02:33.935Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:02:33.935Z - [REQUEST]: packages/m3ui-component/lib/asset
+[NX Daemon Server] - 2023-12-02T08:02:33.957Z - Time taken for 'hash changed files from watcher' 0.07229999825358391ms
+[NX Daemon Server] - 2023-12-02T08:03:12.004Z - [WATCHER]: packages/m3ui-component/lib/provider/color/c was deleted
+[NX Daemon Server] - 2023-12-02T08:03:12.004Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:03:13.619Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:03:13.619Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:03:13.619Z - [REQUEST]: packages/m3ui-component/lib/provider/color/c
+[NX Daemon Server] - 2023-12-02T08:03:13.662Z - Time taken for 'hash changed files from watcher' 0.11070000007748604ms
+[NX Daemon Server] - 2023-12-02T08:03:24.581Z - [WATCHER]: packages/m3ui-component/lib/constants/color.constant.ts was created or restored
+[NX Daemon Server] - 2023-12-02T08:03:24.582Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:03:24.696Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:03:24.697Z - [REQUEST]: packages/m3ui-component/lib/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T08:03:24.697Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:03:24.718Z - Time taken for 'hash changed files from watcher' 0.20439999923110008ms
+[NX Daemon Server] - 2023-12-02T08:08:15.028Z - [WATCHER]: packages/m3ui-component/lib/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:08:15.028Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:08:15.249Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:08:15.249Z - [REQUEST]: packages/m3ui-component/lib/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T08:08:15.249Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:08:15.268Z - Time taken for 'hash changed files from watcher' 9.38229999691248ms
+[NX Daemon Server] - 2023-12-02T08:08:38.345Z - [WATCHER]: packages/m3ui-component/lib/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:08:38.346Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:08:38.758Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:08:38.758Z - [REQUEST]: packages/m3ui-component/lib/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T08:08:38.758Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:08:38.777Z - Time taken for 'hash changed files from watcher' 0.22999999672174454ms
+[NX Daemon Server] - 2023-12-02T08:11:01.283Z - [WATCHER]: packages/m3ui-component/lib/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:11:01.284Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:11:02.104Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:11:02.104Z - [REQUEST]: packages/m3ui-component/lib/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T08:11:02.104Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:11:02.125Z - Time taken for 'hash changed files from watcher' 0.8740000016987324ms
+[NX Daemon Server] - 2023-12-02T08:11:34.326Z - [WATCHER]: packages/m3ui-component/lib/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:11:34.326Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:11:35.938Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:11:35.938Z - [REQUEST]: packages/m3ui-component/lib/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T08:11:35.938Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:11:36.031Z - Time taken for 'hash changed files from watcher' 0.563900001347065ms
+[NX Daemon Server] - 2023-12-02T08:11:37.078Z - [WATCHER]: packages/m3ui-component/lib/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:11:37.078Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:11:40.290Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:11:40.290Z - [REQUEST]: packages/m3ui-component/lib/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T08:11:40.290Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:11:40.310Z - Time taken for 'hash changed files from watcher' 0.22440000250935555ms
+[NX Daemon Server] - 2023-12-02T08:11:58.056Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:11:58.057Z - [WATCHER]: packages/m3ui-component/lib/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:12:03.705Z - [WATCHER]: packages/m3ui-component/lib/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:12:03.706Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:12:04.481Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:12:04.481Z - [REQUEST]: packages/m3ui-component/lib/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T08:12:04.481Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:12:04.499Z - Time taken for 'hash changed files from watcher' 0.6330999992787838ms
+[NX Daemon Server] - 2023-12-02T08:12:17.834Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:12:17.836Z - [WATCHER]: packages/m3ui-component/lib/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:12:24.247Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:12:24.247Z - [REQUEST]: packages/m3ui-component/lib/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T08:12:24.247Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:12:24.267Z - Time taken for 'hash changed files from watcher' 0.27389999851584435ms
+[NX Daemon Server] - 2023-12-02T08:12:26.552Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:12:26.553Z - [WATCHER]: packages/m3ui-component/lib/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:12:32.977Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:12:32.977Z - [REQUEST]: packages/m3ui-component/lib/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T08:12:32.977Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:12:32.998Z - Time taken for 'hash changed files from watcher' 0.21009999886155128ms
+[NX Daemon Server] - 2023-12-02T08:13:38.933Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:13:38.934Z - [WATCHER]: packages/m3ui-component/lib/constants was deleted
+[NX Daemon Server] - 2023-12-02T08:13:39.028Z - [WATCHER]: packages/m3ui-component/lib/contexts was deleted
+[NX Daemon Server] - 2023-12-02T08:13:39.028Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:13:39.090Z - [WATCHER]: packages/m3ui-component/lib/assets was deleted
+[NX Daemon Server] - 2023-12-02T08:13:39.090Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:13:39.444Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:13:39.444Z - [WATCHER]: 0 file(s) created or restored, 3 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2023-12-02T08:13:39.536Z - [WATCHER]: 0 file(s) created or restored, 3 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2023-12-02T08:13:39.536Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:13:45.344Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:13:45.344Z - [REQUEST]: packages/m3ui-component/lib/core/contexts/theme.context.ts,packages/m3ui-component/lib/provider/theme-provider/theme-provider.tsx,packages/m3ui-component/lib/provider/typography/typography-config.tsx
+[NX Daemon Server] - 2023-12-02T08:13:45.344Z - [REQUEST]: packages/m3ui-component/lib/constants,packages/m3ui-component/lib/contexts,packages/m3ui-component/lib/assets
+[NX Daemon Server] - 2023-12-02T08:13:45.365Z - Time taken for 'hash changed files from watcher' 0.3450000025331974ms
+[NX Daemon Server] - 2023-12-02T08:13:48.391Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:13:48.393Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:13:53.453Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:13:53.454Z - [WATCHER]: packages/m3ui-component/lib/provider/theme-provider/theme-provider.tsx was modified
+[NX Daemon Server] - 2023-12-02T08:13:54.806Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:13:54.806Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts,packages/m3ui-component/lib/provider/theme-provider/theme-provider.tsx
+[NX Daemon Server] - 2023-12-02T08:13:54.806Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:13:54.826Z - Time taken for 'hash changed files from watcher' 0.5586999990046024ms
+[NX Daemon Server] - 2023-12-02T08:14:08.759Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:14:08.760Z - [WATCHER]: packages/m3ui-component/lib/core/typyes/index.ts was created or restored
+[NX Daemon Server] - 2023-12-02T08:14:08.878Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:14:08.878Z - [REQUEST]: packages/m3ui-component/lib/core/typyes/index.ts
+[NX Daemon Server] - 2023-12-02T08:14:08.878Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:14:08.898Z - Time taken for 'hash changed files from watcher' 0.18969999998807907ms
+[NX Daemon Server] - 2023-12-02T08:14:12.664Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:14:12.665Z - [WATCHER]: packages/m3ui-component/lib/core/typyes was deleted
+[NX Daemon Server] - 2023-12-02T08:14:12.881Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:14:12.881Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:14:12.881Z - [REQUEST]: packages/m3ui-component/lib/core/typyes
+[NX Daemon Server] - 2023-12-02T08:14:12.903Z - Time taken for 'hash changed files from watcher' 0.15370000153779984ms
+[NX Daemon Server] - 2023-12-02T08:14:21.472Z - [WATCHER]: packages/m3ui-component/lib/core/types was deleted
+[NX Daemon Server] - 2023-12-02T08:14:21.472Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:14:21.886Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:14:21.886Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:14:21.886Z - [REQUEST]: packages/m3ui-component/lib/core/types
+[NX Daemon Server] - 2023-12-02T08:14:21.905Z - Time taken for 'hash changed files from watcher' 0.0998000018298626ms
+[NX Daemon Server] - 2023-12-02T08:14:59.685Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:14:59.685Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:15:00.510Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:15:00.510Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T08:15:00.510Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:15:00.530Z - Time taken for 'hash changed files from watcher' 0.7212000004947186ms
+[NX Daemon Server] - 2023-12-02T08:15:09.804Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:15:09.805Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:15:11.417Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:15:11.417Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T08:15:11.417Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:15:11.439Z - Time taken for 'hash changed files from watcher' 0.2264000028371811ms
+[NX Daemon Server] - 2023-12-02T08:15:28.763Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:15:28.763Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:15:31.975Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:15:31.975Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T08:15:31.975Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:15:31.993Z - Time taken for 'hash changed files from watcher' 0.440700002014637ms
+[NX Daemon Server] - 2023-12-02T08:15:34.401Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:15:34.401Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:15:40.544Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:15:40.545Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:15:40.820Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:15:40.820Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T08:15:40.820Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:15:40.841Z - Time taken for 'hash changed files from watcher' 0.6867000013589859ms
+[NX Daemon Server] - 2023-12-02T08:15:49.965Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:15:49.965Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:15:56.379Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:15:56.379Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T08:15:56.379Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:15:56.399Z - Time taken for 'hash changed files from watcher' 0.2872000001370907ms
+[NX Daemon Server] - 2023-12-02T08:15:56.529Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:15:56.530Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:16:02.941Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:16:02.941Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T08:16:02.942Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:16:02.959Z - Time taken for 'hash changed files from watcher' 0.20920000225305557ms
+[NX Daemon Server] - 2023-12-02T08:16:11.300Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:16:11.301Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:16:17.191Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:16:17.191Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:16:17.720Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:16:17.720Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T08:16:17.720Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:16:17.741Z - Time taken for 'hash changed files from watcher' 0.3784000016748905ms
+[NX Daemon Server] - 2023-12-02T08:16:20.547Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:16:20.548Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:16:26.965Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:16:26.965Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T08:16:26.965Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:16:26.983Z - Time taken for 'hash changed files from watcher' 0.39420000091195107ms
+[NX Daemon Server] - 2023-12-02T08:16:27.691Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:16:27.692Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:16:33.755Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:16:33.755Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:16:34.109Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:16:34.109Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T08:16:34.109Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:16:34.127Z - Time taken for 'hash changed files from watcher' 0.4441999979317188ms
+[NX Daemon Server] - 2023-12-02T08:16:39.469Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:16:39.470Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:16:45.897Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:16:45.898Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T08:16:45.898Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:16:45.918Z - Time taken for 'hash changed files from watcher' 0.6225999966263771ms
+[NX Daemon Server] - 2023-12-02T08:16:59.178Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:16:59.178Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:17:05.600Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:17:05.600Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T08:17:05.600Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:17:05.619Z - Time taken for 'hash changed files from watcher' 0.24079999700188637ms
+[NX Daemon Server] - 2023-12-02T08:17:23.988Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:17:23.988Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:17:30.004Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:17:30.004Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:17:30.404Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:17:30.404Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T08:17:30.404Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:17:30.424Z - Time taken for 'hash changed files from watcher' 0.9078999981284142ms
+[NX Daemon Server] - 2023-12-02T08:18:15.260Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:18:15.260Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:18:21.677Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:18:21.677Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T08:18:21.677Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:18:21.702Z - Time taken for 'hash changed files from watcher' 0.25270000100135803ms
+[NX Daemon Server] - 2023-12-02T08:18:25.731Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:18:25.732Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:18:32.151Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:18:32.151Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T08:18:32.151Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:18:32.173Z - Time taken for 'hash changed files from watcher' 0.232999999076128ms
+[NX Daemon Server] - 2023-12-02T08:18:33.585Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:18:33.586Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:18:39.997Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:18:39.997Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T08:18:39.997Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:18:40.020Z - Time taken for 'hash changed files from watcher' 0.26350000128149986ms
+[NX Daemon Server] - 2023-12-02T08:19:35.315Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:19:35.317Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:19:41.739Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:19:41.740Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T08:19:41.740Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:19:41.761Z - Time taken for 'hash changed files from watcher' 0.5238999985158443ms
+[NX Daemon Server] - 2023-12-02T08:20:31.297Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:20:31.299Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:20:37.714Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:20:37.714Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T08:20:37.714Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:20:37.733Z - Time taken for 'hash changed files from watcher' 0.41120000183582306ms
+[NX Daemon Server] - 2023-12-02T08:20:49.583Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:20:49.584Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:20:52.554Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:20:52.555Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:20:56.009Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:20:56.009Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T08:20:56.009Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:20:56.027Z - Time taken for 'hash changed files from watcher' 0.3755999989807606ms
+[NX Daemon Server] - 2023-12-02T08:21:49.634Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:21:49.634Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:21:56.058Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:21:56.058Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T08:21:56.058Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:21:56.079Z - Time taken for 'hash changed files from watcher' 0.23570000007748604ms
+[NX Daemon Server] - 2023-12-02T08:22:19.031Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:22:19.034Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:22:25.449Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:22:25.449Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T08:22:25.449Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:22:25.471Z - Time taken for 'hash changed files from watcher' 0.21880000084638596ms
+[NX Daemon Server] - 2023-12-02T08:22:31.386Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:22:31.388Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:22:37.805Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:22:37.805Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T08:22:37.805Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:22:37.826Z - Time taken for 'hash changed files from watcher' 0.20749999955296516ms
+[NX Daemon Server] - 2023-12-02T08:22:38.285Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:22:38.285Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:22:44.708Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:22:44.708Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T08:22:44.708Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:22:44.726Z - Time taken for 'hash changed files from watcher' 0.9522999972105026ms
+[NX Daemon Server] - 2023-12-02T08:22:45.381Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:22:45.383Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:22:51.058Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:22:51.058Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:22:51.806Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:22:51.806Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T08:22:51.807Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:22:51.831Z - Time taken for 'hash changed files from watcher' 0.4122000001370907ms
+[NX Daemon Server] - 2023-12-02T08:22:56.445Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:22:56.446Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:22:57.804Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:22:57.804Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:23:02.867Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:23:02.867Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T08:23:02.867Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:23:02.888Z - Time taken for 'hash changed files from watcher' 0.43389999866485596ms
+[NX Daemon Server] - 2023-12-02T08:23:10.461Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:23:10.461Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:23:16.124Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:23:16.124Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:23:16.886Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:23:16.886Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T08:23:16.886Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:23:16.906Z - Time taken for 'hash changed files from watcher' 0.7181000001728535ms
+[NX Daemon Server] - 2023-12-02T08:23:22.279Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:23:22.296Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:23:27.566Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:23:27.568Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:23:28.709Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:23:28.709Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T08:23:28.709Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:23:28.733Z - Time taken for 'hash changed files from watcher' 0.22550000250339508ms
+[NX Daemon Server] - 2023-12-02T08:23:35.166Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:23:35.166Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:23:41.589Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:23:41.589Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T08:23:41.589Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:23:41.611Z - Time taken for 'hash changed files from watcher' 0.6530000008642673ms
+[NX Daemon Server] - 2023-12-02T08:23:42.403Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:23:42.404Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:23:47.183Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:23:47.184Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:23:48.826Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:23:48.826Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T08:23:48.826Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:23:48.844Z - Time taken for 'hash changed files from watcher' 0.21310000121593475ms
+[NX Daemon Server] - 2023-12-02T08:24:01.305Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:24:01.308Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:24:07.727Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:24:07.727Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T08:24:07.727Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:24:07.750Z - Time taken for 'hash changed files from watcher' 0.22119999676942825ms
+[NX Daemon Server] - 2023-12-02T08:24:18.668Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:24:18.670Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:24:23.777Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:24:23.778Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:24:25.078Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:24:25.078Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T08:24:25.078Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:24:25.098Z - Time taken for 'hash changed files from watcher' 0.26000000163912773ms
+[NX Daemon Server] - 2023-12-02T08:24:55.500Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:24:55.500Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:25:01.916Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:25:01.916Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T08:25:01.916Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:25:01.936Z - Time taken for 'hash changed files from watcher' 0.2190999984741211ms
+[NX Daemon Server] - 2023-12-02T08:25:11.632Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:25:11.632Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:25:18.049Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:25:18.049Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T08:25:18.049Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:25:18.079Z - Time taken for 'hash changed files from watcher' 0.2598999999463558ms
+[NX Daemon Server] - 2023-12-02T08:26:43.077Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:26:43.078Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:26:48.201Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:26:48.201Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:26:49.494Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:26:49.494Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T08:26:49.494Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:26:49.512Z - Time taken for 'hash changed files from watcher' 0.29499999806284904ms
+[NX Daemon Server] - 2023-12-02T08:27:06.632Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:27:06.632Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:27:12.916Z - [WATCHER]: packages/m3ui-component/lib/utils/color.util.ts was created or restored
+[NX Daemon Server] - 2023-12-02T08:27:12.916Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:27:13.046Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:27:13.046Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts,packages/m3ui-component/lib/utils/color.util.ts
+[NX Daemon Server] - 2023-12-02T08:27:13.046Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:27:13.067Z - Time taken for 'hash changed files from watcher' 0.31040000170469284ms
+[NX Daemon Server] - 2023-12-02T08:29:35.330Z - [WATCHER]: packages/m3ui-component/lib/utils/color.util.ts was modified
+[NX Daemon Server] - 2023-12-02T08:29:35.510Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:29:35.576Z - [WATCHER]: packages/m3ui-component/lib/utils/color.util.ts was modified
+[NX Daemon Server] - 2023-12-02T08:29:35.577Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:29:35.724Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:29:35.724Z - [REQUEST]: packages/m3ui-component/lib/utils/color.util.ts
+[NX Daemon Server] - 2023-12-02T08:29:35.724Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:29:35.744Z - Time taken for 'hash changed files from watcher' 0.2646000012755394ms
+[NX Daemon Server] - 2023-12-02T08:33:10.690Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:33:10.690Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:33:11.104Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:33:11.104Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T08:33:11.104Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:33:11.127Z - Time taken for 'hash changed files from watcher' 0.23409999907016754ms
+[NX Daemon Server] - 2023-12-02T08:33:36.626Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:33:36.628Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:33:37.436Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:33:37.436Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T08:33:37.436Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:33:37.455Z - Time taken for 'hash changed files from watcher' 0.3845999985933304ms
+[NX Daemon Server] - 2023-12-02T08:34:18.169Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:34:18.170Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:34:19.781Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:34:19.781Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T08:34:19.781Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:34:19.799Z - Time taken for 'hash changed files from watcher' 0.27900000289082527ms
+[NX Daemon Server] - 2023-12-02T08:36:38.565Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:36:38.568Z - [WATCHER]: packages/m3ui-component/lib/utils/color.util.ts was modified
+[NX Daemon Server] - 2023-12-02T08:36:41.779Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:36:41.779Z - [REQUEST]: packages/m3ui-component/lib/utils/color.util.ts
+[NX Daemon Server] - 2023-12-02T08:36:41.779Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:36:41.805Z - Time taken for 'hash changed files from watcher' 0.35910000279545784ms
+[NX Daemon Server] - 2023-12-02T08:37:46.765Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:37:46.766Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:37:53.185Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:37:53.185Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T08:37:53.185Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:37:53.203Z - Time taken for 'hash changed files from watcher' 0.35279999673366547ms
+[NX Daemon Server] - 2023-12-02T08:38:43.372Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:38:43.373Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:38:49.801Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:38:49.801Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T08:38:49.801Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:38:49.819Z - Time taken for 'hash changed files from watcher' 1.2881000004708767ms
+[NX Daemon Server] - 2023-12-02T08:39:55.670Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:39:55.671Z - [WATCHER]: packages/m3ui-component/lib/utils/color.util.ts was modified
+[NX Daemon Server] - 2023-12-02T08:40:02.084Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:40:02.085Z - [REQUEST]: packages/m3ui-component/lib/utils/color.util.ts
+[NX Daemon Server] - 2023-12-02T08:40:02.085Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:40:02.105Z - Time taken for 'hash changed files from watcher' 0.30889999866485596ms
+[NX Daemon Server] - 2023-12-02T08:40:18.851Z - [WATCHER]: packages/m3ui-component/lib/utils/color.util.ts was modified
+[NX Daemon Server] - 2023-12-02T08:40:18.851Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:40:25.259Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:40:25.259Z - [REQUEST]: packages/m3ui-component/lib/utils/color.util.ts
+[NX Daemon Server] - 2023-12-02T08:40:25.259Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:40:25.279Z - Time taken for 'hash changed files from watcher' 0.21709999814629555ms
+[NX Daemon Server] - 2023-12-02T08:40:40.621Z - [WATCHER]: packages/m3ui-component/lib/utils/color.util.ts was modified
+[NX Daemon Server] - 2023-12-02T08:40:40.622Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:40:45.975Z - [WATCHER]: packages/m3ui-component/lib/utils/color.util.ts was modified
+[NX Daemon Server] - 2023-12-02T08:40:45.975Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:40:47.039Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:40:47.039Z - [REQUEST]: packages/m3ui-component/lib/utils/color.util.ts
+[NX Daemon Server] - 2023-12-02T08:40:47.039Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:40:47.060Z - Time taken for 'hash changed files from watcher' 0.38690000027418137ms
+[NX Daemon Server] - 2023-12-02T08:41:15.453Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:41:15.454Z - [WATCHER]: packages/m3ui-component/lib/utils/color.util.ts was modified
+[NX Daemon Server] - 2023-12-02T08:41:19.959Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:41:19.959Z - [WATCHER]: packages/m3ui-component/lib/utils/color.util.ts was modified
+[NX Daemon Server] - 2023-12-02T08:41:21.871Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:41:21.871Z - [REQUEST]: packages/m3ui-component/lib/utils/color.util.ts
+[NX Daemon Server] - 2023-12-02T08:41:21.871Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:41:21.893Z - Time taken for 'hash changed files from watcher' 0.2289999984204769ms
+[NX Daemon Server] - 2023-12-02T08:44:58.604Z - [WATCHER]: packages/m3ui-component/lib/utils/color.util.ts was modified
+[NX Daemon Server] - 2023-12-02T08:44:58.605Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:45:05.020Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:45:05.020Z - [REQUEST]: packages/m3ui-component/lib/utils/color.util.ts
+[NX Daemon Server] - 2023-12-02T08:45:05.020Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:45:05.038Z - Time taken for 'hash changed files from watcher' 0.2564000003039837ms
+[NX Daemon Server] - 2023-12-02T08:46:15.487Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:46:15.488Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:46:21.901Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:46:21.901Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T08:46:21.901Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:46:21.922Z - Time taken for 'hash changed files from watcher' 0.22599999979138374ms
+[NX Daemon Server] - 2023-12-02T08:47:09.760Z - [WATCHER]: packages/m3ui-component/lib/utils/color.util.ts was modified
+[NX Daemon Server] - 2023-12-02T08:47:09.760Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:47:16.184Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:47:16.184Z - [REQUEST]: packages/m3ui-component/lib/utils/color.util.ts
+[NX Daemon Server] - 2023-12-02T08:47:16.184Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:47:16.203Z - Time taken for 'hash changed files from watcher' 0.3870000019669533ms
+[NX Daemon Server] - 2023-12-02T08:47:26.079Z - [WATCHER]: packages/m3ui-component/lib/utils/color.util.ts was modified
+[NX Daemon Server] - 2023-12-02T08:47:26.080Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:47:32.504Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:47:32.504Z - [REQUEST]: packages/m3ui-component/lib/utils/color.util.ts
+[NX Daemon Server] - 2023-12-02T08:47:32.504Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:47:32.524Z - Time taken for 'hash changed files from watcher' 0.2615000009536743ms
+[NX Daemon Server] - 2023-12-02T08:48:13.959Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:48:13.960Z - [WATCHER]: packages/m3ui-component/lib/utils/color.util.ts was modified
+[NX Daemon Server] - 2023-12-02T08:48:20.384Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:48:20.384Z - [REQUEST]: packages/m3ui-component/lib/utils/color.util.ts
+[NX Daemon Server] - 2023-12-02T08:48:20.384Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:48:20.407Z - Time taken for 'hash changed files from watcher' 0.3220999985933304ms
+[NX Daemon Server] - 2023-12-02T08:48:29.139Z - [WATCHER]: packages/m3ui-component/lib/utils/color.util.ts was modified
+[NX Daemon Server] - 2023-12-02T08:48:29.139Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:48:32.687Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:48:32.688Z - [WATCHER]: packages/m3ui-component/lib/utils/color.util.ts was modified
+[NX Daemon Server] - 2023-12-02T08:48:35.547Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:48:35.547Z - [REQUEST]: packages/m3ui-component/lib/utils/color.util.ts
+[NX Daemon Server] - 2023-12-02T08:48:35.547Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:48:35.568Z - Time taken for 'hash changed files from watcher' 0.24899999797344208ms
+[NX Daemon Server] - 2023-12-02T08:48:55.623Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:48:55.624Z - [WATCHER]: packages/m3ui-component/lib/utils/color.util.ts was modified
+[NX Daemon Server] - 2023-12-02T08:49:02.041Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:49:02.041Z - [REQUEST]: packages/m3ui-component/lib/utils/color.util.ts
+[NX Daemon Server] - 2023-12-02T08:49:02.041Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:49:02.060Z - Time taken for 'hash changed files from watcher' 0.3489000014960766ms
+[NX Daemon Server] - 2023-12-02T08:49:05.005Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:49:05.007Z - [WATCHER]: packages/m3ui-component/lib/utils/color.util.ts was modified
+[NX Daemon Server] - 2023-12-02T08:49:11.425Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:49:11.425Z - [REQUEST]: packages/m3ui-component/lib/utils/color.util.ts
+[NX Daemon Server] - 2023-12-02T08:49:11.425Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:49:11.444Z - Time taken for 'hash changed files from watcher' 0.3799000009894371ms
+[NX Daemon Server] - 2023-12-02T08:49:15.698Z - [WATCHER]: packages/m3ui-component/lib/utils/color.util.ts was modified
+[NX Daemon Server] - 2023-12-02T08:49:15.699Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:49:22.118Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:49:22.118Z - [REQUEST]: packages/m3ui-component/lib/utils/color.util.ts
+[NX Daemon Server] - 2023-12-02T08:49:22.118Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:49:22.142Z - Time taken for 'hash changed files from watcher' 0.2434999980032444ms
+[NX Daemon Server] - 2023-12-02T08:49:39.239Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:49:39.239Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:49:45.659Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:49:45.659Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T08:49:45.659Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:49:45.680Z - Time taken for 'hash changed files from watcher' 0.31450000032782555ms
+[NX Daemon Server] - 2023-12-02T08:50:06.381Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:50:06.383Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:50:07.615Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:50:07.615Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:50:12.797Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:50:12.797Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T08:50:12.797Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:50:12.820Z - Time taken for 'hash changed files from watcher' 0.20980000123381615ms
+[NX Daemon Server] - 2023-12-02T08:50:21.570Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:50:21.571Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:50:27.979Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:50:27.979Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T08:50:27.979Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:50:27.999Z - Time taken for 'hash changed files from watcher' 0.21970000118017197ms
+[NX Daemon Server] - 2023-12-02T08:50:30.643Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:50:30.644Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:50:37.065Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:50:37.065Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T08:50:37.065Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:50:37.087Z - Time taken for 'hash changed files from watcher' 0.22790000215172768ms
+[NX Daemon Server] - 2023-12-02T08:50:39.338Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:50:39.339Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:50:45.754Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:50:45.754Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T08:50:45.754Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:50:45.772Z - Time taken for 'hash changed files from watcher' 0.3488999977707863ms
+[NX Daemon Server] - 2023-12-02T08:50:51.833Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:50:51.833Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:50:58.246Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:50:58.247Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T08:50:58.247Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:50:58.264Z - Time taken for 'hash changed files from watcher' 0.2005000002682209ms
+[NX Daemon Server] - 2023-12-02T08:51:01.227Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:51:01.229Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:51:07.641Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:51:07.641Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T08:51:07.641Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:51:07.659Z - Time taken for 'hash changed files from watcher' 0.37280000001192093ms
+[NX Daemon Server] - 2023-12-02T08:51:11.258Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:51:11.260Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:51:17.669Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:51:17.669Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T08:51:17.669Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:51:17.690Z - Time taken for 'hash changed files from watcher' 0.24060000106692314ms
+[NX Daemon Server] - 2023-12-02T08:51:31.360Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:51:31.361Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:51:37.776Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:51:37.776Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T08:51:37.776Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:51:37.795Z - Time taken for 'hash changed files from watcher' 0.33089999854564667ms
+[NX Daemon Server] - 2023-12-02T08:51:38.342Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:51:38.342Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:51:44.763Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:51:44.764Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T08:51:44.764Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:51:44.786Z - Time taken for 'hash changed files from watcher' 0.2328999973833561ms
+[NX Daemon Server] - 2023-12-02T08:51:47.893Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:51:47.895Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:51:49.234Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:51:49.235Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:51:54.306Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:51:54.306Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T08:51:54.306Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:51:54.325Z - Time taken for 'hash changed files from watcher' 0.22440000250935555ms
+[NX Daemon Server] - 2023-12-02T08:53:47.949Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:53:47.950Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T08:53:54.358Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:53:54.358Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T08:53:54.358Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:53:54.376Z - Time taken for 'hash changed files from watcher' 0.22390000149607658ms
+[NX Daemon Server] - 2023-12-02T08:54:41.784Z - [WATCHER]: packages/m3ui-component/lib/utils/color.util.ts was modified
+[NX Daemon Server] - 2023-12-02T08:54:41.784Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:54:48.202Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:54:48.202Z - [REQUEST]: packages/m3ui-component/lib/utils/color.util.ts
+[NX Daemon Server] - 2023-12-02T08:54:48.202Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:54:48.230Z - Time taken for 'hash changed files from watcher' 0.3132000006735325ms
+[NX Daemon Server] - 2023-12-02T08:55:22.885Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:55:22.887Z - [WATCHER]: packages/m3ui-component/lib/utils/color.util.ts was modified
+[NX Daemon Server] - 2023-12-02T08:55:29.305Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:55:29.305Z - [REQUEST]: packages/m3ui-component/lib/utils/color.util.ts
+[NX Daemon Server] - 2023-12-02T08:55:29.305Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:55:29.329Z - Time taken for 'hash changed files from watcher' 0.17650000005960464ms
+[NX Daemon Server] - 2023-12-02T08:56:34.029Z - [WATCHER]: packages/m3ui-component/lib/utils/color.util.ts was modified
+[NX Daemon Server] - 2023-12-02T08:56:34.029Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:56:40.446Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:56:40.447Z - [REQUEST]: packages/m3ui-component/lib/utils/color.util.ts
+[NX Daemon Server] - 2023-12-02T08:56:40.447Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:56:40.467Z - Time taken for 'hash changed files from watcher' 0.2961999997496605ms
+[NX Daemon Server] - 2023-12-02T08:57:01.757Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:57:01.759Z - [WATCHER]: packages/m3ui-component/lib/utils/color.util.ts was modified
+[NX Daemon Server] - 2023-12-02T08:57:08.177Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:57:08.177Z - [REQUEST]: packages/m3ui-component/lib/utils/color.util.ts
+[NX Daemon Server] - 2023-12-02T08:57:08.177Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:57:08.200Z - Time taken for 'hash changed files from watcher' 0.28769999742507935ms
+[NX Daemon Server] - 2023-12-02T08:57:47.449Z - [WATCHER]: packages/m3ui-component/lib/utils/color.util.ts was modified
+[NX Daemon Server] - 2023-12-02T08:57:47.449Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T08:57:53.867Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T08:57:53.867Z - [REQUEST]: packages/m3ui-component/lib/utils/color.util.ts
+[NX Daemon Server] - 2023-12-02T08:57:53.867Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T08:57:53.886Z - Time taken for 'hash changed files from watcher' 0.26329999789595604ms
+[NX Daemon Server] - 2023-12-02T09:00:35.688Z - [WATCHER]: packages/m3ui-component/lib/utils/color.util.ts was modified
+[NX Daemon Server] - 2023-12-02T09:00:35.689Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:00:39.115Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:00:39.116Z - [WATCHER]: packages/m3ui-component/lib/utils/color.util.ts was modified
+[NX Daemon Server] - 2023-12-02T09:00:42.106Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T09:00:42.106Z - [REQUEST]: packages/m3ui-component/lib/utils/color.util.ts
+[NX Daemon Server] - 2023-12-02T09:00:42.106Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T09:00:42.127Z - Time taken for 'hash changed files from watcher' 0.23739999905228615ms
+[NX Daemon Server] - 2023-12-02T09:08:05.494Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:08:05.496Z - [WATCHER]: packages/m3ui-component/lib/utils/color.util.ts was modified
+[NX Daemon Server] - 2023-12-02T09:08:11.914Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T09:08:11.914Z - [REQUEST]: packages/m3ui-component/lib/utils/color.util.ts
+[NX Daemon Server] - 2023-12-02T09:08:11.914Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T09:08:11.942Z - Time taken for 'hash changed files from watcher' 0.2200000025331974ms
+[NX Daemon Server] - 2023-12-02T09:08:34.569Z - [WATCHER]: packages/m3ui-component/lib/utils/color.util.ts was modified
+[NX Daemon Server] - 2023-12-02T09:08:34.569Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:08:40.983Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T09:08:40.984Z - [REQUEST]: packages/m3ui-component/lib/utils/color.util.ts
+[NX Daemon Server] - 2023-12-02T09:08:40.984Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T09:08:41.002Z - Time taken for 'hash changed files from watcher' 0.6141000017523766ms
+[NX Daemon Server] - 2023-12-02T09:08:48.351Z - [WATCHER]: packages/m3ui-component/lib/utils/color.util.ts was modified
+[NX Daemon Server] - 2023-12-02T09:08:48.351Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:08:54.775Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T09:08:54.775Z - [REQUEST]: packages/m3ui-component/lib/utils/color.util.ts
+[NX Daemon Server] - 2023-12-02T09:08:54.775Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T09:08:54.793Z - Time taken for 'hash changed files from watcher' 0.33549999818205833ms
+[NX Daemon Server] - 2023-12-02T09:09:31.421Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:09:31.422Z - [WATCHER]: packages/m3ui-component/lib/utils/color.util.ts was modified
+[NX Daemon Server] - 2023-12-02T09:09:37.841Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T09:09:37.841Z - [REQUEST]: packages/m3ui-component/lib/utils/color.util.ts
+[NX Daemon Server] - 2023-12-02T09:09:37.841Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T09:09:37.863Z - Time taken for 'hash changed files from watcher' 0.30139999836683273ms
+[NX Daemon Server] - 2023-12-02T09:09:57.817Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:09:57.818Z - [WATCHER]: packages/m3ui-component/lib/utils/color.util.ts was modified
+[NX Daemon Server] - 2023-12-02T09:10:04.232Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T09:10:04.232Z - [REQUEST]: packages/m3ui-component/lib/utils/color.util.ts
+[NX Daemon Server] - 2023-12-02T09:10:04.232Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T09:10:04.254Z - Time taken for 'hash changed files from watcher' 0.223300002515316ms
+[NX Daemon Server] - 2023-12-02T09:12:48.916Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T09:12:48.916Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:12:53.840Z - [WATCHER]: packages/m3ui-component/lib/utils/color.util.ts was modified
+[NX Daemon Server] - 2023-12-02T09:12:53.840Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:12:55.336Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T09:12:55.336Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts,packages/m3ui-component/lib/utils/color.util.ts
+[NX Daemon Server] - 2023-12-02T09:12:55.336Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T09:12:55.355Z - Time taken for 'hash changed files from watcher' 0.40480000153183937ms
+[NX Daemon Server] - 2023-12-02T09:13:02.606Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:13:02.607Z - [WATCHER]: packages/m3ui-component/lib/utils/color.util.ts was modified
+[NX Daemon Server] - 2023-12-02T09:13:09.024Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T09:13:09.024Z - [REQUEST]: packages/m3ui-component/lib/utils/color.util.ts
+[NX Daemon Server] - 2023-12-02T09:13:09.024Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T09:13:09.042Z - Time taken for 'hash changed files from watcher' 0.30220000073313713ms
+[NX Daemon Server] - 2023-12-02T09:13:40.815Z - [WATCHER]: packages/m3ui-component/lib/utils/color.util.ts was modified
+[NX Daemon Server] - 2023-12-02T09:13:40.815Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:13:47.231Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T09:13:47.231Z - [REQUEST]: packages/m3ui-component/lib/utils/color.util.ts
+[NX Daemon Server] - 2023-12-02T09:13:47.231Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T09:13:47.252Z - Time taken for 'hash changed files from watcher' 0.3426000028848648ms
+[NX Daemon Server] - 2023-12-02T09:14:19.964Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:14:19.964Z - [WATCHER]: packages/m3ui-component/lib/utils/color.util.ts was modified
+[NX Daemon Server] - 2023-12-02T09:14:26.378Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T09:14:26.378Z - [REQUEST]: packages/m3ui-component/lib/utils/color.util.ts
+[NX Daemon Server] - 2023-12-02T09:14:26.378Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T09:14:26.399Z - Time taken for 'hash changed files from watcher' 0.31769999861717224ms
+[NX Daemon Server] - 2023-12-02T09:14:29.353Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:14:29.354Z - [WATCHER]: packages/m3ui-component/lib/utils/color.util.ts was modified
+[NX Daemon Server] - 2023-12-02T09:14:35.777Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T09:14:35.777Z - [REQUEST]: packages/m3ui-component/lib/utils/color.util.ts
+[NX Daemon Server] - 2023-12-02T09:14:35.777Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T09:14:35.799Z - Time taken for 'hash changed files from watcher' 0.21140000224113464ms
+[NX Daemon Server] - 2023-12-02T09:15:00.336Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:15:00.337Z - [WATCHER]: packages/m3ui-component/lib/utils/color.util.ts was modified
+[NX Daemon Server] - 2023-12-02T09:15:05.216Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:15:05.216Z - [WATCHER]: packages/m3ui-component/lib/utils/color.util.ts was modified
+[NX Daemon Server] - 2023-12-02T09:15:06.752Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T09:15:06.752Z - [REQUEST]: packages/m3ui-component/lib/utils/color.util.ts
+[NX Daemon Server] - 2023-12-02T09:15:06.752Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T09:15:06.778Z - Time taken for 'hash changed files from watcher' 0.23259999975562096ms
+[NX Daemon Server] - 2023-12-02T09:15:37.719Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:15:37.720Z - [WATCHER]: packages/m3ui-component/lib/utils/color.util.ts was modified
+[NX Daemon Server] - 2023-12-02T09:15:44.136Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T09:15:44.136Z - [REQUEST]: packages/m3ui-component/lib/utils/color.util.ts
+[NX Daemon Server] - 2023-12-02T09:15:44.136Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T09:15:44.158Z - Time taken for 'hash changed files from watcher' 0.2653999999165535ms
+[NX Daemon Server] - 2023-12-02T09:16:15.881Z - [WATCHER]: packages/m3ui-component/lib/provider/color/typography-config.tsx was created or restored
+[NX Daemon Server] - 2023-12-02T09:16:15.882Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:16:15.996Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T09:16:15.996Z - [REQUEST]: packages/m3ui-component/lib/provider/color/typography-config.tsx
+[NX Daemon Server] - 2023-12-02T09:16:15.996Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T09:16:16.017Z - Time taken for 'hash changed files from watcher' 0.2087000012397766ms
+[NX Daemon Server] - 2023-12-02T09:16:19.808Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:16:19.810Z - [WATCHER]: 1 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2023-12-02T09:16:19.925Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T09:16:19.925Z - [REQUEST]: packages/m3ui-component/lib/provider/color/color-config.tsx
+[NX Daemon Server] - 2023-12-02T09:16:19.925Z - [REQUEST]: packages/m3ui-component/lib/provider/color/typography-config.tsx
+[NX Daemon Server] - 2023-12-02T09:16:19.949Z - Time taken for 'hash changed files from watcher' 0.3328000009059906ms
+[NX Daemon Server] - 2023-12-02T09:16:31.802Z - [WATCHER]: packages/m3ui-component/lib/provider/color/color-config.tsx was modified
+[NX Daemon Server] - 2023-12-02T09:16:31.802Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:16:32.012Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T09:16:32.012Z - [REQUEST]: packages/m3ui-component/lib/provider/color/color-config.tsx
+[NX Daemon Server] - 2023-12-02T09:16:32.012Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T09:16:32.034Z - Time taken for 'hash changed files from watcher' 0.20890000090003014ms
+[NX Daemon Server] - 2023-12-02T09:20:11.427Z - [WATCHER]: packages/m3ui-component/lib/provider/theme-provider/theme-provider.tsx was modified
+[NX Daemon Server] - 2023-12-02T09:20:11.461Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:20:11.519Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:20:11.520Z - [WATCHER]: packages/m3ui-component/lib/provider/theme-provider/theme-provider.tsx was modified
+[NX Daemon Server] - 2023-12-02T09:20:11.874Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T09:20:11.874Z - [REQUEST]: packages/m3ui-component/lib/provider/theme-provider/theme-provider.tsx
+[NX Daemon Server] - 2023-12-02T09:20:11.874Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T09:20:11.894Z - Time taken for 'hash changed files from watcher' 0.28379999846220016ms
+[NX Daemon Server] - 2023-12-02T09:20:20.839Z - [WATCHER]: packages/m3ui-component/lib/provider/theme-provider/theme-provider.tsx was modified
+[NX Daemon Server] - 2023-12-02T09:20:20.840Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:20:21.656Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T09:20:21.657Z - [REQUEST]: packages/m3ui-component/lib/provider/theme-provider/theme-provider.tsx
+[NX Daemon Server] - 2023-12-02T09:20:21.657Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T09:20:21.676Z - Time taken for 'hash changed files from watcher' 0.22780000045895576ms
+[NX Daemon Server] - 2023-12-02T09:21:22.555Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:21:22.557Z - [WATCHER]: packages/m3ui-component/lib/provider/color/color-config.tsx was modified
+[NX Daemon Server] - 2023-12-02T09:21:24.175Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T09:21:24.175Z - [REQUEST]: packages/m3ui-component/lib/provider/color/color-config.tsx
+[NX Daemon Server] - 2023-12-02T09:21:24.175Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T09:21:24.199Z - Time taken for 'hash changed files from watcher' 0.21209999918937683ms
+[NX Daemon Server] - 2023-12-02T09:22:59.275Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:22:59.276Z - [WATCHER]: packages/m3ui-component/lib/provider/color/color-config.tsx was modified
+[NX Daemon Server] - 2023-12-02T09:23:02.489Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T09:23:02.489Z - [REQUEST]: packages/m3ui-component/lib/provider/color/color-config.tsx
+[NX Daemon Server] - 2023-12-02T09:23:02.489Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T09:23:02.511Z - Time taken for 'hash changed files from watcher' 0.29110000282526016ms
+[NX Daemon Server] - 2023-12-02T09:23:02.915Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:23:02.916Z - [WATCHER]: packages/m3ui-component/lib/provider/color/color-config.tsx was modified
+[NX Daemon Server] - 2023-12-02T09:23:09.337Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T09:23:09.337Z - [REQUEST]: packages/m3ui-component/lib/provider/color/color-config.tsx
+[NX Daemon Server] - 2023-12-02T09:23:09.337Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T09:23:09.358Z - Time taken for 'hash changed files from watcher' 0.6072000004351139ms
+[NX Daemon Server] - 2023-12-02T09:24:53.475Z - [WATCHER]: packages/m3ui-component/lib/core/contexts/theme.context.ts was modified
+[NX Daemon Server] - 2023-12-02T09:24:53.485Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:24:53.537Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:24:53.538Z - [WATCHER]: packages/m3ui-component/lib/core/contexts/theme.context.ts was modified
+[NX Daemon Server] - 2023-12-02T09:24:59.900Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T09:24:59.900Z - [REQUEST]: packages/m3ui-component/lib/core/contexts/theme.context.ts
+[NX Daemon Server] - 2023-12-02T09:24:59.900Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T09:24:59.922Z - Time taken for 'hash changed files from watcher' 0.20569999888539314ms
+[NX Daemon Server] - 2023-12-02T09:25:24.085Z - [WATCHER]: packages/m3ui-component/lib/core/contexts/theme.context.ts was modified
+[NX Daemon Server] - 2023-12-02T09:25:24.086Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:25:30.505Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T09:25:30.505Z - [REQUEST]: packages/m3ui-component/lib/core/contexts/theme.context.ts
+[NX Daemon Server] - 2023-12-02T09:25:30.505Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T09:25:30.526Z - Time taken for 'hash changed files from watcher' 0.19090000167489052ms
+[NX Daemon Server] - 2023-12-02T09:26:29.676Z - [WATCHER]: packages/m3ui-component/lib/core/contexts/theme.context.ts was modified
+[NX Daemon Server] - 2023-12-02T09:26:29.851Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:26:29.913Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:26:29.914Z - [WATCHER]: packages/m3ui-component/lib/core/contexts/theme.context.ts was modified
+[NX Daemon Server] - 2023-12-02T09:26:36.265Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T09:26:36.266Z - [REQUEST]: packages/m3ui-component/lib/core/contexts/theme.context.ts
+[NX Daemon Server] - 2023-12-02T09:26:36.266Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T09:26:36.288Z - Time taken for 'hash changed files from watcher' 0.28050000220537186ms
+[NX Daemon Server] - 2023-12-02T09:26:48.223Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:26:48.224Z - [WATCHER]: packages/m3ui-component/lib/core/contexts/theme.context.ts was modified
+[NX Daemon Server] - 2023-12-02T09:26:54.644Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T09:26:54.644Z - [REQUEST]: packages/m3ui-component/lib/core/contexts/theme.context.ts
+[NX Daemon Server] - 2023-12-02T09:26:54.644Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T09:26:54.665Z - Time taken for 'hash changed files from watcher' 0.5940000005066395ms
+[NX Daemon Server] - 2023-12-02T09:27:17.333Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:27:17.334Z - [WATCHER]: packages/m3ui-component/lib/provider/theme-provider/theme-provider.tsx was modified
+[NX Daemon Server] - 2023-12-02T09:27:21.866Z - [WATCHER]: packages/m3ui-component/lib/provider/theme-provider/theme-provider.tsx was modified
+[NX Daemon Server] - 2023-12-02T09:27:21.866Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:27:23.750Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T09:27:23.751Z - [REQUEST]: packages/m3ui-component/lib/provider/theme-provider/theme-provider.tsx
+[NX Daemon Server] - 2023-12-02T09:27:23.751Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T09:27:23.769Z - Time taken for 'hash changed files from watcher' 0.21770000085234642ms
+[NX Daemon Server] - 2023-12-02T09:28:05.062Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T09:28:05.062Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:28:11.475Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T09:28:11.475Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T09:28:11.475Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T09:28:11.494Z - Time taken for 'hash changed files from watcher' 0.596900001168251ms
+[NX Daemon Server] - 2023-12-02T09:28:18.746Z - [WATCHER]: packages/m3ui-component/lib/core/contexts/theme.context.ts was modified
+[NX Daemon Server] - 2023-12-02T09:28:18.812Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:28:18.874Z - [WATCHER]: packages/m3ui-component/lib/core/contexts/theme.context.ts was modified
+[NX Daemon Server] - 2023-12-02T09:28:18.874Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:28:25.226Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T09:28:25.226Z - [REQUEST]: packages/m3ui-component/lib/core/contexts/theme.context.ts
+[NX Daemon Server] - 2023-12-02T09:28:25.226Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T09:28:25.248Z - Time taken for 'hash changed files from watcher' 0.5526000000536442ms
+[NX Daemon Server] - 2023-12-02T09:28:53.942Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:28:53.943Z - [WATCHER]: packages/m3ui-component/lib/provider/color/color-config.tsx was modified
+[NX Daemon Server] - 2023-12-02T09:29:00.355Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T09:29:00.355Z - [REQUEST]: packages/m3ui-component/lib/provider/color/color-config.tsx
+[NX Daemon Server] - 2023-12-02T09:29:00.355Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T09:29:00.374Z - Time taken for 'hash changed files from watcher' 0.23979999870061874ms
+[NX Daemon Server] - 2023-12-02T09:29:03.731Z - [WATCHER]: packages/m3ui-component/lib/provider/color/color-config.tsx was modified
+[NX Daemon Server] - 2023-12-02T09:29:03.731Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:29:10.148Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T09:29:10.148Z - [REQUEST]: packages/m3ui-component/lib/provider/color/color-config.tsx
+[NX Daemon Server] - 2023-12-02T09:29:10.148Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T09:29:10.170Z - Time taken for 'hash changed files from watcher' 0.2231999970972538ms
+[NX Daemon Server] - 2023-12-02T09:29:53.828Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T09:29:53.828Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:30:00.244Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T09:30:00.244Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T09:30:00.244Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T09:30:00.264Z - Time taken for 'hash changed files from watcher' 0.26919999718666077ms
+[NX Daemon Server] - 2023-12-02T09:30:14.143Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:30:14.144Z - [WATCHER]: packages/m3ui-component/lib/core/contexts/theme.context.ts was modified
+[NX Daemon Server] - 2023-12-02T09:30:17.069Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:30:17.070Z - [WATCHER]: packages/m3ui-component/lib/provider/color/color-config.tsx was modified
+[NX Daemon Server] - 2023-12-02T09:30:20.564Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T09:30:20.564Z - [REQUEST]: packages/m3ui-component/lib/core/contexts/theme.context.ts,packages/m3ui-component/lib/provider/color/color-config.tsx
+[NX Daemon Server] - 2023-12-02T09:30:20.564Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T09:30:20.587Z - Time taken for 'hash changed files from watcher' 0.2809999994933605ms
+[NX Daemon Server] - 2023-12-02T09:30:22.002Z - [WATCHER]: packages/m3ui-component/lib/provider/color/color-config.tsx was modified
+[NX Daemon Server] - 2023-12-02T09:30:22.002Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:30:28.419Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T09:30:28.419Z - [REQUEST]: packages/m3ui-component/lib/provider/color/color-config.tsx
+[NX Daemon Server] - 2023-12-02T09:30:28.420Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T09:30:28.442Z - Time taken for 'hash changed files from watcher' 0.5810000002384186ms
+[NX Daemon Server] - 2023-12-02T09:30:30.348Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:30:30.349Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T09:30:36.762Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T09:30:36.762Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T09:30:36.762Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T09:30:36.782Z - Time taken for 'hash changed files from watcher' 0.2450999990105629ms
+[NX Daemon Server] - 2023-12-02T09:31:00.643Z - [WATCHER]: packages/m3ui-component/lib/provider/typography/typography-config.tsx was modified
+[NX Daemon Server] - 2023-12-02T09:31:00.643Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:31:07.063Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T09:31:07.063Z - [REQUEST]: packages/m3ui-component/lib/provider/typography/typography-config.tsx
+[NX Daemon Server] - 2023-12-02T09:31:07.063Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T09:31:07.081Z - Time taken for 'hash changed files from watcher' 0.24900000169873238ms
+[NX Daemon Server] - 2023-12-02T09:31:14.791Z - [WATCHER]: 0 file(s) created or restored, 3 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2023-12-02T09:31:14.818Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:31:14.883Z - [WATCHER]: 0 file(s) created or restored, 3 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2023-12-02T09:31:14.883Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:31:21.231Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T09:31:21.231Z - [REQUEST]: packages/m3ui-component/lib/core/contexts/theme.context.ts,packages/m3ui-component/lib/provider/typography/typography-config.tsx,packages/m3ui-component/lib/core/constants/typography.constant.ts
+[NX Daemon Server] - 2023-12-02T09:31:21.231Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T09:31:21.254Z - Time taken for 'hash changed files from watcher' 0.34959999844431877ms
+[NX Daemon Server] - 2023-12-02T09:31:33.678Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:31:33.680Z - [WATCHER]: packages/m3ui-component/lib/provider/color/color-config.tsx was modified
+[NX Daemon Server] - 2023-12-02T09:31:36.540Z - [WATCHER]: packages/m3ui-component/lib/provider/color/color-config.tsx was modified
+[NX Daemon Server] - 2023-12-02T09:31:36.540Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:31:40.102Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T09:31:40.102Z - [REQUEST]: packages/m3ui-component/lib/provider/color/color-config.tsx
+[NX Daemon Server] - 2023-12-02T09:31:40.102Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T09:31:40.124Z - Time taken for 'hash changed files from watcher' 0.3288999982178211ms
+[NX Daemon Server] - 2023-12-02T09:32:56.620Z - [WATCHER]: packages/m3ui-component/lib/provider/color/color-config.tsx was modified
+[NX Daemon Server] - 2023-12-02T09:32:56.620Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:33:03.031Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T09:33:03.031Z - [REQUEST]: packages/m3ui-component/lib/provider/color/color-config.tsx
+[NX Daemon Server] - 2023-12-02T09:33:03.031Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T09:33:03.052Z - Time taken for 'hash changed files from watcher' 0.24529999867081642ms
+[NX Daemon Server] - 2023-12-02T09:33:16.262Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:33:16.263Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T09:33:22.670Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T09:33:22.670Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T09:33:22.671Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T09:33:22.691Z - Time taken for 'hash changed files from watcher' 0.2591000013053417ms
+[NX Daemon Server] - 2023-12-02T09:33:37.325Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:33:37.326Z - [WATCHER]: packages/m3ui-component/lib/provider/color/color-config.tsx was modified
+[NX Daemon Server] - 2023-12-02T09:33:43.739Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T09:33:43.739Z - [REQUEST]: packages/m3ui-component/lib/provider/color/color-config.tsx
+[NX Daemon Server] - 2023-12-02T09:33:43.739Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T09:33:43.761Z - Time taken for 'hash changed files from watcher' 0.27239999920129776ms
+[NX Daemon Server] - 2023-12-02T09:33:49.645Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:33:49.646Z - [WATCHER]: packages/m3ui-component/lib/provider/color/color-config.tsx was modified
+[NX Daemon Server] - 2023-12-02T09:33:56.057Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T09:33:56.057Z - [REQUEST]: packages/m3ui-component/lib/provider/color/color-config.tsx
+[NX Daemon Server] - 2023-12-02T09:33:56.057Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T09:33:56.076Z - Time taken for 'hash changed files from watcher' 0.2663000002503395ms
+[NX Daemon Server] - 2023-12-02T09:34:13.459Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:34:13.461Z - [WATCHER]: packages/m3ui-component/lib/provider/color/color-config.tsx was modified
+[NX Daemon Server] - 2023-12-02T09:34:19.608Z - [WATCHER]: packages/m3ui-component/lib/provider/color/color-config.tsx was modified
+[NX Daemon Server] - 2023-12-02T09:34:19.608Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:34:19.882Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T09:34:19.883Z - [REQUEST]: packages/m3ui-component/lib/provider/color/color-config.tsx
+[NX Daemon Server] - 2023-12-02T09:34:19.883Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T09:34:19.907Z - Time taken for 'hash changed files from watcher' 0.4008000008761883ms
+[NX Daemon Server] - 2023-12-02T09:34:30.052Z - [WATCHER]: packages/m3ui-component/lib/provider/color/color-config.tsx was modified
+[NX Daemon Server] - 2023-12-02T09:34:30.052Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:34:36.460Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T09:34:36.460Z - [REQUEST]: packages/m3ui-component/lib/provider/color/color-config.tsx
+[NX Daemon Server] - 2023-12-02T09:34:36.460Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T09:34:36.480Z - Time taken for 'hash changed files from watcher' 0.20160000026226044ms
+[NX Daemon Server] - 2023-12-02T09:35:15.416Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:35:15.417Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T09:35:21.832Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T09:35:21.832Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T09:35:21.832Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T09:35:21.850Z - Time taken for 'hash changed files from watcher' 0.22819999977946281ms
+[NX Daemon Server] - 2023-12-02T09:35:58.996Z - [WATCHER]: packages/m3ui-component/lib/provider/color/color-config.tsx was modified
+[NX Daemon Server] - 2023-12-02T09:35:58.996Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:36:05.404Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T09:36:05.404Z - [REQUEST]: packages/m3ui-component/lib/provider/color/color-config.tsx
+[NX Daemon Server] - 2023-12-02T09:36:05.404Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T09:36:05.424Z - Time taken for 'hash changed files from watcher' 0.2168000005185604ms
+[NX Daemon Server] - 2023-12-02T09:44:26.582Z - [WATCHER]: packages/m3ui-component/lib/provider/theme-provider/theme-provider.tsx was modified
+[NX Daemon Server] - 2023-12-02T09:44:26.765Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:44:26.829Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:44:26.830Z - [WATCHER]: packages/m3ui-component/lib/provider/theme-provider/theme-provider.tsx was modified
+[NX Daemon Server] - 2023-12-02T09:44:30.186Z - [WATCHER]: packages/m3ui-component/lib/provider/theme-provider/theme-provider.tsx was modified
+[NX Daemon Server] - 2023-12-02T09:44:30.186Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:44:33.172Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T09:44:33.173Z - [REQUEST]: packages/m3ui-component/lib/provider/theme-provider/theme-provider.tsx
+[NX Daemon Server] - 2023-12-02T09:44:33.173Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T09:44:33.190Z - Time taken for 'hash changed files from watcher' 0.28620000183582306ms
+[NX Daemon Server] - 2023-12-02T09:44:49.823Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T09:44:49.823Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:44:56.239Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T09:44:56.239Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T09:44:56.239Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T09:44:56.260Z - Time taken for 'hash changed files from watcher' 0.21460000053048134ms
+[NX Daemon Server] - 2023-12-02T09:45:57.941Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:45:57.942Z - [WATCHER]: packages/m3ui-component/lib/utils/color.util.ts was modified
+[NX Daemon Server] - 2023-12-02T09:46:04.358Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T09:46:04.358Z - [REQUEST]: packages/m3ui-component/lib/utils/color.util.ts
+[NX Daemon Server] - 2023-12-02T09:46:04.358Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T09:46:04.378Z - Time taken for 'hash changed files from watcher' 0.5337000004947186ms
+[NX Daemon Server] - 2023-12-02T09:46:42.196Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T09:46:42.196Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:46:43.693Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T09:46:43.693Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:46:48.617Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T09:46:48.617Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T09:46:48.617Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T09:46:48.639Z - Time taken for 'hash changed files from watcher' 0.3484000004827976ms
+[NX Daemon Server] - 2023-12-02T09:47:30.064Z - [WATCHER]: packages/m3ui-component/lib/utils/color.util.ts was modified
+[NX Daemon Server] - 2023-12-02T09:47:30.064Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:47:36.488Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T09:47:36.488Z - [REQUEST]: packages/m3ui-component/lib/utils/color.util.ts
+[NX Daemon Server] - 2023-12-02T09:47:36.488Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T09:47:36.507Z - Time taken for 'hash changed files from watcher' 0.5354999974370003ms
+[NX Daemon Server] - 2023-12-02T09:47:40.988Z - [WATCHER]: packages/m3ui-component/lib/utils/color.util.ts was modified
+[NX Daemon Server] - 2023-12-02T09:47:40.989Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:47:46.813Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:47:46.814Z - [WATCHER]: packages/m3ui-component/lib/utils/color.util.ts was modified
+[NX Daemon Server] - 2023-12-02T09:47:47.399Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T09:47:47.399Z - [REQUEST]: packages/m3ui-component/lib/utils/color.util.ts
+[NX Daemon Server] - 2023-12-02T09:47:47.399Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T09:47:47.419Z - Time taken for 'hash changed files from watcher' 0.19790000095963478ms
+[NX Daemon Server] - 2023-12-02T09:48:15.093Z - [WATCHER]: packages/m3ui-component/lib/provider/color/color-config.tsx was modified
+[NX Daemon Server] - 2023-12-02T09:48:15.093Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:48:21.510Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T09:48:21.510Z - [REQUEST]: packages/m3ui-component/lib/provider/color/color-config.tsx
+[NX Daemon Server] - 2023-12-02T09:48:21.510Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T09:48:21.530Z - Time taken for 'hash changed files from watcher' 0.23079999908804893ms
+[NX Daemon Server] - 2023-12-02T09:48:28.469Z - [WATCHER]: packages/m3ui-component/lib/provider/color/color-config.tsx was modified
+[NX Daemon Server] - 2023-12-02T09:48:28.469Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:48:34.889Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T09:48:34.889Z - [REQUEST]: packages/m3ui-component/lib/provider/color/color-config.tsx
+[NX Daemon Server] - 2023-12-02T09:48:34.889Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T09:48:34.909Z - Time taken for 'hash changed files from watcher' 0.36490000039339066ms
+[NX Daemon Server] - 2023-12-02T09:48:44.486Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:48:44.487Z - [WATCHER]: packages/m3ui-component/lib/provider/color/color-config.tsx was modified
+[NX Daemon Server] - 2023-12-02T09:48:50.898Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T09:48:50.899Z - [REQUEST]: packages/m3ui-component/lib/provider/color/color-config.tsx
+[NX Daemon Server] - 2023-12-02T09:48:50.899Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T09:48:50.922Z - Time taken for 'hash changed files from watcher' 0.21139999851584435ms
+[NX Daemon Server] - 2023-12-02T09:51:06.718Z - [WATCHER]: packages/m3ui-component/lib/provider/color/color-config.tsx was modified
+[NX Daemon Server] - 2023-12-02T09:51:06.719Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:51:13.133Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T09:51:13.133Z - [REQUEST]: packages/m3ui-component/lib/provider/color/color-config.tsx
+[NX Daemon Server] - 2023-12-02T09:51:13.133Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T09:51:13.153Z - Time taken for 'hash changed files from watcher' 0.3070000000298023ms
+[NX Daemon Server] - 2023-12-02T09:51:25.047Z - [WATCHER]: packages/m3ui-component/lib/provider/color/color-config.tsx was modified
+[NX Daemon Server] - 2023-12-02T09:51:25.047Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:51:31.465Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T09:51:31.465Z - [REQUEST]: packages/m3ui-component/lib/provider/color/color-config.tsx
+[NX Daemon Server] - 2023-12-02T09:51:31.465Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T09:51:31.484Z - Time taken for 'hash changed files from watcher' 0.3927999995648861ms
+[NX Daemon Server] - 2023-12-02T09:51:39.303Z - [WATCHER]: packages/m3ui-component/lib/provider/color/color-config.tsx was modified
+[NX Daemon Server] - 2023-12-02T09:51:39.304Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:51:45.717Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T09:51:45.718Z - [REQUEST]: packages/m3ui-component/lib/provider/color/color-config.tsx
+[NX Daemon Server] - 2023-12-02T09:51:45.718Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T09:51:45.759Z - Time taken for 'hash changed files from watcher' 0.45580000057816505ms
+[NX Daemon Server] - 2023-12-02T09:52:59.896Z - [WATCHER]: packages/m3ui-component/lib/provider/color/color-config.tsx was modified
+[NX Daemon Server] - 2023-12-02T09:52:59.896Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:53:06.313Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T09:53:06.313Z - [REQUEST]: packages/m3ui-component/lib/provider/color/color-config.tsx
+[NX Daemon Server] - 2023-12-02T09:53:06.313Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T09:53:06.337Z - Time taken for 'hash changed files from watcher' 0.2750000022351742ms
+[NX Daemon Server] - 2023-12-02T09:53:47.811Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:53:47.812Z - [WATCHER]: packages/m3ui-component/lib/provider/color/color-config.tsx was modified
+[NX Daemon Server] - 2023-12-02T09:53:54.236Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T09:53:54.236Z - [REQUEST]: packages/m3ui-component/lib/provider/color/color-config.tsx
+[NX Daemon Server] - 2023-12-02T09:53:54.236Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T09:53:54.255Z - Time taken for 'hash changed files from watcher' 0.5291000008583069ms
+[NX Daemon Server] - 2023-12-02T09:54:01.655Z - [WATCHER]: packages/m3ui-component/lib/provider/color/color-config.tsx was modified
+[NX Daemon Server] - 2023-12-02T09:54:01.656Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:54:08.087Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T09:54:08.087Z - [REQUEST]: packages/m3ui-component/lib/provider/color/color-config.tsx
+[NX Daemon Server] - 2023-12-02T09:54:08.087Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T09:54:08.109Z - Time taken for 'hash changed files from watcher' 0.6256000027060509ms
+[NX Daemon Server] - 2023-12-02T09:54:43.176Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:54:43.177Z - [WATCHER]: packages/m3ui-component/lib/provider/color/color-config.tsx was modified
+[NX Daemon Server] - 2023-12-02T09:54:45.772Z - [WATCHER]: packages/m3ui-component/lib/provider/color/color-config.tsx was modified
+[NX Daemon Server] - 2023-12-02T09:54:45.772Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:54:49.591Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T09:54:49.591Z - [REQUEST]: packages/m3ui-component/lib/provider/color/color-config.tsx
+[NX Daemon Server] - 2023-12-02T09:54:49.591Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T09:54:49.610Z - Time taken for 'hash changed files from watcher' 0.2972999997437ms
+[NX Daemon Server] - 2023-12-02T09:54:54.488Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:54:54.489Z - [WATCHER]: packages/m3ui-component/lib/provider/color/color-config.tsx was modified
+[NX Daemon Server] - 2023-12-02T09:55:00.909Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T09:55:00.910Z - [REQUEST]: packages/m3ui-component/lib/provider/color/color-config.tsx
+[NX Daemon Server] - 2023-12-02T09:55:00.910Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T09:55:00.928Z - Time taken for 'hash changed files from watcher' 0.9640999995172024ms
+[NX Daemon Server] - 2023-12-02T09:55:48.976Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:55:48.977Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T09:55:55.386Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T09:55:55.386Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T09:55:55.386Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T09:55:55.406Z - Time taken for 'hash changed files from watcher' 0.21160000190138817ms
+[NX Daemon Server] - 2023-12-02T09:57:56.558Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:57:56.559Z - [WATCHER]: packages/m3ui-component/lib/provider/color/color-config.tsx was modified
+[NX Daemon Server] - 2023-12-02T09:58:02.981Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T09:58:02.981Z - [REQUEST]: packages/m3ui-component/lib/provider/color/color-config.tsx
+[NX Daemon Server] - 2023-12-02T09:58:02.981Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T09:58:03.000Z - Time taken for 'hash changed files from watcher' 0.4902000017464161ms
+[NX Daemon Server] - 2023-12-02T09:58:51.248Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:58:51.249Z - [WATCHER]: packages/m3ui-component/lib/provider/color/color-config.tsx was modified
+[NX Daemon Server] - 2023-12-02T09:58:57.666Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T09:58:57.667Z - [REQUEST]: packages/m3ui-component/lib/provider/color/color-config.tsx
+[NX Daemon Server] - 2023-12-02T09:58:57.667Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T09:58:57.685Z - Time taken for 'hash changed files from watcher' 0.5289000011980534ms
+[NX Daemon Server] - 2023-12-02T09:59:04.031Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:59:04.032Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T09:59:10.449Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T09:59:10.449Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T09:59:10.449Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T09:59:10.472Z - Time taken for 'hash changed files from watcher' 0.5874000005424023ms
+[NX Daemon Server] - 2023-12-02T09:59:27.440Z - [WATCHER]: packages/m3ui-component/lib/provider/color/color-config.tsx was modified
+[NX Daemon Server] - 2023-12-02T09:59:27.440Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:59:33.856Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T09:59:33.856Z - [REQUEST]: packages/m3ui-component/lib/provider/color/color-config.tsx
+[NX Daemon Server] - 2023-12-02T09:59:33.856Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T09:59:33.877Z - Time taken for 'hash changed files from watcher' 0.8953999988734722ms
+[NX Daemon Server] - 2023-12-02T09:59:47.300Z - [WATCHER]: packages/m3ui-component/lib/provider/color/color-config.tsx was modified
+[NX Daemon Server] - 2023-12-02T09:59:47.301Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T09:59:53.730Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T09:59:53.730Z - [REQUEST]: packages/m3ui-component/lib/provider/color/color-config.tsx
+[NX Daemon Server] - 2023-12-02T09:59:53.730Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T09:59:53.755Z - Time taken for 'hash changed files from watcher' 0.6832999996840954ms
+[NX Daemon Server] - 2023-12-02T10:00:06.909Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T10:00:06.910Z - [WATCHER]: packages/m3ui-component/lib/provider/color/color-config.tsx was modified
+[NX Daemon Server] - 2023-12-02T10:00:13.335Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T10:00:13.335Z - [REQUEST]: packages/m3ui-component/lib/provider/color/color-config.tsx
+[NX Daemon Server] - 2023-12-02T10:00:13.335Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T10:00:13.355Z - Time taken for 'hash changed files from watcher' 0.27560000121593475ms
+[NX Daemon Server] - 2023-12-02T10:02:04.636Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T10:02:04.638Z - [WATCHER]: packages/m3ui-component/lib/provider/color/color-config.tsx was modified
+[NX Daemon Server] - 2023-12-02T10:02:11.060Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T10:02:11.060Z - [REQUEST]: packages/m3ui-component/lib/provider/color/color-config.tsx
+[NX Daemon Server] - 2023-12-02T10:02:11.060Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T10:02:11.078Z - Time taken for 'hash changed files from watcher' 0.2631000019609928ms
+[NX Daemon Server] - 2023-12-02T10:03:05.976Z - [WATCHER]: packages/m3ui-component/lib/provider/color/color-config.tsx was modified
+[NX Daemon Server] - 2023-12-02T10:03:05.976Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T10:03:12.395Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T10:03:12.395Z - [REQUEST]: packages/m3ui-component/lib/provider/color/color-config.tsx
+[NX Daemon Server] - 2023-12-02T10:03:12.395Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T10:03:12.416Z - Time taken for 'hash changed files from watcher' 0.39730000123381615ms
+[NX Daemon Server] - 2023-12-02T10:03:41.497Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T10:03:41.498Z - [WATCHER]: packages/m3ui-component/lib/provider/theme-provider/theme-provider.tsx was modified
+[NX Daemon Server] - 2023-12-02T10:03:47.912Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T10:03:47.912Z - [REQUEST]: packages/m3ui-component/lib/provider/theme-provider/theme-provider.tsx
+[NX Daemon Server] - 2023-12-02T10:03:47.912Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T10:03:47.933Z - Time taken for 'hash changed files from watcher' 0.2891000024974346ms
+[NX Daemon Server] - 2023-12-02T10:12:09.506Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T10:12:09.508Z - [WATCHER]: packages/m3ui-component/lib/core/contexts/theme.context.ts was modified
+[NX Daemon Server] - 2023-12-02T10:12:09.745Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T10:12:09.748Z - [WATCHER]: packages/m3ui-component/lib/core/contexts/theme.context.ts was modified
+[NX Daemon Server] - 2023-12-02T10:12:13.998Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T10:12:14.000Z - [WATCHER]: packages/m3ui-component/lib/core/contexts/theme.context.ts was modified
+[NX Daemon Server] - 2023-12-02T10:12:16.112Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T10:12:16.113Z - [REQUEST]: packages/m3ui-component/lib/core/contexts/theme.context.ts
+[NX Daemon Server] - 2023-12-02T10:12:16.113Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T10:12:16.133Z - Time taken for 'hash changed files from watcher' 0.5769999995827675ms
+[NX Daemon Server] - 2023-12-02T10:12:26.184Z - [WATCHER]: packages/m3ui-component/lib/core/contexts/theme.context.ts was modified
+[NX Daemon Server] - 2023-12-02T10:12:26.184Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T10:12:32.599Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T10:12:32.599Z - [REQUEST]: packages/m3ui-component/lib/core/contexts/theme.context.ts
+[NX Daemon Server] - 2023-12-02T10:12:32.599Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T10:12:32.621Z - Time taken for 'hash changed files from watcher' 0.1697000004351139ms
+[NX Daemon Server] - 2023-12-02T10:12:48.093Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T10:12:48.094Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T10:12:50.865Z - [WATCHER]: packages/m3ui-component/lib/core/contexts/theme.context.ts was modified
+[NX Daemon Server] - 2023-12-02T10:12:50.865Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T10:12:54.391Z - [WATCHER]: packages/m3ui-component/lib/core/contexts/theme.context.ts was modified
+[NX Daemon Server] - 2023-12-02T10:12:54.391Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T10:12:54.506Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T10:12:54.506Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts,packages/m3ui-component/lib/core/contexts/theme.context.ts
+[NX Daemon Server] - 2023-12-02T10:12:54.506Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T10:12:54.524Z - Time taken for 'hash changed files from watcher' 0.940200001001358ms
+[NX Daemon Server] - 2023-12-02T10:13:09.356Z - [WATCHER]: packages/m3ui-component/lib/core/contexts/theme.context.ts was modified
+[NX Daemon Server] - 2023-12-02T10:13:09.356Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T10:13:15.773Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T10:13:15.773Z - [REQUEST]: packages/m3ui-component/lib/core/contexts/theme.context.ts
+[NX Daemon Server] - 2023-12-02T10:13:15.773Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T10:13:15.795Z - Time taken for 'hash changed files from watcher' 0.3037000000476837ms
+[NX Daemon Server] - 2023-12-02T10:13:18.806Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T10:13:18.806Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T10:13:21.447Z - [WATCHER]: packages/m3ui-component/lib/core/contexts/theme.context.ts was modified
+[NX Daemon Server] - 2023-12-02T10:13:21.447Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T10:13:25.217Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T10:13:25.217Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts,packages/m3ui-component/lib/core/contexts/theme.context.ts
+[NX Daemon Server] - 2023-12-02T10:13:25.217Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T10:13:25.238Z - Time taken for 'hash changed files from watcher' 0.36260000243782997ms
+[NX Daemon Server] - 2023-12-02T10:13:43.025Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T10:13:43.025Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T10:13:49.450Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T10:13:49.450Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T10:13:49.450Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T10:13:49.468Z - Time taken for 'hash changed files from watcher' 0.43719999864697456ms
+[NX Daemon Server] - 2023-12-02T10:13:59.025Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T10:13:59.026Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T10:14:05.442Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T10:14:05.442Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T10:14:05.442Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T10:14:05.459Z - Time taken for 'hash changed files from watcher' 0.19550000131130219ms
+[NX Daemon Server] - 2023-12-02T10:14:07.419Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T10:14:07.419Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T10:14:13.832Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T10:14:13.832Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T10:14:13.832Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T10:14:13.851Z - Time taken for 'hash changed files from watcher' 0.2848999984562397ms
+[NX Daemon Server] - 2023-12-02T10:14:27.035Z - [WATCHER]: packages/m3ui-component/lib/core/contexts/theme.context.ts was modified
+[NX Daemon Server] - 2023-12-02T10:14:27.120Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T10:14:27.173Z - [WATCHER]: packages/m3ui-component/lib/core/contexts/theme.context.ts was modified
+[NX Daemon Server] - 2023-12-02T10:14:27.174Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T10:14:33.532Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T10:14:33.532Z - [REQUEST]: packages/m3ui-component/lib/core/contexts/theme.context.ts
+[NX Daemon Server] - 2023-12-02T10:14:33.532Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T10:14:33.550Z - Time taken for 'hash changed files from watcher' 0.6420999988913536ms
+[NX Daemon Server] - 2023-12-02T10:14:52.030Z - [WATCHER]: packages/m3ui-component/lib/core/contexts/theme.context.ts was modified
+[NX Daemon Server] - 2023-12-02T10:14:52.030Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T10:14:58.445Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T10:14:58.445Z - [REQUEST]: packages/m3ui-component/lib/core/contexts/theme.context.ts
+[NX Daemon Server] - 2023-12-02T10:14:58.445Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T10:14:58.463Z - Time taken for 'hash changed files from watcher' 0.7529000006616116ms
+[NX Daemon Server] - 2023-12-02T10:15:35.358Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T10:15:35.359Z - [WATCHER]: packages/m3ui-component/lib/core/contexts/theme.context.ts was modified
+[NX Daemon Server] - 2023-12-02T10:15:35.436Z - [WATCHER]: packages/m3ui-component/lib/core/contexts/theme.context.ts was modified
+[NX Daemon Server] - 2023-12-02T10:15:35.437Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T10:15:41.806Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T10:15:41.806Z - [REQUEST]: packages/m3ui-component/lib/core/contexts/theme.context.ts
+[NX Daemon Server] - 2023-12-02T10:15:41.806Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T10:15:41.826Z - Time taken for 'hash changed files from watcher' 0.9803999997675419ms
+[NX Daemon Server] - 2023-12-02T10:15:42.636Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T10:15:42.638Z - [WATCHER]: packages/m3ui-component/lib/core/contexts/theme.context.ts was modified
+[NX Daemon Server] - 2023-12-02T10:15:49.059Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T10:15:49.059Z - [REQUEST]: packages/m3ui-component/lib/core/contexts/theme.context.ts
+[NX Daemon Server] - 2023-12-02T10:15:49.059Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T10:15:49.081Z - Time taken for 'hash changed files from watcher' 0.2573999986052513ms
+[NX Daemon Server] - 2023-12-02T10:15:51.504Z - [WATCHER]: packages/m3ui-component/lib/core/contexts/theme.context.ts was modified
+[NX Daemon Server] - 2023-12-02T10:15:51.505Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T10:15:57.918Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T10:15:57.918Z - [REQUEST]: packages/m3ui-component/lib/core/contexts/theme.context.ts
+[NX Daemon Server] - 2023-12-02T10:15:57.918Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T10:15:57.937Z - Time taken for 'hash changed files from watcher' 0.3133999966084957ms
+[NX Daemon Server] - 2023-12-02T10:16:02.500Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T10:16:02.501Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T10:16:04.561Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T10:16:04.562Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T10:16:06.639Z - [WATCHER]: packages/m3ui-component/lib/core/contexts/theme.context.ts was modified
+[NX Daemon Server] - 2023-12-02T10:16:06.639Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T10:16:08.918Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T10:16:08.918Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts,packages/m3ui-component/lib/core/contexts/theme.context.ts
+[NX Daemon Server] - 2023-12-02T10:16:08.918Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T10:16:08.936Z - Time taken for 'hash changed files from watcher' 0.5888999998569489ms
+[NX Daemon Server] - 2023-12-02T10:16:16.297Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T10:16:16.298Z - [WATCHER]: packages/m3ui-component/lib/core/contexts/theme.context.ts was modified
+[NX Daemon Server] - 2023-12-02T10:16:22.712Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T10:16:22.712Z - [REQUEST]: packages/m3ui-component/lib/core/contexts/theme.context.ts
+[NX Daemon Server] - 2023-12-02T10:16:22.712Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T10:16:22.733Z - Time taken for 'hash changed files from watcher' 0.3500000014901161ms
+[NX Daemon Server] - 2023-12-02T10:16:42.449Z - [WATCHER]: packages/m3ui-component/lib/core/contexts/theme.context.ts was modified
+[NX Daemon Server] - 2023-12-02T10:16:42.450Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T10:16:48.863Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T10:16:48.863Z - [REQUEST]: packages/m3ui-component/lib/core/contexts/theme.context.ts
+[NX Daemon Server] - 2023-12-02T10:16:48.863Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T10:16:48.883Z - Time taken for 'hash changed files from watcher' 0.2631000019609928ms
+[NX Daemon Server] - 2023-12-02T10:17:12.158Z - [WATCHER]: packages/m3ui-component/lib/core/contexts/theme.context.ts was modified
+[NX Daemon Server] - 2023-12-02T10:17:12.158Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T10:17:14.458Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T10:17:14.458Z - [WATCHER]: packages/m3ui-component/lib/core/contexts/theme.context.ts was modified
+[NX Daemon Server] - 2023-12-02T10:17:18.577Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T10:17:18.577Z - [REQUEST]: packages/m3ui-component/lib/core/contexts/theme.context.ts
+[NX Daemon Server] - 2023-12-02T10:17:18.577Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T10:17:18.598Z - Time taken for 'hash changed files from watcher' 0.2782000005245209ms
+[NX Daemon Server] - 2023-12-02T10:19:15.300Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T10:19:15.302Z - [WATCHER]: packages/m3ui-component/lib/core/contexts/theme.context.ts was modified
+[NX Daemon Server] - 2023-12-02T10:19:15.534Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T10:19:15.535Z - [WATCHER]: packages/m3ui-component/lib/core/contexts/theme.context.ts was modified
+[NX Daemon Server] - 2023-12-02T10:19:21.881Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T10:19:21.881Z - [REQUEST]: packages/m3ui-component/lib/core/contexts/theme.context.ts
+[NX Daemon Server] - 2023-12-02T10:19:21.881Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T10:19:21.899Z - Time taken for 'hash changed files from watcher' 0.27730000019073486ms
+[NX Daemon Server] - 2023-12-02T10:20:01.841Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T10:20:01.842Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T10:20:08.267Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T10:20:08.267Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T10:20:08.267Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T10:20:08.290Z - Time taken for 'hash changed files from watcher' 0.4373999983072281ms
+[NX Daemon Server] - 2023-12-02T10:20:39.682Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T10:20:39.682Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T10:20:42.546Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T10:20:42.547Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T10:20:46.100Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T10:20:46.100Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T10:20:46.100Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T10:20:46.123Z - Time taken for 'hash changed files from watcher' 0.3319000005722046ms
+[NX Daemon Server] - 2023-12-02T10:20:56.073Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T10:20:56.073Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T10:20:59.146Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T10:20:59.147Z - [WATCHER]: packages/m3ui-component/lib/core/contexts/theme.context.ts was modified
+[NX Daemon Server] - 2023-12-02T10:21:01.494Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T10:21:01.495Z - [WATCHER]: packages/m3ui-component/lib/core/contexts/theme.context.ts was modified
+[NX Daemon Server] - 2023-12-02T10:21:02.483Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T10:21:02.483Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts,packages/m3ui-component/lib/core/contexts/theme.context.ts
+[NX Daemon Server] - 2023-12-02T10:21:02.483Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T10:21:02.502Z - Time taken for 'hash changed files from watcher' 0.2977999970316887ms
+[NX Daemon Server] - 2023-12-02T10:21:38.455Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T10:21:38.456Z - [WATCHER]: packages/m3ui-component/lib/core/contexts/theme.context.ts was modified
+[NX Daemon Server] - 2023-12-02T10:21:38.548Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T10:21:38.550Z - [WATCHER]: packages/m3ui-component/lib/core/contexts/theme.context.ts was modified
+[NX Daemon Server] - 2023-12-02T10:21:44.904Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T10:21:44.904Z - [REQUEST]: packages/m3ui-component/lib/core/contexts/theme.context.ts
+[NX Daemon Server] - 2023-12-02T10:21:44.904Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T10:21:44.925Z - Time taken for 'hash changed files from watcher' 0.2644999995827675ms
+[NX Daemon Server] - 2023-12-02T10:22:34.532Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T10:22:34.533Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T10:22:39.106Z - [WATCHER]: packages/m3ui-component/lib/core/constants/color.constant.ts was modified
+[NX Daemon Server] - 2023-12-02T10:22:39.106Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T10:22:40.946Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T10:22:40.947Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T10:22:40.947Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T10:22:40.974Z - Time taken for 'hash changed files from watcher' 0.3710999973118305ms
+[NX Daemon Server] - 2023-12-02T10:24:34.978Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T10:24:34.979Z - [WATCHER]: 1 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2023-12-02T10:24:35.095Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T10:24:35.095Z - [REQUEST]: packages/m3ui-component/lib/provider/color/color.constant.ts
+[NX Daemon Server] - 2023-12-02T10:24:35.095Z - [REQUEST]: packages/m3ui-component/lib/core/constants/color.constant.ts
+[NX Daemon Server] - 2023-12-02T10:24:35.127Z - Time taken for 'hash changed files from watcher' 0.21409999951720238ms
+[NX Daemon Server] - 2023-12-02T10:24:35.258Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T10:24:35.259Z - [WATCHER]: packages/m3ui-component/lib/core/contexts/theme.context.ts was modified
+[NX Daemon Server] - 2023-12-02T10:24:35.353Z - [WATCHER]: packages/m3ui-component/lib/core/contexts/theme.context.ts was modified
+[NX Daemon Server] - 2023-12-02T10:24:35.354Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T10:24:35.412Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T10:24:35.413Z - [WATCHER]: 0 file(s) created or restored, 2 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2023-12-02T10:24:35.527Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T10:24:35.527Z - [REQUEST]: packages/m3ui-component/lib/core/contexts/theme.context.ts,packages/m3ui-component/lib/provider/color/color-config.tsx,packages/m3ui-component/lib/utils/color.util.ts
+[NX Daemon Server] - 2023-12-02T10:24:35.527Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T10:24:35.548Z - Time taken for 'hash changed files from watcher' 9.73709999769926ms
+[NX Daemon Server] - 2023-12-02T10:24:40.678Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T10:24:40.680Z - [WATCHER]: 1 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2023-12-02T10:24:40.800Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T10:24:40.800Z - [REQUEST]: packages/m3ui-component/lib/provider/theme-provider/typography.constant.ts
+[NX Daemon Server] - 2023-12-02T10:24:40.800Z - [REQUEST]: packages/m3ui-component/lib/core/constants/typography.constant.ts
+[NX Daemon Server] - 2023-12-02T10:24:40.823Z - Time taken for 'hash changed files from watcher' 0.3223999999463558ms
+[NX Daemon Server] - 2023-12-02T10:24:40.898Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T10:24:40.900Z - [WATCHER]: packages/m3ui-component/lib/core/contexts/theme.context.ts was modified
+[NX Daemon Server] - 2023-12-02T10:24:41.010Z - [WATCHER]: packages/m3ui-component/lib/provider/typography/typography-config.tsx was modified
+[NX Daemon Server] - 2023-12-02T10:24:41.010Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T10:24:41.111Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T10:24:41.111Z - [REQUEST]: packages/m3ui-component/lib/core/contexts/theme.context.ts,packages/m3ui-component/lib/provider/typography/typography-config.tsx
+[NX Daemon Server] - 2023-12-02T10:24:41.111Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T10:24:41.131Z - Time taken for 'hash changed files from watcher' 0.3053999990224838ms
+[NX Daemon Server] - 2023-12-02T10:24:47.579Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T10:24:47.580Z - [WATCHER]: 1 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2023-12-02T10:24:47.698Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T10:24:47.698Z - [REQUEST]: packages/m3ui-component/lib/provider/typography/typography.constant.ts
+[NX Daemon Server] - 2023-12-02T10:24:47.698Z - [REQUEST]: packages/m3ui-component/lib/provider/theme-provider/typography.constant.ts
+[NX Daemon Server] - 2023-12-02T10:24:47.725Z - Time taken for 'hash changed files from watcher' 0.2523999996483326ms
+[NX Daemon Server] - 2023-12-02T10:24:47.814Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T10:24:47.815Z - [WATCHER]: packages/m3ui-component/lib/core/contexts/theme.context.ts was modified
+[NX Daemon Server] - 2023-12-02T10:24:47.874Z - [WATCHER]: 0 file(s) created or restored, 2 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2023-12-02T10:24:47.874Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T10:24:48.039Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T10:24:48.039Z - [REQUEST]: packages/m3ui-component/lib/core/contexts/theme.context.ts,packages/m3ui-component/lib/provider/typography/typography-config.tsx
+[NX Daemon Server] - 2023-12-02T10:24:48.039Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T10:24:48.065Z - Time taken for 'hash changed files from watcher' 0.32340000197291374ms
+[NX Daemon Server] - 2023-12-02T10:24:50.559Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T10:24:50.560Z - [WATCHER]: 1 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2023-12-02T10:24:50.676Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T10:24:50.676Z - [REQUEST]: packages/m3ui-component/lib/provider/theme-provider/theme.context.ts
+[NX Daemon Server] - 2023-12-02T10:24:50.676Z - [REQUEST]: packages/m3ui-component/lib/core/contexts/theme.context.ts
+[NX Daemon Server] - 2023-12-02T10:24:50.699Z - Time taken for 'hash changed files from watcher' 0.22429999709129333ms
+[NX Daemon Server] - 2023-12-02T10:24:50.794Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T10:24:50.795Z - [WATCHER]: packages/m3ui-component/lib/provider/theme-provider/theme.context.ts was modified
+[NX Daemon Server] - 2023-12-02T10:24:50.872Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T10:24:50.873Z - [WATCHER]: packages/m3ui-component/lib/provider/theme-provider/theme-provider.tsx was modified
+[NX Daemon Server] - 2023-12-02T10:24:51.005Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T10:24:51.005Z - [REQUEST]: packages/m3ui-component/lib/provider/theme-provider/theme.context.ts,packages/m3ui-component/lib/provider/theme-provider/theme-provider.tsx
+[NX Daemon Server] - 2023-12-02T10:24:51.005Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T10:24:51.024Z - Time taken for 'hash changed files from watcher' 0.2611999996006489ms
+[NX Daemon Server] - 2023-12-02T10:24:54.843Z - [WATCHER]: packages/m3ui-component/lib/core/contexts was deleted
+[NX Daemon Server] - 2023-12-02T10:24:54.843Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T10:24:55.264Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T10:24:55.264Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T10:24:55.264Z - [REQUEST]: packages/m3ui-component/lib/core/contexts
+[NX Daemon Server] - 2023-12-02T10:24:55.297Z - Time taken for 'hash changed files from watcher' 0.16829999908804893ms
+[NX Daemon Server] - 2023-12-02T10:25:18.017Z - [WATCHER]: 0 file(s) created or restored, 0 file(s) modified, 2 file(s) deleted
+[NX Daemon Server] - 2023-12-02T10:25:18.017Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T10:25:18.089Z - [WATCHER]: packages/m3ui-component/lib/provider/icon was deleted
+[NX Daemon Server] - 2023-12-02T10:25:18.089Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-02T10:25:18.830Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-02T10:25:18.830Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-02T10:25:18.830Z - [REQUEST]: packages/m3ui-component/lib/provider/break-point,packages/m3ui-component/lib/provider/elevation,packages/m3ui-component/lib/provider/icon
+[NX Daemon Server] - 2023-12-02T10:25:18.850Z - Time taken for 'hash changed files from watcher' 0.1370999999344349ms

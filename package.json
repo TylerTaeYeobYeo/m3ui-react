@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@emotion/eslint-plugin": "^11.11.0",
     "@nrwl/storybook": "^17.1.3",
     "@nx/storybook": "^17.1.3",
     "@types/node": "^20.10.2",
