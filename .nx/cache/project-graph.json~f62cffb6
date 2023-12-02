@@ -13459,11 +13459,6 @@
       },
       {
         "source": "m3ui-component",
-        "target": "npm:@storybook/react",
-        "type": "static"
-      },
-      {
-        "source": "m3ui-component",
         "target": "npm:react",
         "type": "static"
       },
@@ -13500,6 +13495,11 @@
       {
         "source": "m3ui-component",
         "target": "npm:@storybook/blocks",
+        "type": "static"
+      },
+      {
+        "source": "m3ui-component",
+        "target": "npm:@storybook/react",
         "type": "static"
       },
       {
