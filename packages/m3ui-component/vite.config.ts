@@ -11,17 +11,13 @@ import {
 } from "./package.json";
 
 export default (props: ConfigEnv) => {
-  // windows에서는 '/'로 path를 구분하지 않고 '\\'로 구분해서 호환성 추가
-  // const name: string =
-  //   __dirname.replaceAll("\\", "/").split("/").pop() ?? "temp";
-
   console.log(`@@ Executed vite config file path is ${process.cwd()}`);
   return defineConfig({
     ...props,
     build: {
       lib: {
         entry: resolve(__dirname, "./lib/index.tsx"),
-        // name: "index",
+        name: "index",
         formats: ["es"],
       },
       target: "esnext",
@@ -50,7 +46,17 @@ export default (props: ConfigEnv) => {
     // envPrefix: ["VITE_", "LC_"],
     plugins: [
       removeConsole(),
-      dts({ rollupTypes: true, tsconfigPath: "./tsconfig.json" }),
+      dts({
+        rollupTypes: true,
+        tsconfigPath: "./tsconfig.json",
+        exclude: [
+          "__tests__",
+          ".storybook",
+          "dist",
+          "**/*.stories.tsx",
+          "**/*.test.tsx",
+        ],
+      }),
     ],
     css: {
       // https://vitejs.dev/config/shared-options.html#css-postcss
