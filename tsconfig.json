@@ -9,7 +9,7 @@
     "experimentalDecorators": true,
     "target": "es6",
     "sourceMap": true,
-    "lib": ["es2020", "dom"],
+    "lib": ["ESNext", "dom"],
     "jsx": "preserve",
     "moduleResolution": "Node",
     "forceConsistentCasingInFileNames": true,
@@ -19,7 +19,8 @@
     "allowSyntheticDefaultImports": true,
     "noErrorTruncation": false,
     "allowJs": true,
-    "types": ["node", "react"]
+    "types": ["node", "react"],
+    "resolveJsonModule": true
   },
   "exclude": ["node_modules", "**/*.spec.ts"]
 }

@@ -1,10 +1,10 @@
 import { Global, css } from "@emotion/react";
+import { FC, ReactElement, useMemo } from "react";
 import {
   DEFAULT_TYPOGRAPHY,
   TypographyConfig,
-} from "lib/provider/typography/typography.constant";
-import { camelCaseToKebabCase } from "lib/utils/string.util";
-import { FC, ReactElement, useMemo } from "react";
+} from "../../provider/typography/typography.constant";
+import { camelCaseToKebabCase } from "../../utils/string.util";
 
 export type TypographySettingProps = TypographyConfig;
 

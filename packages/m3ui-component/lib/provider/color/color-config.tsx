@@ -1,12 +1,12 @@
 import { Global, css } from "@emotion/react";
+import { FC, ReactElement, useMemo } from "react";
 import {
   COLOR_MODE,
   ColorConfig,
   ColorModeConfig,
   defaultPallete,
-} from "lib/provider/color/color.constant";
-import { createColorPallete, createTheme } from "lib/utils/color.util";
-import { FC, ReactElement, useMemo } from "react";
+} from "../../provider/color/color.constant";
+import { createColorPallete, createTheme } from "../../utils/color.util";
 
 export type ColorSettingProps = ColorConfig & ColorModeConfig;
 export const ColorSetting: FC<ColorSettingProps> = ({

@@ -1,10 +1,10 @@
+import { CSSProperties } from "react";
 import {
   COLOR_MODE,
   ColorPallete,
   ColorTheme,
   TonalPallete,
-} from "lib/provider/color/color.constant";
-import { CSSProperties } from "react";
+} from "../provider/color/color.constant";
 
 const createLightTheme = (pallete: TonalPallete): ColorTheme => ({
   // primary
