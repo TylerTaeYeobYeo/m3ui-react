@@ -20834,3 +20834,201 @@ Error: EPERM: operation not permitted, rename 'E:\Code\m3ui-react\.nx\cache\proj
 [NX Daemon Server] - 2023-12-03T04:30:57.993Z - Error detected when creating a project graph: Failed to process project dependencies with "nx-js-graph-plugin".
 "Unable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\color copy\\color-config.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\color copy\\color.constant.ts: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\color copy\\index.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)"
 [NX Daemon Server] - 2023-12-03T04:30:57.995Z - Time taken for 'hash changed files from watcher' 0.7390000000596046ms
+[NX Daemon Server] - 2023-12-03T04:37:27.128Z - [WATCHER]: 3 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2023-12-03T04:37:27.128Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T04:37:27.247Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T04:37:27.247Z - [REQUEST]: packages/m3ui-component/lib/core/breakpoint copy/breakpoint.constant.ts,packages/m3ui-component/lib/core/breakpoint copy/breakpoint.tsx,packages/m3ui-component/lib/core/breakpoint copy/index.tsx
+[NX Daemon Server] - 2023-12-03T04:37:27.247Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T04:37:27.267Z - Error detected when creating a project graph: Failed to process project dependencies with "nx-js-graph-plugin".
+"Unable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\color copy\\color-config.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\color copy\\color.constant.ts: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\color copy\\index.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)"
+[NX Daemon Server] - 2023-12-03T04:37:27.269Z - Time taken for 'hash changed files from watcher' 0.46089999936521053ms
+[NX Daemon Server] - 2023-12-03T04:37:30.511Z - [WATCHER]: packages/m3ui-component/lib/core/breakpoint copy was deleted
+[NX Daemon Server] - 2023-12-03T04:37:30.511Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T04:37:30.724Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T04:37:30.724Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T04:37:30.724Z - [REQUEST]: packages/m3ui-component/lib/core/breakpoint copy
+[NX Daemon Server] - 2023-12-03T04:37:30.745Z - Error detected when creating a project graph: Failed to process project dependencies with "nx-js-graph-plugin".
+"Unable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\color copy\\color-config.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\color copy\\color.constant.ts: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\color copy\\index.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\breakpoint copy\\breakpoint.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\breakpoint copy\\index.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\breakpoint copy\\breakpoint.constant.ts: 지정된 경로를 찾을 수 없습니다. (os error 3)"
+[NX Daemon Server] - 2023-12-03T04:37:30.746Z - Time taken for 'hash changed files from watcher' 0.09900000132620335ms
+[NX Daemon Server] - 2023-12-03T04:37:35.612Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T04:37:35.613Z - [WATCHER]: 1 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2023-12-03T04:37:35.731Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T04:37:35.731Z - [REQUEST]: packages/m3ui-component/lib/core/elevation/elevation.constant.ts
+[NX Daemon Server] - 2023-12-03T04:37:35.731Z - [REQUEST]: packages/m3ui-component/lib/core/elevation/breakpoint.constant.ts
+[NX Daemon Server] - 2023-12-03T04:37:35.749Z - Error detected when creating a project graph: Failed to process project dependencies with "nx-js-graph-plugin".
+"Unable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\color copy\\color-config.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\color copy\\color.constant.ts: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\color copy\\index.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\breakpoint copy\\breakpoint.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\breakpoint copy\\index.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\breakpoint copy\\breakpoint.constant.ts: 지정된 경로를 찾을 수 없습니다. (os error 3)"
+[NX Daemon Server] - 2023-12-03T04:37:35.749Z - Time taken for 'hash changed files from watcher' 0.35090000182390213ms
+[NX Daemon Server] - 2023-12-03T04:37:38.862Z - [WATCHER]: 1 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2023-12-03T04:37:38.862Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T04:37:38.981Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T04:37:38.981Z - [REQUEST]: packages/m3ui-component/lib/core/elevation/elevation.tsx
+[NX Daemon Server] - 2023-12-03T04:37:38.981Z - [REQUEST]: packages/m3ui-component/lib/core/elevation/breakpoint.tsx
+[NX Daemon Server] - 2023-12-03T04:37:38.999Z - Error detected when creating a project graph: Failed to process project dependencies with "nx-js-graph-plugin".
+"Unable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\color copy\\color-config.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\color copy\\color.constant.ts: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\color copy\\index.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\breakpoint copy\\breakpoint.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\breakpoint copy\\index.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\breakpoint copy\\breakpoint.constant.ts: 지정된 경로를 찾을 수 없습니다. (os error 3)"
+[NX Daemon Server] - 2023-12-03T04:37:39.000Z - Time taken for 'hash changed files from watcher' 0.23180000111460686ms
+[NX Daemon Server] - 2023-12-03T04:37:48.125Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T04:37:48.126Z - [WATCHER]: packages/m3ui-component/lib/core/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T04:37:48.337Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T04:37:48.337Z - [REQUEST]: packages/m3ui-component/lib/core/index.tsx
+[NX Daemon Server] - 2023-12-03T04:37:48.337Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T04:37:48.353Z - Error detected when creating a project graph: Failed to process project dependencies with "nx-js-graph-plugin".
+"Unable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\color copy\\color-config.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\color copy\\color.constant.ts: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\color copy\\index.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\breakpoint copy\\breakpoint.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\breakpoint copy\\index.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\breakpoint copy\\breakpoint.constant.ts: 지정된 경로를 찾을 수 없습니다. (os error 3)"
+[NX Daemon Server] - 2023-12-03T04:37:48.354Z - Time taken for 'hash changed files from watcher' 0.4623000007122755ms
+[NX Daemon Server] - 2023-12-03T04:37:52.653Z - [WATCHER]: packages/m3ui-component/lib/core/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T04:37:52.653Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T04:37:53.068Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T04:37:53.068Z - [REQUEST]: packages/m3ui-component/lib/core/index.tsx
+[NX Daemon Server] - 2023-12-03T04:37:53.068Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T04:37:53.087Z - Error detected when creating a project graph: Failed to process project dependencies with "nx-js-graph-plugin".
+"Unable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\color copy\\color-config.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\color copy\\color.constant.ts: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\color copy\\index.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\breakpoint copy\\breakpoint.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\breakpoint copy\\index.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\breakpoint copy\\breakpoint.constant.ts: 지정된 경로를 찾을 수 없습니다. (os error 3)"
+[NX Daemon Server] - 2023-12-03T04:37:53.089Z - Time taken for 'hash changed files from watcher' 0.2568999994546175ms
+[NX Daemon Server] - 2023-12-03T04:38:07.873Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T04:38:07.874Z - [WATCHER]: packages/m3ui-component/lib/core/elevation/elevation.tsx was modified
+[NX Daemon Server] - 2023-12-03T04:38:08.696Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T04:38:08.696Z - [REQUEST]: packages/m3ui-component/lib/core/elevation/elevation.tsx
+[NX Daemon Server] - 2023-12-03T04:38:08.696Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T04:38:08.712Z - Error detected when creating a project graph: Failed to process project dependencies with "nx-js-graph-plugin".
+"Unable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\color copy\\color-config.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\color copy\\color.constant.ts: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\color copy\\index.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\breakpoint copy\\breakpoint.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\breakpoint copy\\index.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\breakpoint copy\\breakpoint.constant.ts: 지정된 경로를 찾을 수 없습니다. (os error 3)"
+[NX Daemon Server] - 2023-12-03T04:38:08.712Z - Time taken for 'hash changed files from watcher' 0.5718999989330769ms
+[NX Daemon Server] - 2023-12-03T04:38:46.372Z - [WATCHER]: packages/m3ui-component/lib/core/elevation/elevation.constant.ts was modified
+[NX Daemon Server] - 2023-12-03T04:38:46.391Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T04:38:46.450Z - [WATCHER]: packages/m3ui-component/lib/core/elevation/elevation.constant.ts was modified
+[NX Daemon Server] - 2023-12-03T04:38:46.451Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T04:38:48.015Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T04:38:48.015Z - [REQUEST]: packages/m3ui-component/lib/core/elevation/elevation.constant.ts
+[NX Daemon Server] - 2023-12-03T04:38:48.015Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T04:38:48.037Z - Error detected when creating a project graph: Failed to process project dependencies with "nx-js-graph-plugin".
+"Unable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\color copy\\color-config.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\color copy\\color.constant.ts: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\color copy\\index.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\breakpoint copy\\breakpoint.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\breakpoint copy\\index.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\breakpoint copy\\breakpoint.constant.ts: 지정된 경로를 찾을 수 없습니다. (os error 3)"
+[NX Daemon Server] - 2023-12-03T04:38:48.039Z - Time taken for 'hash changed files from watcher' 0.657600000500679ms
+[NX Daemon Server] - 2023-12-03T04:39:30.629Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T04:39:30.630Z - [WATCHER]: packages/m3ui-component/lib/core/elevation/elevation.tsx was modified
+[NX Daemon Server] - 2023-12-03T04:39:33.855Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T04:39:33.855Z - [REQUEST]: packages/m3ui-component/lib/core/elevation/elevation.tsx
+[NX Daemon Server] - 2023-12-03T04:39:33.855Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T04:39:33.878Z - Error detected when creating a project graph: Failed to process project dependencies with "nx-js-graph-plugin".
+"Unable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\color copy\\color-config.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\color copy\\color.constant.ts: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\color copy\\index.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\breakpoint copy\\breakpoint.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\breakpoint copy\\index.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\breakpoint copy\\breakpoint.constant.ts: 지정된 경로를 찾을 수 없습니다. (os error 3)"
+[NX Daemon Server] - 2023-12-03T04:39:33.880Z - Time taken for 'hash changed files from watcher' 0.5325000006705523ms
+[NX Daemon Server] - 2023-12-03T04:39:44.606Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T04:39:44.608Z - [WATCHER]: packages/m3ui-component/lib/core/elevation/elevation.tsx was modified
+[NX Daemon Server] - 2023-12-03T04:39:45.274Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T04:39:45.275Z - [WATCHER]: packages/m3ui-component/lib/core/elevation/elevation.tsx was modified
+[NX Daemon Server] - 2023-12-03T04:39:51.029Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T04:39:51.029Z - [REQUEST]: packages/m3ui-component/lib/core/elevation/elevation.tsx
+[NX Daemon Server] - 2023-12-03T04:39:51.029Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T04:39:51.050Z - Error detected when creating a project graph: Failed to process project dependencies with "nx-js-graph-plugin".
+"Unable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\color copy\\color-config.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\color copy\\color.constant.ts: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\color copy\\index.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\breakpoint copy\\breakpoint.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\breakpoint copy\\index.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\breakpoint copy\\breakpoint.constant.ts: 지정된 경로를 찾을 수 없습니다. (os error 3)"
+[NX Daemon Server] - 2023-12-03T04:39:51.052Z - Time taken for 'hash changed files from watcher' 0.6238000001758337ms
+[NX Daemon Server] - 2023-12-03T04:39:54.737Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T04:39:54.739Z - [WATCHER]: packages/m3ui-component/lib/core/elevation/elevation.tsx was modified
+[NX Daemon Server] - 2023-12-03T04:40:01.161Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T04:40:01.161Z - [REQUEST]: packages/m3ui-component/lib/core/elevation/elevation.tsx
+[NX Daemon Server] - 2023-12-03T04:40:01.161Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T04:40:01.182Z - Error detected when creating a project graph: Failed to process project dependencies with "nx-js-graph-plugin".
+"Unable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\color copy\\color-config.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\color copy\\color.constant.ts: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\color copy\\index.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\breakpoint copy\\breakpoint.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\breakpoint copy\\index.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\breakpoint copy\\breakpoint.constant.ts: 지정된 경로를 찾을 수 없습니다. (os error 3)"
+[NX Daemon Server] - 2023-12-03T04:40:01.184Z - Time taken for 'hash changed files from watcher' 0.2793000005185604ms
+[NX Daemon Server] - 2023-12-03T04:40:03.190Z - [WATCHER]: packages/m3ui-component/lib/core/elevation/elevation.tsx was modified
+[NX Daemon Server] - 2023-12-03T04:40:03.191Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T04:40:09.605Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T04:40:09.605Z - [REQUEST]: packages/m3ui-component/lib/core/elevation/elevation.tsx
+[NX Daemon Server] - 2023-12-03T04:40:09.605Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T04:40:09.626Z - Error detected when creating a project graph: Failed to process project dependencies with "nx-js-graph-plugin".
+"Unable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\color copy\\color-config.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\color copy\\color.constant.ts: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\color copy\\index.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\breakpoint copy\\breakpoint.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\breakpoint copy\\index.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\breakpoint copy\\breakpoint.constant.ts: 지정된 경로를 찾을 수 없습니다. (os error 3)"
+[NX Daemon Server] - 2023-12-03T04:40:09.626Z - Time taken for 'hash changed files from watcher' 0.601800000295043ms
+[NX Daemon Server] - 2023-12-03T04:40:09.892Z - [WATCHER]: packages/m3ui-component/lib/core/elevation/elevation.tsx was modified
+[NX Daemon Server] - 2023-12-03T04:40:09.892Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T04:40:16.310Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T04:40:16.310Z - [REQUEST]: packages/m3ui-component/lib/core/elevation/elevation.tsx
+[NX Daemon Server] - 2023-12-03T04:40:16.310Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T04:40:16.330Z - Error detected when creating a project graph: Failed to process project dependencies with "nx-js-graph-plugin".
+"Unable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\color copy\\color-config.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\color copy\\color.constant.ts: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\color copy\\index.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\breakpoint copy\\breakpoint.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\breakpoint copy\\index.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\breakpoint copy\\breakpoint.constant.ts: 지정된 경로를 찾을 수 없습니다. (os error 3)"
+[NX Daemon Server] - 2023-12-03T04:40:16.331Z - Time taken for 'hash changed files from watcher' 0.3388000000268221ms
+[NX Daemon Server] - 2023-12-03T04:40:17.804Z - [WATCHER]: packages/m3ui-component/lib/core/elevation/elevation.tsx was modified
+[NX Daemon Server] - 2023-12-03T04:40:17.804Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T04:40:24.227Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T04:40:24.227Z - [REQUEST]: packages/m3ui-component/lib/core/elevation/elevation.tsx
+[NX Daemon Server] - 2023-12-03T04:40:24.228Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T04:40:24.248Z - Error detected when creating a project graph: Failed to process project dependencies with "nx-js-graph-plugin".
+"Unable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\color copy\\color-config.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\color copy\\color.constant.ts: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\color copy\\index.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\breakpoint copy\\breakpoint.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\breakpoint copy\\index.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\breakpoint copy\\breakpoint.constant.ts: 지정된 경로를 찾을 수 없습니다. (os error 3)"
+[NX Daemon Server] - 2023-12-03T04:40:24.249Z - Time taken for 'hash changed files from watcher' 0.24620000086724758ms
+[NX Daemon Server] - 2023-12-03T04:41:17.335Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T04:41:17.336Z - [WATCHER]: packages/m3ui-component/lib/core/elevation/elevation.tsx was modified
+[NX Daemon Server] - 2023-12-03T04:41:23.758Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T04:41:23.758Z - [REQUEST]: packages/m3ui-component/lib/core/elevation/elevation.tsx
+[NX Daemon Server] - 2023-12-03T04:41:23.758Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T04:41:23.775Z - Error detected when creating a project graph: Failed to process project dependencies with "nx-js-graph-plugin".
+"Unable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\color copy\\color-config.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\color copy\\color.constant.ts: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\color copy\\index.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\breakpoint copy\\breakpoint.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\breakpoint copy\\index.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\breakpoint copy\\breakpoint.constant.ts: 지정된 경로를 찾을 수 없습니다. (os error 3)"
+[NX Daemon Server] - 2023-12-03T04:41:23.776Z - Time taken for 'hash changed files from watcher' 0.23309999890625477ms
+[NX Daemon Server] - 2023-12-03T04:41:33.301Z - [WATCHER]: packages/m3ui-component/lib/core/elevation/elevation.tsx was modified
+[NX Daemon Server] - 2023-12-03T04:41:33.301Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T04:41:38.033Z - [WATCHER]: packages/m3ui-component/lib/core/elevation/elevation.tsx was modified
+[NX Daemon Server] - 2023-12-03T04:41:38.033Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T04:41:39.723Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T04:41:39.723Z - [REQUEST]: packages/m3ui-component/lib/core/elevation/elevation.tsx
+[NX Daemon Server] - 2023-12-03T04:41:39.723Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T04:41:39.748Z - Error detected when creating a project graph: Failed to process project dependencies with "nx-js-graph-plugin".
+"Unable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\color copy\\color-config.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\color copy\\color.constant.ts: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\color copy\\index.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\breakpoint copy\\breakpoint.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\breakpoint copy\\index.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\breakpoint copy\\breakpoint.constant.ts: 지정된 경로를 찾을 수 없습니다. (os error 3)"
+[NX Daemon Server] - 2023-12-03T04:41:39.750Z - Time taken for 'hash changed files from watcher' 0.28410000167787075ms
+[NX Daemon Server] - 2023-12-03T04:41:53.297Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T04:41:53.298Z - [WATCHER]: packages/m3ui-component/lib/core/elevation/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T04:41:59.717Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T04:41:59.717Z - [REQUEST]: packages/m3ui-component/lib/core/elevation/index.tsx
+[NX Daemon Server] - 2023-12-03T04:41:59.717Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T04:41:59.738Z - Error detected when creating a project graph: Failed to process project dependencies with "nx-js-graph-plugin".
+"Unable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\color copy\\color-config.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\color copy\\color.constant.ts: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\color copy\\index.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\breakpoint copy\\breakpoint.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\breakpoint copy\\index.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\breakpoint copy\\breakpoint.constant.ts: 지정된 경로를 찾을 수 없습니다. (os error 3)"
+[NX Daemon Server] - 2023-12-03T04:41:59.740Z - Time taken for 'hash changed files from watcher' 0.33110000006854534ms
+[NX Daemon Server] - 2023-12-03T04:43:38.914Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T04:43:39.092Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T04:43:39.146Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T04:43:39.147Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T04:43:45.514Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T04:43:45.514Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T04:43:45.514Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T04:43:45.536Z - Error detected when creating a project graph: Failed to process project dependencies with "nx-js-graph-plugin".
+"Unable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\color copy\\color-config.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\color copy\\color.constant.ts: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\color copy\\index.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\breakpoint copy\\breakpoint.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\breakpoint copy\\index.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\breakpoint copy\\breakpoint.constant.ts: 지정된 경로를 찾을 수 없습니다. (os error 3)"
+[NX Daemon Server] - 2023-12-03T04:43:45.539Z - Time taken for 'hash changed files from watcher' 0.3051999993622303ms
+[NX Daemon Server] - 2023-12-03T04:44:12.242Z - [WATCHER]: packages/m3ui-component/lib/core/constant/index.ts was created or restored
+[NX Daemon Server] - 2023-12-03T04:44:12.243Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T04:44:12.361Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T04:44:12.361Z - [REQUEST]: packages/m3ui-component/lib/core/constant/index.ts
+[NX Daemon Server] - 2023-12-03T04:44:12.361Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T04:44:12.388Z - Error detected when creating a project graph: Failed to process project dependencies with "nx-js-graph-plugin".
+"Unable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\color copy\\color-config.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\color copy\\color.constant.ts: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\color copy\\index.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\breakpoint copy\\breakpoint.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\breakpoint copy\\index.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\breakpoint copy\\breakpoint.constant.ts: 지정된 경로를 찾을 수 없습니다. (os error 3)"
+[NX Daemon Server] - 2023-12-03T04:44:12.391Z - Time taken for 'hash changed files from watcher' 0.3437999989837408ms
+[NX Daemon Server] - 2023-12-03T04:44:24.816Z - [WATCHER]: packages/m3ui-component/lib/core/constant was deleted
+[NX Daemon Server] - 2023-12-03T04:44:24.816Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T04:44:25.030Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T04:44:25.031Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T04:44:25.031Z - [REQUEST]: packages/m3ui-component/lib/core/constant
+[NX Daemon Server] - 2023-12-03T04:44:25.054Z - Error detected when creating a project graph: Failed to process project dependencies with "nx-js-graph-plugin".
+"Unable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\color copy\\color-config.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\color copy\\color.constant.ts: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\color copy\\index.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\breakpoint copy\\breakpoint.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\breakpoint copy\\index.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\breakpoint copy\\breakpoint.constant.ts: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\constant\\index.ts: 지정된 경로를 찾을 수 없습니다. (os error 3)"
+[NX Daemon Server] - 2023-12-03T04:44:25.056Z - Time taken for 'hash changed files from watcher' 0.268800001591444ms
+[NX Daemon Server] - 2023-12-03T04:44:55.885Z - [WATCHER]: packages/m3ui-component/vite.config.ts was modified
+[NX Daemon Server] - 2023-12-03T04:44:55.885Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T04:44:56.308Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T04:44:56.308Z - [REQUEST]: packages/m3ui-component/vite.config.ts
+[NX Daemon Server] - 2023-12-03T04:44:56.308Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T04:44:56.328Z - Error detected when creating a project graph: Failed to process project dependencies with "nx-js-graph-plugin".
+"Unable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\color copy\\color-config.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\color copy\\color.constant.ts: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\color copy\\index.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\breakpoint copy\\breakpoint.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\breakpoint copy\\index.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\breakpoint copy\\breakpoint.constant.ts: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\constant\\index.ts: 지정된 경로를 찾을 수 없습니다. (os error 3)"
+[NX Daemon Server] - 2023-12-03T04:44:56.328Z - Time taken for 'hash changed files from watcher' 12.7652000002563ms
+[NX Daemon Server] - 2023-12-03T04:44:58.244Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2023-12-03T04:45:01.089Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-12-03T04:45:01.089Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2023-12-03T04:45:01.089Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-12-03T04:45:01.091Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-12-03T04:45:01.091Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project dependencies with "nx-js-graph-plugin".
+"Unable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\color copy\\color-config.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\color copy\\color.constant.ts: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\color copy\\index.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\breakpoint copy\\breakpoint.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\breakpoint copy\\index.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\breakpoint copy\\breakpoint.constant.ts: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\constant\\index.ts: 지정된 경로를 찾을 수 없습니다. (os error 3)"
+Error: Failed to process project dependencies with "nx-js-graph-plugin".
+"Unable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\color copy\\color-config.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\color copy\\color.constant.ts: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\color copy\\index.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\breakpoint copy\\breakpoint.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\breakpoint copy\\index.tsx: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\breakpoint copy\\breakpoint.constant.ts: 지정된 경로를 찾을 수 없습니다. (os error 3)\nUnable to load E:\\Code\\m3ui-react\\packages\\m3ui-component\\lib\\core\\constant\\index.ts: 지정된 경로를 찾을 수 없습니다. (os error 3)"
+    at buildExplicitTypeScriptDependencies (E:\Code\m3ui-react\node_modules\nx\src\plugins\js\project-graph\build-dependencies\explicit-project-dependencies.js:61:21)
+    at buildExplicitDependencies (E:\Code\m3ui-react\node_modules\nx\src\plugins\js\project-graph\build-dependencies\build-dependencies.js:19:120)
+    at Object.createDependencies (E:\Code\m3ui-react\node_modules\nx\src\plugins\js\index.js:70:92)
+    at E:\Code\m3ui-react\node_modules\nx\src\project-graph\build-project-graph.js:180:47
+    at Array.map (<anonymous>)
+    at updateProjectGraphWithPlugins (E:\Code\m3ui-react\node_modules\nx\src\project-graph\build-project-graph.js:178:47)
+    at async buildProjectGraphUsingContext (E:\Code\m3ui-react\node_modules\nx\src\project-graph\build-project-graph.js:98:15)
+    at async buildProjectGraphUsingProjectFileMap (E:\Code\m3ui-react\node_modules\nx\src\project-graph\build-project-graph.js:62:24)
+    at async createAndSerializeProjectGraph (E:\Code\m3ui-react\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:171:55)
+    at async Timeout._onTimeout (E:\Code\m3ui-react\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:79:13) {
+  code: 'GenericFailure'
+}
+[NX Daemon Server] - 2023-12-03T04:45:01.093Z - Done responding to the client null

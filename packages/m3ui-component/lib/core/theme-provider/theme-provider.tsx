@@ -1,4 +1,5 @@
 import { FC, PropsWithChildren } from "react";
+import { ElevationSetting } from "..";
 import { BreakpointSetting } from "../breakpoint";
 import { ColorSetting } from "../color/color-config";
 import { TypographySetting } from "../typography";
@@ -14,12 +15,13 @@ export type ThemeProviderProps = PropsWithChildren<{
 }>;
 
 export const ThemeProvider: FC<ThemeProviderProps> = ({ theme, children }) => {
-  const { typography, breakpoint, ...other } = theme;
+  const { typography, breakpoint, elevation, ...other } = theme;
   return (
     <ThemeContext.Provider value={theme}>
       <TypographySetting {...typography} />
       <ColorSetting {...other} />
       <BreakpointSetting breakpoint={breakpoint} />
+      <ElevationSetting elevation={elevation} />
       {children}
     </ThemeContext.Provider>
   );

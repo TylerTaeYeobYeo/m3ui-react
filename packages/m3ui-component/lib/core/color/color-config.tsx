@@ -24,7 +24,6 @@ export const ColorSetting: FC<ColorSettingProps> = ({
   neutral,
   neutralVariant,
 }) => {
-  const themeClassName: string | undefined = "test";
   const globalStyle: ReactElement = useMemo(() => {
     const determineTheme = () => {
       const isLight = mode === COLOR_MODE.LIGHT;
@@ -58,11 +57,9 @@ export const ColorSetting: FC<ColorSettingProps> = ({
       <Global
         styles={css`
           ${rootClassName ? `.${rootClassName}` : ":root"} {
-            ${themeClassName ? `.${themeClassName}` : ":root"} {
-              ${Object.entries(determineTheme())
-                .map(([key, value]) => `--${key}: ${value}`)
-                .join(";\n")}
-            }
+            ${Object.entries(determineTheme())
+              .map(([key, value]) => `--${key}: ${value}`)
+              .join(";\n")}
           }
         `}
       />

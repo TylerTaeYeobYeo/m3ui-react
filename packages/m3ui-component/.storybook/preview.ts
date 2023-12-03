@@ -1,5 +1,10 @@
 import { Preview } from "@storybook/react";
+import { COLOR_MODE, defaultPallete } from "../lib/core";
+import { createTheme } from "../lib/utils/theme.util";
 import { withThemeProvider } from "./decorator";
+
+const theme = createTheme(defaultPallete);
+const darkTheme = createTheme(defaultPallete, COLOR_MODE.DARK);
 
 const preview: Preview = {
   // https://storybook.js.org/docs/react/essentials/toolbars-and-globals#globals
@@ -18,11 +23,14 @@ const preview: Preview = {
     backgrounds: {
       values: [
         {
-          name: "liveconnect",
-          value: "#040404",
+          name: "light",
+          value: theme.surface,
+        },
+        {
+          name: "dark",
+          value: darkTheme.surface,
         },
       ],
-      default: "liveconnect",
     },
   },
   decorators: [withThemeProvider],

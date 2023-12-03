@@ -14985,12 +14985,12 @@
       },
       {
         "source": "@m3ui/component",
-        "target": "npm:@emotion/react",
+        "target": "npm:@emotion/styled",
         "type": "static"
       },
       {
         "source": "@m3ui/component",
-        "target": "npm:@emotion/styled",
+        "target": "npm:@emotion/react",
         "type": "static"
       },
       {
