@@ -1,8 +1,8 @@
 import { action } from "@storybook/addon-actions";
 import type { Meta, StoryObj } from "@storybook/react";
-
 import { Button } from ".";
 import { SHAPE } from "../../constant";
+import { Icon } from "../icon";
 
 const meta: Meta<typeof Button> = {
   component: Button,
@@ -69,10 +69,10 @@ export const Tonal: Story = {
   render: (props) => <Button {...props} />,
 };
 
-export const Icon: Story = {
+export const WithIcon: Story = {
   args: {
     shape: SHAPE.TONAL,
-    icon: <span className="material-icons">pie_chart</span>,
+    icon: <Icon icon={"settings"} />,
     children: "Tonal",
     onClick: action("onClick"),
     disabled: false,

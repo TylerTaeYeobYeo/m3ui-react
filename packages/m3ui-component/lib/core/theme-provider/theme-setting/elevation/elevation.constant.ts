@@ -1,5 +1,5 @@
 import { CSSProperties } from "react";
-import { COLOR_MODE } from "..";
+import { COLOR_MODE } from "../../..";
 
 export type Elevation = {
   0: CSSProperties["boxShadow"]; // surface

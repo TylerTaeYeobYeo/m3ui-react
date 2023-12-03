@@ -1,7 +1,7 @@
 import { Global, css } from "@emotion/react";
 import { FC, ReactElement, useMemo } from "react";
 import { Breakpoint } from ".";
-import { RootClassNameProps } from "../theme-provider/theme.context";
+import { RootClassNameProps } from "../../theme.context";
 
 export type BreakpointSettingProps = RootClassNameProps & {
   breakpoint?: Breakpoint;

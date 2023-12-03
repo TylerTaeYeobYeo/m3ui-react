@@ -1,11 +1,8 @@
 import { Global, css } from "@emotion/react";
 import { FC, ReactElement, useMemo } from "react";
-import {
-  DEFAULT_TYPOGRAPHY,
-  TypographyConfig,
-} from "../../core/typography/typography.constant";
-import { camelCaseToKebabCase } from "../../utils/string.util";
-import { RootClassNameProps } from "../theme-provider/theme.context";
+import { camelCaseToKebabCase } from "../../../../utils/string.util";
+import { RootClassNameProps } from "../../theme.context";
+import { DEFAULT_TYPOGRAPHY, TypographyConfig } from "./typography.constant";
 
 export type TypographySettingProps = RootClassNameProps & {
   typography?: TypographyConfig;
@@ -13,6 +10,7 @@ export type TypographySettingProps = RootClassNameProps & {
 
 export const TypographySetting: FC<TypographySettingProps> = ({
   rootClassName,
+  classNamePrefix,
   typography,
 }) => {
   const globalStyle: ReactElement = useMemo(() => {
@@ -26,7 +24,9 @@ export const TypographySetting: FC<TypographySettingProps> = ({
           ${rootClassName ? `.${rootClassName}` : ":root"} {
             ${Object.entries(style).map(
               ([className, style]) =>
-                `.${className} { ${Object.entries(style)
+                `.${
+                  classNamePrefix ? `${classNamePrefix}-` : ""
+                }${className} { ${Object.entries(style)
                   .map(
                     ([key, value]) => `${camelCaseToKebabCase(key)}:${value}`
                   )

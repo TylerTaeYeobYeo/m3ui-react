@@ -15,6 +15,7 @@ const preview: Preview = {
       toolbar: {
         icon: "mirror",
         items: ["light", "dark"],
+        default: "light",
         dynamicTitle: true,
       },
     },

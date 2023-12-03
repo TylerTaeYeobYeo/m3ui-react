@@ -1,8 +1,8 @@
 import { Global, css } from "@emotion/react";
 import { FC, ReactElement, useMemo } from "react";
 import { Elevation, defaultElevation } from ".";
-import { COLOR_MODE, ColorModeConfig } from "..";
-import { RootClassNameProps } from "../theme-provider/theme.context";
+import { COLOR_MODE, ColorModeConfig } from "../../..";
+import { RootClassNameProps } from "../../theme.context";
 
 export type ElevationSettingProps = RootClassNameProps &
   ColorModeConfig & {

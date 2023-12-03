@@ -1,11 +1,27 @@
 import styled from "@emotion/styled";
-import { ButtonHTMLAttributes, forwardRef } from "react";
+import { ButtonHTMLAttributes, ReactElement, forwardRef } from "react";
 import { SHAPE, VARIANT } from "../../constant";
+import { useTheme } from "../../core/theme-provider/hook";
+import { TYPOGRAPHY } from "../../core/theme-provider/theme-setting/typography/typography.constant";
+import { IconProps } from "../icon";
+
+export type ButtonProps = {
+  shape?: SHAPE;
+  variant?: VARIANT;
+  icon?: ReactElement<IconProps>;
+  children: React.ReactNode | React.ReactNode[];
+  /** default: TYPOGRAPHY.LABEL_LARGE */
+  typography?: TYPOGRAPHY;
+} & Omit<ButtonHTMLAttributes<HTMLButtonElement>, "children">;
+
+type InternalButtonProps = ButtonProps & {
+  classNamePrefix?: string;
+};
 
 const TextButton = styled.button`
   --buttonSurface: var(--surface);
   --buttonOnSurface: var(--onSurface);
-  --buttonPrimary: ${({ variant }: ButtonProps) => {
+  --buttonPrimary: ${({ variant }: InternalButtonProps) => {
     switch (variant) {
       case VARIANT.PRIMARY:
         return "var(--primary)";
@@ -21,7 +37,7 @@ const TextButton = styled.button`
         return "var(--primary)";
     }
   }};
-  --buttonOnPrimary: ${({ variant }: ButtonProps) => {
+  --buttonOnPrimary: ${({ variant }: InternalButtonProps) => {
     switch (variant) {
       case VARIANT.PRIMARY:
         return "var(--onPrimary)";
@@ -50,7 +66,7 @@ const TextButton = styled.button`
   color: var(--buttonPrimary);
   background-color: var(--buttonSurface);
 
-  padding: ${({ shape, icon }: ButtonProps) =>
+  padding: ${({ shape, icon }: InternalButtonProps) =>
     icon
       ? shape === SHAPE.TEXT
         ? "12px 16px 12px 10px"
@@ -63,6 +79,13 @@ const TextButton = styled.button`
 
   transition-property: color, background-color;
   transition-duration: 0.2s;
+
+  ${({ classNamePrefix }) =>
+    classNamePrefix ? `.${classNamePrefix}-icon` : ".icon"} {
+    width: 18px;
+    height: 18px;
+    font-size: 18px;
+  }
 
   &:focus-visible {
     outline: none;
@@ -90,11 +113,6 @@ const TextButton = styled.button`
     background-color: var(--buttonSurface);
     color: color-mix(in srgb, var(--buttonOnSurface) 38%, var(--buttonSurface));
     cursor: not-allowed;
-  }
-  .material-icons {
-    width: 18px;
-    height: 18px;
-    font-size: 18px;
   }
 `;
 const FilledButton = styled(TextButton)`
@@ -143,10 +161,11 @@ const FilledButton = styled(TextButton)`
   }
 `;
 const OutlinedButton = styled(TextButton)`
-  border: 1px solid var(--outline);
+  outline: 1px solid var(--outline);
 
-  transition-property: border, color, background-color;
+  transition-property: outline, color, background-color;
   &:focus-visible {
+    outline: 1px solid var(--outline);
     background-color: color-mix(
       in srgb,
       var(--buttonPrimary) 12%,
@@ -161,7 +180,7 @@ const OutlinedButton = styled(TextButton)`
     );
   }
   &:active {
-    border: 1px solid var(--buttonPrimary);
+    outline: 1px solid var(--buttonPrimary);
     background-color: color-mix(
       in srgb,
       var(--buttonPrimary) 12%,
@@ -169,7 +188,7 @@ const OutlinedButton = styled(TextButton)`
     );
   }
   &:disabled {
-    border: 1px solid
+    outline: 1px solid
       color-mix(in srgb, var(--buttonOnSurface) 12%, var(--buttonSurface));
     color: color-mix(in srgb, var(--buttonOnSurface) 38%, var(--buttonSurface));
     background-color: var(--buttonSurface);
@@ -262,51 +281,46 @@ const TonalButton = styled(TextButton)`
   }
 `;
 
-export type ButtonProps = {
-  shape?: SHAPE;
-  variant?: VARIANT;
-  icon?: React.ReactNode;
-  children: React.ReactNode | React.ReactNode[];
-} & Omit<ButtonHTMLAttributes<HTMLButtonElement>, "children">;
-
 export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
-  ({ shape = SHAPE.FILLED, icon, children, ...props }, ref) => {
+  (
+    {
+      shape = SHAPE.FILLED,
+      icon,
+      children,
+      typography = TYPOGRAPHY.LABEL_LARGE,
+      className,
+      ...props
+    },
+    ref
+  ) => {
+    const { classNamePrefix } = useTheme();
+    const commonProps = {
+      ref,
+      shape,
+      icon,
+      classNamePrefix,
+      className: `${`${
+        classNamePrefix ? `${classNamePrefix}-` : ""
+      }${typography}`} ${className ?? ""}`,
+      ...props,
+    };
+    const body = (
+      <>
+        {icon}
+        {children}
+      </>
+    );
     switch (shape) {
       case SHAPE.FILLED:
-        return (
-          <FilledButton ref={ref} shape={shape} icon={icon} {...props}>
-            {icon}
-            {children}
-          </FilledButton>
-        );
+        return <FilledButton {...commonProps}>{body}</FilledButton>;
       case SHAPE.OUTLINED:
-        return (
-          <OutlinedButton ref={ref} shape={shape} icon={icon} {...props}>
-            {icon}
-            {children}
-          </OutlinedButton>
-        );
+        return <OutlinedButton {...commonProps}>{body}</OutlinedButton>;
       case SHAPE.TEXT:
-        return (
-          <TextButton ref={ref} shape={shape} icon={icon} {...props}>
-            {icon}
-            {children}
-          </TextButton>
-        );
+        return <TextButton {...commonProps}>{body}</TextButton>;
       case SHAPE.ELEVATED:
-        return (
-          <ElevatedButton ref={ref} icon={icon} {...props}>
-            {icon}
-            {children}
-          </ElevatedButton>
-        );
+        return <ElevatedButton {...commonProps}>{body}</ElevatedButton>;
       case SHAPE.TONAL:
-        return (
-          <TonalButton ref={ref} icon={icon} {...props}>
-            {icon}
-            {children}
-          </TonalButton>
-        );
+        return <TonalButton {...commonProps}>{body}</TonalButton>;
     }
   }
 );

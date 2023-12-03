@@ -1,8 +1,8 @@
 import { FC, PropsWithChildren } from "react";
 import { ElevationSetting } from "..";
-import { BreakpointSetting } from "../breakpoint";
-import { ColorSetting } from "../color/color-config";
-import { TypographySetting } from "../typography";
+import { BreakpointSetting } from "./theme-setting/breakpoint";
+import { ColorSetting } from "./theme-setting/color/color-config";
+import { TypographySetting } from "./theme-setting/typography";
 import { ThemeContext, ThemeContextType } from "./theme.context";
 
 export type ThemeProviderProps = PropsWithChildren<{

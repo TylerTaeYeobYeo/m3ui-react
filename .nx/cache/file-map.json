@@ -181,7 +181,7 @@
         },
         {
           "file": "packages/m3ui-component/.storybook/preview.ts",
-          "hash": "6237268643786413730",
+          "hash": "12983561552271014893",
           "deps": [
             "npm:@storybook/react"
           ]
@@ -214,7 +214,7 @@
         },
         {
           "file": "packages/m3ui-component/lib/components/button/index.stories.tsx",
-          "hash": "12581540355510629659",
+          "hash": "8184145709501978427",
           "deps": [
             "npm:@storybook/addon-actions",
             "npm:@storybook/react"
@@ -222,7 +222,7 @@
         },
         {
           "file": "packages/m3ui-component/lib/components/button/index.tsx",
-          "hash": "11628964718476461338",
+          "hash": "7756929000774062106",
           "deps": [
             "npm:@emotion/styled",
             "npm:react"
@@ -232,6 +232,31 @@
           "file": "packages/m3ui-component/lib/components/floating-action-button/index.tsx",
           "hash": "18265057544153491564",
           "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "packages/m3ui-component/lib/components/icon/index.tsx",
+          "hash": "3680793501718590192",
+          "deps": [
+            "npm:@emotion/styled",
+            "npm:material-icons",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "packages/m3ui-component/lib/components/icon-button/index.stories.tsx",
+          "hash": "7296940298380756242",
+          "deps": [
+            "npm:@storybook/addon-actions",
+            "npm:@storybook/react"
+          ]
+        },
+        {
+          "file": "packages/m3ui-component/lib/components/icon-button/index.tsx",
+          "hash": "8655518002147769895",
+          "deps": [
+            "npm:@emotion/styled",
             "npm:react"
           ]
         },
@@ -248,96 +273,107 @@
           "hash": "12972307627347548915"
         },
         {
-          "file": "packages/m3ui-component/lib/core/breakpoint/breakpoint.constant.ts",
+          "file": "packages/m3ui-component/lib/core/index.tsx",
+          "hash": "11308285392092545613"
+        },
+        {
+          "file": "packages/m3ui-component/lib/core/theme-provider/hook/index.ts",
+          "hash": "9887457334892560045",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "packages/m3ui-component/lib/core/theme-provider/index.tsx",
+          "hash": "17680983438955028559"
+        },
+        {
+          "file": "packages/m3ui-component/lib/core/theme-provider/theme-provider.tsx",
+          "hash": "10867871500526058020",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "packages/m3ui-component/lib/core/theme-provider/theme-setting/breakpoint/breakpoint.constant.ts",
           "hash": "15159107229911286688"
         },
         {
-          "file": "packages/m3ui-component/lib/core/breakpoint/breakpoint.tsx",
-          "hash": "9738675189835893483",
+          "file": "packages/m3ui-component/lib/core/theme-provider/theme-setting/breakpoint/breakpoint.tsx",
+          "hash": "1634205077098999893",
           "deps": [
             "npm:@emotion/react",
             "npm:react"
           ]
         },
         {
-          "file": "packages/m3ui-component/lib/core/breakpoint/index.tsx",
+          "file": "packages/m3ui-component/lib/core/theme-provider/theme-setting/breakpoint/index.tsx",
           "hash": "7168540191165746969"
         },
         {
-          "file": "packages/m3ui-component/lib/core/color/color-config.tsx",
-          "hash": "16173430637099667040",
+          "file": "packages/m3ui-component/lib/core/theme-provider/theme-setting/color/color-config.tsx",
+          "hash": "3519251386869556931",
           "deps": [
             "npm:@emotion/react",
             "npm:react"
           ]
         },
         {
-          "file": "packages/m3ui-component/lib/core/color/color.constant.ts",
+          "file": "packages/m3ui-component/lib/core/theme-provider/theme-setting/color/color.constant.ts",
           "hash": "6633595597412969425",
           "deps": [
             "npm:react"
           ]
         },
         {
-          "file": "packages/m3ui-component/lib/core/color/index.tsx",
+          "file": "packages/m3ui-component/lib/core/theme-provider/theme-setting/color/index.tsx",
           "hash": "5231445372628532192"
         },
         {
-          "file": "packages/m3ui-component/lib/core/elevation/elevation.constant.ts",
-          "hash": "11620625810644284672",
+          "file": "packages/m3ui-component/lib/core/theme-provider/theme-setting/elevation/elevation.constant.ts",
+          "hash": "3482879241675328570",
           "deps": [
             "npm:react"
           ]
         },
         {
-          "file": "packages/m3ui-component/lib/core/elevation/elevation.tsx",
-          "hash": "12420830646412234734",
+          "file": "packages/m3ui-component/lib/core/theme-provider/theme-setting/elevation/elevation.tsx",
+          "hash": "10196419162453871185",
           "deps": [
             "npm:@emotion/react",
             "npm:react"
           ]
         },
         {
-          "file": "packages/m3ui-component/lib/core/elevation/index.tsx",
+          "file": "packages/m3ui-component/lib/core/theme-provider/theme-setting/elevation/index.tsx",
           "hash": "2428612821755417403"
         },
         {
-          "file": "packages/m3ui-component/lib/core/index.tsx",
-          "hash": "10901408753324677214"
+          "file": "packages/m3ui-component/lib/core/theme-provider/theme-setting/index.ts",
+          "hash": "16073269041943655519"
         },
         {
-          "file": "packages/m3ui-component/lib/core/theme-provider/index.tsx",
-          "hash": "37856249166866231"
+          "file": "packages/m3ui-component/lib/core/theme-provider/theme-setting/typography/index.tsx",
+          "hash": "11330585569823409727"
         },
         {
-          "file": "packages/m3ui-component/lib/core/theme-provider/theme-provider.tsx",
-          "hash": "15210434008062678632",
+          "file": "packages/m3ui-component/lib/core/theme-provider/theme-setting/typography/typography-config.tsx",
+          "hash": "8552322612693313349",
+          "deps": [
+            "npm:@emotion/react",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "packages/m3ui-component/lib/core/theme-provider/theme-setting/typography/typography.constant.ts",
+          "hash": "4419725899327500842",
           "deps": [
             "npm:react"
           ]
         },
         {
           "file": "packages/m3ui-component/lib/core/theme-provider/theme.context.ts",
-          "hash": "18441575073839022673",
-          "deps": [
-            "npm:react"
-          ]
-        },
-        {
-          "file": "packages/m3ui-component/lib/core/typography/index.tsx",
-          "hash": "11330585569823409727"
-        },
-        {
-          "file": "packages/m3ui-component/lib/core/typography/typography-config.tsx",
-          "hash": "4285099390250113044",
-          "deps": [
-            "npm:@emotion/react",
-            "npm:react"
-          ]
-        },
-        {
-          "file": "packages/m3ui-component/lib/core/typography/typography.constant.ts",
-          "hash": "4419725899327500842",
+          "hash": "7920079380927349617",
           "deps": [
             "npm:react"
           ]
@@ -360,7 +396,7 @@
         },
         {
           "file": "packages/m3ui-component/lib/utils/theme.util.ts",
-          "hash": "8026769258815693079",
+          "hash": "6000285032847329748",
           "deps": [
             "npm:react"
           ]
@@ -393,7 +429,7 @@
         },
         {
           "file": "packages/m3ui-component/vite.config.ts",
-          "hash": "3595295724344058367",
+          "hash": "10907331870265595511",
           "deps": [
             "npm:autoprefixer",
             "npm:path",

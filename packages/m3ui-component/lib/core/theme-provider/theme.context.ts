@@ -1,11 +1,15 @@
 import { createContext } from "react";
 import { Elevation } from "..";
-import { TypographyConfig } from "../../core/typography/typography.constant";
-import { Breakpoint } from "../breakpoint";
-import { ColorConfig, ColorModeConfig } from "../color/color.constant";
+import { Breakpoint } from "./theme-setting/breakpoint";
+import {
+  ColorConfig,
+  ColorModeConfig,
+} from "./theme-setting/color/color.constant";
+import { TypographyConfig } from "./theme-setting/typography/typography.constant";
 
 export type RootClassNameProps = {
   rootClassName?: string;
+  classNamePrefix?: string;
 };
 
 export type ThemeContextType = RootClassNameProps &

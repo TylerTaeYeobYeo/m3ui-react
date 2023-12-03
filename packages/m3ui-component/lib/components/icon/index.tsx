@@ -2,6 +2,7 @@ import styled from "@emotion/styled";
 import { MaterialIcon } from "material-icons";
 import { HTMLAttributes, forwardRef } from "react";
 import { SHAPE } from "../../constant";
+import { useTheme } from "../../core/theme-provider/hook";
 
 enum ICON_SHAPE {
   FILLED = SHAPE.FILLED,
@@ -47,18 +48,18 @@ export const CustomIcon = styled.span(({ iconUrl, style }: IconProps) => ({
 
 export const Icon = forwardRef<HTMLSpanElement, IconProps>(
   ({ icon, shape = ICON_SHAPE.FILLED, iconUrl, className, ...props }, ref) => {
+    const { classNamePrefix } = useTheme();
+    const commonProps = {
+      ref,
+      className: `${classNamePrefix ? `${classNamePrefix}-` : ""}icon ${
+        shapeIcons[shape]
+      } ${className}`,
+      ...props,
+    };
     if (icon) {
-      return (
-        <span
-          ref={ref}
-          className={`${shapeIcons[shape]} ${className}`}
-          {...props}
-        >
-          {icon}
-        </span>
-      );
+      return <span {...commonProps}>{icon}</span>;
     } else {
-      return <CustomIcon ref={ref} iconUrl={iconUrl} {...props} />;
+      return <CustomIcon iconUrl={iconUrl} {...commonProps} />;
     }
   }
 );
