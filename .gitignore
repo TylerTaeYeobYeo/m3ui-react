@@ -1,6 +1,7 @@
 node_modules/
 dist/
 .nx/
+.nx/*
 .env.*
 
 **/*.log
