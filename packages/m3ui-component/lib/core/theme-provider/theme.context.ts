@@ -7,10 +7,13 @@ import {
 } from "./theme-setting/color/color.constant";
 import { TypographyConfig } from "./theme-setting/typography/typography.constant";
 
-export type RootClassNameProps = {
-  rootClassName?: string;
+export type ClassNamePrefixProps = {
   classNamePrefix?: string;
 };
+
+export type RootClassNameProps = {
+  rootClassName?: string;
+} & ClassNamePrefixProps;
 
 export type ThemeContextType = RootClassNameProps &
   ColorModeConfig & {

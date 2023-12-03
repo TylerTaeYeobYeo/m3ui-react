@@ -1,10 +1,21 @@
 import styled from "@emotion/styled";
 import { ButtonHTMLAttributes, forwardRef } from "react";
 import { SHAPE, VARIANT } from "../../constant";
+import { useTheme } from "../../core/theme-provider/hook";
+import { ClassNamePrefixProps } from "../../core/theme-provider/theme.context";
+
+export type IconButtonProps = {
+  shape?: Omit<SHAPE, SHAPE.ELEVATED>;
+  variant?: VARIANT;
+  selected?: boolean;
+  children: React.ReactNode;
+} & Omit<ButtonHTMLAttributes<HTMLButtonElement>, "children">;
+
+type InnerIconButtonProps = IconButtonProps & ClassNamePrefixProps;
 
 const TextIconButton = styled.button`
   --buttonSurface: var(--surface);
-  --buttonOnSurface: ${({ shape }) => {
+  --buttonOnSurface: ${({ shape }: InnerIconButtonProps) => {
     switch (shape) {
       case SHAPE.TEXT:
       case SHAPE.OUTLINED:
@@ -31,7 +42,7 @@ const TextIconButton = styled.button`
         return "var(--primary)";
     }
   }};
-  --buttonOnPrimary: ${({ variant }: IconButtonProps) => {
+  --buttonOnPrimary: ${({ variant }: InnerIconButtonProps) => {
     switch (variant) {
       case VARIANT.PRIMARY:
         return "var(--onPrimary)";
@@ -69,7 +80,8 @@ const TextIconButton = styled.button`
   transition-property: color, background-color;
   transition-duration: 0.2s;
 
-  .material-icons {
+  ${({ classNamePrefix }: InnerIconButtonProps) =>
+    classNamePrefix ? `.${classNamePrefix}-icon` : ".icon"} {
     width: 24px;
     height: 24px;
     font-size: 24px;
@@ -231,40 +243,26 @@ const TonalIconButton = styled(TextIconButton)`
   }
 `;
 
-export type IconButtonProps = {
-  shape?: Omit<SHAPE, SHAPE.ELEVATED>;
-  variant?: VARIANT;
-  selected?: boolean;
-  children: React.ReactNode;
-} & Omit<ButtonHTMLAttributes<HTMLButtonElement>, "children">;
-
 export const IconButton = forwardRef<HTMLButtonElement, IconButtonProps>(
   ({ shape = SHAPE.FILLED, children, ...props }, ref) => {
+    const { classNamePrefix } = useTheme();
+    const commonProps = {
+      ref,
+      shape,
+      classNamePrefix,
+      ...props,
+    };
     switch (shape) {
       case SHAPE.FILLED:
-        return (
-          <FilledIconButton ref={ref} shape={shape} {...props}>
-            {children}
-          </FilledIconButton>
-        );
+        return <FilledIconButton {...commonProps}>{children}</FilledIconButton>;
       case SHAPE.OUTLINED:
         return (
-          <OutlinedIconButton ref={ref} shape={shape} {...props}>
-            {children}
-          </OutlinedIconButton>
+          <OutlinedIconButton {...commonProps}>{children}</OutlinedIconButton>
         );
       case SHAPE.TEXT:
-        return (
-          <TextIconButton ref={ref} shape={shape} {...props}>
-            {children}
-          </TextIconButton>
-        );
+        return <TextIconButton {...commonProps}>{children}</TextIconButton>;
       case SHAPE.TONAL:
-        return (
-          <TonalIconButton ref={ref} shape={shape} {...props}>
-            {children}
-          </TonalIconButton>
-        );
+        return <TonalIconButton {...commonProps}>{children}</TonalIconButton>;
     }
   }
 );

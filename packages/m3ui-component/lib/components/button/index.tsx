@@ -3,6 +3,7 @@ import { ButtonHTMLAttributes, ReactElement, forwardRef } from "react";
 import { SHAPE, VARIANT } from "../../constant";
 import { useTheme } from "../../core/theme-provider/hook";
 import { TYPOGRAPHY } from "../../core/theme-provider/theme-setting/typography/typography.constant";
+import { ClassNamePrefixProps } from "../../core/theme-provider/theme.context";
 import { IconProps } from "../icon";
 
 export type ButtonProps = {
@@ -14,9 +15,7 @@ export type ButtonProps = {
   typography?: TYPOGRAPHY;
 } & Omit<ButtonHTMLAttributes<HTMLButtonElement>, "children">;
 
-type InternalButtonProps = ButtonProps & {
-  classNamePrefix?: string;
-};
+type InternalButtonProps = ButtonProps & ClassNamePrefixProps;
 
 const TextButton = styled.button`
   --buttonSurface: var(--surface);
