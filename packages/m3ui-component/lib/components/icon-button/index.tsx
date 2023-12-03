@@ -2,26 +2,36 @@ import styled from "@emotion/styled";
 import { ButtonHTMLAttributes, forwardRef } from "react";
 import { SHAPE, VARIANT } from "../../constant";
 
-const TextButton = styled.button`
+const TextIconButton = styled.button`
   --buttonSurface: var(--surface);
-  --buttonOnSurface: var(--onSurface);
-  --buttonPrimary: ${({ variant }: ButtonProps) => {
-    switch (variant) {
-      case VARIANT.PRIMARY:
-        return "var(--primary)";
-      case VARIANT.SECONDARY:
-        return "var(--secondary)";
-      case VARIANT.TERTIARY:
-        return "var(--tertiary)";
-      case VARIANT.SURFACE:
-        return "var(--surface)";
-      case VARIANT.ERROR:
-        return "var(--error)";
+  --buttonOnSurface: ${({ shape }) => {
+    switch (shape) {
+      case SHAPE.TEXT:
+      case SHAPE.OUTLINED:
+        return "var(--onSurfaceVariant)";
+      case SHAPE.FILLED:
+      default:
+        return "var(--onSurface)";
+    }
+  }};
+  --buttonPrimary: ${({ shape, selected }) => {
+    if (selected) {
+      switch (shape) {
+        case SHAPE.TEXT:
+          return "var(--primary)";
+        default:
+      }
+    }
+    switch (shape) {
+      case SHAPE.TEXT:
+      case SHAPE.OUTLINED:
+        return "var(--onSurfaceVariant)";
+      case SHAPE.FILLED:
       default:
         return "var(--primary)";
     }
   }};
-  --buttonOnPrimary: ${({ variant }: ButtonProps) => {
+  --buttonOnPrimary: ${({ variant }: IconButtonProps) => {
     switch (variant) {
       case VARIANT.PRIMARY:
         return "var(--onPrimary)";
@@ -39,10 +49,7 @@ const TextButton = styled.button`
   }};
   --buttonSecondaryContainer: var(--secondaryContainer);
   --buttonOnSecondaryContainer: var(--onSecondaryContainer);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
+  display: inline-block;
 
   border: none;
   border-radius: 100px;
@@ -50,19 +57,23 @@ const TextButton = styled.button`
   color: var(--buttonPrimary);
   background-color: var(--buttonSurface);
 
-  padding: ${({ shape, icon }: ButtonProps) =>
-    icon
-      ? shape === SHAPE.TEXT
-        ? "12px 16px 12px 10px"
-        : "10px 24px 10px 16px"
-      : shape === SHAPE.TEXT
-      ? "10px 12px"
-      : "10px 24px"};
+  padding: 8px;
+  margin: 4px;
+
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
 
   cursor: pointer;
 
   transition-property: color, background-color;
   transition-duration: 0.2s;
+
+  .material-icons {
+    width: 24px;
+    height: 24px;
+    font-size: 24px;
+  }
 
   &:focus-visible {
     outline: none;
@@ -89,21 +100,21 @@ const TextButton = styled.button`
   &:disabled {
     background-color: var(--buttonSurface);
     color: color-mix(in srgb, var(--buttonOnSurface) 38%, var(--buttonSurface));
+    .material-icons {
+      color: color-mix(
+        in srgb,
+        var(--buttonOnSurface) 38%,
+        var(--buttonSurface)
+      );
+    }
     cursor: not-allowed;
   }
-  .material-icons {
-    width: 18px;
-    height: 18px;
-    font-size: 18px;
-  }
 `;
-const FilledButton = styled(TextButton)`
+const FilledIconButton = styled(TextIconButton)`
   background-color: var(--buttonPrimary);
   color: var(--buttonOnPrimary);
 
-  box-shadow: var(--elevation-0);
-
-  transition-property: box-shadow, color, background-color;
+  transition-property: color, background-color;
 
   &:focus-visible {
     background-color: color-mix(
@@ -120,7 +131,6 @@ const FilledButton = styled(TextButton)`
       var(--buttonPrimary)
     );
     color: var(--buttonOnPrimary);
-    box-shadow: var(--elevation-1);
   }
   &:active {
     background-color: color-mix(
@@ -129,10 +139,8 @@ const FilledButton = styled(TextButton)`
       var(--buttonPrimary)
     );
     color: var(--buttonOnPrimary);
-    box-shadow: var(--elevation-0);
   }
   &:disabled {
-    box-shadow: var(--elevation-0);
     cursor: not-allowed;
     background-color: color-mix(
       in srgb,
@@ -142,11 +150,12 @@ const FilledButton = styled(TextButton)`
     color: color-mix(in srgb, var(--buttonOnSurface) 38%, var(--buttonSurface));
   }
 `;
-const OutlinedButton = styled(TextButton)`
-  border: 1px solid var(--outline);
+const OutlinedIconButton = styled(TextIconButton)`
+  outline: 1px solid var(--outline);
 
   transition-property: border, color, background-color;
   &:focus-visible {
+    outline: 1px solid var(--outline);
     background-color: color-mix(
       in srgb,
       var(--buttonPrimary) 12%,
@@ -154,6 +163,7 @@ const OutlinedButton = styled(TextButton)`
     );
   }
   &:hover {
+    outline: 1px solid var(--outline);
     background-color: color-mix(
       in srgb,
       var(--buttonPrimary) 8%,
@@ -161,7 +171,7 @@ const OutlinedButton = styled(TextButton)`
     );
   }
   &:active {
-    border: 1px solid var(--buttonPrimary);
+    outline: 1px solid var(--outline);
     background-color: color-mix(
       in srgb,
       var(--buttonPrimary) 12%,
@@ -169,55 +179,14 @@ const OutlinedButton = styled(TextButton)`
     );
   }
   &:disabled {
-    border: 1px solid
+    outline: 1px solid
       color-mix(in srgb, var(--buttonOnSurface) 12%, var(--buttonSurface));
     color: color-mix(in srgb, var(--buttonOnSurface) 38%, var(--buttonSurface));
     background-color: var(--buttonSurface);
     cursor: not-allowed;
   }
 `;
-const ElevatedButton = styled(TextButton)`
-  --buttonSurfaceContainerLow: var(--surfaceContainerLow);
-  box-shadow: var(--elevation-1);
-
-  background-color: var(--buttonSurfaceContainerLow);
-
-  transition-property: box-shadow, color, background-color;
-  &:focus-visible {
-    background-color: color-mix(
-      in srgb,
-      var(--buttonPrimary) 12%,
-      var(--buttonSurfaceContainerLow)
-    );
-  }
-  &:hover {
-    box-shadow: var(--elevation-2);
-    background-color: color-mix(
-      in srgb,
-      var(--buttonPrimary) 8%,
-      var(--buttonSurfaceContainerLow)
-    );
-  }
-  &:active {
-    box-shadow: var(--elevation-1);
-    background-color: color-mix(
-      in srgb,
-      var(--buttonPrimary) 12%,
-      var(--buttonSurfaceContainerLow)
-    );
-  }
-  &:disabled {
-    box-shadow: var(--elevation-0);
-    background-color: color-mix(
-      in srgb,
-      var(--buttonOnSurface) 12%,
-      var(--buttonSurface)
-    );
-    color: color-mix(in srgb, var(--buttonOnSurface) 38%, var(--buttonSurface));
-    cursor: not-allowed;
-  }
-`;
-const TonalButton = styled(TextButton)`
+const TonalIconButton = styled(TextIconButton)`
   color: var(--buttonOnSecondaryContainer);
   background: var(--buttonSecondaryContainer);
 
@@ -262,50 +231,39 @@ const TonalButton = styled(TextButton)`
   }
 `;
 
-export type ButtonProps = {
-  shape?: SHAPE;
+export type IconButtonProps = {
+  shape?: Omit<SHAPE, SHAPE.ELEVATED>;
   variant?: VARIANT;
-  icon?: React.ReactNode;
-  children: React.ReactNode | React.ReactNode[];
+  selected?: boolean;
+  children: React.ReactNode;
 } & Omit<ButtonHTMLAttributes<HTMLButtonElement>, "children">;
 
-export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
-  ({ shape = SHAPE.FILLED, icon, children, ...props }, ref) => {
+export const IconButton = forwardRef<HTMLButtonElement, IconButtonProps>(
+  ({ shape = SHAPE.FILLED, children, ...props }, ref) => {
     switch (shape) {
       case SHAPE.FILLED:
         return (
-          <FilledButton ref={ref} shape={shape} icon={icon} {...props}>
-            {icon}
+          <FilledIconButton ref={ref} shape={shape} {...props}>
             {children}
-          </FilledButton>
+          </FilledIconButton>
         );
       case SHAPE.OUTLINED:
         return (
-          <OutlinedButton ref={ref} shape={shape} icon={icon} {...props}>
-            {icon}
+          <OutlinedIconButton ref={ref} shape={shape} {...props}>
             {children}
-          </OutlinedButton>
+          </OutlinedIconButton>
         );
       case SHAPE.TEXT:
         return (
-          <TextButton ref={ref} shape={shape} icon={icon} {...props}>
-            {icon}
+          <TextIconButton ref={ref} shape={shape} {...props}>
             {children}
-          </TextButton>
-        );
-      case SHAPE.ELEVATED:
-        return (
-          <ElevatedButton ref={ref} icon={icon} {...props}>
-            {icon}
-            {children}
-          </ElevatedButton>
+          </TextIconButton>
         );
       case SHAPE.TONAL:
         return (
-          <TonalButton ref={ref} icon={icon} {...props}>
-            {icon}
+          <TonalIconButton ref={ref} shape={shape} {...props}>
             {children}
-          </TonalButton>
+          </TonalIconButton>
         );
     }
   }
