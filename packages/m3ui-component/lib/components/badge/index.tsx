@@ -1,10 +1,5 @@
 import styled from "@emotion/styled";
-import {
-  HTMLAttributes,
-  PropsWithChildren,
-  ReactNode,
-  forwardRef,
-} from "react";
+import { HTMLAttributes, PropsWithChildren, forwardRef } from "react";
 
 export enum BADGE_VARIANT {
   DOT = "dot",
@@ -40,8 +35,8 @@ export type BadgeProps = PropsWithChildren<
   {
     variant?: BADGE_VARIANT;
     data?: number;
-    children?: ReactNode;
-  } & HTMLAttributes<HTMLDivElement>
+    wrapperProps?: Omit<HTMLAttributes<HTMLDivElement>, "children">;
+  } & Omit<HTMLAttributes<HTMLDivElement>, "children">
 >;
 
 export const Badge = forwardRef<HTMLDivElement, BadgeProps>(
@@ -49,8 +44,9 @@ export const Badge = forwardRef<HTMLDivElement, BadgeProps>(
     {
       variant = BADGE_VARIANT.DOT,
       data,
-      children,
       className = "label-small",
+      wrapperProps,
+      children,
       ...props
     },
     ref
@@ -61,7 +57,7 @@ export const Badge = forwardRef<HTMLDivElement, BadgeProps>(
     };
 
     return (
-      <BadgeWrapper>
+      <BadgeWrapper {...wrapperProps}>
         <BadgeElement
           ref={ref}
           className={className}
