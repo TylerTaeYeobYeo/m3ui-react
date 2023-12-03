@@ -10,7 +10,11 @@ const meta: Meta<typeof IconButton> = {
   argTypes: {
     shape: {
       control: { type: "radio" },
-      options: Object.values(SHAPE),
+      options: Object.values(SHAPE).filter((v) => v !== SHAPE.ELEVATED),
+    },
+    value: {
+      control: { type: "radio" },
+      options: [true, false, undefined],
     },
   },
 };
@@ -22,8 +26,10 @@ type Story = StoryObj<typeof IconButton>;
 export const Filled: Story = {
   args: {
     shape: SHAPE.FILLED,
-    children: <span className="material-icons">settings</span>,
     onClick: action("onClick"),
+    iconProps: {
+      icon: "settings",
+    },
     disabled: false,
   },
   render: (props) => <IconButton {...props} />,
@@ -32,8 +38,10 @@ export const Filled: Story = {
 export const Outlined: Story = {
   args: {
     shape: SHAPE.OUTLINED,
-    children: <span className="material-icons">settings</span>,
     onClick: action("onClick"),
+    iconProps: {
+      icon: "settings",
+    },
     disabled: false,
   },
   render: (props) => <IconButton {...props} />,
@@ -42,8 +50,10 @@ export const Outlined: Story = {
 export const Text: Story = {
   args: {
     shape: SHAPE.TEXT,
-    children: <span className="material-icons">settings</span>,
     onClick: action("onClick"),
+    iconProps: {
+      icon: "settings",
+    },
     disabled: false,
   },
   render: (props) => <IconButton {...props} />,
@@ -52,8 +62,10 @@ export const Text: Story = {
 export const Tonal: Story = {
   args: {
     shape: SHAPE.TONAL,
-    children: <span className="material-icons">settings</span>,
     onClick: action("onClick"),
+    iconProps: {
+      icon: "settings",
+    },
     disabled: false,
   },
   render: (props) => <IconButton {...props} />,

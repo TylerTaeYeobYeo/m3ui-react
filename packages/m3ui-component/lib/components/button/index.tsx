@@ -8,7 +8,7 @@ import { IconProps } from "../icon";
 
 export type ButtonProps = {
   shape?: SHAPE;
-  variant?: VARIANT;
+  variant?: Omit<VARIANT, VARIANT.SURFACE>;
   icon?: ReactElement<IconProps>;
   children: React.ReactNode | React.ReactNode[];
   /** default: TYPOGRAPHY.LABEL_LARGE */
@@ -20,7 +20,20 @@ type InternalButtonProps = ButtonProps & ClassNamePrefixProps;
 const TextButton = styled.button`
   --buttonSurface: transparent;
   --buttonOnSurface: var(--onSurface);
-  --buttonPrimary: ${({ variant }: InternalButtonProps) => {
+  --buttonPrimary: ${({ variant, shape }: InternalButtonProps) => {
+    if (shape === SHAPE.TONAL) {
+      switch (variant) {
+        case VARIANT.PRIMARY:
+          return "var(--secondaryContainer)";
+        case VARIANT.SECONDARY:
+          return "var(--tertiaryContainer)";
+        case VARIANT.TERTIARY:
+          return "var(--primaryContainer)";
+        case VARIANT.ERROR:
+          return "var(--errorContainer)";
+        default:
+      }
+    }
     switch (variant) {
       case VARIANT.PRIMARY:
         return "var(--primary)";
@@ -28,15 +41,26 @@ const TextButton = styled.button`
         return "var(--secondary)";
       case VARIANT.TERTIARY:
         return "var(--tertiary)";
-      case VARIANT.SURFACE:
-        return "var(--surface)";
       case VARIANT.ERROR:
         return "var(--error)";
       default:
         return "var(--primary)";
     }
   }};
-  --buttonOnPrimary: ${({ variant }: InternalButtonProps) => {
+  --buttonOnPrimary: ${({ variant, shape }: InternalButtonProps) => {
+    if (shape === SHAPE.TONAL) {
+      switch (variant) {
+        case VARIANT.PRIMARY:
+          return "var(--onSecondaryContainer)";
+        case VARIANT.SECONDARY:
+          return "var(--onTertiaryContainer)";
+        case VARIANT.TERTIARY:
+          return "var(--onPrimaryContainer)";
+        case VARIANT.ERROR:
+          return "var(--onErrorContainer)";
+        default:
+      }
+    }
     switch (variant) {
       case VARIANT.PRIMARY:
         return "var(--onPrimary)";
@@ -44,16 +68,12 @@ const TextButton = styled.button`
         return "var(--onSecondary)";
       case VARIANT.TERTIARY:
         return "var(--onTertiary)";
-      case VARIANT.SURFACE:
-        return "var(--buttonOnSurface)";
       case VARIANT.ERROR:
         return "var(--onError)";
       default:
         return "var(--onPrimary)";
     }
   }};
-  --buttonSecondaryContainer: var(--secondaryContainer);
-  --buttonOnSecondaryContainer: var(--onSecondaryContainer);
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -235,50 +255,6 @@ const ElevatedButton = styled(TextButton)`
     cursor: not-allowed;
   }
 `;
-const TonalButton = styled(TextButton)`
-  color: var(--buttonOnSecondaryContainer);
-  background: var(--buttonSecondaryContainer);
-
-  box-shadow: var(--elevation-0);
-
-  transition-property: box-shadow, color, background-color;
-
-  &:focus-visible {
-    outline: none;
-    background-color: color-mix(
-      in srgb,
-      var(--buttonOnSecondaryContainer) 12%,
-      var(--buttonSecondaryContainer)
-    );
-    box-shadow: var(--elevation-0);
-  }
-  &:hover {
-    box-shadow: var(--elevation-1);
-    background-color: color-mix(
-      in srgb,
-      var(--buttonOnSecondaryContainer) 8%,
-      var(--buttonSecondaryContainer)
-    );
-  }
-  &:active {
-    background-color: color-mix(
-      in srgb,
-      var(--buttonOnSecondaryContainer) 12%,
-      var(--buttonSecondaryContainer)
-    );
-    box-shadow: var(--elevation-0);
-  }
-  &:disabled {
-    background-color: color-mix(
-      in srgb,
-      var(--buttonOnSurface) 12%,
-      var(--buttonSurface)
-    );
-    color: color-mix(in srgb, var(--buttonOnSurface) 38%, var(--buttonSurface));
-    cursor: not-allowed;
-    box-shadow: var(--elevation-0);
-  }
-`;
 
 export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
   (
@@ -319,7 +295,7 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
       case SHAPE.ELEVATED:
         return <ElevatedButton {...commonProps}>{body}</ElevatedButton>;
       case SHAPE.TONAL:
-        return <TonalButton {...commonProps}>{body}</TonalButton>;
+        return <FilledButton {...commonProps}>{body}</FilledButton>;
     }
   }
 );

@@ -1,29 +1,38 @@
 import styled from "@emotion/styled";
 import { MaterialIcon } from "material-icons";
+import { MaterialSymbol } from "material-symbols";
 import { HTMLAttributes, forwardRef } from "react";
 import { SHAPE } from "../../constant";
 import { useTheme } from "../../core/theme-provider/hook";
 
-enum ICON_SHAPE {
+export enum ICON_SHAPE {
   FILLED = SHAPE.FILLED,
   OUTLINED = SHAPE.OUTLINED,
-  TEXT = SHAPE.TEXT,
+  ROUNDED = "rounded",
   SHARP = "sharp",
   TWO_TONE = "two-tone",
 }
 
-const shapeIcons: { [key in ICON_SHAPE]: string } = {
+export const ICON_SHAPE_CLASSNAME: { [key in ICON_SHAPE]: string } = {
   [ICON_SHAPE.FILLED]: "material-icons",
-  [ICON_SHAPE.OUTLINED]: "material-icons-outlined",
-  [ICON_SHAPE.TEXT]: "material-icons-round",
-  [ICON_SHAPE.SHARP]: "material-icons-sharp",
+  [ICON_SHAPE.OUTLINED]: "material-symbols-outlined",
+  [ICON_SHAPE.ROUNDED]: "material-symbols-rounded",
+  [ICON_SHAPE.SHARP]: "material-symbols-sharp",
   [ICON_SHAPE.TWO_TONE]: "material-icons-two-tone",
-};
+} as const;
 
 type IconOptionProps =
   | {
+      icon: MaterialSymbol;
+      shape?: Omit<ICON_SHAPE, ICON_SHAPE.FILLED | ICON_SHAPE.TWO_TONE>;
+      iconUrl?: never;
+    }
+  | {
       icon: MaterialIcon;
-      shape?: ICON_SHAPE;
+      shape?: Omit<
+        ICON_SHAPE,
+        ICON_SHAPE.OUTLINED | ICON_SHAPE.ROUNDED | ICON_SHAPE.SHARP
+      >;
       iconUrl?: never;
     }
   | {
@@ -52,8 +61,9 @@ export const Icon = forwardRef<HTMLSpanElement, IconProps>(
     const commonProps = {
       ref,
       className: `${classNamePrefix ? `${classNamePrefix}-` : ""}icon ${
-        shapeIcons[shape]
-      } ${className}`,
+        // @ts-ignore
+        ICON_SHAPE_CLASSNAME[shape]
+      } ${className ?? ""}`,
       ...props,
     };
     if (icon) {

@@ -3,15 +3,17 @@ import { ButtonHTMLAttributes, forwardRef } from "react";
 import { SHAPE, VARIANT } from "../../constant";
 import { useTheme } from "../../core/theme-provider/hook";
 import { ClassNamePrefixProps } from "../../core/theme-provider/theme.context";
+import { ICON_SHAPE, Icon, IconProps } from "../icon";
 
 export type IconButtonProps = {
   shape?: Omit<SHAPE, SHAPE.ELEVATED>;
   variant?: VARIANT;
-  selected?: boolean;
-  children: React.ReactNode;
+  value?: boolean; // true | false | undefined
+  iconProps: Omit<IconProps, "shape">;
 } & Omit<ButtonHTMLAttributes<HTMLButtonElement>, "children">;
 
-type InnerIconButtonProps = IconButtonProps & ClassNamePrefixProps;
+type InnerIconButtonProps = Omit<IconButtonProps, "iconProps"> &
+  ClassNamePrefixProps;
 
 const TextIconButton = styled.button`
   --buttonSurface: transparent;
@@ -25,11 +27,17 @@ const TextIconButton = styled.button`
         return "var(--onSurface)";
     }
   }};
-  --buttonPrimary: ${({ shape, selected }) => {
-    if (selected) {
+  --buttonPrimary: ${({ shape, value }) => {
+    if (value === true) {
       switch (shape) {
         case SHAPE.TEXT:
           return "var(--primary)";
+        default:
+      }
+    } else if (value === false) {
+      switch (shape) {
+        case SHAPE.FILLED:
+          return "var(--surfaceContainerHighest)";
         default:
       }
     }
@@ -42,21 +50,19 @@ const TextIconButton = styled.button`
         return "var(--primary)";
     }
   }};
-  --buttonOnPrimary: ${({ variant }: InnerIconButtonProps) => {
-    switch (variant) {
-      case VARIANT.PRIMARY:
-        return "var(--onPrimary)";
-      case VARIANT.SECONDARY:
-        return "var(--onSecondary)";
-      case VARIANT.TERTIARY:
-        return "var(--onTertiary)";
-      case VARIANT.SURFACE:
-        return "var(--buttonOnSurface)";
-      case VARIANT.ERROR:
-        return "var(--onError)";
-      default:
-        return "var(--onPrimary)";
+  --buttonOnPrimary: ${({ shape, value }: InnerIconButtonProps) => {
+    if (value === true) {
+      switch (shape) {
+        default:
+      }
+    } else if (value === false) {
+      switch (shape) {
+        case SHAPE.FILLED:
+          return "var(--primary)";
+        default:
+      }
     }
+    return "var(--onPrimary)";
   }};
   --buttonSecondaryContainer: var(--secondaryContainer);
   --buttonOnSecondaryContainer: var(--onSecondaryContainer);
@@ -244,25 +250,40 @@ const TonalIconButton = styled(TextIconButton)`
 `;
 
 export const IconButton = forwardRef<HTMLButtonElement, IconButtonProps>(
-  ({ shape = SHAPE.FILLED, children, ...props }, ref) => {
+  ({ shape = SHAPE.FILLED, value, iconProps, ...props }, ref) => {
     const { classNamePrefix } = useTheme();
     const commonProps = {
       ref,
       shape,
       classNamePrefix,
+      value,
       ...props,
     };
+
+    const child = (
+      // @ts-ignore
+      <Icon
+        shape={
+          iconProps.icon
+            ? value
+              ? ICON_SHAPE.FILLED
+              : ICON_SHAPE.OUTLINED
+            : undefined
+        }
+        {...iconProps}
+      />
+    );
     switch (shape) {
       case SHAPE.FILLED:
-        return <FilledIconButton {...commonProps}>{children}</FilledIconButton>;
+        return <FilledIconButton {...commonProps}>{child}</FilledIconButton>;
       case SHAPE.OUTLINED:
         return (
-          <OutlinedIconButton {...commonProps}>{children}</OutlinedIconButton>
+          <OutlinedIconButton {...commonProps}>{child}</OutlinedIconButton>
         );
       case SHAPE.TEXT:
-        return <TextIconButton {...commonProps}>{children}</TextIconButton>;
+        return <TextIconButton {...commonProps}>{child}</TextIconButton>;
       case SHAPE.TONAL:
-        return <TonalIconButton {...commonProps}>{children}</TonalIconButton>;
+        return <TonalIconButton {...commonProps}>{child}</TonalIconButton>;
     }
   }
 );
