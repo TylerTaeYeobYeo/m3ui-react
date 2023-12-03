@@ -108,7 +108,7 @@
         },
         {
           "file": "packages/m3ui-component/lib/components/button/index.stories.tsx",
-          "hash": "4912308423275352455",
+          "hash": "8856960689199116591",
           "deps": [
             "npm:@storybook/addon-actions",
             "npm:@storybook/react"
@@ -289,6 +289,21 @@
         {
           "file": "packages/m3ui-component/lib/constant/style.constant.ts",
           "hash": "6084332375791321321"
+        },
+        {
+          "file": "packages/m3ui-component/lib/components/badge/index.tsx",
+          "hash": "5773630278449437719",
+          "deps": [
+            "npm:@emotion/styled",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "packages/m3ui-component/lib/components/badge/index.stories.tsx",
+          "hash": "13029938067870180502",
+          "deps": [
+            "npm:@storybook/react"
+          ]
         }
       ],
       "@m3ui/page": [

@@ -21032,3 +21032,1044 @@ Error: Failed to process project dependencies with "nx-js-graph-plugin".
   code: 'GenericFailure'
 }
 [NX Daemon Server] - 2023-12-03T04:45:01.093Z - Done responding to the client null
+[NX Daemon Server] - 2023-12-03T04:45:09.861Z - Started listening on: \\.\pipe\nx\C:\Users\y_jos\AppData\Local\Temp\5258c81ff6231af17b60\d.sock
+[NX Daemon Server] - 2023-12-03T04:45:09.863Z - [WATCHER]: Subscribed to changes within: E:\Code\m3ui-react (native)
+[NX Daemon Server] - 2023-12-03T04:45:09.872Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-12-03T04:45:09.874Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2023-12-03T04:45:09.875Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-12-03T04:45:09.876Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-12-03T04:45:09.929Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T04:45:09.930Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T04:45:09.930Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T04:45:10.138Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2023-12-03T04:45:10.141Z - Time taken for 'total for creating and serializing project graph' 262.6572000011802ms
+[NX Daemon Server] - 2023-12-03T04:45:10.142Z - Done responding to the client project-graph
+[NX Daemon Server] - 2023-12-03T04:45:10.142Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 262. Response time: 4.
+[NX Daemon Server] - 2023-12-03T04:45:10.151Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2023-12-03T04:45:10.151Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2023-12-03T04:45:10.151Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2023-12-03T04:45:10.245Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-12-03T04:45:10.245Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2023-12-03T04:45:10.246Z - Time taken for 'total for creating and serializing project graph' 0.3529000002890825ms
+[NX Daemon Server] - 2023-12-03T04:45:10.247Z - Done responding to the client project-graph
+[NX Daemon Server] - 2023-12-03T04:45:10.247Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 2.
+[NX Daemon Server] - 2023-12-03T04:45:10.289Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2023-12-03T04:45:10.291Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2023-12-03T04:45:10.291Z - Handled HASH_TASKS. Handling time: 34. Response time: 2.
+[NX Daemon Server] - 2023-12-03T04:45:13.911Z - [WATCHER]: packages/m3ui-component/vite.config.ts.timestamp-1701578713850-236ef09f9d0f4.mjs was created or restored
+[NX Daemon Server] - 2023-12-03T04:45:13.911Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T04:45:14.027Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T04:45:14.027Z - [REQUEST]: packages/m3ui-component/vite.config.ts.timestamp-1701578713850-236ef09f9d0f4.mjs
+[NX Daemon Server] - 2023-12-03T04:45:14.028Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T04:45:14.072Z - Time taken for 'hash changed files from watcher' 0.22479999996721745ms
+[NX Daemon Server] - 2023-12-03T04:45:15.199Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T04:45:15.200Z - [WATCHER]: packages/m3ui-component/vite.config.ts.timestamp-1701578713850-236ef09f9d0f4.mjs was deleted
+[NX Daemon Server] - 2023-12-03T04:45:15.410Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T04:45:15.411Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T04:45:15.411Z - [REQUEST]: packages/m3ui-component/vite.config.ts.timestamp-1701578713850-236ef09f9d0f4.mjs
+[NX Daemon Server] - 2023-12-03T04:45:15.441Z - Time taken for 'hash changed files from watcher' 0.08660000003874302ms
+[NX Daemon Server] - 2023-12-03T04:45:26.834Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T04:45:26.886Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T04:45:26.962Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T04:45:28.064Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2023-12-03T04:45:28.064Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2023-12-03T04:45:28.064Z - Handled RECORD_OUTPUTS_HASH. Handling time: 16. Response time: 0.
+[NX Daemon Server] - 2023-12-03T04:45:28.129Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2023-12-03T04:45:37.525Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-12-03T04:45:37.525Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2023-12-03T04:45:37.525Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-12-03T04:45:37.526Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-12-03T04:45:37.527Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2023-12-03T04:45:37.528Z - Time taken for 'total for creating and serializing project graph' 0.21210000105202198ms
+[NX Daemon Server] - 2023-12-03T04:45:37.528Z - Done responding to the client project-graph
+[NX Daemon Server] - 2023-12-03T04:45:37.528Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 1.
+[NX Daemon Server] - 2023-12-03T04:45:37.533Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2023-12-03T04:45:37.533Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2023-12-03T04:45:37.533Z - Handled REQUEST_FILE_DATA. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2023-12-03T04:45:37.622Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-12-03T04:45:37.622Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2023-12-03T04:45:37.624Z - Time taken for 'total for creating and serializing project graph' 0.14190000109374523ms
+[NX Daemon Server] - 2023-12-03T04:45:37.624Z - Done responding to the client project-graph
+[NX Daemon Server] - 2023-12-03T04:45:37.625Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 3.
+[NX Daemon Server] - 2023-12-03T04:45:37.664Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2023-12-03T04:45:37.665Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2023-12-03T04:45:37.665Z - Handled HASH_TASKS. Handling time: 32. Response time: 1.
+[NX Daemon Server] - 2023-12-03T04:45:41.202Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T04:45:41.203Z - [WATCHER]: packages/m3ui-component/vite.config.ts.timestamp-1701578741143-f601bebbf8dfc.mjs was created or restored
+[NX Daemon Server] - 2023-12-03T04:45:41.321Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T04:45:41.321Z - [REQUEST]: packages/m3ui-component/vite.config.ts.timestamp-1701578741143-f601bebbf8dfc.mjs
+[NX Daemon Server] - 2023-12-03T04:45:41.321Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T04:45:41.369Z - Time taken for 'hash changed files from watcher' 0.17900000140070915ms
+[NX Daemon Server] - 2023-12-03T04:45:42.227Z - [WATCHER]: packages/m3ui-component/vite.config.ts.timestamp-1701578741143-f601bebbf8dfc.mjs was deleted
+[NX Daemon Server] - 2023-12-03T04:45:42.227Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T04:45:42.450Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T04:45:42.450Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T04:45:42.450Z - [REQUEST]: packages/m3ui-component/vite.config.ts.timestamp-1701578741143-f601bebbf8dfc.mjs
+[NX Daemon Server] - 2023-12-03T04:45:42.480Z - Time taken for 'hash changed files from watcher' 0.09449999965727329ms
+[NX Daemon Server] - 2023-12-03T04:46:04.200Z - [WATCHER]: packages/m3ui-component/lib/constant/index copy.ts was created or restored
+[NX Daemon Server] - 2023-12-03T04:46:04.200Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T04:46:04.319Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T04:46:04.320Z - [REQUEST]: packages/m3ui-component/lib/constant/index copy.ts
+[NX Daemon Server] - 2023-12-03T04:46:04.320Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T04:46:04.359Z - Time taken for 'hash changed files from watcher' 0.34909999929368496ms
+[NX Daemon Server] - 2023-12-03T04:46:08.965Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T04:46:08.968Z - [WATCHER]: 1 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2023-12-03T04:46:09.085Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T04:46:09.085Z - [REQUEST]: packages/m3ui-component/lib/constant/style.constant.ts
+[NX Daemon Server] - 2023-12-03T04:46:09.085Z - [REQUEST]: packages/m3ui-component/lib/constant/index copy.ts
+[NX Daemon Server] - 2023-12-03T04:46:09.132Z - Time taken for 'hash changed files from watcher' 0.31510000117123127ms
+[NX Daemon Server] - 2023-12-03T04:48:54.801Z - [WATCHER]: packages/m3ui-component/lib/constant/style.constant.ts was modified
+[NX Daemon Server] - 2023-12-03T04:48:54.804Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T04:48:54.862Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T04:48:54.865Z - [WATCHER]: packages/m3ui-component/lib/constant/style.constant.ts was modified
+[NX Daemon Server] - 2023-12-03T04:48:55.031Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T04:48:55.032Z - [REQUEST]: packages/m3ui-component/lib/constant/style.constant.ts
+[NX Daemon Server] - 2023-12-03T04:48:55.032Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T04:48:55.072Z - Time taken for 'hash changed files from watcher' 0.3508000001311302ms
+[NX Daemon Server] - 2023-12-03T04:49:15.459Z - [WATCHER]: packages/m3ui-component/lib/constant/index.ts was modified
+[NX Daemon Server] - 2023-12-03T04:49:15.460Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T04:49:15.887Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T04:49:15.888Z - [REQUEST]: packages/m3ui-component/lib/constant/index.ts
+[NX Daemon Server] - 2023-12-03T04:49:15.888Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T04:49:15.939Z - Time taken for 'hash changed files from watcher' 0.26500000059604645ms
+[NX Daemon Server] - 2023-12-03T04:49:37.218Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T04:49:37.219Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T04:49:38.034Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T04:49:38.034Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T04:49:38.034Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T04:49:38.074Z - Time taken for 'hash changed files from watcher' 0.4389999993145466ms
+[NX Daemon Server] - 2023-12-03T04:49:39.325Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T04:49:39.327Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T04:49:40.952Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T04:49:40.952Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T04:49:40.952Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T04:49:40.984Z - Time taken for 'hash changed files from watcher' 0.5343000013381243ms
+[NX Daemon Server] - 2023-12-03T04:52:05.361Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T04:52:05.363Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T04:52:05.440Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T04:52:05.442Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T04:52:08.607Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T04:52:08.608Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T04:52:08.608Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T04:52:08.645Z - Time taken for 'hash changed files from watcher' 0.3428000006824732ms
+[NX Daemon Server] - 2023-12-03T04:53:59.030Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2023-12-03T04:54:21.653Z - [WATCHER]: packages/m3ui-component/package.json was modified
+[NX Daemon Server] - 2023-12-03T04:54:21.653Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T04:54:21.963Z - [WATCHER]: package-lock.json was modified
+[NX Daemon Server] - 2023-12-03T04:54:21.963Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T04:54:28.076Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T04:54:28.076Z - [REQUEST]: packages/m3ui-component/package.json,package-lock.json
+[NX Daemon Server] - 2023-12-03T04:54:28.077Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T04:54:28.120Z - Time taken for 'hash changed files from watcher' 0.7131000012159348ms
+[NX Daemon Server] - 2023-12-03T04:54:43.047Z - [WATCHER]: packages/m3ui-component/vite.config.ts was modified
+[NX Daemon Server] - 2023-12-03T04:54:43.047Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T04:54:49.465Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T04:54:49.465Z - [REQUEST]: packages/m3ui-component/vite.config.ts
+[NX Daemon Server] - 2023-12-03T04:54:49.465Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T04:54:49.514Z - Time taken for 'hash changed files from watcher' 0.5098000001162291ms
+[NX Daemon Server] - 2023-12-03T04:55:01.951Z - [WATCHER]: packages/m3ui-component/package.json was modified
+[NX Daemon Server] - 2023-12-03T04:55:01.952Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T04:55:06.544Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T04:55:06.546Z - [WATCHER]: packages/m3ui-component/vite.config.ts was modified
+[NX Daemon Server] - 2023-12-03T04:55:08.378Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T04:55:08.378Z - [REQUEST]: packages/m3ui-component/package.json,packages/m3ui-component/vite.config.ts
+[NX Daemon Server] - 2023-12-03T04:55:08.378Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T04:55:08.423Z - Time taken for 'hash changed files from watcher' 0.48689999990165234ms
+[NX Daemon Server] - 2023-12-03T04:56:07.715Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T04:56:07.716Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T04:56:14.141Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T04:56:14.141Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T04:56:14.141Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T04:56:14.179Z - Time taken for 'hash changed files from watcher' 0.27730000019073486ms
+[NX Daemon Server] - 2023-12-03T04:56:36.666Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T04:56:36.668Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T04:56:43.096Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T04:56:43.096Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T04:56:43.096Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T04:56:43.147Z - Time taken for 'hash changed files from watcher' 0.4363000001758337ms
+[NX Daemon Server] - 2023-12-03T04:57:06.782Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T04:57:06.784Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T04:57:12.413Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T04:57:12.474Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T04:57:12.535Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T04:57:12.535Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T04:57:13.199Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T04:57:13.199Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T04:57:13.199Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T04:57:13.246Z - Time taken for 'hash changed files from watcher' 0.26290000043809414ms
+[NX Daemon Server] - 2023-12-03T04:57:30.402Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.stories.tsx was modified
+[NX Daemon Server] - 2023-12-03T04:57:30.402Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T04:57:36.826Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T04:57:36.827Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.stories.tsx
+[NX Daemon Server] - 2023-12-03T04:57:36.827Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T04:57:36.862Z - Time taken for 'hash changed files from watcher' 0.32499999925494194ms
+[NX Daemon Server] - 2023-12-03T04:57:39.439Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T04:57:39.441Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.stories.tsx was modified
+[NX Daemon Server] - 2023-12-03T04:57:43.208Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T04:57:43.210Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.stories.tsx was modified
+[NX Daemon Server] - 2023-12-03T04:57:45.852Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T04:57:45.852Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.stories.tsx
+[NX Daemon Server] - 2023-12-03T04:57:45.852Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T04:57:45.895Z - Time taken for 'hash changed files from watcher' 0.22240000031888485ms
+[NX Daemon Server] - 2023-12-03T04:58:03.155Z - [WATCHER]: packages/m3ui-component/vite.config.ts.timestamp-1701579483090-f28b8c9525471.mjs was created or restored
+[NX Daemon Server] - 2023-12-03T04:58:03.156Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T04:58:03.276Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T04:58:03.276Z - [REQUEST]: packages/m3ui-component/vite.config.ts.timestamp-1701579483090-f28b8c9525471.mjs
+[NX Daemon Server] - 2023-12-03T04:58:03.276Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T04:58:03.329Z - Time taken for 'hash changed files from watcher' 0.37719999998807907ms
+[NX Daemon Server] - 2023-12-03T04:58:06.235Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T04:58:06.236Z - [WATCHER]: packages/m3ui-component/vite.config.ts.timestamp-1701579483090-f28b8c9525471.mjs was deleted
+[NX Daemon Server] - 2023-12-03T04:58:06.450Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T04:58:06.450Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T04:58:06.450Z - [REQUEST]: packages/m3ui-component/vite.config.ts.timestamp-1701579483090-f28b8c9525471.mjs
+[NX Daemon Server] - 2023-12-03T04:58:06.477Z - Time taken for 'hash changed files from watcher' 0.2402999997138977ms
+[NX Daemon Server] - 2023-12-03T05:00:48.182Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:00:48.182Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:00:48.594Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:00:48.594Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:00:48.594Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:00:48.635Z - Time taken for 'hash changed files from watcher' 0.27400000020861626ms
+[NX Daemon Server] - 2023-12-03T05:02:04.015Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:02:04.190Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:02:04.244Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:02:04.245Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:02:04.999Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:02:04.999Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:02:04.999Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:02:05.047Z - Time taken for 'hash changed files from watcher' 0.2733000013977289ms
+[NX Daemon Server] - 2023-12-03T05:02:51.609Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:02:51.610Z - [WATCHER]: packages/m3ui-component/lib/core/color/color-config.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:02:53.232Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:02:53.232Z - [REQUEST]: packages/m3ui-component/lib/core/color/color-config.tsx
+[NX Daemon Server] - 2023-12-03T05:02:53.232Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:02:53.271Z - Time taken for 'hash changed files from watcher' 0.2665999997407198ms
+[NX Daemon Server] - 2023-12-03T05:03:04.085Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:03:04.086Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:03:07.312Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:03:07.312Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:03:07.312Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:03:07.357Z - Time taken for 'hash changed files from watcher' 0.4910000003874302ms
+[NX Daemon Server] - 2023-12-03T05:03:19.206Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:03:19.207Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:03:25.623Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:03:25.623Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:03:25.623Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:03:25.663Z - Time taken for 'hash changed files from watcher' 0.5988999996334314ms
+[NX Daemon Server] - 2023-12-03T05:04:14.310Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:04:14.311Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:04:20.722Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:04:20.722Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:04:20.722Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:04:20.761Z - Time taken for 'hash changed files from watcher' 0.41019999980926514ms
+[NX Daemon Server] - 2023-12-03T05:04:51.286Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:04:51.287Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.stories.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:04:51.339Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.stories.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:04:51.340Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:04:57.711Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:04:57.711Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.stories.tsx
+[NX Daemon Server] - 2023-12-03T05:04:57.711Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:04:57.758Z - Time taken for 'hash changed files from watcher' 0.24919999949634075ms
+[NX Daemon Server] - 2023-12-03T05:04:57.825Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:04:57.826Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.stories.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:04:58.042Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:04:58.043Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.stories.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:05:04.410Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:05:04.410Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.stories.tsx
+[NX Daemon Server] - 2023-12-03T05:05:04.410Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:05:04.439Z - Time taken for 'hash changed files from watcher' 0.3854000009596348ms
+[NX Daemon Server] - 2023-12-03T05:05:11.224Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:05:11.225Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:05:17.639Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:05:17.639Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:05:17.639Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:05:17.686Z - Time taken for 'hash changed files from watcher' 0.27359999902546406ms
+[NX Daemon Server] - 2023-12-03T05:05:37.365Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:05:37.365Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:05:43.787Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:05:43.787Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:05:43.787Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:05:43.824Z - Time taken for 'hash changed files from watcher' 0.3697999995201826ms
+[NX Daemon Server] - 2023-12-03T05:06:16.181Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:06:16.181Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:06:22.599Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:06:22.599Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:06:22.599Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:06:22.644Z - Time taken for 'hash changed files from watcher' 0.26620000042021275ms
+[NX Daemon Server] - 2023-12-03T05:08:02.004Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:08:02.006Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:08:08.426Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:08:08.426Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:08:08.426Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:08:08.473Z - Time taken for 'hash changed files from watcher' 0.4479999989271164ms
+[NX Daemon Server] - 2023-12-03T05:08:14.068Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:08:14.068Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:08:20.495Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:08:20.495Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:08:20.495Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:08:20.529Z - Time taken for 'hash changed files from watcher' 0.5526999998837709ms
+[NX Daemon Server] - 2023-12-03T05:09:00.558Z - [WATCHER]: packages/m3ui-component/.storybook/preview.ts was modified
+[NX Daemon Server] - 2023-12-03T05:09:00.559Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:09:06.981Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:09:06.981Z - [REQUEST]: packages/m3ui-component/.storybook/preview.ts
+[NX Daemon Server] - 2023-12-03T05:09:06.981Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:09:07.030Z - Time taken for 'hash changed files from watcher' 0.5221999995410442ms
+[NX Daemon Server] - 2023-12-03T05:09:09.259Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:09:09.260Z - [WATCHER]: packages/m3ui-component/.storybook/preview.ts was modified
+[NX Daemon Server] - 2023-12-03T05:09:15.679Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:09:15.679Z - [REQUEST]: packages/m3ui-component/.storybook/preview.ts
+[NX Daemon Server] - 2023-12-03T05:09:15.679Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:09:15.723Z - Time taken for 'hash changed files from watcher' 0.3799000009894371ms
+[NX Daemon Server] - 2023-12-03T05:11:24.979Z - [WATCHER]: packages/m3ui-component/.storybook/preview.ts was modified
+[NX Daemon Server] - 2023-12-03T05:11:24.980Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:11:31.396Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:11:31.396Z - [REQUEST]: packages/m3ui-component/.storybook/preview.ts
+[NX Daemon Server] - 2023-12-03T05:11:31.396Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:11:31.445Z - Time taken for 'hash changed files from watcher' 0.4654000010341406ms
+[NX Daemon Server] - 2023-12-03T05:12:09.812Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:12:09.812Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:12:16.226Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:12:16.226Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:12:16.226Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:12:16.266Z - Time taken for 'hash changed files from watcher' 0.3108999989926815ms
+[NX Daemon Server] - 2023-12-03T05:12:32.586Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:12:32.588Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:12:36.723Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:12:36.724Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:12:39.008Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:12:39.008Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:12:39.008Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:12:39.055Z - Time taken for 'hash changed files from watcher' 0.2779000010341406ms
+[NX Daemon Server] - 2023-12-03T05:13:12.601Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:13:12.602Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:13:17.127Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:13:17.127Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:13:18.056Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:13:18.056Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:13:19.028Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:13:19.028Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:13:19.028Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:13:19.076Z - Time taken for 'hash changed files from watcher' 0.558899998664856ms
+[NX Daemon Server] - 2023-12-03T05:13:28.514Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:13:28.515Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:13:34.935Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:13:34.935Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:13:34.935Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:13:34.972Z - Time taken for 'hash changed files from watcher' 0.31199999898672104ms
+[NX Daemon Server] - 2023-12-03T05:13:43.884Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:13:43.885Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:13:50.299Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:13:50.299Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:13:50.299Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:13:50.341Z - Time taken for 'hash changed files from watcher' 0.2248999997973442ms
+[NX Daemon Server] - 2023-12-03T05:16:12.364Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:16:12.364Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:16:18.785Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:16:18.785Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:16:18.785Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:16:18.829Z - Time taken for 'hash changed files from watcher' 0.517900001257658ms
+[NX Daemon Server] - 2023-12-03T05:17:31.322Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:17:31.322Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:17:37.737Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:17:37.737Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:17:37.737Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:17:37.774Z - Time taken for 'hash changed files from watcher' 0.3597999997437ms
+[NX Daemon Server] - 2023-12-03T05:17:39.000Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:17:39.000Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:17:45.415Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:17:45.415Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:17:45.415Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:17:45.459Z - Time taken for 'hash changed files from watcher' 0.26050000078976154ms
+[NX Daemon Server] - 2023-12-03T05:17:59.682Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:17:59.682Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:18:06.103Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:18:06.103Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:18:06.103Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:18:06.143Z - Time taken for 'hash changed files from watcher' 0.3541000001132488ms
+[NX Daemon Server] - 2023-12-03T05:18:35.117Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:18:35.118Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:18:41.534Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:18:41.534Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:18:41.534Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:18:41.569Z - Time taken for 'hash changed files from watcher' 0.30269999988377094ms
+[NX Daemon Server] - 2023-12-03T05:19:42.403Z - [WATCHER]: packages/m3ui-component/lib/core/theme-provider/theme.context.ts was modified
+[NX Daemon Server] - 2023-12-03T05:19:42.404Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:19:48.816Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:19:48.816Z - [REQUEST]: packages/m3ui-component/lib/core/theme-provider/theme.context.ts
+[NX Daemon Server] - 2023-12-03T05:19:48.816Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:19:48.864Z - Time taken for 'hash changed files from watcher' 0.24010000005364418ms
+[NX Daemon Server] - 2023-12-03T05:19:52.686Z - [WATCHER]: packages/m3ui-component/lib/core/theme-provider/theme-provider.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:19:52.686Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:19:55.137Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:19:55.138Z - [WATCHER]: packages/m3ui-component/lib/core/elevation/elevation.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:19:59.108Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:19:59.108Z - [REQUEST]: packages/m3ui-component/lib/core/theme-provider/theme-provider.tsx,packages/m3ui-component/lib/core/elevation/elevation.tsx
+[NX Daemon Server] - 2023-12-03T05:19:59.108Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:19:59.151Z - Time taken for 'hash changed files from watcher' 0.8177000004798174ms
+[NX Daemon Server] - 2023-12-03T05:20:39.281Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:20:39.283Z - [WATCHER]: packages/m3ui-component/lib/core/elevation/elevation.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:20:45.696Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:20:45.696Z - [REQUEST]: packages/m3ui-component/lib/core/elevation/elevation.tsx
+[NX Daemon Server] - 2023-12-03T05:20:45.696Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:20:45.731Z - Time taken for 'hash changed files from watcher' 0.5649999994784594ms
+[NX Daemon Server] - 2023-12-03T05:21:04.515Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:21:04.516Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:21:10.937Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:21:10.937Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:21:10.938Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:21:10.984Z - Time taken for 'hash changed files from watcher' 0.24589999951422215ms
+[NX Daemon Server] - 2023-12-03T05:22:08.431Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:22:08.433Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:22:14.852Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:22:14.852Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:22:14.852Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:22:14.900Z - Time taken for 'hash changed files from watcher' 0.4853999987244606ms
+[NX Daemon Server] - 2023-12-03T05:22:19.274Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.stories.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:22:19.274Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:22:25.693Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:22:25.693Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.stories.tsx
+[NX Daemon Server] - 2023-12-03T05:22:25.693Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:22:25.727Z - Time taken for 'hash changed files from watcher' 0.3530000001192093ms
+[NX Daemon Server] - 2023-12-03T05:22:32.094Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:22:32.094Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:22:38.512Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:22:38.512Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:22:38.512Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:22:38.556Z - Time taken for 'hash changed files from watcher' 0.3087999988347292ms
+[NX Daemon Server] - 2023-12-03T05:22:44.973Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:22:44.974Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:22:51.394Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:22:51.394Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:22:51.394Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:22:51.437Z - Time taken for 'hash changed files from watcher' 0.3980000000447035ms
+[NX Daemon Server] - 2023-12-03T05:22:58.643Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:22:58.643Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:23:05.059Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:23:05.059Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:23:05.059Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:23:05.092Z - Time taken for 'hash changed files from watcher' 0.25469999946653843ms
+[NX Daemon Server] - 2023-12-03T05:23:20.117Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:23:20.118Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:23:26.534Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:23:26.534Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:23:26.534Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:23:26.573Z - Time taken for 'hash changed files from watcher' 0.25ms
+[NX Daemon Server] - 2023-12-03T05:23:40.836Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:23:40.838Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:23:47.258Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:23:47.258Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:23:47.258Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:23:47.296Z - Time taken for 'hash changed files from watcher' 0.2782000005245209ms
+[NX Daemon Server] - 2023-12-03T05:23:54.596Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:23:54.596Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:24:01.021Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:24:01.021Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:24:01.021Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:24:01.068Z - Time taken for 'hash changed files from watcher' 0.39420000091195107ms
+[NX Daemon Server] - 2023-12-03T05:37:17.948Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:37:17.948Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:37:24.368Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:37:24.368Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:37:24.368Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:37:24.419Z - Time taken for 'hash changed files from watcher' 0.9964000005275011ms
+[NX Daemon Server] - 2023-12-03T05:37:34.693Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:37:34.694Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.stories.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:37:41.116Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:37:41.116Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.stories.tsx
+[NX Daemon Server] - 2023-12-03T05:37:41.116Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:37:41.153Z - Time taken for 'hash changed files from watcher' 0.38769999891519547ms
+[NX Daemon Server] - 2023-12-03T05:38:06.925Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:38:06.926Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:38:13.338Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:38:13.338Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:38:13.338Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:38:13.388Z - Time taken for 'hash changed files from watcher' 0.288399999961257ms
+[NX Daemon Server] - 2023-12-03T05:38:14.320Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.stories.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:38:14.321Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:38:20.736Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:38:20.736Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.stories.tsx
+[NX Daemon Server] - 2023-12-03T05:38:20.736Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:38:20.767Z - Time taken for 'hash changed files from watcher' 0.5693999994546175ms
+[NX Daemon Server] - 2023-12-03T05:38:23.587Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:38:23.588Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:38:29.531Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.stories.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:38:29.532Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:38:30.005Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:38:30.006Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx,packages/m3ui-component/lib/components/button/index.stories.tsx
+[NX Daemon Server] - 2023-12-03T05:38:30.006Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:38:30.049Z - Time taken for 'hash changed files from watcher' 0.39660000056028366ms
+[NX Daemon Server] - 2023-12-03T05:38:33.331Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.stories.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:38:33.331Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:38:39.745Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:38:39.745Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.stories.tsx
+[NX Daemon Server] - 2023-12-03T05:38:39.745Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:38:39.778Z - Time taken for 'hash changed files from watcher' 0.3222000002861023ms
+[NX Daemon Server] - 2023-12-03T05:38:50.390Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:38:50.391Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:38:56.817Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:38:56.817Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:38:56.817Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:38:56.858Z - Time taken for 'hash changed files from watcher' 0.5101999994367361ms
+[NX Daemon Server] - 2023-12-03T05:39:30.346Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:39:30.346Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:39:34.561Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:39:34.561Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:39:36.770Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:39:36.770Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:39:36.770Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:39:36.811Z - Time taken for 'hash changed files from watcher' 0.2696000002324581ms
+[NX Daemon Server] - 2023-12-03T05:39:59.110Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:39:59.110Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:40:05.528Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:40:05.528Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:40:05.528Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:40:05.569Z - Time taken for 'hash changed files from watcher' 0.42620000056922436ms
+[NX Daemon Server] - 2023-12-03T05:40:20.251Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:40:20.252Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:40:26.675Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:40:26.675Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:40:26.675Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:40:26.710Z - Time taken for 'hash changed files from watcher' 0.3111000005155802ms
+[NX Daemon Server] - 2023-12-03T05:40:30.150Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:40:30.151Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:40:36.567Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:40:36.567Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:40:36.567Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:40:36.607Z - Time taken for 'hash changed files from watcher' 0.7785000000149012ms
+[NX Daemon Server] - 2023-12-03T05:40:54.410Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:40:54.411Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:41:00.835Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:41:00.836Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:41:00.836Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:41:00.884Z - Time taken for 'hash changed files from watcher' 0.2616999987512827ms
+[NX Daemon Server] - 2023-12-03T05:41:01.847Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:41:01.848Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:41:08.259Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:41:08.259Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:41:08.259Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:41:08.289Z - Time taken for 'hash changed files from watcher' 0.31589999981224537ms
+[NX Daemon Server] - 2023-12-03T05:41:37.143Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:41:37.144Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:41:38.445Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:41:38.445Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:41:43.557Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:41:43.557Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:41:43.557Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:41:43.605Z - Time taken for 'hash changed files from watcher' 0.25109999999403954ms
+[NX Daemon Server] - 2023-12-03T05:41:44.452Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:41:44.452Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:41:50.869Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:41:50.869Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:41:50.869Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:41:50.902Z - Time taken for 'hash changed files from watcher' 0.35020000115036964ms
+[NX Daemon Server] - 2023-12-03T05:41:58.645Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.stories.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:41:58.646Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:42:05.085Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:42:05.085Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.stories.tsx
+[NX Daemon Server] - 2023-12-03T05:42:05.085Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:42:05.141Z - Time taken for 'hash changed files from watcher' 1.6781000010669231ms
+[NX Daemon Server] - 2023-12-03T05:42:16.291Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:42:16.293Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:42:22.713Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:42:22.713Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:42:22.713Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:42:22.747Z - Time taken for 'hash changed files from watcher' 0.3541000001132488ms
+[NX Daemon Server] - 2023-12-03T05:42:28.555Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.stories.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:42:28.556Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:42:34.975Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:42:34.976Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.stories.tsx
+[NX Daemon Server] - 2023-12-03T05:42:34.976Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:42:35.013Z - Time taken for 'hash changed files from watcher' 0.24069999903440475ms
+[NX Daemon Server] - 2023-12-03T05:42:44.245Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:42:44.245Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:42:50.655Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:42:50.655Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:42:50.655Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:42:50.696Z - Time taken for 'hash changed files from watcher' 0.23479999974370003ms
+[NX Daemon Server] - 2023-12-03T05:43:16.647Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:43:16.647Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:43:22.650Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:43:22.650Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:43:23.066Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:43:23.066Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:43:23.066Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:43:23.112Z - Time taken for 'hash changed files from watcher' 0.3238000012934208ms
+[NX Daemon Server] - 2023-12-03T05:43:26.469Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:43:26.470Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:43:32.887Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:43:32.887Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:43:32.887Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:43:32.919Z - Time taken for 'hash changed files from watcher' 0.9228999987244606ms
+[NX Daemon Server] - 2023-12-03T05:43:52.257Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:43:52.259Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:43:58.673Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:43:58.674Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:43:58.674Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:43:58.718Z - Time taken for 'hash changed files from watcher' 0.35269999876618385ms
+[NX Daemon Server] - 2023-12-03T05:44:09.005Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:44:09.007Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:44:15.415Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:44:15.415Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:44:15.415Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:44:15.450Z - Time taken for 'hash changed files from watcher' 0.4206000007688999ms
+[NX Daemon Server] - 2023-12-03T05:45:00.283Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:45:00.284Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:45:02.263Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:45:02.263Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:45:06.697Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:45:06.698Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:45:06.698Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:45:06.731Z - Time taken for 'hash changed files from watcher' 0.5467999987304211ms
+[NX Daemon Server] - 2023-12-03T05:45:28.333Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:45:28.335Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:45:34.761Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:45:34.761Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:45:34.761Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:45:34.800Z - Time taken for 'hash changed files from watcher' 0.3529000002890825ms
+[NX Daemon Server] - 2023-12-03T05:46:25.205Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:46:25.205Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:46:31.622Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:46:31.622Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:46:31.622Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:46:31.667Z - Time taken for 'hash changed files from watcher' 0.2990000005811453ms
+[NX Daemon Server] - 2023-12-03T05:47:00.839Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:47:00.842Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:47:07.267Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:47:07.267Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:47:07.267Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:47:07.303Z - Time taken for 'hash changed files from watcher' 0.8443999998271465ms
+[NX Daemon Server] - 2023-12-03T05:47:59.732Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:47:59.733Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:48:06.155Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:48:06.155Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:48:06.156Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:48:06.204Z - Time taken for 'hash changed files from watcher' 0.5537999998778105ms
+[NX Daemon Server] - 2023-12-03T05:48:24.256Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:48:24.256Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:48:30.675Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:48:30.675Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:48:30.675Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:48:30.722Z - Time taken for 'hash changed files from watcher' 0.42639999836683273ms
+[NX Daemon Server] - 2023-12-03T05:48:53.775Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:48:53.776Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:49:00.197Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:49:00.197Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:49:00.197Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:49:00.240Z - Time taken for 'hash changed files from watcher' 0.261999998241663ms
+[NX Daemon Server] - 2023-12-03T05:49:23.918Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:49:23.919Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:49:30.332Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:49:30.332Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:49:30.332Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:49:30.374Z - Time taken for 'hash changed files from watcher' 0.5514000002294779ms
+[NX Daemon Server] - 2023-12-03T05:49:32.087Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:49:32.088Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:49:38.500Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:49:38.500Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:49:38.500Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:49:38.540Z - Time taken for 'hash changed files from watcher' 0.3629000000655651ms
+[NX Daemon Server] - 2023-12-03T05:49:49.013Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:49:49.014Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.stories.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:49:55.437Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:49:55.437Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.stories.tsx
+[NX Daemon Server] - 2023-12-03T05:49:55.437Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:49:55.498Z - Time taken for 'hash changed files from watcher' 0.2693000007420778ms
+[NX Daemon Server] - 2023-12-03T05:50:11.086Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:50:11.087Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:50:17.497Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:50:17.497Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:50:17.497Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:50:17.529Z - Time taken for 'hash changed files from watcher' 0.41469999961555004ms
+[NX Daemon Server] - 2023-12-03T05:50:43.785Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:50:43.786Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:50:50.204Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:50:50.204Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:50:50.204Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:50:50.257Z - Time taken for 'hash changed files from watcher' 0.3084999993443489ms
+[NX Daemon Server] - 2023-12-03T05:51:23.406Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:51:23.406Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:51:29.830Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:51:29.830Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:51:29.830Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:51:29.872Z - Time taken for 'hash changed files from watcher' 0.9965000003576279ms
+[NX Daemon Server] - 2023-12-03T05:51:44.828Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:51:44.828Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:51:51.241Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:51:51.241Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:51:51.241Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:51:51.277Z - Time taken for 'hash changed files from watcher' 0.30780000053346157ms
+[NX Daemon Server] - 2023-12-03T05:51:53.558Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:51:53.558Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:51:59.973Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:51:59.973Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:51:59.973Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:52:00.012Z - Time taken for 'hash changed files from watcher' 0.3160999994724989ms
+[NX Daemon Server] - 2023-12-03T05:52:15.209Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:52:15.210Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:52:21.631Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:52:21.631Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:52:21.631Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:52:21.675Z - Time taken for 'hash changed files from watcher' 0.27750000171363354ms
+[NX Daemon Server] - 2023-12-03T05:52:26.704Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:52:26.704Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:52:33.128Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:52:33.128Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:52:33.128Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:52:33.165Z - Time taken for 'hash changed files from watcher' 0.24990000016987324ms
+[NX Daemon Server] - 2023-12-03T05:52:40.156Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:52:40.156Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:52:46.581Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:52:46.581Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:52:46.581Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:52:46.642Z - Time taken for 'hash changed files from watcher' 0.3763999994844198ms
+[NX Daemon Server] - 2023-12-03T05:53:32.413Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:53:32.414Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:53:38.837Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:53:38.837Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:53:38.837Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:53:38.875Z - Time taken for 'hash changed files from watcher' 0.3167000003159046ms
+[NX Daemon Server] - 2023-12-03T05:53:48.380Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:53:48.382Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:53:53.265Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:53:53.266Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:53:54.790Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:53:54.791Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:53:54.791Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:53:54.830Z - Time taken for 'hash changed files from watcher' 0.2772000003606081ms
+[NX Daemon Server] - 2023-12-03T05:54:04.639Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:54:04.640Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:54:11.059Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:54:11.059Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:54:11.059Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:54:11.104Z - Time taken for 'hash changed files from watcher' 0.7068000007420778ms
+[NX Daemon Server] - 2023-12-03T05:54:40.963Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:54:40.964Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:54:47.378Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:54:47.378Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:54:47.378Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:54:47.424Z - Time taken for 'hash changed files from watcher' 0.49890000000596046ms
+[NX Daemon Server] - 2023-12-03T05:55:13.935Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:55:13.936Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:55:20.351Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:55:20.351Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:55:20.351Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:55:20.386Z - Time taken for 'hash changed files from watcher' 0.34530000016093254ms
+[NX Daemon Server] - 2023-12-03T05:56:20.305Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:56:20.306Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:56:26.724Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:56:26.724Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:56:26.724Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:56:26.774Z - Time taken for 'hash changed files from watcher' 1.1486000008881092ms
+[NX Daemon Server] - 2023-12-03T05:56:32.140Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:56:32.142Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:56:33.038Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:56:33.039Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:56:38.556Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:56:38.556Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:56:38.556Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:56:38.593Z - Time taken for 'hash changed files from watcher' 0.27250000089406967ms
+[NX Daemon Server] - 2023-12-03T05:57:01.463Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:57:01.463Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:57:07.876Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:57:07.876Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:57:07.876Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:57:07.913Z - Time taken for 'hash changed files from watcher' 0.24859999865293503ms
+[NX Daemon Server] - 2023-12-03T05:57:19.845Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:57:19.848Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:57:26.265Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:57:26.265Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:57:26.265Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:57:26.311Z - Time taken for 'hash changed files from watcher' 0.4422000013291836ms
+[NX Daemon Server] - 2023-12-03T05:58:11.119Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:58:11.119Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:58:17.532Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:58:17.532Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:58:17.532Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:58:17.574Z - Time taken for 'hash changed files from watcher' 0.6106999982148409ms
+[NX Daemon Server] - 2023-12-03T05:58:40.620Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:58:40.637Z - [WATCHER]: packages/m3ui-component/lib/core/elevation/elevation.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:58:43.461Z - [WATCHER]: packages/m3ui-component/lib/core/elevation/elevation.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:58:43.461Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:58:44.001Z - [WATCHER]: packages/m3ui-component/lib/core/elevation/elevation.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:58:44.001Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:58:47.052Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:58:47.052Z - [REQUEST]: packages/m3ui-component/lib/core/elevation/elevation.tsx
+[NX Daemon Server] - 2023-12-03T05:58:47.052Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:58:47.097Z - Time taken for 'hash changed files from watcher' 0.29509999975562096ms
+[NX Daemon Server] - 2023-12-03T05:59:04.132Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:59:04.133Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:59:10.551Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:59:10.551Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:59:10.552Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:59:10.596Z - Time taken for 'hash changed files from watcher' 0.7284000013023615ms
+[NX Daemon Server] - 2023-12-03T05:59:11.656Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:59:11.657Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:59:18.079Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:59:18.079Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:59:18.079Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:59:18.121Z - Time taken for 'hash changed files from watcher' 0.34559999965131283ms
+[NX Daemon Server] - 2023-12-03T05:59:21.420Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:59:21.420Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:59:27.848Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:59:27.848Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:59:27.848Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:59:27.896Z - Time taken for 'hash changed files from watcher' 1.3724000006914139ms
+[NX Daemon Server] - 2023-12-03T05:59:30.747Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:59:30.748Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:59:37.163Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:59:37.163Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:59:37.163Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:59:37.212Z - Time taken for 'hash changed files from watcher' 0.3014000002294779ms
+[NX Daemon Server] - 2023-12-03T05:59:51.945Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T05:59:51.945Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T05:59:58.354Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T05:59:58.354Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T05:59:58.354Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T05:59:58.389Z - Time taken for 'hash changed files from watcher' 0.2653999999165535ms
+[NX Daemon Server] - 2023-12-03T06:00:13.923Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T06:00:13.923Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T06:00:20.058Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T06:00:20.058Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T06:00:20.346Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T06:00:20.346Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T06:00:20.346Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T06:00:20.387Z - Time taken for 'hash changed files from watcher' 0.3452000003308058ms
+[NX Daemon Server] - 2023-12-03T06:01:05.403Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T06:01:05.403Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T06:01:11.821Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T06:01:11.821Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T06:01:11.821Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T06:01:11.870Z - Time taken for 'hash changed files from watcher' 0.2969999983906746ms
+[NX Daemon Server] - 2023-12-03T06:01:31.479Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T06:01:31.480Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.stories.tsx was modified
+[NX Daemon Server] - 2023-12-03T06:01:37.897Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T06:01:37.897Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.stories.tsx
+[NX Daemon Server] - 2023-12-03T06:01:37.897Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T06:01:37.933Z - Time taken for 'hash changed files from watcher' 0.43219999969005585ms
+[NX Daemon Server] - 2023-12-03T06:01:40.960Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T06:01:40.960Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T06:01:47.377Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T06:01:47.377Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T06:01:47.377Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T06:01:47.410Z - Time taken for 'hash changed files from watcher' 0.3769000004976988ms
+[NX Daemon Server] - 2023-12-03T06:01:48.127Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T06:01:48.128Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T06:01:53.382Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T06:01:53.383Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T06:01:54.536Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T06:01:54.536Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T06:01:54.536Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T06:01:54.570Z - Time taken for 'hash changed files from watcher' 0.21490000002086163ms
+[NX Daemon Server] - 2023-12-03T06:02:00.128Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T06:02:00.128Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T06:02:06.547Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T06:02:06.547Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T06:02:06.547Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T06:02:06.578Z - Time taken for 'hash changed files from watcher' 0.26769999973475933ms
+[NX Daemon Server] - 2023-12-03T06:02:09.767Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T06:02:09.768Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T06:02:14.486Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T06:02:14.488Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T06:02:16.145Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T06:02:16.146Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T06:02:16.183Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T06:02:16.183Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T06:02:16.183Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T06:02:16.212Z - Time taken for 'hash changed files from watcher' 0.21330000087618828ms
+[NX Daemon Server] - 2023-12-03T06:03:13.063Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T06:03:13.063Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T06:03:17.957Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T06:03:17.959Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T06:03:19.474Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T06:03:19.474Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T06:03:19.474Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T06:03:19.511Z - Time taken for 'hash changed files from watcher' 0.2682999987155199ms
+[NX Daemon Server] - 2023-12-03T06:03:44.507Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T06:03:44.508Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T06:03:50.933Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T06:03:50.933Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T06:03:50.934Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T06:03:50.977Z - Time taken for 'hash changed files from watcher' 0.6105000004172325ms
+[NX Daemon Server] - 2023-12-03T06:04:02.824Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T06:04:02.824Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T06:04:09.248Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T06:04:09.248Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T06:04:09.248Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T06:04:09.295Z - Time taken for 'hash changed files from watcher' 0.4808000009506941ms
+[NX Daemon Server] - 2023-12-03T06:04:18.387Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T06:04:18.388Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T06:04:20.816Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T06:04:20.817Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T06:04:24.811Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T06:04:24.811Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T06:04:24.811Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T06:04:24.844Z - Time taken for 'hash changed files from watcher' 0.5820000004023314ms
+[NX Daemon Server] - 2023-12-03T06:04:25.563Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T06:04:25.564Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T06:04:31.982Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T06:04:31.982Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T06:04:31.982Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T06:04:32.027Z - Time taken for 'hash changed files from watcher' 0.37760000117123127ms
+[NX Daemon Server] - 2023-12-03T06:04:49.592Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T06:04:49.593Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T06:04:56.013Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T06:04:56.013Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T06:04:56.013Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T06:04:56.047Z - Time taken for 'hash changed files from watcher' 0.2668999992311001ms
+[NX Daemon Server] - 2023-12-03T06:05:00.711Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T06:05:00.711Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T06:05:07.136Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T06:05:07.136Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T06:05:07.136Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T06:05:07.175Z - Time taken for 'hash changed files from watcher' 0.6185000017285347ms
+[NX Daemon Server] - 2023-12-03T06:05:11.118Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T06:05:11.119Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T06:05:17.544Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T06:05:17.545Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T06:05:17.545Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T06:05:17.588Z - Time taken for 'hash changed files from watcher' 0.32750000059604645ms
+[NX Daemon Server] - 2023-12-03T06:06:24.959Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T06:06:24.960Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T06:06:31.383Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T06:06:31.383Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T06:06:31.383Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T06:06:31.449Z - Time taken for 'hash changed files from watcher' 0.2788999993354082ms
+[NX Daemon Server] - 2023-12-03T06:06:55.809Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T06:06:55.810Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T06:07:02.226Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T06:07:02.226Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T06:07:02.226Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T06:07:02.274Z - Time taken for 'hash changed files from watcher' 0.5038000009953976ms
+[NX Daemon Server] - 2023-12-03T06:07:05.998Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T06:07:05.999Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T06:07:12.423Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T06:07:12.423Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T06:07:12.423Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T06:07:12.468Z - Time taken for 'hash changed files from watcher' 0.28490000031888485ms
+[NX Daemon Server] - 2023-12-03T06:07:34.136Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T06:07:34.137Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T06:07:40.559Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T06:07:40.559Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T06:07:40.559Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T06:07:40.592Z - Time taken for 'hash changed files from watcher' 0.35579999908804893ms
+[NX Daemon Server] - 2023-12-03T06:07:48.965Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T06:07:48.965Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T06:07:50.564Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T06:07:50.564Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T06:07:55.376Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T06:07:55.376Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T06:07:55.376Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T06:07:55.422Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T06:07:55.423Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T06:07:55.424Z - Time taken for 'hash changed files from watcher' 0.30610000155866146ms
+[NX Daemon Server] - 2023-12-03T06:08:01.842Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T06:08:01.842Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T06:08:01.842Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T06:08:01.870Z - Time taken for 'hash changed files from watcher' 0.5148999989032745ms
+[NX Daemon Server] - 2023-12-03T06:08:47.268Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T06:08:47.268Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T06:08:53.694Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T06:08:53.694Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T06:08:53.694Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T06:08:53.734Z - Time taken for 'hash changed files from watcher' 0.46199999935925007ms
+[NX Daemon Server] - 2023-12-03T06:08:54.709Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T06:08:54.709Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T06:09:01.131Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T06:09:01.131Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T06:09:01.131Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T06:09:01.178Z - Time taken for 'hash changed files from watcher' 0.3950000014156103ms
+[NX Daemon Server] - 2023-12-03T06:09:16.881Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T06:09:16.882Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T06:09:23.294Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T06:09:23.294Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T06:09:23.294Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T06:09:23.335Z - Time taken for 'hash changed files from watcher' 0.4568000007420778ms
+[NX Daemon Server] - 2023-12-03T06:09:38.039Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T06:09:38.040Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T06:09:44.462Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T06:09:44.462Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T06:09:44.462Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T06:09:44.510Z - Time taken for 'hash changed files from watcher' 0.32349999994039536ms
+[NX Daemon Server] - 2023-12-03T06:10:06.656Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T06:10:06.656Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T06:10:13.073Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T06:10:13.073Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T06:10:13.073Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T06:10:13.108Z - Time taken for 'hash changed files from watcher' 0.25150000117719173ms
+[NX Daemon Server] - 2023-12-03T06:10:20.297Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T06:10:20.298Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T06:10:26.721Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T06:10:26.721Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T06:10:26.721Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T06:10:26.761Z - Time taken for 'hash changed files from watcher' 0.3943000007420778ms
+[NX Daemon Server] - 2023-12-03T06:12:37.528Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T06:12:37.529Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T06:12:43.943Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T06:12:43.943Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T06:12:43.943Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T06:12:43.989Z - Time taken for 'hash changed files from watcher' 0.4145999997854233ms
+[NX Daemon Server] - 2023-12-03T06:13:06.702Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T06:13:06.703Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T06:13:13.121Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T06:13:13.122Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T06:13:13.122Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T06:13:13.165Z - Time taken for 'hash changed files from watcher' 0.4169999994337559ms
+[NX Daemon Server] - 2023-12-03T06:13:52.426Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T06:13:52.426Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T06:13:58.843Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T06:13:58.843Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T06:13:58.843Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T06:13:58.888Z - Time taken for 'hash changed files from watcher' 0.30839999951422215ms
+[NX Daemon Server] - 2023-12-03T06:14:42.981Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T06:14:42.982Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T06:14:49.399Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T06:14:49.399Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T06:14:49.399Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T06:14:49.451Z - Time taken for 'hash changed files from watcher' 0.6288999989628792ms
+[NX Daemon Server] - 2023-12-03T06:14:56.263Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T06:14:56.264Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T06:15:02.682Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T06:15:02.682Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T06:15:02.682Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T06:15:02.715Z - Time taken for 'hash changed files from watcher' 0.41170000098645687ms
+[NX Daemon Server] - 2023-12-03T06:15:12.122Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T06:15:12.123Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T06:15:18.539Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T06:15:18.539Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T06:15:18.539Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T06:15:18.577Z - Time taken for 'hash changed files from watcher' 0.406700000166893ms
+[NX Daemon Server] - 2023-12-03T06:17:08.442Z - [WATCHER]: packages/m3ui-component/.storybook/decorator.tsx was modified
+[NX Daemon Server] - 2023-12-03T06:17:08.443Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T06:17:14.859Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T06:17:14.859Z - [REQUEST]: packages/m3ui-component/.storybook/decorator.tsx
+[NX Daemon Server] - 2023-12-03T06:17:14.859Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T06:17:14.897Z - Time taken for 'hash changed files from watcher' 0.6626000013202429ms
+[NX Daemon Server] - 2023-12-03T06:17:56.257Z - [WATCHER]: packages/m3ui-component/.storybook/decorator.tsx was modified
+[NX Daemon Server] - 2023-12-03T06:17:56.438Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T06:17:56.502Z - [WATCHER]: packages/m3ui-component/.storybook/decorator.tsx was modified
+[NX Daemon Server] - 2023-12-03T06:17:56.503Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T06:18:02.861Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T06:18:02.861Z - [REQUEST]: packages/m3ui-component/.storybook/decorator.tsx
+[NX Daemon Server] - 2023-12-03T06:18:02.861Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T06:18:02.903Z - Time taken for 'hash changed files from watcher' 0.4242000002413988ms
+[NX Daemon Server] - 2023-12-03T06:28:32.533Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T06:28:32.534Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T06:28:35.340Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T06:28:35.341Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T06:28:38.595Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T06:28:38.597Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.tsx was modified
+[NX Daemon Server] - 2023-12-03T06:28:38.945Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T06:28:38.945Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.tsx
+[NX Daemon Server] - 2023-12-03T06:28:38.945Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T06:28:38.986Z - Time taken for 'hash changed files from watcher' 0.29360000044107437ms
+[NX Daemon Server] - 2023-12-03T06:29:10.308Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.stories.tsx was modified
+[NX Daemon Server] - 2023-12-03T06:29:10.308Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T06:29:16.724Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T06:29:16.724Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.stories.tsx
+[NX Daemon Server] - 2023-12-03T06:29:16.724Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T06:29:16.755Z - Time taken for 'hash changed files from watcher' 0.3880000002682209ms
+[NX Daemon Server] - 2023-12-03T06:29:34.297Z - [WATCHER]: packages/m3ui-component/lib/components/button/index.stories.tsx was modified
+[NX Daemon Server] - 2023-12-03T06:29:34.297Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T06:29:40.720Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T06:29:40.720Z - [REQUEST]: packages/m3ui-component/lib/components/button/index.stories.tsx
+[NX Daemon Server] - 2023-12-03T06:29:40.720Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T06:29:40.763Z - Time taken for 'hash changed files from watcher' 0.3368999995291233ms

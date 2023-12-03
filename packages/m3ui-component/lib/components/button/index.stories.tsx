@@ -6,6 +6,7 @@ import { VARIANT } from "../../constant";
 
 const meta: Meta<typeof Button> = {
   component: Button,
+  tags: ["autodocs"],
 };
 
 export default meta;
@@ -18,7 +19,6 @@ export const Filled: Story = {
     children: "Filled",
     onClick: action("onClick"),
     disabled: false,
-    style: {},
   },
   render: (props) => <Button {...props} />,
 };
@@ -29,7 +29,6 @@ export const Outlined: Story = {
     children: "Outlined",
     onClick: action("onClick"),
     disabled: false,
-    style: {},
   },
   render: (props) => <Button {...props} />,
 };
@@ -40,7 +39,6 @@ export const Text: Story = {
     children: "Text",
     onClick: action("onClick"),
     disabled: false,
-    style: {},
   },
   render: (props) => <Button {...props} />,
 };
@@ -51,7 +49,6 @@ export const Elevated: Story = {
     children: "Elevated",
     onClick: action("onClick"),
     disabled: false,
-    style: {},
   },
   render: (props) => <Button {...props} />,
 };
@@ -62,7 +59,6 @@ export const Tonal: Story = {
     children: "Tonal",
     onClick: action("onClick"),
     disabled: false,
-    style: {},
   },
   render: (props) => <Button {...props} />,
 };
