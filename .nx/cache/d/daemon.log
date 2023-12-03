@@ -20281,3 +20281,62 @@ Error: EPERM: operation not permitted, rename 'E:\Code\m3ui-react\.nx\cache\proj
 [NX Daemon Server] - 2023-12-03T03:45:14.961Z - [WATCHER]: Stopping the watcher for E:\Code\m3ui-react (sources)
 [NX Daemon Server] - 2023-12-03T03:45:14.961Z - [WATCHER]: Stopping the watcher for E:\Code\m3ui-react (outputs)
 [NX Daemon Server] - 2023-12-03T03:45:14.961Z - Server stopped because: "Stopping the daemon the set of ignored files changed (native)"
+[NX Daemon Server] - 2023-12-03T03:45:57.112Z - Started listening on: \\.\pipe\nx\C:\Users\y_jos\AppData\Local\Temp\5258c81ff6231af17b60\d.sock
+[NX Daemon Server] - 2023-12-03T03:45:57.113Z - [WATCHER]: Subscribed to changes within: E:\Code\m3ui-react (native)
+[NX Daemon Server] - 2023-12-03T03:45:57.117Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-12-03T03:45:57.119Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2023-12-03T03:45:57.119Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-12-03T03:45:57.121Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-12-03T03:45:57.184Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T03:45:57.184Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T03:45:57.184Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T03:45:57.232Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2023-12-03T03:45:57.234Z - Time taken for 'total for creating and serializing project graph' 111.53860000055283ms
+[NX Daemon Server] - 2023-12-03T03:45:57.236Z - Done responding to the client project-graph
+[NX Daemon Server] - 2023-12-03T03:45:57.236Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 112. Response time: 4.
+[NX Daemon Server] - 2023-12-03T03:45:57.244Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2023-12-03T03:45:57.244Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2023-12-03T03:45:57.244Z - Handled REQUEST_FILE_DATA. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2023-12-03T03:45:57.331Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-12-03T03:45:57.331Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2023-12-03T03:45:57.334Z - Time taken for 'total for creating and serializing project graph' 0.14460000023245811ms
+[NX Daemon Server] - 2023-12-03T03:45:57.334Z - Done responding to the client project-graph
+[NX Daemon Server] - 2023-12-03T03:45:57.334Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 3.
+[NX Daemon Server] - 2023-12-03T03:45:57.375Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2023-12-03T03:45:57.375Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2023-12-03T03:45:57.375Z - Handled HASH_TASKS. Handling time: 32. Response time: 0.
+[NX Daemon Server] - 2023-12-03T03:45:58.447Z - [WATCHER]: packages/m3ui-component/vite.config.ts.timestamp-1701575158392-42b566bcf2edd.mjs was created or restored
+[NX Daemon Server] - 2023-12-03T03:45:58.447Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T03:45:58.565Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T03:45:58.565Z - [REQUEST]: packages/m3ui-component/vite.config.ts.timestamp-1701575158392-42b566bcf2edd.mjs
+[NX Daemon Server] - 2023-12-03T03:45:58.565Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T03:45:58.781Z - Time taken for 'hash changed files from watcher' 0.18850000016391277ms
+[NX Daemon Server] - 2023-12-03T03:45:59.288Z - [WATCHER]: packages/m3ui-component/vite.config.ts.timestamp-1701575158392-42b566bcf2edd.mjs was deleted
+[NX Daemon Server] - 2023-12-03T03:45:59.289Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T03:45:59.502Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T03:45:59.502Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T03:45:59.502Z - [REQUEST]: packages/m3ui-component/vite.config.ts.timestamp-1701575158392-42b566bcf2edd.mjs
+[NX Daemon Server] - 2023-12-03T03:45:59.530Z - Time taken for 'hash changed files from watcher' 0.071000000461936ms
+[NX Daemon Server] - 2023-12-03T03:46:00.526Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T03:46:00.580Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T03:46:00.864Z - [WATCHER]: 3 file(s) created or restored, 12 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2023-12-03T03:46:00.865Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T03:46:00.981Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T03:46:00.981Z - [REQUEST]: packages/m3ui-page/.next/static/webpack/webpack.65f7ab5e753ede73.hot-update.js,packages/m3ui-page/.next/static/webpack/65f7ab5e753ede73.webpack.hot-update.json,packages/m3ui-page/.next/static/webpack/app/page.65f7ab5e753ede73.hot-update.js,packages/m3ui-page/.next/server/next-font-manifest.js,packages/m3ui-page/.next/server/middleware-build-manifest.js,packages/m3ui-page/.next/react-loadable-manifest.json,packages/m3ui-page/.next/server/middleware-react-loadable-manifest.js,packages/m3ui-page/.next/static/development/_ssgManifest.js,packages/m3ui-page/.next/static/development/_buildManifest.js,packages/m3ui-page/.next/build-manifest.json,packages/m3ui-page/.next/static/chunks/app/page.js,packages/m3ui-page/.next/app-build-manifest.json,packages/m3ui-page/.next/static/chunks/webpack.js,packages/m3ui-page/.next/server/next-font-manifest.json,packages/m3ui-page/.next/server/app/page_client-reference-manifest.js
+[NX Daemon Server] - 2023-12-03T03:46:00.981Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T03:46:02.362Z - [WATCHER]: 0 file(s) created or restored, 14 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2023-12-03T03:46:02.363Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T03:46:02.379Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2023-12-03T03:46:02.379Z - Time taken for 'hash changed files from watcher' 1.0235999999567866ms
+[NX Daemon Server] - 2023-12-03T03:46:02.379Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2023-12-03T03:46:02.379Z - Handled RECORD_OUTPUTS_HASH. Handling time: 15. Response time: 0.
+[NX Daemon Server] - 2023-12-03T03:46:02.598Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T03:46:02.598Z - [REQUEST]: packages/m3ui-page/.next/server/vendor-chunks/@emotion.js,packages/m3ui-page/.next/server/vendor-chunks/hoist-non-react-statics.js,packages/m3ui-page/.next/server/app-paths-manifest.json,packages/m3ui-page/.next/server/pages-manifest.json,packages/m3ui-page/.next/server/webpack-runtime.js,packages/m3ui-page/.next/server/app/page.js,packages/m3ui-page/.next/server/vendor-chunks/stylis.js,packages/m3ui-page/.next/types/app/layout.ts,packages/m3ui-page/.next/server/vendor-chunks/@babel.js,packages/m3ui-page/.next/server/vendor-chunks/next.js,packages/m3ui-page/.next/types/package.json,packages/m3ui-page/.next/types/app/page.ts,packages/m3ui-page/.next/server/server-reference-manifest.js,packages/m3ui-page/.next/server/server-reference-manifest.json
+[NX Daemon Server] - 2023-12-03T03:46:02.598Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T03:46:02.652Z - Time taken for 'hash changed files from watcher' 4.239599999971688ms
+[NX Daemon Server] - 2023-12-03T03:46:02.652Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2023-12-03T03:46:55.515Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T03:46:55.517Z - [WATCHER]: .gitignore was modified
+[NX Daemon Server] - 2023-12-03T03:46:55.517Z - [WATCHER]: Stopping the watcher for E:\Code\m3ui-react (sources)
+[NX Daemon Server] - 2023-12-03T03:46:55.517Z - [WATCHER]: Stopping the watcher for E:\Code\m3ui-react (outputs)
+[NX Daemon Server] - 2023-12-03T03:46:55.517Z - Server stopped because: "Stopping the daemon the set of ignored files changed (native)"

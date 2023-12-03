@@ -9,7 +9,8 @@
     "build": "lerna run build --stream",
     "build:component": "lerna run build --stream --scope=@m3ui/component",
     "build:page": "lerna run build --stream --scope=@m3ui/page",
-    "dev:page": "lerna run dev --stream --scope=@m3ui/page"
+    "dev:page": "lerna run dev --stream --scope=@m3ui/page",
+    "storybook:component": "lerna run storybook --stream --scope=@m3ui/component"
   },
   "author": "",
   "license": "ISC",

@@ -14,9 +14,6 @@ export default ({ mode }: ConfigEnv) => {
   console.log(`@@ Executed vite config file path is ${process.cwd()}`);
   return defineConfig({
     mode,
-    optimizeDeps: {
-      exclude: ["react", "react-dom", "@emotion/react"],
-    },
     build: {
       lib: {
         entry: [

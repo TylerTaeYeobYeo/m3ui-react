@@ -15092,18 +15092,8 @@
       },
       {
         "source": "@m3ui/page",
-        "target": "npm:next",
-        "type": "dynamic"
-      },
-      {
-        "source": "@m3ui/page",
         "target": "npm:react",
         "type": "static"
-      },
-      {
-        "source": "@m3ui/page",
-        "target": "npm:react",
-        "type": "dynamic"
       },
       {
         "source": "@m3ui/page",
