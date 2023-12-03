@@ -18,7 +18,7 @@ export type ButtonProps = {
 type InternalButtonProps = ButtonProps & ClassNamePrefixProps;
 
 const TextButton = styled.button`
-  --buttonSurface: var(--surface);
+  --buttonSurface: transparent;
   --buttonOnSurface: var(--onSurface);
   --buttonPrimary: ${({ variant }: InternalButtonProps) => {
     switch (variant) {

@@ -14,7 +14,7 @@ export type IconButtonProps = {
 type InnerIconButtonProps = IconButtonProps & ClassNamePrefixProps;
 
 const TextIconButton = styled.button`
-  --buttonSurface: var(--surface);
+  --buttonSurface: transparent;
   --buttonOnSurface: ${({ shape }: InnerIconButtonProps) => {
     switch (shape) {
       case SHAPE.TEXT:
