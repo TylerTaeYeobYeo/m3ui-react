@@ -5,6 +5,6 @@ export const useTheme = () => {
   const { classNamePrefix, ...other } = useContext(ThemeContext);
   return {
     ...other,
-    classNamePrefix: classNamePrefix ? `${classNamePrefix}-` : "",
+    classNamePrefix: classNamePrefix ? `${classNamePrefix.trim()}-` : "",
   };
 };

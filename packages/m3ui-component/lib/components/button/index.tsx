@@ -234,6 +234,7 @@ const ElevatedButton = styled(TextButton)`
 export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
   (
     {
+      variant = VARIANT.PRIMARY,
       shape = SHAPE.FILLED,
       icon,
       children,
@@ -256,6 +257,7 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
         }
         buttonRef.current = el;
       },
+      variant,
       shape,
       icon,
       classNamePrefix,

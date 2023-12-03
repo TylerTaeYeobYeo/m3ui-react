@@ -5,6 +5,7 @@ import {
   ColorConfig,
   ColorModeConfig,
 } from "./theme-setting/color/color.constant";
+import { CustomStyle } from "./theme-setting/custom";
 import { TypographyConfig } from "./theme-setting/typography/typography.constant";
 
 export type ClassNamePrefixProps = {
@@ -20,7 +21,8 @@ export type ThemeContextType = RootClassNameProps &
     typography?: TypographyConfig;
     breakpoint?: Breakpoint;
     elevation?: Elevation;
-  } & ColorConfig;
+  } & ColorConfig &
+  CustomStyle;
 
 export const ThemeContext = createContext<ThemeContextType>({});
 
