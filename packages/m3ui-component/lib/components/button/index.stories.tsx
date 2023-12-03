@@ -68,3 +68,14 @@ export const Tonal: Story = {
   },
   render: (props) => <Button {...props} />,
 };
+
+export const Icon: Story = {
+  args: {
+    shape: SHAPE.TONAL,
+    icon: <span className="material-icons">pie_chart</span>,
+    children: "Tonal",
+    onClick: action("onClick"),
+    disabled: false,
+  },
+  render: (props) => <Button {...props} />,
+};

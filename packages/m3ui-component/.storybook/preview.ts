@@ -31,6 +31,7 @@ const preview: Preview = {
           value: darkTheme.surface,
         },
       ],
+      default: "light",
     },
   },
   decorators: [withThemeProvider],

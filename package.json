@@ -33,6 +33,7 @@
     "eslint": "^8.55.0",
     "eslint-plugin-react": "^7.33.2",
     "lerna": "^8.0.0",
+    "material-icons": "^1.13.12",
     "postcss-pxtorem": "^6.0.0",
     "storybook": "^7.6.3",
     "storybook-addon-package-json": "^2.0.0",

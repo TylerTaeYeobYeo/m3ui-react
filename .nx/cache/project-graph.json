@@ -11643,6 +11643,15 @@
         "hash": "sha512-B+28F5ucp83aQm+OxNrPkS8z0tMKaeHiy0lHJs3LqCyDQFtWuenaIrkaVTgAm1pf1AU85LXltva86hlaT17i8Q=="
       }
     },
+    "npm:material-icons": {
+      "type": "npm",
+      "name": "npm:material-icons",
+      "data": {
+        "version": "1.13.12",
+        "packageName": "material-icons",
+        "hash": "sha512-/2YoaB79IjUK2B2JB+vIXXYGtBfHb/XG66LvoKVM5ykHW7yfrV5SP6d7KLX6iijY6/G9GqwgtPQ/sbhFnOURVA=="
+      }
+    },
     "npm:mdast-util-definitions": {
       "type": "npm",
       "name": "npm:mdast-util-definitions",
@@ -14965,6 +14974,11 @@
       },
       {
         "source": "@m3ui/component",
+        "target": "npm:material-icons",
+        "type": "static"
+      },
+      {
+        "source": "@m3ui/component",
         "target": "npm:react",
         "type": "static"
       },
@@ -14980,12 +14994,12 @@
       },
       {
         "source": "@m3ui/component",
-        "target": "npm:@storybook/addon-actions",
+        "target": "npm:@emotion/styled",
         "type": "static"
       },
       {
         "source": "@m3ui/component",
-        "target": "npm:@emotion/styled",
+        "target": "npm:@storybook/addon-actions",
         "type": "static"
       },
       {
