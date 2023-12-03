@@ -153,7 +153,7 @@ const FilledIconButton = styled(TextIconButton)`
 const OutlinedIconButton = styled(TextIconButton)`
   outline: 1px solid var(--outline);
 
-  transition-property: border, color, background-color;
+  transition-property: outline, color, background-color;
   &:focus-visible {
     outline: 1px solid var(--outline);
     background-color: color-mix(
