@@ -1,5 +1,24 @@
 import { CSSProperties } from "react";
 
+export enum COLOR_DIVIERSION_TYPE {
+  DEFAULT = "default",
+  ON = "on",
+  CONTAINER = "container",
+  ON_CONTAINER = "on-container",
+  FIXED = "fixed",
+  ON_FIXED = "on-fixed",
+  FIXED_DIM = "fixed-dim",
+  ON_FIXED_VARIANT = "on-fixed-variant",
+  CONTAINER_LOWEST = "container-lowest",
+  CONTAINER_LOW = "container-low",
+  CONTAINER_HIGH = "container-high",
+  CONTAINER_HIGHEST = "container-highest",
+  ON_VARIANT = "on-variant",
+  INVERSE = "inverse",
+  INVERSE_ON = "inverse-on",
+  INVERSE_PRIMARY = "inverse-primary",
+}
+
 export interface ColorTheme {
   // primary
   primary: CSSProperties["color"];

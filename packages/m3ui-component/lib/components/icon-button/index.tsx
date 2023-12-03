@@ -2,7 +2,9 @@ import styled from "@emotion/styled";
 import { ButtonHTMLAttributes, forwardRef } from "react";
 import { SHAPE, VARIANT } from "../../constant";
 import { useTheme } from "../../core/theme-provider/hook";
+import { COLOR_DIVIERSION_TYPE } from "../../core/theme-provider/theme-setting/color/color.constant";
 import { ClassNamePrefixProps } from "../../core/theme-provider/theme.context";
+import { getColorVariable, getTonalColor } from "../../utils/style.util";
 import { ICON_SHAPE, Icon, IconProps } from "../icon";
 
 export type IconButtonProps = {
@@ -21,51 +23,88 @@ const TextIconButton = styled.button`
     switch (shape) {
       case SHAPE.TEXT:
       case SHAPE.OUTLINED:
-        return "var(--onSurfaceVariant)";
+        return getColorVariable({
+          variant: VARIANT.SURFACE,
+          type: COLOR_DIVIERSION_TYPE.ON_VARIANT,
+        });
+      case SHAPE.TONAL:
+        return getColorVariable({
+          variant: VARIANT.SURFACE,
+          type: COLOR_DIVIERSION_TYPE.ON_VARIANT,
+        });
       case SHAPE.FILLED:
       default:
-        return "var(--onSurface)";
+        return getColorVariable({
+          variant: VARIANT.SURFACE,
+          type: COLOR_DIVIERSION_TYPE.ON,
+        });
     }
   }};
-  --buttonPrimary: ${({ shape, value }) => {
+  --buttonPrimary: ${({ variant, shape, value }) => {
     if (value === true) {
       switch (shape) {
         case SHAPE.TEXT:
-          return "var(--primary)";
+          return getColorVariable({ variant });
         default:
       }
     } else if (value === false) {
       switch (shape) {
         case SHAPE.FILLED:
-          return "var(--surfaceContainerHighest)";
+        case SHAPE.TONAL:
+          return getColorVariable({
+            variant: VARIANT.SURFACE,
+            type: COLOR_DIVIERSION_TYPE.CONTAINER_HIGHEST,
+          });
         default:
       }
     }
     switch (shape) {
       case SHAPE.TEXT:
       case SHAPE.OUTLINED:
-        return "var(--onSurfaceVariant)";
+        return getColorVariable({
+          variant: VARIANT.SURFACE,
+          type: COLOR_DIVIERSION_TYPE.ON_VARIANT,
+        });
+      case SHAPE.TONAL:
+        return getColorVariable({
+          variant: getTonalColor(variant as VARIANT),
+          type: COLOR_DIVIERSION_TYPE.CONTAINER,
+        });
       case SHAPE.FILLED:
       default:
-        return "var(--primary)";
+        return getColorVariable({
+          variant,
+        });
     }
   }};
-  --buttonOnPrimary: ${({ shape, value }: InnerIconButtonProps) => {
+  --buttonOnPrimary: ${({ variant, shape, value }: InnerIconButtonProps) => {
+    const isTonal = shape === SHAPE.TONAL;
     if (value === true) {
       switch (shape) {
+        case SHAPE.OUTLINED:
+          return getColorVariable({
+            variant: VARIANT.SURFACE,
+            type: COLOR_DIVIERSION_TYPE.INVERSE_ON,
+          });
         default:
       }
     } else if (value === false) {
       switch (shape) {
         case SHAPE.FILLED:
-          return "var(--primary)";
+          return getColorVariable({
+            variant,
+          });
         default:
       }
     }
-    return "var(--onPrimary)";
+
+    return getColorVariable({
+      variant: isTonal ? getTonalColor(variant as VARIANT) : variant,
+      type: isTonal
+        ? COLOR_DIVIERSION_TYPE.ON_CONTAINER
+        : COLOR_DIVIERSION_TYPE.ON,
+    });
   }};
-  --buttonSecondaryContainer: var(--secondaryContainer);
-  --buttonOnSecondaryContainer: var(--onSecondaryContainer);
   display: inline-block;
 
   border: none;
@@ -204,56 +243,22 @@ const OutlinedIconButton = styled(TextIconButton)`
     cursor: not-allowed;
   }
 `;
-const TonalIconButton = styled(TextIconButton)`
-  color: var(--buttonOnSecondaryContainer);
-  background: var(--buttonSecondaryContainer);
-
-  box-shadow: var(--elevation-0);
-
-  transition-property: box-shadow, color, background-color;
-
-  &:focus-visible {
-    outline: none;
-    background-color: color-mix(
-      in srgb,
-      var(--buttonOnSecondaryContainer) 12%,
-      var(--buttonSecondaryContainer)
-    );
-    box-shadow: var(--elevation-0);
-  }
-  &:hover {
-    box-shadow: var(--elevation-1);
-    background-color: color-mix(
-      in srgb,
-      var(--buttonOnSecondaryContainer) 8%,
-      var(--buttonSecondaryContainer)
-    );
-  }
-  &:active {
-    background-color: color-mix(
-      in srgb,
-      var(--buttonOnSecondaryContainer) 12%,
-      var(--buttonSecondaryContainer)
-    );
-    box-shadow: var(--elevation-0);
-  }
-  &:disabled {
-    background-color: color-mix(
-      in srgb,
-      var(--buttonOnSurface) 12%,
-      var(--buttonSurface)
-    );
-    color: color-mix(in srgb, var(--buttonOnSurface) 38%, var(--buttonSurface));
-    cursor: not-allowed;
-    box-shadow: var(--elevation-0);
-  }
-`;
 
 export const IconButton = forwardRef<HTMLButtonElement, IconButtonProps>(
-  ({ shape = SHAPE.FILLED, value, iconProps, ...props }, ref) => {
+  (
+    {
+      variant = VARIANT.PRIMARY,
+      shape = SHAPE.FILLED,
+      value,
+      iconProps,
+      ...props
+    },
+    ref
+  ) => {
     const { classNamePrefix } = useTheme();
     const commonProps = {
       ref,
+      variant,
       shape,
       classNamePrefix,
       value,
@@ -274,16 +279,18 @@ export const IconButton = forwardRef<HTMLButtonElement, IconButtonProps>(
       />
     );
     switch (shape) {
+      case SHAPE.TONAL:
       case SHAPE.FILLED:
         return <FilledIconButton {...commonProps}>{child}</FilledIconButton>;
       case SHAPE.OUTLINED:
+        if (value) {
+          return <FilledIconButton {...commonProps}>{child}</FilledIconButton>;
+        }
         return (
           <OutlinedIconButton {...commonProps}>{child}</OutlinedIconButton>
         );
       case SHAPE.TEXT:
         return <TextIconButton {...commonProps}>{child}</TextIconButton>;
-      case SHAPE.TONAL:
-        return <TonalIconButton {...commonProps}>{child}</TonalIconButton>;
     }
   }
 );

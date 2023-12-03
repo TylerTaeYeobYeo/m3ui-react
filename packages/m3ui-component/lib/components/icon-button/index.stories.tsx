@@ -2,7 +2,7 @@ import { action } from "@storybook/addon-actions";
 import type { Meta, StoryObj } from "@storybook/react";
 
 import { IconButton } from ".";
-import { SHAPE } from "../../constant";
+import { SHAPE, VARIANT } from "../../constant";
 
 const meta: Meta<typeof IconButton> = {
   component: IconButton,
@@ -11,6 +11,10 @@ const meta: Meta<typeof IconButton> = {
     shape: {
       control: { type: "radio" },
       options: Object.values(SHAPE).filter((v) => v !== SHAPE.ELEVATED),
+    },
+    variant: {
+      control: { type: "radio" },
+      options: Object.values(VARIANT).filter((v) => v !== VARIANT.SURFACE),
     },
     value: {
       control: { type: "radio" },

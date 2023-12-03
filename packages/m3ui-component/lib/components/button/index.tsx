@@ -2,8 +2,10 @@ import styled from "@emotion/styled";
 import { ButtonHTMLAttributes, ReactElement, forwardRef } from "react";
 import { SHAPE, VARIANT } from "../../constant";
 import { useTheme } from "../../core/theme-provider/hook";
+import { COLOR_DIVIERSION_TYPE } from "../../core/theme-provider/theme-setting/color/color.constant";
 import { TYPOGRAPHY } from "../../core/theme-provider/theme-setting/typography/typography.constant";
 import { ClassNamePrefixProps } from "../../core/theme-provider/theme.context";
+import { getColorVariable, getTonalColor } from "../../utils/style.util";
 import { IconProps } from "../icon";
 
 export type ButtonProps = {
@@ -21,58 +23,26 @@ const TextButton = styled.button`
   --buttonSurface: transparent;
   --buttonOnSurface: var(--onSurface);
   --buttonPrimary: ${({ variant, shape }: InternalButtonProps) => {
-    if (shape === SHAPE.TONAL) {
-      switch (variant) {
-        case VARIANT.PRIMARY:
-          return "var(--secondaryContainer)";
-        case VARIANT.SECONDARY:
-          return "var(--tertiaryContainer)";
-        case VARIANT.TERTIARY:
-          return "var(--primaryContainer)";
-        case VARIANT.ERROR:
-          return "var(--errorContainer)";
-        default:
-      }
-    }
-    switch (variant) {
-      case VARIANT.PRIMARY:
-        return "var(--primary)";
-      case VARIANT.SECONDARY:
-        return "var(--secondary)";
-      case VARIANT.TERTIARY:
-        return "var(--tertiary)";
-      case VARIANT.ERROR:
-        return "var(--error)";
-      default:
-        return "var(--primary)";
-    }
+    const isTonal = shape === SHAPE.TONAL;
+    const option = {
+      variant: isTonal
+        ? getTonalColor(variant as VARIANT)
+        : (variant as VARIANT | undefined),
+      type: isTonal ? COLOR_DIVIERSION_TYPE.CONTAINER : undefined,
+    };
+    return getColorVariable(option);
   }};
   --buttonOnPrimary: ${({ variant, shape }: InternalButtonProps) => {
-    if (shape === SHAPE.TONAL) {
-      switch (variant) {
-        case VARIANT.PRIMARY:
-          return "var(--onSecondaryContainer)";
-        case VARIANT.SECONDARY:
-          return "var(--onTertiaryContainer)";
-        case VARIANT.TERTIARY:
-          return "var(--onPrimaryContainer)";
-        case VARIANT.ERROR:
-          return "var(--onErrorContainer)";
-        default:
-      }
-    }
-    switch (variant) {
-      case VARIANT.PRIMARY:
-        return "var(--onPrimary)";
-      case VARIANT.SECONDARY:
-        return "var(--onSecondary)";
-      case VARIANT.TERTIARY:
-        return "var(--onTertiary)";
-      case VARIANT.ERROR:
-        return "var(--onError)";
-      default:
-        return "var(--onPrimary)";
-    }
+    const isTonal = shape === SHAPE.TONAL;
+    const option = {
+      variant: isTonal
+        ? getTonalColor(variant as VARIANT)
+        : (variant as VARIANT | undefined),
+      type: isTonal
+        ? COLOR_DIVIERSION_TYPE.ON_CONTAINER
+        : COLOR_DIVIERSION_TYPE.ON,
+    };
+    return getColorVariable(option);
   }};
   display: inline-flex;
   align-items: center;
