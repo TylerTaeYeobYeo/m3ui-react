@@ -15,13 +15,13 @@ export type ThemeProviderProps = PropsWithChildren<{
 }>;
 
 export const ThemeProvider: FC<ThemeProviderProps> = ({ theme, children }) => {
-  const { typography, breakpoint, elevation, ...other } = theme;
+  const { typography, breakpoint, elevation, mode, ...other } = theme;
   return (
     <ThemeContext.Provider value={theme}>
       <TypographySetting {...typography} />
-      <ColorSetting {...other} />
+      <ColorSetting {...other} mode={mode} />
       <BreakpointSetting breakpoint={breakpoint} />
-      <ElevationSetting elevation={elevation} />
+      <ElevationSetting elevation={elevation} mode={mode} />
       {children}
     </ThemeContext.Provider>
   );
