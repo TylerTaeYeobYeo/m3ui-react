@@ -18,17 +18,17 @@ const BadgeWrapper = styled.div`
 
 const BadgeElement = styled.div((props: BadgeProps) => ({
   position: "absolute",
-  right: props.variant === BADGE_VARIANT.DOT ? "-3px" : "-8px",
+  left:
+    props.variant === BADGE_VARIANT.DOT
+      ? "calc(100% - 3px)"
+      : "calc(100% - 8px)",
   top: props.variant === BADGE_VARIANT.DOT ? "-3px" : "-8px",
   zIndex: 10,
   display: "inline-flex",
   justifyContent: "center",
   alignItems: "center",
   borderRadius: "100px",
-  minHeight: "6px",
-  maxHeight: props.variant === BADGE_VARIANT.DOT ? "6px" : "34px",
-  minWidth: props.variant === BADGE_VARIANT.DOT ? "6px" : "16px",
-  maxWidth: props.variant === BADGE_VARIANT.DOT ? "6px" : "34px",
+  padding: props.variant === BADGE_VARIANT.DOT ? "3px" : "0px 4px",
   backgroundColor: "var(--error)",
   color: "var(--onError)",
   pointerEvents: "none",
@@ -55,6 +55,11 @@ export const Badge = forwardRef<HTMLDivElement, BadgeProps>(
     },
     ref
   ) => {
+    const ceiling = (value) => {
+      if (value > 999) return "999+";
+      return value;
+    };
+
     return (
       <BadgeWrapper>
         <BadgeElement
@@ -63,7 +68,7 @@ export const Badge = forwardRef<HTMLDivElement, BadgeProps>(
           variant={variant}
           {...props}
         >
-          {variant === BADGE_VARIANT.NUMBER ? data : null}
+          {variant === BADGE_VARIANT.NUMBER ? ceiling(data) : null}
         </BadgeElement>
         {children}
       </BadgeWrapper>
