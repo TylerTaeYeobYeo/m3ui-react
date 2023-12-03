@@ -20340,3 +20340,39 @@ Error: EPERM: operation not permitted, rename 'E:\Code\m3ui-react\.nx\cache\proj
 [NX Daemon Server] - 2023-12-03T03:46:55.517Z - [WATCHER]: Stopping the watcher for E:\Code\m3ui-react (sources)
 [NX Daemon Server] - 2023-12-03T03:46:55.517Z - [WATCHER]: Stopping the watcher for E:\Code\m3ui-react (outputs)
 [NX Daemon Server] - 2023-12-03T03:46:55.517Z - Server stopped because: "Stopping the daemon the set of ignored files changed (native)"
+[NX Daemon Server] - 2023-12-03T03:52:24.771Z - Started listening on: \\.\pipe\nx\C:\Users\y_jos\AppData\Local\Temp\5258c81ff6231af17b60\d.sock
+[NX Daemon Server] - 2023-12-03T03:52:24.774Z - [WATCHER]: Subscribed to changes within: E:\Code\m3ui-react (native)
+[NX Daemon Server] - 2023-12-03T03:52:24.775Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-12-03T03:52:24.776Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2023-12-03T03:52:24.777Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-12-03T03:52:24.778Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-12-03T03:52:24.898Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T03:52:24.898Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T03:52:24.899Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T03:52:25.107Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2023-12-03T03:52:25.109Z - Time taken for 'total for creating and serializing project graph' 328.6107000000775ms
+[NX Daemon Server] - 2023-12-03T03:52:25.110Z - Done responding to the client project-graph
+[NX Daemon Server] - 2023-12-03T03:52:25.110Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 329. Response time: 3.
+[NX Daemon Server] - 2023-12-03T03:52:25.116Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2023-12-03T03:52:25.117Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2023-12-03T03:52:25.117Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2023-12-03T03:52:25.209Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-12-03T03:52:25.209Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2023-12-03T03:52:25.210Z - Time taken for 'total for creating and serializing project graph' 0.28780000004917383ms
+[NX Daemon Server] - 2023-12-03T03:52:25.210Z - Done responding to the client project-graph
+[NX Daemon Server] - 2023-12-03T03:52:25.211Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 2.
+[NX Daemon Server] - 2023-12-03T03:52:25.253Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2023-12-03T03:52:25.254Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2023-12-03T03:52:25.254Z - Handled HASH_TASKS. Handling time: 33. Response time: 1.
+[NX Daemon Server] - 2023-12-03T03:52:28.639Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T03:52:28.640Z - [WATCHER]: packages/m3ui-component/vite.config.ts.timestamp-1701575548585-ec2c016f44cde.mjs was created or restored
+[NX Daemon Server] - 2023-12-03T03:52:28.758Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T03:52:28.758Z - [REQUEST]: packages/m3ui-component/vite.config.ts.timestamp-1701575548585-ec2c016f44cde.mjs
+[NX Daemon Server] - 2023-12-03T03:52:28.758Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T03:52:28.807Z - Time taken for 'hash changed files from watcher' 0.23430000059306622ms
+[NX Daemon Server] - 2023-12-03T03:52:29.604Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-12-03T03:52:29.606Z - [WATCHER]: packages/m3ui-component/vite.config.ts.timestamp-1701575548585-ec2c016f44cde.mjs was deleted
+[NX Daemon Server] - 2023-12-03T03:52:29.829Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-12-03T03:52:29.829Z - [REQUEST]: 
+[NX Daemon Server] - 2023-12-03T03:52:29.829Z - [REQUEST]: packages/m3ui-component/vite.config.ts.timestamp-1701575548585-ec2c016f44cde.mjs
+[NX Daemon Server] - 2023-12-03T03:52:29.861Z - Time taken for 'hash changed files from watcher' 0.07679999992251396ms

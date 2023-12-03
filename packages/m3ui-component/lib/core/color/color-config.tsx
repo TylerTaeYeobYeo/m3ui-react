@@ -6,10 +6,14 @@ import {
   ColorModeConfig,
   defaultPallete,
 } from "../../core/color/color.constant";
-import { createColorPallete, createTheme } from "../../utils/color.util";
+import { createColorPallete, createTheme } from "../../utils/theme.util";
+import { RootClassNameProps } from "../theme-provider/theme.context";
 
-export type ColorSettingProps = ColorConfig & ColorModeConfig;
+export type ColorSettingProps = RootClassNameProps &
+  ColorConfig &
+  ColorModeConfig;
 export const ColorSetting: FC<ColorSettingProps> = ({
+  rootClassName,
   mode = COLOR_MODE.LIGHT,
   theme,
   darkTheme,
@@ -53,10 +57,12 @@ export const ColorSetting: FC<ColorSettingProps> = ({
     return (
       <Global
         styles={css`
-          ${themeClassName ? `.${themeClassName}` : ":root"} {
-            ${Object.entries(determineTheme())
-              .map(([key, value]) => `--${key}: ${value}`)
-              .join(";\n")}
+          ${rootClassName ? `.${rootClassName}` : ":root"} {
+            ${themeClassName ? `.${themeClassName}` : ":root"} {
+              ${Object.entries(determineTheme())
+                .map(([key, value]) => `--${key}: ${value}`)
+                .join(";\n")}
+            }
           }
         `}
       />
@@ -71,6 +77,7 @@ export const ColorSetting: FC<ColorSettingProps> = ({
     error,
     neutral,
     neutralVariant,
+    rootClassName,
   ]);
   return globalStyle;
 };

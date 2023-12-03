@@ -5,27 +5,37 @@ import {
   TypographyConfig,
 } from "../../core/typography/typography.constant";
 import { camelCaseToKebabCase } from "../../utils/string.util";
+import { RootClassNameProps } from "../theme-provider/theme.context";
 
-export type TypographySettingProps = TypographyConfig;
+export type TypographySettingProps = RootClassNameProps & {
+  typography?: TypographyConfig;
+};
 
-export const TypographySetting: FC<TypographySettingProps> = ({ ...props }) => {
+export const TypographySetting: FC<TypographySettingProps> = ({
+  rootClassName,
+  typography,
+}) => {
   const globalStyle: ReactElement = useMemo(() => {
     const style: TypographyConfig = {
       ...DEFAULT_TYPOGRAPHY,
-      ...props,
+      ...typography,
     };
     return (
       <Global
         styles={css`
-          ${Object.entries(style).map(
-            ([className, style]) =>
-              `.${className} { ${Object.entries(style)
-                .map(([key, value]) => `${camelCaseToKebabCase(key)}:${value}`)
-                .join(";\n")} }`
-          )}
+          ${rootClassName ? `.${rootClassName}` : ":root"} {
+            ${Object.entries(style).map(
+              ([className, style]) =>
+                `.${className} { ${Object.entries(style)
+                  .map(
+                    ([key, value]) => `${camelCaseToKebabCase(key)}:${value}`
+                  )
+                  .join(";\n")} }`
+            )}
+          }
         `}
       />
     );
-  }, [props]);
+  }, [rootClassName, typography]);
   return globalStyle;
 };

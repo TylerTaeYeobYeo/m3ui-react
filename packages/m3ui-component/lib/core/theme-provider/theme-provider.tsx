@@ -1,4 +1,5 @@
 import { FC, PropsWithChildren } from "react";
+import { BreakpointSetting } from "../breakpoint";
 import { ColorSetting } from "../color/color-config";
 import { TypographySetting } from "../typography";
 import { ThemeContext, ThemeContextType } from "./theme.context";
@@ -9,16 +10,16 @@ export type ThemeProviderProps = PropsWithChildren<{
    * if css narrowing is needed use this
    * when undefined, css narrowing will not be applied (default)
    */
-  rootClassName?: string;
   theme: ThemeContextType;
 }>;
 
 export const ThemeProvider: FC<ThemeProviderProps> = ({ theme, children }) => {
-  const { typography, ...other } = theme;
+  const { typography, breakpoint, ...other } = theme;
   return (
     <ThemeContext.Provider value={theme}>
       <TypographySetting {...typography} />
       <ColorSetting {...other} />
+      <BreakpointSetting breakpoint={breakpoint} />
       {children}
     </ThemeContext.Provider>
   );
