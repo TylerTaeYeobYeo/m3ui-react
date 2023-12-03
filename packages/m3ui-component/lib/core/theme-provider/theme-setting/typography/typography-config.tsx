@@ -24,9 +24,7 @@ export const TypographySetting: FC<TypographySettingProps> = ({
           ${rootClassName ? `.${rootClassName}` : ":root"} {
             ${Object.entries(style).map(
               ([className, style]) =>
-                `.${
-                  classNamePrefix ? `${classNamePrefix}-` : ""
-                }${className} { ${Object.entries(style)
+                `.${classNamePrefix}${className} { ${Object.entries(style)
                   .map(
                     ([key, value]) => `${camelCaseToKebabCase(key)}:${value}`
                   )

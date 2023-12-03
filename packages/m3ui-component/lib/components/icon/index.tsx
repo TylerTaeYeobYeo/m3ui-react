@@ -60,7 +60,7 @@ export const Icon = forwardRef<HTMLSpanElement, IconProps>(
     const { classNamePrefix } = useTheme();
     const commonProps = {
       ref,
-      className: `${classNamePrefix ? `${classNamePrefix}-` : ""}icon ${
+      className: `${classNamePrefix}icon ${
         // @ts-ignore
         ICON_SHAPE_CLASSNAME[shape]
       } ${className ?? ""}`,

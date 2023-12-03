@@ -1,5 +1,11 @@
 import styled from "@emotion/styled";
-import { ButtonHTMLAttributes, ReactElement, forwardRef } from "react";
+import {
+  ButtonHTMLAttributes,
+  ReactElement,
+  forwardRef,
+  useEffect,
+  useRef,
+} from "react";
 import { SHAPE, VARIANT } from "../../constant";
 import { useTheme } from "../../core/theme-provider/hook";
 import { COLOR_DIVIERSION_TYPE } from "../../core/theme-provider/theme-setting/color/color.constant";
@@ -69,8 +75,7 @@ const TextButton = styled.button`
   transition-property: color, background-color;
   transition-duration: 0.2s;
 
-  ${({ classNamePrefix }) =>
-    classNamePrefix ? `.${classNamePrefix}-icon` : ".icon"} {
+  ${({ classNamePrefix }) => `${classNamePrefix}icon`} {
     width: 18px;
     height: 18px;
     font-size: 18px;
@@ -239,14 +244,22 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
     ref
   ) => {
     const { classNamePrefix } = useTheme();
+    const buttonRef = useRef<HTMLButtonElement>();
     const commonProps = {
-      ref,
+      ref: (el: HTMLButtonElement) => {
+        if (ref) {
+          if (typeof ref === "function") {
+            ref(el);
+          } else {
+            ref.current = el;
+          }
+        }
+        buttonRef.current = el;
+      },
       shape,
       icon,
       classNamePrefix,
-      className: `${`${
-        classNamePrefix ? `${classNamePrefix}-` : ""
-      }${typography}`} ${className ?? ""}`,
+      className: `${classNamePrefix}${typography} ${className ?? ""}`,
       ...props,
     };
     const body = (
@@ -255,6 +268,47 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
         {children}
       </>
     );
+
+    useEffect(() => {
+      const btnRef = buttonRef.current;
+      if (!btnRef) return;
+      const ripple = (e) => {
+        // Setup
+        const posX = btnRef.offsetLeft;
+        const posY = btnRef.offsetTop;
+        let buttonWidth = btnRef.offsetWidth;
+        let buttonHeight = btnRef.offsetHeight;
+
+        // Add the element
+        const ripple = document.createElement("span");
+
+        btnRef.appendChild(ripple);
+
+        // Make it round!
+        if (buttonWidth >= buttonHeight) {
+          buttonHeight = buttonWidth;
+        } else {
+          buttonWidth = buttonHeight;
+        }
+
+        // Get the center of the element
+        const x = e.pageX - posX - buttonWidth / 2;
+        const y = e.pageY - posY - buttonHeight / 2;
+
+        ripple.style.width = `${buttonWidth}px`;
+        ripple.style.height = `${buttonHeight}px`;
+        ripple.style.top = `${y}px`;
+        ripple.style.left = `${x}px`;
+
+        ripple.classList.add(`${classNamePrefix}ripple-animation`);
+      };
+
+      btnRef.addEventListener("mousedown", ripple);
+      return () => {
+        btnRef.removeEventListener("mousedown", ripple);
+      };
+    }, [commonProps]);
+
     switch (shape) {
       case SHAPE.FILLED:
         return <FilledButton {...commonProps}>{body}</FilledButton>;

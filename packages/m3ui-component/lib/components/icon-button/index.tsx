@@ -125,8 +125,7 @@ const TextIconButton = styled.button`
   transition-property: color, background-color;
   transition-duration: 0.2s;
 
-  ${({ classNamePrefix }: InnerIconButtonProps) =>
-    classNamePrefix ? `.${classNamePrefix}-icon` : ".icon"} {
+  ${({ classNamePrefix }: InnerIconButtonProps) => `${classNamePrefix}icon`} {
     width: 24px;
     height: 24px;
     font-size: 24px;
