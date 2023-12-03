@@ -2,11 +2,17 @@ import { action } from "@storybook/addon-actions";
 import type { Meta, StoryObj } from "@storybook/react";
 
 import { Button } from ".";
-import { VARIANT } from "../../constant";
+import { SHAPE } from "../../constant";
 
 const meta: Meta<typeof Button> = {
   component: Button,
   tags: ["autodocs"],
+  argTypes: {
+    shape: {
+      control: { type: "radio" },
+      options: Object.values(SHAPE),
+    },
+  },
 };
 
 export default meta;
@@ -15,7 +21,7 @@ type Story = StoryObj<typeof Button>;
 
 export const Filled: Story = {
   args: {
-    variant: VARIANT.FILLED,
+    shape: SHAPE.FILLED,
     children: "Filled",
     onClick: action("onClick"),
     disabled: false,
@@ -25,7 +31,7 @@ export const Filled: Story = {
 
 export const Outlined: Story = {
   args: {
-    variant: VARIANT.OUTLINED,
+    shape: SHAPE.OUTLINED,
     children: "Outlined",
     onClick: action("onClick"),
     disabled: false,
@@ -35,7 +41,7 @@ export const Outlined: Story = {
 
 export const Text: Story = {
   args: {
-    variant: VARIANT.TEXT,
+    shape: SHAPE.TEXT,
     children: "Text",
     onClick: action("onClick"),
     disabled: false,
@@ -45,7 +51,7 @@ export const Text: Story = {
 
 export const Elevated: Story = {
   args: {
-    variant: VARIANT.ELEVATED,
+    shape: SHAPE.ELEVATED,
     children: "Elevated",
     onClick: action("onClick"),
     disabled: false,
@@ -55,7 +61,7 @@ export const Elevated: Story = {
 
 export const Tonal: Story = {
   args: {
-    variant: VARIANT.TONAL,
+    shape: SHAPE.TONAL,
     children: "Tonal",
     onClick: action("onClick"),
     disabled: false,

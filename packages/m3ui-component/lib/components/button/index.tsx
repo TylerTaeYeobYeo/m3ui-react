@@ -1,9 +1,41 @@
 import styled from "@emotion/styled";
 import { ButtonHTMLAttributes, forwardRef } from "react";
-import { VARIANT } from "../../constant";
+import { SHAPE, VARIANT } from "../../constant";
 
 const TextButton = styled.button`
   --buttonSurface: var(--surface);
+  --buttonPrimary: ${({ variant }: ButtonProps) => {
+    switch (variant) {
+      case VARIANT.PRIMARY:
+        return "var(--primary)";
+      case VARIANT.SECONDARY:
+        return "var(--secondary)";
+      case VARIANT.TERTIARY:
+        return "var(--tertiary)";
+      case VARIANT.SURFACE:
+        return "var(--surface)";
+      case VARIANT.ERROR:
+        return "var(--error)";
+      default:
+        return "var(--primary)";
+    }
+  }};
+  --buttonOnPrimary: ${({ variant }: ButtonProps) => {
+    switch (variant) {
+      case VARIANT.PRIMARY:
+        return "var(--onPrimary)";
+      case VARIANT.SECONDARY:
+        return "var(--onSecondary)";
+      case VARIANT.TERTIARY:
+        return "var(--onTertiary)";
+      case VARIANT.SURFACE:
+        return "var(--onSurface)";
+      case VARIANT.ERROR:
+        return "var(--onError)";
+      default:
+        return "var(--onPrimary)";
+    }
+  }};
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -12,7 +44,7 @@ const TextButton = styled.button`
   border: none;
   border-radius: 100px;
 
-  color: var(--primary);
+  color: var(--buttonPrimary);
   background-color: var(--surfaceContainerLow);
 
   padding: 10px 12px;
@@ -26,21 +58,21 @@ const TextButton = styled.button`
     outline: none;
     background-color: color-mix(
       in srgb,
-      var(--primary) 12%,
+      var(--buttonPrimary) 12%,
       var(--surfaceContainerLow)
     );
   }
   &:hover {
     background-color: color-mix(
       in srgb,
-      var(--primary) 8%,
+      var(--buttonPrimary) 8%,
       var(--surfaceContainerLow)
     );
   }
   &:active {
     background-color: color-mix(
       in srgb,
-      var(--primary) 12%,
+      var(--buttonPrimary) 12%,
       var(--surfaceContainerLow)
     );
   }
@@ -53,8 +85,8 @@ const TextButton = styled.button`
 const FilledButton = styled(TextButton)`
   padding: 10px 24px;
 
-  background-color: var(--primary);
-  color: var(--onPrimary);
+  background-color: var(--buttonPrimary);
+  color: var(--buttonOnPrimary);
 
   box-shadow: var(--elevation-0);
 
@@ -64,26 +96,26 @@ const FilledButton = styled(TextButton)`
     background-color: color-mix(
       in srgb,
       var(--buttonSurface) 12%,
-      var(--primary)
+      var(--buttonPrimary)
     );
-    color: var(--onPrimary);
+    color: var(--buttonOnPrimary);
   }
   &:hover {
     background-color: color-mix(
       in srgb,
       var(--buttonSurface) 8%,
-      var(--primary)
+      var(--buttonPrimary)
     );
-    color: var(--onPrimary);
+    color: var(--buttonOnPrimary);
     box-shadow: var(--elevation-1);
   }
   &:active {
     background-color: color-mix(
       in srgb,
       var(--buttonSurface) 12%,
-      var(--primary)
+      var(--buttonPrimary)
     );
-    color: var(--onPrimary);
+    color: var(--buttonOnPrimary);
     box-shadow: var(--elevation-0);
   }
   &:disabled {
@@ -102,22 +134,22 @@ const OutlinedButton = styled(TextButton)`
   &:focus-visible {
     background-color: color-mix(
       in srgb,
-      var(--primary) 12%,
+      var(--buttonPrimary) 12%,
       var(--buttonSurface)
     );
   }
   &:hover {
     background-color: color-mix(
       in srgb,
-      var(--primary) 8%,
+      var(--buttonPrimary) 8%,
       var(--buttonSurface)
     );
   }
   &:active {
-    border: 1px solid var(--primary);
+    border: 1px solid var(--buttonPrimary);
     background-color: color-mix(
       in srgb,
-      var(--primary) 12%,
+      var(--buttonPrimary) 12%,
       var(--buttonSurface)
     );
   }
@@ -193,21 +225,22 @@ const TonalButton = styled(TextButton)`
 `;
 
 export type ButtonProps = {
+  shape?: SHAPE;
   variant?: VARIANT;
 } & ButtonHTMLAttributes<HTMLButtonElement>;
 
 export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
-  ({ variant = VARIANT.FILLED, ...props }, ref) => {
-    switch (variant) {
-      case VARIANT.FILLED:
+  ({ shape = SHAPE.FILLED, ...props }, ref) => {
+    switch (shape) {
+      case SHAPE.FILLED:
         return <FilledButton ref={ref} {...props} />;
-      case VARIANT.OUTLINED:
+      case SHAPE.OUTLINED:
         return <OutlinedButton ref={ref} {...props} />;
-      case VARIANT.TEXT:
+      case SHAPE.TEXT:
         return <TextButton ref={ref} {...props} />;
-      case VARIANT.ELEVATED:
+      case SHAPE.ELEVATED:
         return <ElevatedButton ref={ref} {...props} />;
-      case VARIANT.TONAL:
+      case SHAPE.TONAL:
         return <TonalButton ref={ref} {...props} />;
     }
   }
