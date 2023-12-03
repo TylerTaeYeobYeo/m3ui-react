@@ -3,7 +3,7 @@ import { FC, ReactElement, useMemo } from "react";
 import {
   DEFAULT_TYPOGRAPHY,
   TypographyConfig,
-} from "../../provider/typography/typography.constant";
+} from "../../core/typography/typography.constant";
 import { camelCaseToKebabCase } from "../../utils/string.util";
 
 export type TypographySettingProps = TypographyConfig;

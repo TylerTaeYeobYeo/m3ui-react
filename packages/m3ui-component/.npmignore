@@ -1,0 +1,6 @@
+.storybook/
+__tests__/
+lib/
+.gitignore
+tsconfin.json
+vite.config.ts

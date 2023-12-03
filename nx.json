@@ -3,10 +3,28 @@
     "default": {
       "runner": "nx/tasks-runners/default",
       "options": {
-        "cacheableOperations": []
+        "cacheableOperations": ["build"]
       }
     }
   },
-  "targetDefaults": {},
+  "namedInputs": {
+    "all": ["{projectRoot}/**/*"],
+    "public": [
+      "!{projectRoot}/public/**/*.test.*",
+      "!{projectRoot}/public/**/*.stories.*",
+      "!{projectRoot}/public/**/*.spec.*",
+      "!{projectRoot}/public/"
+    ]
+  },
+  "targetDefaults": {
+    "build": {
+      "dependsOn": ["^build"],
+      "inputs": ["public", "^public"]
+    },
+    "storybook": {
+      "dependsOn": ["^build"],
+      "inputs": ["public", "^public"]
+    }
+  },
   "nxCloudAccessToken": "ZTg1ZjE5MjMtMGZkYS00ZDYzLTlmOTctNjZmNmRhNzkzMWVmfHJlYWQtd3JpdGU="
 }

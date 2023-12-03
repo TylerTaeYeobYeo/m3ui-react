@@ -1,21 +1,39 @@
 {
-  "name": "m3ui-component",
+  "name": "@m3ui/component",
   "version": "0.0.0",
   "description": "> TODO: description",
   "author": "Taeyeob Yeo <id1423fo@gmail.com>",
   "homepage": "https://github.com/TylerTaeYeobYeo/m3ui-react#readme",
   "license": "ISC",
   "type": "module",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      }
+    },
+    "./*": {
+      "import": {
+        "types": "./dist/*.d.ts",
+        "default": "./dist/*.js"
+      }
+    }
+  },
   "files": [
-    "dist"
+    "dist",
+    "lib"
   ],
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/TylerTaeYeobYeo/m3ui-react.git"
   },
   "scripts": {
     "test": "node ./__tests__/m3ui-component.test.js",
-    "build": "vite build",
+    "build": "vite build && npm link",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },

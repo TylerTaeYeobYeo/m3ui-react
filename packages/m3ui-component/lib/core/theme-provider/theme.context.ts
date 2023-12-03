@@ -1,5 +1,5 @@
 import { createContext } from "react";
-import { TypographyConfig } from "../../provider/typography/typography.constant";
+import { TypographyConfig } from "../../core/typography/typography.constant";
 import { ColorConfig, ColorModeConfig } from "../color/color.constant";
 
 export type ThemeContextType = ColorModeConfig & {

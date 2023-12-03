@@ -4,7 +4,7 @@ import {
   ColorPallete,
   ColorTheme,
   TonalPallete,
-} from "../provider/color/color.constant";
+} from "../core/color/color.constant";
 
 const createLightTheme = (pallete: TonalPallete): ColorTheme => ({
   // primary

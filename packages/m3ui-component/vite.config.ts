@@ -10,17 +10,30 @@ import {
   peerDependencies,
 } from "./package.json";
 
-export default (props: ConfigEnv) => {
+export default ({ mode }: ConfigEnv) => {
   console.log(`@@ Executed vite config file path is ${process.cwd()}`);
   return defineConfig({
-    ...props,
+    mode,
+    optimizeDeps: {
+      exclude: ["react", "react-dom", "@emotion/react"],
+    },
     build: {
       lib: {
-        entry: resolve(__dirname, "./lib/index.tsx"),
+        entry: [
+          resolve(__dirname, "./lib/index.tsx"),
+          resolve(__dirname, "./lib/components/index.tsx"),
+          resolve(__dirname, "./lib/core/index.tsx"),
+          resolve(__dirname, "./lib/core/theme-provider/index.tsx"),
+          resolve(__dirname, "./lib/core/typography/index.tsx"),
+          resolve(__dirname, "./lib/core/color/index.tsx"),
+          resolve(__dirname, "./lib/utils/index.ts"),
+        ],
         name: "index",
         formats: ["es"],
+        fileName: "index",
       },
       target: "esnext",
+      ssr: true,
       rollupOptions: {
         external: [
           ...Object.keys(dependencies),
@@ -30,15 +43,19 @@ export default (props: ConfigEnv) => {
         ],
         output: {
           esModule: true,
+          compact: true,
+          minifyInternalExports: true,
+          indent: false,
           exports: "named",
           // inlineDynamicImports: true,
           globals: {
             react: "React",
             "react/jsx-runtime": "React.JSX",
+            "react-dom": "ReactDOM",
+            "emotion/react": "@emoton/react",
             i18next: "i18next",
           },
-          // preserveModules: true,
-          // preserveModulesRoot: "./lib",
+          preserveModules: true,
         },
       },
     },
@@ -47,7 +64,7 @@ export default (props: ConfigEnv) => {
     plugins: [
       removeConsole(),
       dts({
-        rollupTypes: true,
+        // rollupTypes: true,
         tsconfigPath: "./tsconfig.json",
         exclude: [
           "__tests__",
@@ -55,6 +72,7 @@ export default (props: ConfigEnv) => {
           "dist",
           "**/*.stories.tsx",
           "**/*.test.tsx",
+          "vite.config.ts",
         ],
       }),
     ],

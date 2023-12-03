@@ -11,7 +11,7 @@
     "sourceMap": true,
     "lib": ["ESNext", "dom"],
     "jsx": "preserve",
-    "moduleResolution": "Node",
+    "moduleResolution": "Bundler",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "noEmit": true,

@@ -5,7 +5,7 @@ import {
   ColorConfig,
   ColorModeConfig,
   defaultPallete,
-} from "../../provider/color/color.constant";
+} from "../../core/color/color.constant";
 import { createColorPallete, createTheme } from "../../utils/color.util";
 
 export type ColorSettingProps = ColorConfig & ColorModeConfig;

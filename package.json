@@ -6,12 +6,16 @@
     "packages/*"
   ],
   "scripts": {
-    "build": "lerna run build --stream"
+    "build": "lerna run build --stream",
+    "build:component": "lerna run build --stream --scope=@m3ui/component",
+    "build:page": "lerna run build --stream --scope=@m3ui/page",
+    "dev:page": "lerna run dev --stream --scope=@m3ui/page"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "m3ui-component": "*"
+    "@m3ui/component": "*",
+    "@m3ui/page": "*"
   },
   "devDependencies": {
     "@emotion/eslint-plugin": "^11.11.0",
