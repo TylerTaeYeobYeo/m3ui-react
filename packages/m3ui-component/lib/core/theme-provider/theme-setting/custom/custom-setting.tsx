@@ -2,6 +2,7 @@ import { Global, css } from "@emotion/react";
 import { FC, ReactElement, useMemo } from "react";
 import { CustomStyle } from ".";
 import { camelCaseToKebabCase } from "../../../../utils/string.util";
+import { mixColor } from "../../../../utils/style.util";
 import { RootClassNameProps } from "../../theme.context";
 
 export type CustomSettingProps = RootClassNameProps & CustomStyle;
@@ -21,10 +22,10 @@ export const CustomSetting: FC<CustomSettingProps> = ({
               border-radius: 50%;
               background: radial-gradient(
                 circle,
-                color-mix(in srgb, var(--onSurface) 16%, transparent),
-                color-mix(in srgb, var(--onSurface) 12%, transparent) 75%,
-                color-mix(in srgb, var(--onSurface) 12%, transparent) 50%,
-                color-mix(in srgb, var(--onSurface) 8%, transparent) 25%
+                ${mixColor("var(--onSurface)", "transparent", 16)},
+                ${mixColor("var(--onSurface)", "transparent", 12)} 75%,
+                ${mixColor("var(--onSurface)", "transparent", 12)} 50%,
+                ${mixColor("var(--onSurface)", "transparent", 8)} 25%
               );
               transition: transform 1s ease-in-out, opacity 1s ease-in-out;
               transform: scale(0);

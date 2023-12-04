@@ -6,7 +6,7 @@ import { useTheme } from "../../core/theme-provider/hook";
 import { COLOR_DIVIERSION_TYPE } from "../../core/theme-provider/theme-setting/color/color.constant";
 import { SHAPE_SCALE } from "../../core/theme-provider/theme-setting/shape";
 import { useRipple } from "../../hooks/use-ripple";
-import { getColorVariable } from "../../utils/style.util";
+import { getColorVariable, mixColor } from "../../utils/style.util";
 
 export enum CARD_SHAPE {
   OUTLINED = SHAPE.OUTLINED,
@@ -53,25 +53,25 @@ const BaseCard = styled.div<BaseCardProps>`
 
   &:focus-visible {
     outline: none;
-    background-color: color-mix(
-      in srgb,
-      var(--onCardSurface) 12%,
-      var(--cardSurface)
-    );
+    background-color: ${mixColor(
+      "var(--onCardSurface)",
+      "var(--cardSurface)",
+      12
+    )};
   }
   &:hover:not(:has(button:hover)) {
-    background-color: color-mix(
-      in srgb,
-      var(--onCardSurface) 8%,
-      var(--cardSurface)
-    );
+    background-color: ${mixColor(
+      "var(--onCardSurface)",
+      "var(--cardSurface)",
+      8
+    )};
   }
   &:active:not(:has(> button:active)) {
-    background-color: color-mix(
-      in srgb,
-      var(--onCardSurface) 12%,
-      var(--cardSurface)
-    );
+    background-color: ${mixColor(
+      "var(--onCardSurface)",
+      "var(--cardSurface)",
+      12
+    )};
   }
   // when dragged
   // please put 'data-dragging' to true on drag start
@@ -79,11 +79,11 @@ const BaseCard = styled.div<BaseCardProps>`
   &:-moz-window-dragging,
   &:has([data-dragging="true"]) {
     box-shadow: var(--elevation-3);
-    background-color: color-mix(
-      in srgb,
-      var(--onCardSurface) 16%,
-      var(--cardSurface)
-    );
+    background-color: ${mixColor(
+      "var(--onCardSurface)",
+      "var(--cardSurface)",
+      16
+    )};
   }
 `;
 const OutlinedCard = styled(BaseCard)`

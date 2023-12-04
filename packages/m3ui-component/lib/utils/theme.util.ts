@@ -5,6 +5,7 @@ import {
   ColorTheme,
   TonalPalette,
 } from "../core/theme-provider/theme-setting/color/color.constant";
+import { mixColor } from "./style.util";
 
 const createLightTheme = (palette: TonalPalette): ColorTheme => ({
   // primary
@@ -128,27 +129,22 @@ export const createTheme = (
     ? createLightTheme(palette)
     : createDarkTheme(palette);
 
-const colorMix = (
-  color1: CSSProperties["color"],
-  color2: CSSProperties["color"],
-  ratio: number
-) => `color-mix(in srgb, ${color1} ${ratio}%, ${color2})`;
 const black = "black";
 const white = "white";
 
-const colorMixByIndex = (color1: CSSProperties["color"], index: number) => {
+const mixColorByIndex = (color1: CSSProperties["color"], index: number) => {
   if (index === 0) return black;
   if (index === 100) return white;
   const isDark = index <= 50;
   const counterColor = isDark ? black : white;
   const ratio = isDark ? 100 - index * 2 : (100 - index) * 2;
-  return colorMix(counterColor, color1, ratio);
+  return mixColor(counterColor, color1 ?? "white", ratio);
 };
 
 export const createColorPalette = (
   color: CSSProperties["color"]
 ): ColorPalette =>
   new Array(101).reduce((acc, curr) => {
-    acc[curr] = colorMixByIndex(color, curr);
+    acc[curr] = mixColorByIndex(color, curr);
     return acc;
   }, {} as Partial<ColorPalette>) as ColorPalette;

@@ -6,7 +6,11 @@ import { COLOR_DIVIERSION_TYPE } from "../../core/theme-provider/theme-setting/c
 import { TYPOGRAPHY } from "../../core/theme-provider/theme-setting/typography/typography.constant";
 import { ClassNamePrefixProps } from "../../core/theme-provider/theme.context";
 import { useRipple } from "../../hooks/use-ripple";
-import { getColorVariable, getTonalColor } from "../../utils/style.util";
+import {
+  getColorVariable,
+  getTonalColor,
+  mixColor,
+} from "../../utils/style.util";
 import { IconProps } from "../icon";
 
 export type ButtonProps = {
@@ -23,7 +27,7 @@ type InternalButtonProps = ButtonProps & ClassNamePrefixProps;
 
 const TextButton = styled.button`
   --buttonSurface: transparent;
-  --buttonOnSurface: var(--onSurface);
+  --onButtonSurface: var(--onSurface);
   --buttonPrimary: ${({ variant, shape }: InternalButtonProps) => {
     const isTonal = shape === SHAPE.TONAL;
     const option = {
@@ -81,29 +85,29 @@ const TextButton = styled.button`
 
   &:focus-visible {
     outline: none;
-    background-color: color-mix(
-      in srgb,
-      var(--buttonPrimary) 12%,
-      var(--buttonSurface)
-    );
+    background-color: ${mixColor(
+      "var(--buttonPrimary)",
+      "var(--buttonSurface)",
+      12
+    )};
   }
   &:hover {
-    background-color: color-mix(
-      in srgb,
-      var(--buttonPrimary) 8%,
-      var(--buttonSurface)
-    );
+    background-color: ${mixColor(
+      "var(--buttonPrimary)",
+      "var(--buttonSurface)",
+      8
+    )};
   }
   &:active {
-    background-color: color-mix(
-      in srgb,
-      var(--buttonPrimary) 12%,
-      var(--buttonSurface)
-    );
+    background-color: ${mixColor(
+      "var(--buttonPrimary)",
+      "var(--buttonSurface)",
+      12
+    )};
   }
   &:disabled {
     background-color: var(--buttonSurface);
-    color: color-mix(in srgb, var(--buttonOnSurface) 38%, var(--buttonSurface));
+    color: ${mixColor("var(--onButtonSurface)", "var(--buttonSurface)", 38)};
     cursor: not-allowed;
   }
 `;
@@ -116,40 +120,40 @@ const FilledButton = styled(TextButton)`
   transition-property: box-shadow, color, background-color;
 
   &:focus-visible {
-    background-color: color-mix(
-      in srgb,
-      var(--buttonSurface) 12%,
-      var(--buttonPrimary)
-    );
+    background-color: ${mixColor(
+      "var(--buttonSurface)",
+      "var(--buttonPrimary)",
+      12
+    )};
     color: var(--buttonOnPrimary);
   }
   &:hover {
-    background-color: color-mix(
-      in srgb,
-      var(--buttonSurface) 8%,
-      var(--buttonPrimary)
-    );
+    background-color: ${mixColor(
+      "var(--buttonSurface)",
+      "var(--buttonPrimary)",
+      8
+    )};
     color: var(--buttonOnPrimary);
     box-shadow: var(--elevation-1);
   }
   &:active {
-    background-color: color-mix(
-      in srgb,
-      var(--buttonSurface) 12%,
-      var(--buttonPrimary)
-    );
+    background-color: ${mixColor(
+      "var(--buttonSurface)",
+      "var(--buttonPrimary)",
+      12
+    )};
     color: var(--buttonOnPrimary);
     box-shadow: var(--elevation-0);
   }
   &:disabled {
     box-shadow: var(--elevation-0);
     cursor: not-allowed;
-    background-color: color-mix(
-      in srgb,
-      var(--buttonOnSurface) 12%,
-      var(--buttonSurface)
-    );
-    color: color-mix(in srgb, var(--buttonOnSurface) 38%, var(--buttonSurface));
+    background-color: ${mixColor(
+      "var(--onButtonSurface)",
+      "var(--buttonSurface)",
+      12
+    )};
+    color: ${mixColor("var(--onButtonSurface)", "var(--buttonSurface)", 38)};
   }
 `;
 const OutlinedButton = styled(TextButton)`
@@ -158,31 +162,31 @@ const OutlinedButton = styled(TextButton)`
   transition-property: outline, color, background-color;
   &:focus-visible {
     outline: 1px solid var(--outline);
-    background-color: color-mix(
-      in srgb,
-      var(--buttonPrimary) 12%,
-      var(--buttonSurface)
-    );
+    background-color: ${mixColor(
+      "var(--buttonPrimary)",
+      "var(--buttonSurface)",
+      12
+    )};
   }
   &:hover {
-    background-color: color-mix(
-      in srgb,
-      var(--buttonPrimary) 8%,
-      var(--buttonSurface)
-    );
+    background-color: ${mixColor(
+      "var(--buttonPrimary)",
+      "var(--buttonSurface)",
+      8
+    )};
   }
   &:active {
     outline: 1px solid var(--buttonPrimary);
-    background-color: color-mix(
-      in srgb,
-      var(--buttonPrimary) 12%,
-      var(--buttonSurface)
-    );
+    background-color: ${mixColor(
+      "var(--buttonPrimary)",
+      "var(--buttonSurface)",
+      12
+    )};
   }
   &:disabled {
     outline: 1px solid
-      color-mix(in srgb, var(--buttonOnSurface) 12%, var(--buttonSurface));
-    color: color-mix(in srgb, var(--buttonOnSurface) 38%, var(--buttonSurface));
+      ${mixColor("var(--onButtonSurface)", "var(--buttonSurface)", 12)};
+    color: ${mixColor("var(--onButtonSurface)", "var(--buttonSurface)", 38)};
     background-color: var(--buttonSurface);
     cursor: not-allowed;
   }
@@ -195,36 +199,36 @@ const ElevatedButton = styled(TextButton)`
 
   transition-property: box-shadow, color, background-color;
   &:focus-visible {
-    background-color: color-mix(
-      in srgb,
-      var(--buttonPrimary) 12%,
-      var(--buttonSurfaceContainerLow)
-    );
+    background-color: ${mixColor(
+      "var(--buttonPrimary)",
+      "var(--buttonSurfaceContainerLow)",
+      12
+    )};
   }
   &:hover {
     box-shadow: var(--elevation-2);
-    background-color: color-mix(
-      in srgb,
-      var(--buttonPrimary) 8%,
-      var(--buttonSurfaceContainerLow)
-    );
+    background-color: ${mixColor(
+      "var(--buttonPrimary)",
+      "var(--buttonSurfaceContainerLow)",
+      8
+    )};
   }
   &:active {
     box-shadow: var(--elevation-1);
-    background-color: color-mix(
-      in srgb,
-      var(--buttonPrimary) 12%,
-      var(--buttonSurfaceContainerLow)
-    );
+    background-color: ${mixColor(
+      "var(--buttonPrimary)",
+      "var(--buttonSurfaceContainerLow)",
+      12
+    )};
   }
   &:disabled {
     box-shadow: var(--elevation-0);
-    background-color: color-mix(
-      in srgb,
-      var(--buttonOnSurface) 12%,
-      var(--buttonSurface)
-    );
-    color: color-mix(in srgb, var(--buttonOnSurface) 38%, var(--buttonSurface));
+    background-color: ${mixColor(
+      "var(--onButtonSurface)",
+      "var(--buttonSurface)",
+      12
+    )};
+    color: ${mixColor("var(--onButtonSurface)", "var(--buttonSurface)", 38)};
     cursor: not-allowed;
   }
 `;

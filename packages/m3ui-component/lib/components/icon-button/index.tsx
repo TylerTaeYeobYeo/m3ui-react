@@ -5,7 +5,11 @@ import { useTheme } from "../../core/theme-provider/hook";
 import { COLOR_DIVIERSION_TYPE } from "../../core/theme-provider/theme-setting/color/color.constant";
 import { ClassNamePrefixProps } from "../../core/theme-provider/theme.context";
 import { useRipple } from "../../hooks/use-ripple";
-import { getColorVariable, getTonalColor } from "../../utils/style.util";
+import {
+  getColorVariable,
+  getTonalColor,
+  mixColor,
+} from "../../utils/style.util";
 import { ICON_SHAPE, Icon, IconProps } from "../icon";
 
 export type IconButtonProps = {
@@ -21,7 +25,7 @@ type InnerIconButtonProps = Omit<IconButtonProps, "iconProps"> &
 
 const TextIconButton = styled.button`
   --buttonSurface: transparent;
-  --buttonOnSurface: ${({ shape }: InnerIconButtonProps) => {
+  --onButtonSurface: ${({ shape }: InnerIconButtonProps) => {
     switch (shape) {
       case SHAPE.TEXT:
       case SHAPE.OUTLINED:
@@ -137,36 +141,29 @@ const TextIconButton = styled.button`
 
   &:focus-visible {
     outline: none;
-    background-color: color-mix(
-      in srgb,
-      var(--buttonPrimary) 12%,
-      var(--buttonSurface)
-    );
+    background-color: ${mixColor(
+      "var(--buttonPrimary)",
+      "var(--buttonSurface)",
+      12
+    )};
   }
   &:hover {
-    background-color: color-mix(
-      in srgb,
-      var(--buttonPrimary) 8%,
-      var(--buttonSurface)
-    );
+    background-color: ${mixColor(
+      "var(--buttonPrimary)",
+      "var(--buttonSurface)",
+      8
+    )};
   }
   &:active {
-    background-color: color-mix(
-      in srgb,
-      var(--buttonPrimary) 12%,
-      var(--buttonSurface)
-    );
+    background-color: ${mixColor(
+      "var(--buttonPrimary)",
+      "var(--buttonSurface)",
+      12
+    )};
   }
   &:disabled {
     background-color: var(--buttonSurface);
-    color: color-mix(in srgb, var(--buttonOnSurface) 38%, var(--buttonSurface));
-    .material-icons {
-      color: color-mix(
-        in srgb,
-        var(--buttonOnSurface) 38%,
-        var(--buttonSurface)
-      );
-    }
+    color: ${mixColor("var(--onButtonSurface)", "var(--buttonSurface)", 38)};
     cursor: not-allowed;
   }
 `;
@@ -177,37 +174,37 @@ const FilledIconButton = styled(TextIconButton)`
   transition-property: color, background-color;
 
   &:focus-visible {
-    background-color: color-mix(
-      in srgb,
-      var(--buttonSurface) 12%,
-      var(--buttonPrimary)
-    );
+    background-color: ${mixColor(
+      "var(--buttonSurface)",
+      "var(--buttonPrimary)",
+      12
+    )};
     color: var(--buttonOnPrimary);
   }
   &:hover {
-    background-color: color-mix(
-      in srgb,
-      var(--buttonSurface) 8%,
-      var(--buttonPrimary)
-    );
+    background-color: ${mixColor(
+      "var(--buttonSurface)",
+      "var(--buttonPrimary)",
+      8
+    )};
     color: var(--buttonOnPrimary);
   }
   &:active {
-    background-color: color-mix(
-      in srgb,
-      var(--buttonSurface) 12%,
-      var(--buttonPrimary)
-    );
+    background-color: ${mixColor(
+      "var(--buttonSurface)",
+      "var(--buttonPrimary)",
+      12
+    )};
     color: var(--buttonOnPrimary);
   }
   &:disabled {
     cursor: not-allowed;
-    background-color: color-mix(
-      in srgb,
-      var(--buttonOnSurface) 12%,
-      var(--buttonSurface)
-    );
-    color: color-mix(in srgb, var(--buttonOnSurface) 38%, var(--buttonSurface));
+    background-color: ${mixColor(
+      "var(--onButtonSurface)",
+      "var(--buttonPrimary)",
+      12
+    )};
+    color: ${mixColor("var(--onButtonSurface)", "var(--buttonSurface)", 38)};
   }
 `;
 const OutlinedIconButton = styled(TextIconButton)`
@@ -216,32 +213,32 @@ const OutlinedIconButton = styled(TextIconButton)`
   transition-property: outline, color, background-color;
   &:focus-visible {
     outline: 1px solid var(--outline);
-    background-color: color-mix(
-      in srgb,
-      var(--buttonPrimary) 12%,
-      var(--buttonSurface)
-    );
+    background-color: ${mixColor(
+      "var(--buttonPrimary)",
+      "var(--buttonSurface)",
+      12
+    )};
   }
   &:hover {
     outline: 1px solid var(--outline);
-    background-color: color-mix(
-      in srgb,
-      var(--buttonPrimary) 8%,
-      var(--buttonSurface)
-    );
+    background-color: ${mixColor(
+      "var(--buttonPrimary)",
+      "var(--buttonSurface)",
+      8
+    )};
   }
   &:active {
     outline: 1px solid var(--outline);
-    background-color: color-mix(
-      in srgb,
-      var(--buttonPrimary) 12%,
-      var(--buttonSurface)
-    );
+    background-color: ${mixColor(
+      "var(--buttonPrimary)",
+      "var(--buttonSurface)",
+      12
+    )};
   }
   &:disabled {
     outline: 1px solid
-      color-mix(in srgb, var(--buttonOnSurface) 12%, var(--buttonSurface));
-    color: color-mix(in srgb, var(--buttonOnSurface) 38%, var(--buttonSurface));
+      ${mixColor("var(--onButtonSurface)", "var(--buttonSurface)", 12)};
+    color: ${mixColor("var(--onButtonSurface)", "var(--buttonSurface)", 38)};
     background-color: var(--buttonSurface);
     cursor: not-allowed;
   }

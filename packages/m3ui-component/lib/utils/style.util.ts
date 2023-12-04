@@ -61,6 +61,10 @@ export const getColorVariable = ({
   }
 };
 
+export const mixColor = (color1: string, color2: string, weight: number) => {
+  return `color-mix(in srgb, ${color1} ${weight}%, ${color2})`;
+};
+
 /**
  * @description
  * bind to mousedown event

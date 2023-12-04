@@ -11,11 +11,10 @@ const preview: Preview = {
   globalTypes: {
     theme: {
       description: "Global theme for components",
-      defaultValue: "dark",
+      defaultValue: "light",
       toolbar: {
         icon: "mirror",
         items: ["light", "dark"],
-        default: "light",
         dynamicTitle: true,
       },
     },
