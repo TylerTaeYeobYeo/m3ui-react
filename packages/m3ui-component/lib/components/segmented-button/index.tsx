@@ -235,7 +235,9 @@ const SegmentedButtonInnerItem = ({
               style: {
                 overflow: "hidden",
                 maxWidth: selected ? "100%" : "0%",
-                transition: "max-height 0.2s, max-width 0.2s",
+                transitionProperty: "max-height, max-width",
+                transitionDuration: "0.2s",
+                transitionTimingFunction: "ease-in-out",
               },
             })}
           />
