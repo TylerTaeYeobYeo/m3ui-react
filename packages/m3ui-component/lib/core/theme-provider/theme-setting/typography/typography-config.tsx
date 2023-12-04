@@ -1,6 +1,7 @@
 import { Global, css } from "@emotion/react";
 import { FC, ReactElement, useMemo } from "react";
 import { camelCaseToKebabCase } from "../../../../utils/string.util";
+import { useTheme } from "../../hook";
 import { RootClassNameProps } from "../../theme.context";
 import { DEFAULT_TYPOGRAPHY, TypographyConfig } from "./typography.constant";
 
@@ -10,9 +11,9 @@ export type TypographySettingProps = RootClassNameProps & {
 
 export const TypographySetting: FC<TypographySettingProps> = ({
   rootClassName,
-  classNamePrefix,
   typography,
 }) => {
+  const { classNamePrefix } = useTheme();
   const globalStyle: ReactElement = useMemo(() => {
     const style: TypographyConfig = {
       ...DEFAULT_TYPOGRAPHY,

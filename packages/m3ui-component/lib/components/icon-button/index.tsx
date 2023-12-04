@@ -1,16 +1,21 @@
 import styled from "@emotion/styled";
-import { ButtonHTMLAttributes, forwardRef } from "react";
+import { ButtonHTMLAttributes, forwardRef, useEffect, useRef } from "react";
 import { SHAPE, VARIANT } from "../../constant";
 import { useTheme } from "../../core/theme-provider/hook";
 import { COLOR_DIVIERSION_TYPE } from "../../core/theme-provider/theme-setting/color/color.constant";
 import { ClassNamePrefixProps } from "../../core/theme-provider/theme.context";
-import { getColorVariable, getTonalColor } from "../../utils/style.util";
+import {
+  getColorVariable,
+  getTonalColor,
+  rippleEventFactory,
+} from "../../utils/style.util";
 import { ICON_SHAPE, Icon, IconProps } from "../icon";
 
 export type IconButtonProps = {
   shape?: Omit<SHAPE, SHAPE.ELEVATED>;
   variant?: VARIANT;
   value?: boolean; // true | false | undefined
+  rippleEffect?: boolean;
   iconProps: Omit<IconProps, "shape">;
 } & Omit<ButtonHTMLAttributes<HTMLButtonElement>, "children">;
 
@@ -105,6 +110,8 @@ const TextIconButton = styled.button`
         : COLOR_DIVIERSION_TYPE.ON,
     });
   }};
+  position: relative;
+  overflow: hidden;
   display: inline-block;
 
   border: none;
@@ -250,17 +257,29 @@ export const IconButton = forwardRef<HTMLButtonElement, IconButtonProps>(
       shape = SHAPE.FILLED,
       value,
       iconProps,
+      rippleEffect = true,
       ...props
     },
     ref
   ) => {
+    const buttonRef = useRef<HTMLButtonElement>();
     const { classNamePrefix } = useTheme();
     const commonProps = {
-      ref,
+      ref: (el: HTMLButtonElement) => {
+        if (ref) {
+          if (typeof ref === "function") {
+            ref(el);
+          } else {
+            ref.current = el;
+          }
+        }
+        buttonRef.current = el;
+      },
       variant,
       shape,
       classNamePrefix,
       value,
+      "data-animation": "ripple",
       ...props,
     };
 
@@ -277,6 +296,18 @@ export const IconButton = forwardRef<HTMLButtonElement, IconButtonProps>(
         {...iconProps}
       />
     );
+
+    useEffect(() => {
+      if (!rippleEffect) return;
+      const btnRef = buttonRef.current;
+      if (!btnRef) return;
+      const rippleEvent = rippleEventFactory(btnRef);
+      btnRef.addEventListener("mousedown", rippleEvent);
+      return () => {
+        btnRef.removeEventListener("mousedown", rippleEvent);
+      };
+    }, [rippleEffect]);
+
     switch (shape) {
       case SHAPE.TONAL:
       case SHAPE.FILLED:
