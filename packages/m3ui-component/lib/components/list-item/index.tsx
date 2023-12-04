@@ -136,7 +136,7 @@ export const ListItem = forwardRef<HTMLLIElement, ListItemProps>(
     const { classNamePrefix } = useTheme();
     const liRef = useRef<HTMLLIElement>();
 
-    useRipple(liRef, rippleEffect && !!onClick);
+    useRipple(liRef, (rippleEffect && !!onClick) ?? false);
 
     return (
       <BaseListItem

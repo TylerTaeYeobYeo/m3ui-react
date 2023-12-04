@@ -1,5 +1,5 @@
+import { action } from "@storybook/addon-actions";
 import type { Meta, StoryObj } from "@storybook/react";
-
 import { CARD_SHAPE, Card } from ".";
 import { Button } from "..";
 
@@ -63,4 +63,32 @@ export const Filled: Story = {
     },
   },
   render: (props) => <Card {...props} />,
+};
+
+export const Clickable: Story = {
+  args: {
+    children: "Filled",
+    shape: CARD_SHAPE.FILLED,
+    onClick: action("onClick"),
+    style: {
+      padding: "1rem",
+    },
+  },
+  render: (props) => (
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        gap: "1rem",
+      }}
+    >
+      <Card {...props} shape={CARD_SHAPE.OUTLINED}>
+        Outlined
+      </Card>
+      <Card {...props} shape={CARD_SHAPE.ELEVATED}>
+        Elevated
+      </Card>
+      <Card {...props} shape={CARD_SHAPE.FILLED} />
+    </div>
+  ),
 };

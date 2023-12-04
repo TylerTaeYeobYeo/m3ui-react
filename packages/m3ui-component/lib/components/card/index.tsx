@@ -1,6 +1,7 @@
 import { HTMLAttributes, forwardRef, useRef } from "react";
 import { SHAPE, VARIANT } from "../../constant";
 
+import { css } from "@emotion/react";
 import styled from "@emotion/styled";
 import { useTheme } from "../../core/theme-provider/hook";
 import { COLOR_DIVIERSION_TYPE } from "../../core/theme-provider/theme-setting/color/color.constant";
@@ -51,28 +52,35 @@ const BaseCard = styled.div<BaseCardProps>`
   transition-property: box-shadow, background-color, color;
   transition-duration: 0.2s;
 
-  &:focus-visible {
-    outline: none;
-    background-color: ${mixColor(
-      "var(--onCardSurface)",
-      "var(--cardSurface)",
-      12
-    )};
-  }
-  &:hover:not(:has(button:hover)) {
-    background-color: ${mixColor(
-      "var(--onCardSurface)",
-      "var(--cardSurface)",
-      8
-    )};
-  }
-  &:active:not(:has(> button:active)) {
-    background-color: ${mixColor(
-      "var(--onCardSurface)",
-      "var(--cardSurface)",
-      12
-    )};
-  }
+  ${({ onClick }) =>
+    onClick
+      ? css`
+          cursor: pointer;
+          &:focus-visible {
+            outline: none;
+            background-color: ${mixColor(
+              "var(--onCardSurface)",
+              "var(--cardSurface)",
+              12
+            )};
+          }
+          &:hover:not(:has(button:hover)) {
+            background-color: ${mixColor(
+              "var(--onCardSurface)",
+              "var(--cardSurface)",
+              8
+            )};
+          }
+          &:active:not(:has(> button:active)) {
+            background-color: ${mixColor(
+              "var(--onCardSurface)",
+              "var(--cardSurface)",
+              12
+            )};
+          }
+        `
+      : ""}
+
   // when dragged
   // please put 'data-dragging' to true on drag start
   &:-webkit-user-drag,
@@ -88,15 +96,21 @@ const BaseCard = styled.div<BaseCardProps>`
 `;
 const OutlinedCard = styled(BaseCard)`
   outline: 1px solid var(--outlineVariant);
-  &:focus-visible {
-    outline: 1px solid var(--outlineVariant);
-  }
-  &:hover:not(:has(> button:hover)) {
-    box-shadow: var(--elevation-1);
-  }
-  &:active:not(:has(> button:active)) {
-    box-shadow: var(--elevation-0);
-  }
+  ${({ onClick }) =>
+    onClick
+      ? css`
+          cursor: pointer;
+          &:focus-visible {
+            outline: 1px solid var(--outlineVariant);
+          }
+          &:hover:not(:has(> button:hover)) {
+            box-shadow: var(--elevation-1);
+          }
+          &:active:not(:has(> button:active)) {
+            box-shadow: var(--elevation-0);
+          }
+        `
+      : ""}
   &:-webkit-user-drag,
   &:-moz-window-dragging,
   &:has([data-dragging="true"]) {
@@ -104,15 +118,21 @@ const OutlinedCard = styled(BaseCard)`
 `;
 const ElevatedCard = styled(BaseCard)`
   box-shadow: var(--elevation-1);
-  &:focus-visible {
-    box-shadow: var(--elevation-1);
-  }
-  &:hover {
-    box-shadow: var(--elevation-2);
-  }
-  &:active {
-    box-shadow: var(--elevation-1);
-  }
+  ${({ onClick }) =>
+    onClick
+      ? css`
+          cursor: pointer;
+          &:focus-visible {
+            box-shadow: var(--elevation-1);
+          }
+          &:hover {
+            box-shadow: var(--elevation-2);
+          }
+          &:active {
+            box-shadow: var(--elevation-1);
+          }
+        `
+      : ""}
   &:-webkit-user-drag,
   &:-moz-window-dragging,
   &:has([data-dragging="true"]) {
@@ -120,14 +140,20 @@ const ElevatedCard = styled(BaseCard)`
   }
 `;
 const FilledCard = styled(BaseCard)`
-  &:focus-visible {
-  }
-  &:hover {
-    box-shadow: var(--elevation-1);
-  }
-  &:active {
-    box-shadow: var(--elevation-1);
-  }
+  ${({ onClick }) =>
+    onClick
+      ? css`
+          cursor: pointer;
+          &:focus-visible {
+          }
+          &:hover {
+            box-shadow: var(--elevation-1);
+          }
+          &:active {
+            box-shadow: var(--elevation-1);
+          }
+        `
+      : ""}
   &:-webkit-user-drag,
   &:-moz-window-dragging,
   &:has([data-dragging="true"]) {
@@ -135,7 +161,10 @@ const FilledCard = styled(BaseCard)`
 `;
 
 export const Card = forwardRef<HTMLDivElement, CardProps>(
-  ({ shape = CARD_SHAPE.OUTLINED, rippleEffect, ...props }, ref) => {
+  (
+    { shape = CARD_SHAPE.OUTLINED, rippleEffect = true, onClick, ...props },
+    ref
+  ) => {
     const divRef = useRef<HTMLDivElement>();
     const { classNamePrefix } = useTheme();
     const commonProps = {
@@ -149,10 +178,10 @@ export const Card = forwardRef<HTMLDivElement, CardProps>(
       },
       shape,
       classNamePrefix,
+      onClick,
       ...props,
     };
-
-    useRipple(divRef, rippleEffect);
+    useRipple(divRef, (rippleEffect && !!onClick) ?? false);
     switch (shape) {
       case CARD_SHAPE.OUTLINED:
         return <OutlinedCard {...commonProps} />;
