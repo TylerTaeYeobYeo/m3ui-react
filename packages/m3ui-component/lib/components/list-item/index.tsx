@@ -4,6 +4,7 @@ import { HTMLAttributes, ReactNode, forwardRef, useRef } from "react";
 import { useTheme } from "../../core/theme-provider/hook";
 import { useRipple } from "../../hooks/use-ripple";
 import { mixColor } from "../../utils/style.util";
+import { Divider } from "../divider";
 
 export enum LIST_ITEM_SHAPE {
   DEFAULT = "default",
@@ -33,7 +34,6 @@ export type ListItemProps = {
 
 const BaseListItem = styled.li<{
   classNamePrefix: string;
-  bottomDivider?: boolean;
   shape: LIST_ITEM_SHAPE;
 }>`
   position: relative;
@@ -151,7 +151,6 @@ export const ListItem = forwardRef<HTMLLIElement, ListItemProps>(
           liRef.current = el;
         }}
         classNamePrefix={classNamePrefix}
-        bottomDivider={bottomDivider}
         shape={shape}
         onClick={onClick}
         {...liProps}
@@ -164,6 +163,16 @@ export const ListItem = forwardRef<HTMLLIElement, ListItemProps>(
           <Children {...childrenWrapperProps}>{children}</Children>
         </Content>
         <TrailingContent {...trailingWrapperProps}>{trailing}</TrailingContent>
+        {bottomDivider && (
+          <Divider
+            style={{
+              position: "absolute",
+              bottom: 0,
+              width: "calc(100% - 32px)",
+              margin: 0,
+            }}
+          />
+        )}
       </BaseListItem>
     );
   }

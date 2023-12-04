@@ -43,6 +43,22 @@ export const Video: Story = {
   render: (props) => <ListItem {...props} />,
 };
 
+export const WithDivider: Story = {
+  args: {
+    leading: <Icon icon="man" />,
+    headline: "Headline",
+    children: "Supporting Text",
+    trailing: <Icon icon="wifi" />,
+    bottomDivider: true,
+  },
+  render: (props) => (
+    <div>
+      <ListItem {...props} />
+      <ListItem {...props} bottomDivider={false} />
+    </div>
+  ),
+};
+
 export const ClickEvent: Story = {
   args: {
     leading: <Icon icon="man" />,
