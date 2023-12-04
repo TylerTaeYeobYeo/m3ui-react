@@ -21,3 +21,7 @@ export enum SIZE {
   LARGE = "large",
   EXTRA_LARGE = "extra-large",
 }
+
+export type ClickableContainerProps = {
+  clickable?: boolean;
+};

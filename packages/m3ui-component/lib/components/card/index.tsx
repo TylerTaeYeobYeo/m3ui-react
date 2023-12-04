@@ -1,5 +1,5 @@
 import { HTMLAttributes, forwardRef, useRef } from "react";
-import { SHAPE, VARIANT } from "../../constant";
+import { ClickableContainerProps, SHAPE, VARIANT } from "../../constant";
 
 import { css } from "@emotion/react";
 import styled from "@emotion/styled";
@@ -18,9 +18,12 @@ export enum CARD_SHAPE {
 export type CardProps = {
   shape?: CARD_SHAPE;
   rippleEffect?: boolean;
-} & HTMLAttributes<HTMLDivElement>;
+} & ClickableContainerProps &
+  HTMLAttributes<HTMLDivElement>;
 
-type BaseCardProps = CardProps & { classNamePrefix: string };
+type BaseCardProps = CardProps & {
+  classNamePrefix: string;
+} & ClickableContainerProps;
 
 const BaseCard = styled.div<BaseCardProps>`
   --cardSurface: ${({ shape }) => {
@@ -52,8 +55,8 @@ const BaseCard = styled.div<BaseCardProps>`
   transition-property: box-shadow, background-color, color;
   transition-duration: 0.2s;
 
-  ${({ onClick }) =>
-    onClick
+  ${({ clickable }) =>
+    clickable
       ? css`
           cursor: pointer;
           &:focus-visible {
@@ -96,8 +99,8 @@ const BaseCard = styled.div<BaseCardProps>`
 `;
 const OutlinedCard = styled(BaseCard)`
   outline: 1px solid var(--outlineVariant);
-  ${({ onClick }) =>
-    onClick
+  ${({ clickable }) =>
+    clickable
       ? css`
           cursor: pointer;
           &:focus-visible {
@@ -118,8 +121,8 @@ const OutlinedCard = styled(BaseCard)`
 `;
 const ElevatedCard = styled(BaseCard)`
   box-shadow: var(--elevation-1);
-  ${({ onClick }) =>
-    onClick
+  ${({ clickable }) =>
+    clickable
       ? css`
           cursor: pointer;
           &:focus-visible {
@@ -140,8 +143,8 @@ const ElevatedCard = styled(BaseCard)`
   }
 `;
 const FilledCard = styled(BaseCard)`
-  ${({ onClick }) =>
-    onClick
+  ${({ clickable }) =>
+    clickable
       ? css`
           cursor: pointer;
           &:focus-visible {
@@ -162,7 +165,12 @@ const FilledCard = styled(BaseCard)`
 
 export const Card = forwardRef<HTMLDivElement, CardProps>(
   (
-    { shape = CARD_SHAPE.OUTLINED, rippleEffect = true, onClick, ...props },
+    {
+      shape = CARD_SHAPE.OUTLINED,
+      rippleEffect = true,
+      clickable = false,
+      ...props
+    },
     ref
   ) => {
     const divRef = useRef<HTMLDivElement>();
@@ -177,11 +185,11 @@ export const Card = forwardRef<HTMLDivElement, CardProps>(
         }
       },
       shape,
+      clickable,
       classNamePrefix,
-      onClick,
       ...props,
     };
-    useRipple(divRef, (rippleEffect && !!onClick) ?? false);
+    useRipple(divRef, (rippleEffect && clickable) ?? false);
     switch (shape) {
       case CARD_SHAPE.OUTLINED:
         return <OutlinedCard {...commonProps} />;

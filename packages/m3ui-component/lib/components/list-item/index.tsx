@@ -1,5 +1,6 @@
 import { css } from "@emotion/react";
 import styled from "@emotion/styled";
+import { ClickableContainerProps } from "lib/constant";
 import { HTMLAttributes, ReactNode, forwardRef, useRef } from "react";
 import { useTheme } from "../../core/theme-provider/hook";
 import { useRipple } from "../../hooks/use-ripple";
@@ -30,12 +31,15 @@ export type ListItemProps = {
   bottomDivider?: boolean;
   shape?: LIST_ITEM_SHAPE;
   rippleEffect?: boolean;
-} & HTMLAttributes<HTMLLIElement>;
+} & ClickableContainerProps &
+  HTMLAttributes<HTMLLIElement>;
 
-const BaseListItem = styled.li<{
-  classNamePrefix: string;
-  shape: LIST_ITEM_SHAPE;
-}>`
+const BaseListItem = styled.li<
+  {
+    classNamePrefix: string;
+    shape: LIST_ITEM_SHAPE;
+  } & ClickableContainerProps
+>`
   position: relative;
   overflow: hidden;
   display: flex;
@@ -47,8 +51,8 @@ const BaseListItem = styled.li<{
     height: 24px;
     font-size: 24px;
   }
-  ${({ onClick }) =>
-    onClick
+  ${({ clickable }) =>
+    clickable
       ? css`
           cursor: pointer;
           transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
@@ -127,8 +131,8 @@ export const ListItem = forwardRef<HTMLLIElement, ListItemProps>(
       childrenWrapperProps,
       bottomDivider = false,
       shape = LIST_ITEM_SHAPE.DEFAULT,
-      onClick,
       rippleEffect = true,
+      clickable = false,
       ...liProps
     },
     ref
@@ -136,7 +140,7 @@ export const ListItem = forwardRef<HTMLLIElement, ListItemProps>(
     const { classNamePrefix } = useTheme();
     const liRef = useRef<HTMLLIElement>();
 
-    useRipple(liRef, (rippleEffect && !!onClick) ?? false);
+    useRipple(liRef, (rippleEffect && !!clickable) ?? false);
 
     return (
       <BaseListItem
@@ -152,7 +156,7 @@ export const ListItem = forwardRef<HTMLLIElement, ListItemProps>(
         }}
         classNamePrefix={classNamePrefix}
         shape={shape}
-        onClick={onClick}
+        clickable={clickable}
         {...liProps}
       >
         <LeadingContent {...leadingWrapperProps} shape={shape}>
