@@ -1,8 +1,8 @@
 import { FC, PropsWithChildren } from "react";
 import { ElevationSetting } from "..";
 import { BreakpointSetting } from "./theme-setting/breakpoint";
-import { ColorSetting } from "./theme-setting/color/color-config";
-import { CustomSetting } from "./theme-setting/custom/custom";
+import { ColorSetting } from "./theme-setting/color/color-setting";
+import { CustomSetting } from "./theme-setting/custom/custom-setting";
 import { TypographySetting } from "./theme-setting/typography";
 import { ThemeContext, ThemeContextType } from "./theme.context";
 
@@ -23,16 +23,38 @@ export const ThemeProvider: FC<ThemeProviderProps> = ({ theme, children }) => {
     mode,
     classes,
     customStyles,
+    classNamePrefix,
     ...other
   } = theme;
+  const prefix = classNamePrefix ? `${classNamePrefix.trim()}-` : "";
+  const value = {
+    typography,
+    breakpoint,
+    elevation,
+    mode,
+    classes,
+    customStyles,
+    classNamePrefix: prefix,
+    ...other,
+  };
   return (
-    <ThemeContext.Provider value={theme}>
-      <TypographySetting {...typography} />
-      <ColorSetting {...other} mode={mode} />
-      <BreakpointSetting breakpoint={breakpoint} />
-      <ElevationSetting elevation={elevation} mode={mode} />
-      <CustomSetting {...other} classes={classes} customStyles={customStyles} />
-      {children}
+    <ThemeContext.Provider value={value}>
+      <TypographySetting classNamePrefix={prefix} {...typography} />
+      <BreakpointSetting classNamePrefix={prefix} breakpoint={breakpoint} />
+      <ElevationSetting
+        classNamePrefix={prefix}
+        elevation={elevation}
+        mode={mode}
+      />
+      <CustomSetting
+        {...other}
+        classNamePrefix={prefix}
+        classes={classes}
+        customStyles={customStyles}
+      />
+      <ColorSetting {...other} classNamePrefix={prefix} mode={mode}>
+        {children}
+      </ColorSetting>
     </ThemeContext.Provider>
   );
 };

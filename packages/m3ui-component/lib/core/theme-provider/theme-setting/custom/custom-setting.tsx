@@ -2,7 +2,6 @@ import { Global, css } from "@emotion/react";
 import { FC, ReactElement, useMemo } from "react";
 import { CustomStyle } from ".";
 import { camelCaseToKebabCase } from "../../../../utils/string.util";
-import { useTheme } from "../../hook";
 import { RootClassNameProps } from "../../theme.context";
 
 export type CustomSettingProps = RootClassNameProps & CustomStyle;
@@ -10,8 +9,8 @@ export const CustomSetting: FC<CustomSettingProps> = ({
   rootClassName,
   customStyles,
   classes = {},
+  classNamePrefix = "",
 }) => {
-  const { classNamePrefix } = useTheme();
   const globalStyle: ReactElement = useMemo(() => {
     return (
       <Global

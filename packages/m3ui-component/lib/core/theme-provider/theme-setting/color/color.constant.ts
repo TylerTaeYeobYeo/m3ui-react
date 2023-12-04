@@ -76,7 +76,7 @@ export interface ColorTheme {
   shadow: CSSProperties["color"];
 }
 
-export interface ColorPallete {
+export interface ColorPalette {
   [key: number]: CSSProperties["color"];
   0: CSSProperties["color"];
   10: CSSProperties["color"];
@@ -91,16 +91,16 @@ export interface ColorPallete {
   100: CSSProperties["color"];
 }
 
-export interface TonalPallete {
-  primary: ColorPallete;
-  secondary: ColorPallete;
-  tertiary: ColorPallete;
-  error: ColorPallete;
-  neutral: ColorPallete;
-  neutralVariant: ColorPallete;
+export interface TonalPalette {
+  primary: ColorPalette;
+  secondary: ColorPalette;
+  tertiary: ColorPalette;
+  error: ColorPalette;
+  neutral: ColorPalette;
+  neutralVariant: ColorPalette;
 }
 
-export const defaultPallete: TonalPallete = {
+export const defaultPalette: TonalPalette = {
   primary: {
     0: "#000000",
     10: "#21005D",

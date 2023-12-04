@@ -1,132 +1,132 @@
 import { CSSProperties } from "react";
 import {
   COLOR_MODE,
-  ColorPallete,
+  ColorPalette,
   ColorTheme,
-  TonalPallete,
+  TonalPalette,
 } from "../core/theme-provider/theme-setting/color/color.constant";
 
-const createLightTheme = (pallete: TonalPallete): ColorTheme => ({
+const createLightTheme = (palette: TonalPalette): ColorTheme => ({
   // primary
-  primary: pallete.primary[40],
-  onPrimary: pallete.primary[100],
-  primaryContainer: pallete.primary[90],
-  onPrimaryContainer: pallete.primary[10],
-  primaryFixed: pallete.primary[90],
-  primaryFiexedDim: pallete.primary[80],
-  onPrimaryFixed: pallete.primary[10],
-  onPrimaryFixedVariant: pallete.primary[30],
+  primary: palette.primary[40],
+  onPrimary: palette.primary[100],
+  primaryContainer: palette.primary[90],
+  onPrimaryContainer: palette.primary[10],
+  primaryFixed: palette.primary[90],
+  primaryFiexedDim: palette.primary[80],
+  onPrimaryFixed: palette.primary[10],
+  onPrimaryFixedVariant: palette.primary[30],
   // secondary
-  secondary: pallete.secondary[40],
-  onSecondary: pallete.secondary[100],
-  secondaryContainer: pallete.secondary[90],
-  onSecondaryContainer: pallete.secondary[10],
-  secondaryFixed: pallete.secondary[90],
-  secondaryFixedDim: pallete.secondary[80],
-  onSecondaryFixed: pallete.secondary[10],
-  onSecondaryFixedVariant: pallete.secondary[30],
+  secondary: palette.secondary[40],
+  onSecondary: palette.secondary[100],
+  secondaryContainer: palette.secondary[90],
+  onSecondaryContainer: palette.secondary[10],
+  secondaryFixed: palette.secondary[90],
+  secondaryFixedDim: palette.secondary[80],
+  onSecondaryFixed: palette.secondary[10],
+  onSecondaryFixedVariant: palette.secondary[30],
   // tertiary
-  tertiary: pallete.tertiary[40],
-  onTertiary: pallete.tertiary[100],
-  tertiaryContainer: pallete.tertiary[90],
-  onTertiaryContainer: pallete.tertiary[10],
-  tertiaryFixed: pallete.tertiary[90],
-  tertiaryFixedDim: pallete.tertiary[80],
-  onTertiaryFixed: pallete.tertiary[10],
-  onTertiaryFixedVariant: pallete.tertiary[30],
+  tertiary: palette.tertiary[40],
+  onTertiary: palette.tertiary[100],
+  tertiaryContainer: palette.tertiary[90],
+  onTertiaryContainer: palette.tertiary[10],
+  tertiaryFixed: palette.tertiary[90],
+  tertiaryFixedDim: palette.tertiary[80],
+  onTertiaryFixed: palette.tertiary[10],
+  onTertiaryFixedVariant: palette.tertiary[30],
   // error
-  error: pallete.error[40],
-  onError: pallete.error[100],
-  errorContainer: pallete.error[90],
-  onErrorContainer: pallete.error[10],
+  error: palette.error[40],
+  onError: palette.error[100],
+  errorContainer: palette.error[90],
+  onErrorContainer: palette.error[10],
   // surface
-  surfaceDim: pallete.neutral[87] ?? pallete.neutral[90],
-  surface: pallete.neutral[98] ?? pallete.neutral[100],
-  surfaceBright: pallete.neutral[98] ?? pallete.neutral[100],
-  surfaceContainerLowest: pallete.neutral[100],
-  surfaceContainerLow: pallete.neutral[96] ?? pallete.neutral[100],
-  surfaceContainer: pallete.neutral[94] ?? pallete.neutral[90],
-  surfaceContainerHigh: pallete.neutral[92] ?? pallete.neutral[90],
-  surfaceContainerHighest: pallete.neutral[90],
-  onSurface: pallete.neutral[10],
-  onSurfaceVariant: pallete.neutralVariant[30],
+  surfaceDim: palette.neutral[87] ?? palette.neutral[90],
+  surface: palette.neutral[98] ?? palette.neutral[100],
+  surfaceBright: palette.neutral[98] ?? palette.neutral[100],
+  surfaceContainerLowest: palette.neutral[100],
+  surfaceContainerLow: palette.neutral[96] ?? palette.neutral[100],
+  surfaceContainer: palette.neutral[94] ?? palette.neutral[90],
+  surfaceContainerHigh: palette.neutral[92] ?? palette.neutral[90],
+  surfaceContainerHighest: palette.neutral[90],
+  onSurface: palette.neutral[10],
+  onSurfaceVariant: palette.neutralVariant[30],
   // outline
-  outline: pallete.neutralVariant[50],
-  outlineVariant: pallete.neutralVariant[80],
+  outline: palette.neutralVariant[50],
+  outlineVariant: palette.neutralVariant[80],
   // inverse
-  inverseSurface: pallete.neutral[20],
-  inverseOnSurface: pallete.neutral[95],
-  inversePrimary: pallete.primary[80],
+  inverseSurface: palette.neutral[20],
+  inverseOnSurface: palette.neutral[95],
+  inversePrimary: palette.primary[80],
   // scrim
-  scrim: pallete.neutral[0],
+  scrim: palette.neutral[0],
   // shadow
-  shadow: pallete.neutral[0],
+  shadow: palette.neutral[0],
 });
 
-const createDarkTheme = (pallete: TonalPallete): ColorTheme => ({
+const createDarkTheme = (palette: TonalPalette): ColorTheme => ({
   // primary
-  primary: pallete.primary[80],
-  onPrimary: pallete.primary[20],
-  primaryContainer: pallete.primary[30],
-  onPrimaryContainer: pallete.primary[90],
-  primaryFixed: pallete.primary[90],
-  primaryFiexedDim: pallete.primary[80],
-  onPrimaryFixed: pallete.primary[10],
-  onPrimaryFixedVariant: pallete.primary[30],
+  primary: palette.primary[80],
+  onPrimary: palette.primary[20],
+  primaryContainer: palette.primary[30],
+  onPrimaryContainer: palette.primary[90],
+  primaryFixed: palette.primary[90],
+  primaryFiexedDim: palette.primary[80],
+  onPrimaryFixed: palette.primary[10],
+  onPrimaryFixedVariant: palette.primary[30],
   // secondary
-  secondary: pallete.secondary[80],
-  onSecondary: pallete.secondary[20],
-  secondaryContainer: pallete.secondary[30],
-  onSecondaryContainer: pallete.secondary[90],
-  secondaryFixed: pallete.secondary[90],
-  secondaryFixedDim: pallete.secondary[80],
-  onSecondaryFixed: pallete.secondary[10],
-  onSecondaryFixedVariant: pallete.secondary[30],
+  secondary: palette.secondary[80],
+  onSecondary: palette.secondary[20],
+  secondaryContainer: palette.secondary[30],
+  onSecondaryContainer: palette.secondary[90],
+  secondaryFixed: palette.secondary[90],
+  secondaryFixedDim: palette.secondary[80],
+  onSecondaryFixed: palette.secondary[10],
+  onSecondaryFixedVariant: palette.secondary[30],
   // tertiary
-  tertiary: pallete.tertiary[80],
-  onTertiary: pallete.tertiary[20],
-  tertiaryContainer: pallete.tertiary[30],
-  onTertiaryContainer: pallete.tertiary[90],
-  tertiaryFixed: pallete.tertiary[90],
-  tertiaryFixedDim: pallete.tertiary[80],
-  onTertiaryFixed: pallete.tertiary[10],
-  onTertiaryFixedVariant: pallete.tertiary[30],
+  tertiary: palette.tertiary[80],
+  onTertiary: palette.tertiary[20],
+  tertiaryContainer: palette.tertiary[30],
+  onTertiaryContainer: palette.tertiary[90],
+  tertiaryFixed: palette.tertiary[90],
+  tertiaryFixedDim: palette.tertiary[80],
+  onTertiaryFixed: palette.tertiary[10],
+  onTertiaryFixedVariant: palette.tertiary[30],
   // error
-  error: pallete.error[80],
-  onError: pallete.error[20],
-  errorContainer: pallete.error[30],
-  onErrorContainer: pallete.error[90],
+  error: palette.error[80],
+  onError: palette.error[20],
+  errorContainer: palette.error[30],
+  onErrorContainer: palette.error[90],
   // surface
-  surfaceDim: pallete.neutral[6] ?? pallete.neutral[10],
-  surface: pallete.neutral[6] ?? pallete.neutral[10],
-  surfaceBright: pallete.neutral[24] ?? pallete.neutral[20],
-  surfaceContainerLowest: pallete.neutral[4] ?? pallete.neutral[0],
-  surfaceContainerLow: pallete.neutral[10],
-  surfaceContainer: pallete.neutral[12] ?? pallete.neutral[10],
-  surfaceContainerHigh: pallete.neutral[17] ?? pallete.neutral[20],
-  surfaceContainerHighest: pallete.neutral[22] ?? pallete.neutral[20],
-  onSurface: pallete.neutral[90],
-  onSurfaceVariant: pallete.neutralVariant[80],
+  surfaceDim: palette.neutral[6] ?? palette.neutral[10],
+  surface: palette.neutral[6] ?? palette.neutral[10],
+  surfaceBright: palette.neutral[24] ?? palette.neutral[20],
+  surfaceContainerLowest: palette.neutral[4] ?? palette.neutral[0],
+  surfaceContainerLow: palette.neutral[10],
+  surfaceContainer: palette.neutral[12] ?? palette.neutral[10],
+  surfaceContainerHigh: palette.neutral[17] ?? palette.neutral[20],
+  surfaceContainerHighest: palette.neutral[22] ?? palette.neutral[20],
+  onSurface: palette.neutral[90],
+  onSurfaceVariant: palette.neutralVariant[80],
   // outline
-  outline: pallete.neutralVariant[60],
-  outlineVariant: pallete.neutralVariant[30],
+  outline: palette.neutralVariant[60],
+  outlineVariant: palette.neutralVariant[30],
   // inverse
-  inverseSurface: pallete.neutral[90],
-  inverseOnSurface: pallete.neutral[20],
-  inversePrimary: pallete.primary[40],
+  inverseSurface: palette.neutral[90],
+  inverseOnSurface: palette.neutral[20],
+  inversePrimary: palette.primary[40],
   // scrim
-  scrim: pallete.neutral[0],
+  scrim: palette.neutral[0],
   // shadow
-  shadow: pallete.neutral[0],
+  shadow: palette.neutral[0],
 });
 
 export const createTheme = (
-  pallete: TonalPallete,
+  palette: TonalPalette,
   mode: COLOR_MODE = COLOR_MODE.LIGHT
 ) =>
   mode === COLOR_MODE.LIGHT
-    ? createLightTheme(pallete)
-    : createDarkTheme(pallete);
+    ? createLightTheme(palette)
+    : createDarkTheme(palette);
 
 const colorMix = (
   color1: CSSProperties["color"],
@@ -145,10 +145,10 @@ const colorMixByIndex = (color1: CSSProperties["color"], index: number) => {
   return colorMix(counterColor, color1, ratio);
 };
 
-export const createColorPallete = (
+export const createColorPalette = (
   color: CSSProperties["color"]
-): ColorPallete =>
+): ColorPalette =>
   new Array(101).reduce((acc, curr) => {
     acc[curr] = colorMixByIndex(color, curr);
     return acc;
-  }, {} as Partial<ColorPallete>) as ColorPallete;
+  }, {} as Partial<ColorPalette>) as ColorPalette;

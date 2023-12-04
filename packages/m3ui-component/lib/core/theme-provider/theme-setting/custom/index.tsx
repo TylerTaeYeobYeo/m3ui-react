@@ -1,2 +1,2 @@
-export * from "./custom";
+export * from "./custom-setting";
 export * from "./custom.constant";

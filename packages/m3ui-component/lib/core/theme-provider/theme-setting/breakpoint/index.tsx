@@ -1,2 +1,2 @@
-export * from "./breakpoint";
+export * from "./breakpoint-setting";
 export * from "./breakpoint.constant";

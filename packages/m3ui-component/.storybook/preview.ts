@@ -1,10 +1,10 @@
 import { Preview } from "@storybook/react";
-import { COLOR_MODE, defaultPallete } from "../lib/core";
+import { COLOR_MODE, defaultPalette } from "../lib/core";
 import { createTheme } from "../lib/utils/theme.util";
 import { withThemeProvider } from "./decorator";
 
-const theme = createTheme(defaultPallete);
-const darkTheme = createTheme(defaultPallete, COLOR_MODE.DARK);
+const theme = createTheme(defaultPalette);
+const darkTheme = createTheme(defaultPalette, COLOR_MODE.DARK);
 
 const preview: Preview = {
   // https://storybook.js.org/docs/react/essentials/toolbars-and-globals#globals
