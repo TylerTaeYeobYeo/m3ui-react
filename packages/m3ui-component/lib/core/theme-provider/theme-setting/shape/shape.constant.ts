@@ -4,12 +4,19 @@ export enum SHAPE_FAMILY {
 }
 
 export enum SHAPE_SCALE {
+  /** default: 0px */
   NONE = "none",
+  /** default: 4px */
   EXTRA_SMALL = "extra-small",
+  /** default: 8px */
   SMALL = "small",
+  /** default: 12px */
   MEDIUM = "medium",
+  /** default: 16px */
   LARGE = "large",
+  /** default: 28px */
   EXTRA_LARGE = "extra-large",
+  /** default: 9999px */
   FULL = "full",
 }
 

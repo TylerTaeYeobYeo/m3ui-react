@@ -21,25 +21,25 @@ export const CustomSetting: FC<CustomSettingProps> = ({
               border-radius: 50%;
               background: radial-gradient(
                 circle,
-                color-mix(in srgb, transparent 50%, var(--secondary)),
-                color-mix(in srgb, transparent 56%, var(--secondary)) 75%,
-                color-mix(in srgb, transparent 66%, var(--secondary)) 50%,
-                color-mix(in srgb, transparent 82%, var(--secondary)) 25%
+                color-mix(in srgb, var(--onSurface) 16%, transparent),
+                color-mix(in srgb, var(--onSurface) 12%, transparent) 75%,
+                color-mix(in srgb, var(--onSurface) 12%, transparent) 50%,
+                color-mix(in srgb, var(--onSurface) 8%, transparent) 25%
               );
-              transition: all 1s ease-in-out;
+              transition: transform 1s ease-in-out, opacity 1s ease-in-out;
               transform: scale(0);
               transform-origin: center;
+              pointer-events: none;
+              touch-action: none;
               opacity: 1;
             }
             .${classNamePrefix}ripple.${classNamePrefix}ripple-scale {
-              opacity: 0.5;
+              opacity: 0.2;
               transform: scale(4);
-              transition: all 0.55s ease-out;
+              transition: transform 0.55s ease-out, opacity 0.55s ease-out;
             }
             .${classNamePrefix}ripple.${classNamePrefix}ripple-scale.${classNamePrefix}ripple-fade-out {
               opacity: 0;
-              transform: scale(10);
-              transition: all 0.3s ease-in-out;
             }
 
             ${Object.entries(classes)

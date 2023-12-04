@@ -9,7 +9,7 @@ export const useTheme = () => {
     useContext(ThemeContext);
   const { palette, color, mode } = useContext(ColorContext);
   return {
-    classNamePrefix,
+    classNamePrefix: classNamePrefix ?? "",
     // color token
     mode,
     palette,

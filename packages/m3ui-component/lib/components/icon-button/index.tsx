@@ -1,14 +1,11 @@
 import styled from "@emotion/styled";
-import { ButtonHTMLAttributes, forwardRef, useEffect, useRef } from "react";
+import { ButtonHTMLAttributes, forwardRef, useRef } from "react";
 import { SHAPE, VARIANT } from "../../constant";
 import { useTheme } from "../../core/theme-provider/hook";
 import { COLOR_DIVIERSION_TYPE } from "../../core/theme-provider/theme-setting/color/color.constant";
 import { ClassNamePrefixProps } from "../../core/theme-provider/theme.context";
-import {
-  getColorVariable,
-  getTonalColor,
-  rippleEventFactory,
-} from "../../utils/style.util";
+import { useRipple } from "../../hooks/use-ripple";
+import { getColorVariable, getTonalColor } from "../../utils/style.util";
 import { ICON_SHAPE, Icon, IconProps } from "../icon";
 
 export type IconButtonProps = {
@@ -297,16 +294,7 @@ export const IconButton = forwardRef<HTMLButtonElement, IconButtonProps>(
       />
     );
 
-    useEffect(() => {
-      if (!rippleEffect) return;
-      const btnRef = buttonRef.current;
-      if (!btnRef) return;
-      const rippleEvent = rippleEventFactory(btnRef);
-      btnRef.addEventListener("mousedown", rippleEvent);
-      return () => {
-        btnRef.removeEventListener("mousedown", rippleEvent);
-      };
-    }, [rippleEffect]);
+    useRipple(buttonRef, rippleEffect);
 
     switch (shape) {
       case SHAPE.TONAL:
