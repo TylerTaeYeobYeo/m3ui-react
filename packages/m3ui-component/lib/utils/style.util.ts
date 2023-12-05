@@ -57,6 +57,7 @@ export const getColorVariable = ({
       return "var(--inversePrimary)";
     case COLOR_DIVIERSION_TYPE.DEFAULT:
     default:
+      if (!variant) return undefined;
       return `var(--${variant})`;
   }
 };

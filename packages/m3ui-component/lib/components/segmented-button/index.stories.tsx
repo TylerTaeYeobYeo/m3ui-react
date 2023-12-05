@@ -22,11 +22,11 @@ export const MultipleSelect: Story = {
         children: "Button 2",
       },
       {
-        children: "Button 2",
+        children: "Disabled & Selected",
         disabled: true,
       },
       {
-        children: "Button 3",
+        children: "Disabled",
         disabled: true,
       },
     ],
@@ -62,7 +62,7 @@ export const SingleSelect: Story = {
         children: "Button 2",
       },
       {
-        children: "Button 3",
+        children: "Disabled",
         disabled: true,
       },
     ],

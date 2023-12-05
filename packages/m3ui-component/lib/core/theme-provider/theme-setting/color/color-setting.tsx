@@ -57,9 +57,9 @@ export const ColorSetting: FC<ColorSettingProps> = ({
             ${Object.entries(color)
               .map(([key, value]) => `--${key}: ${value}`)
               .join(";\n")}
-          }
-          .material-symbols-outlined {
-            font-variation-settings: "FILL" 0, "wght" 600, "GRAD" 0, "opsz" 48;
+            .material-symbols-outlined {
+              font-variation-settings: "FILL" 0, "wght" 600, "GRAD" 0, "opsz" 48;
+            }
           }
         `}
       />

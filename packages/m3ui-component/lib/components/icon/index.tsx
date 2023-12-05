@@ -2,8 +2,9 @@ import styled from "@emotion/styled";
 import { MaterialIcon } from "material-icons";
 import { MaterialSymbol } from "material-symbols";
 import { HTMLAttributes, forwardRef } from "react";
-import { SHAPE } from "../../constant";
+import { SHAPE, VARIANT } from "../../constant";
 import { useTheme } from "../../core/theme-provider/hook";
+import { getColorVariable } from "../../utils/style.util";
 
 export enum ICON_SHAPE {
   FILLED = SHAPE.FILLED,
@@ -41,7 +42,9 @@ type IconOptionProps =
       iconUrl: string;
     };
 
-export type IconProps = IconOptionProps &
+export type IconProps = {
+  variant?: VARIANT;
+} & IconOptionProps &
   Omit<HTMLAttributes<HTMLSpanElement>, "children">;
 
 export const CustomIcon = styled.span(({ iconUrl, style }: IconProps) => ({
@@ -55,6 +58,16 @@ export const CustomIcon = styled.span(({ iconUrl, style }: IconProps) => ({
   ...(style ?? {}),
 }));
 
+export const BaseIcon = styled.span<Omit<IconProps, "iconUrl">>`
+  color: ${({ variant }) =>
+    getColorVariable({
+      variant,
+    }) ?? "inherit"};
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
+`;
+
 export const Icon = forwardRef<HTMLSpanElement, IconProps>(
   ({ icon, shape = ICON_SHAPE.FILLED, iconUrl, className, ...props }, ref) => {
     const { classNamePrefix } = useTheme();
@@ -67,7 +80,7 @@ export const Icon = forwardRef<HTMLSpanElement, IconProps>(
       ...props,
     };
     if (icon) {
-      return <span {...commonProps}>{icon}</span>;
+      return <BaseIcon {...commonProps}>{icon}</BaseIcon>;
     } else {
       return <CustomIcon iconUrl={iconUrl} {...commonProps} />;
     }
