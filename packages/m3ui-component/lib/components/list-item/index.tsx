@@ -28,6 +28,8 @@ export type ListItemProps = {
   contentWrapperProps?: HTMLAttributes<HTMLDivElement>;
   childrenWrapperProps?: HTMLAttributes<HTMLDivElement>;
 
+  centerLine?: boolean;
+
   bottomDivider?: boolean;
   shape?: LIST_ITEM_SHAPE;
   rippleEffect?: boolean;
@@ -38,11 +40,13 @@ const BaseListItem = styled.li<
   {
     classNamePrefix: string;
     shape: LIST_ITEM_SHAPE;
+    centerLine?: boolean;
   } & ClickableContainerProps
 >`
   position: relative;
   overflow: hidden;
   display: flex;
+  align-items: ${({ centerLine }) => (centerLine ? "center" : "")};
   gap: 16px;
   padding: ${({ shape }) =>
     shape === LIST_ITEM_SHAPE.VIDEO ? "12px 16px 12px 0px" : "8px 16px"};
@@ -133,6 +137,7 @@ export const ListItem = forwardRef<HTMLLIElement, ListItemProps>(
       shape = LIST_ITEM_SHAPE.DEFAULT,
       rippleEffect = true,
       clickable = false,
+      centerLine,
       ...liProps
     },
     ref
@@ -157,6 +162,7 @@ export const ListItem = forwardRef<HTMLLIElement, ListItemProps>(
         classNamePrefix={classNamePrefix}
         shape={shape}
         clickable={clickable}
+        centerLine={centerLine}
         {...liProps}
       >
         <LeadingContent {...leadingWrapperProps} shape={shape}>

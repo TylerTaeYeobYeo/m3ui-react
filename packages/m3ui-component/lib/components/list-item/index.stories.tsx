@@ -6,7 +6,13 @@ import { Icon } from "../icon";
 const meta: Meta<typeof ListItem> = {
   component: ListItem,
   tags: ["autodocs"],
-  argTypes: {},
+  argTypes: {
+    centerLine: {
+      control: {
+        type: "boolean",
+      },
+    },
+  },
 };
 
 export default meta;
