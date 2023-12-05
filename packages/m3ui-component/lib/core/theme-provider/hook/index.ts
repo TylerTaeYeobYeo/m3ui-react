@@ -2,12 +2,13 @@ import { useContext } from "react";
 import { defaultBreakpoint } from "../theme-setting/breakpoint/breakpoint.constant";
 import { ColorContext } from "../theme-setting/color/color.context";
 import { defaultElevation } from "../theme-setting/elevation/elevation.constant";
+import { TypographyContext } from "../theme-setting/typography/typograpy.context";
 import { ThemeContext } from "../theme.context";
 
 export const useTheme = () => {
-  const { classNamePrefix, typography, breakpoint, elevation } =
-    useContext(ThemeContext);
+  const { classNamePrefix, breakpoint, elevation } = useContext(ThemeContext);
   const { palette, color, mode } = useContext(ColorContext);
+  const typography = useContext(TypographyContext);
   return {
     classNamePrefix: classNamePrefix ?? "",
     // color token
