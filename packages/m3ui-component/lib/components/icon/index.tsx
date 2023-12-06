@@ -60,9 +60,11 @@ export const CustomIcon = styled.span(({ iconUrl, style }: IconProps) => ({
 
 export const BaseIcon = styled.span<Omit<IconProps, "iconUrl">>`
   color: ${({ variant }) =>
-    getColorVariable({
-      variant,
-    }) ?? "inherit"};
+    variant
+      ? getColorVariable({
+          variant,
+        })
+      : "inherit"};
   font-size: 24px;
   width: 24px;
   height: 24px;

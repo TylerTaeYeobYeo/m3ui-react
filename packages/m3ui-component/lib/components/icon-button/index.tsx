@@ -1,3 +1,4 @@
+import { css } from "@emotion/react";
 import styled from "@emotion/styled";
 import { ButtonHTMLAttributes, forwardRef, useRef } from "react";
 import { SHAPE, VARIANT } from "../../constant";
@@ -23,94 +24,155 @@ export type IconButtonProps = {
 type InnerIconButtonProps = Omit<IconButtonProps, "iconProps"> &
   ClassNamePrefixProps;
 
-const TextIconButton = styled.button`
-  --buttonSurface: transparent;
-  --onButtonSurface: ${({ shape }: InnerIconButtonProps) => {
-    switch (shape) {
-      case SHAPE.TEXT:
-      case SHAPE.OUTLINED:
-        return getColorVariable({
+type ButtonColorParam = {
+  variant?: VARIANT;
+  value?: boolean;
+  disabled?: boolean;
+};
+
+const textButtonColor = ({ variant, value, disabled }: ButtonColorParam) => {
+  switch (value) {
+    case true:
+    case undefined:
+      return css`
+        --buttonSurface: transparent;
+        --onButtonSurface: ${disabled ? "transparent" : "var(--onSurface)"};
+        --buttonPrimary: ${getColorVariable({ variant })};
+        --onButtonPrimary: var(--onSurface);
+      `;
+    case false:
+      return css`
+        --buttonSurface: transparent;
+        --onButtonSurface: ${disabled ? "transparent" : "var(--onSurface)"};
+        --buttonPrimary: ${getColorVariable({
           variant: VARIANT.SURFACE,
           type: COLOR_DIVIERSION_TYPE.ON_VARIANT,
-        });
-      case SHAPE.TONAL:
-        return getColorVariable({
+        })};
+        --onButtonPrimary: var(--onSurface);
+      `;
+  }
+};
+const filledButtonColor = ({ variant, value, disabled }: ButtonColorParam) => {
+  switch (value) {
+    case true:
+    case undefined:
+      return css`
+        --buttonSurface: ${disabled
+          ? "var(--surface)"
+          : getColorVariable({ variant })};
+        --onButtonSurface: ${disabled
+          ? "var(--onSurface)"
+          : " var(--onSurface)"};
+        --buttonPrimary: ${getColorVariable({
+          variant,
+          type: COLOR_DIVIERSION_TYPE.ON,
+        })};
+        --onButtonPrimary: var(--onSurface);
+      `;
+    case false:
+      return css`
+        --buttonSurface: ${disabled
+          ? "var(--surface)"
+          : getColorVariable({
+              variant: VARIANT.SURFACE,
+              type: COLOR_DIVIERSION_TYPE.CONTAINER_HIGHEST,
+            })};
+        --onButtonSurface: ${disabled
+          ? "var(--onSurface)"
+          : " var(--onSurface)"};
+        --buttonPrimary: ${getColorVariable({
+          variant,
+        })};
+        --onButtonPrimary: var(--onSurface);
+      `;
+  }
+};
+const tonalButtonColor = ({ variant, value, disabled }: ButtonColorParam) => {
+  const tonalVariant: VARIANT = getTonalColor(variant ?? VARIANT.SECONDARY);
+  switch (value) {
+    case true:
+    case undefined:
+      return css`
+        --buttonSurface: ${disabled
+          ? "var(--surface)"
+          : getColorVariable({
+              variant: tonalVariant,
+              type: COLOR_DIVIERSION_TYPE.CONTAINER,
+            })};
+        --onButtonSurface: ${disabled ? "var(--onSurface)" : "transparent"};
+        --buttonPrimary: ${getColorVariable({
+          variant: tonalVariant,
+          type: COLOR_DIVIERSION_TYPE.ON_CONTAINER,
+        })};
+        --onButtonPrimary: var(--onSurface);
+      `;
+    case false:
+      return css`
+        --buttonSurface: ${disabled
+          ? "var(--surface)"
+          : getColorVariable({
+              variant: VARIANT.SURFACE,
+              type: COLOR_DIVIERSION_TYPE.CONTAINER_HIGHEST,
+            })};
+        --onButtonSurface: ${disabled ? "var(--onSurface)" : "transparent"};
+        --buttonPrimary: ${getColorVariable({
           variant: VARIANT.SURFACE,
           type: COLOR_DIVIERSION_TYPE.ON_VARIANT,
-        });
-      case SHAPE.FILLED:
-      default:
-        return getColorVariable({
+        })};
+        --onButtonPrimary: var(--onSurface);
+      `;
+  }
+};
+const outlinedButtonColor = ({ value, disabled }: ButtonColorParam) => {
+  switch (value) {
+    case false:
+    case undefined:
+      return css`
+        --buttonSurface: transparent;
+        --onButtonSurface: ${disabled ? "transparent" : "var(--onSurface)"};
+        --buttonPrimary: ${getColorVariable({
           variant: VARIANT.SURFACE,
           type: COLOR_DIVIERSION_TYPE.ON,
-        });
-    }
-  }};
-  --buttonPrimary: ${({ variant, shape, value }) => {
-    if (value === true) {
-      switch (shape) {
-        case SHAPE.TEXT:
-          return getColorVariable({ variant });
-        default:
-      }
-    } else if (value === false) {
-      switch (shape) {
-        case SHAPE.FILLED:
-        case SHAPE.TONAL:
-          return getColorVariable({
-            variant: VARIANT.SURFACE,
-            type: COLOR_DIVIERSION_TYPE.CONTAINER_HIGHEST,
-          });
-        default:
-      }
-    }
+        })};
+        --onButtonPrimary: var(--onSurface);
+      `;
+    case true:
+      return css`
+        --buttonSurface: ${disabled
+          ? "transparent"
+          : getColorVariable({
+              variant: VARIANT.SURFACE,
+              type: COLOR_DIVIERSION_TYPE.INVERSE,
+            })};
+        --onButtonSurface: ${disabled
+          ? getColorVariable({
+              variant: VARIANT.SURFACE,
+              type: COLOR_DIVIERSION_TYPE.ON,
+            })
+          : "transparent"};
+        --buttonPrimary: ${getColorVariable({
+          variant: VARIANT.SURFACE,
+          type: disabled
+            ? COLOR_DIVIERSION_TYPE.ON
+            : COLOR_DIVIERSION_TYPE.INVERSE_ON,
+        })};
+        --onButtonPrimary: var(--onSurface);
+      `;
+  }
+};
+const TextIconButton = styled.button`
+  ${({ shape, variant, value, disabled }) => {
     switch (shape) {
       case SHAPE.TEXT:
-      case SHAPE.OUTLINED:
-        return getColorVariable({
-          variant: VARIANT.SURFACE,
-          type: COLOR_DIVIERSION_TYPE.ON_VARIANT,
-        });
-      case SHAPE.TONAL:
-        return getColorVariable({
-          variant: getTonalColor(variant as VARIANT),
-          type: COLOR_DIVIERSION_TYPE.CONTAINER,
-        });
+        return textButtonColor({ variant, value, disabled });
       case SHAPE.FILLED:
-      default:
-        return getColorVariable({
-          variant,
-        });
+        return filledButtonColor({ variant, value, disabled });
+      case SHAPE.TONAL:
+        return tonalButtonColor({ variant, value, disabled });
+      case SHAPE.OUTLINED:
+        return outlinedButtonColor({ variant, value, disabled });
     }
-  }};
-  --buttonOnPrimary: ${({ variant, shape, value }: InnerIconButtonProps) => {
-    const isTonal = shape === SHAPE.TONAL;
-    if (value === true) {
-      switch (shape) {
-        case SHAPE.OUTLINED:
-          return getColorVariable({
-            variant: VARIANT.SURFACE,
-            type: COLOR_DIVIERSION_TYPE.INVERSE_ON,
-          });
-        default:
-      }
-    } else if (value === false) {
-      switch (shape) {
-        case SHAPE.FILLED:
-          return getColorVariable({
-            variant,
-          });
-        default:
-      }
-    }
-
-    return getColorVariable({
-      variant: isTonal ? getTonalColor(variant as VARIANT) : variant,
-      type: isTonal
-        ? COLOR_DIVIERSION_TYPE.ON_CONTAINER
-        : COLOR_DIVIERSION_TYPE.ON,
-    });
-  }};
+  }}
   position: relative;
   overflow: hidden;
   display: inline-block;
@@ -162,87 +224,26 @@ const TextIconButton = styled.button`
     )};
   }
   &:disabled {
-    background-color: var(--buttonSurface);
-    color: ${mixColor("var(--onButtonSurface)", "var(--buttonSurface)", 38)};
-    cursor: not-allowed;
-  }
-`;
-const FilledIconButton = styled(TextIconButton)`
-  background-color: var(--buttonPrimary);
-  color: var(--buttonOnPrimary);
-
-  transition-property: color, background-color;
-
-  &:focus-visible {
-    background-color: ${mixColor(
-      "var(--buttonSurface)",
-      "var(--buttonPrimary)",
-      12
-    )};
-    color: var(--buttonOnPrimary);
-  }
-  &:hover {
-    background-color: ${mixColor(
-      "var(--buttonSurface)",
-      "var(--buttonPrimary)",
-      8
-    )};
-    color: var(--buttonOnPrimary);
-  }
-  &:active {
-    background-color: ${mixColor(
-      "var(--buttonSurface)",
-      "var(--buttonPrimary)",
-      12
-    )};
-    color: var(--buttonOnPrimary);
-  }
-  &:disabled {
-    cursor: not-allowed;
     background-color: ${mixColor(
       "var(--onButtonSurface)",
-      "var(--buttonPrimary)",
-      12
-    )};
-    color: ${mixColor("var(--onButtonSurface)", "var(--buttonSurface)", 38)};
-  }
-`;
-const OutlinedIconButton = styled(TextIconButton)`
-  outline: 1px solid var(--outline);
-
-  transition-property: outline, color, background-color;
-  &:focus-visible {
-    outline: 1px solid var(--outline);
-    background-color: ${mixColor(
-      "var(--buttonPrimary)",
       "var(--buttonSurface)",
       12
     )};
-  }
-  &:hover {
-    outline: 1px solid var(--outline);
-    background-color: ${mixColor(
-      "var(--buttonPrimary)",
-      "var(--buttonSurface)",
-      8
-    )};
-  }
-  &:active {
-    outline: 1px solid var(--outline);
-    background-color: ${mixColor(
-      "var(--buttonPrimary)",
-      "var(--buttonSurface)",
-      12
-    )};
-  }
-  &:disabled {
-    outline: 1px solid
-      ${mixColor("var(--onButtonSurface)", "var(--buttonSurface)", 12)};
-    color: ${mixColor("var(--onButtonSurface)", "var(--buttonSurface)", 38)};
-    background-color: var(--buttonSurface);
+    color: ${mixColor("var(--onButtonPrimary)", "var(--buttonSurface)", 38)};
     cursor: not-allowed;
   }
 `;
+const FilledIconButton = styled(TextIconButton)``;
+const OutlinedIconButton = styled(TextIconButton)`
+  outline: 1px solid var(--outline);
+  &:focus-visible {
+    outline: 1px solid var(--outline);
+  }
+  &:disabled {
+    outline: 1px solid ${mixColor("var(--onSurface)", "var(--surface)", 12)};
+  }
+`;
+const TonalIconButton = styled(TextIconButton)``;
 
 export const IconButton = forwardRef<HTMLButtonElement, IconButtonProps>(
   (
@@ -295,6 +296,7 @@ export const IconButton = forwardRef<HTMLButtonElement, IconButtonProps>(
 
     switch (shape) {
       case SHAPE.TONAL:
+        return <TonalIconButton {...commonProps}>{child}</TonalIconButton>;
       case SHAPE.FILLED:
         return <FilledIconButton {...commonProps}>{child}</FilledIconButton>;
       case SHAPE.OUTLINED:
