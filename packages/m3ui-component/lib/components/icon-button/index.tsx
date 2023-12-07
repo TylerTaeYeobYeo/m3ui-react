@@ -18,7 +18,7 @@ export type IconButtonProps = {
   variant?: VARIANT;
   value?: boolean; // true | false | undefined
   rippleEffect?: boolean;
-  iconProps: Omit<IconProps, "shape">;
+  iconProps: Omit<IconProps, "shape" | "filled">;
 } & Omit<ButtonHTMLAttributes<HTMLButtonElement>, "children">;
 
 type InnerIconButtonProps = Omit<IconButtonProps, "iconProps"> &
@@ -281,13 +281,8 @@ export const IconButton = forwardRef<HTMLButtonElement, IconButtonProps>(
     const child = (
       // @ts-ignore
       <Icon
-        shape={
-          iconProps.icon
-            ? value
-              ? ICON_SHAPE.FILLED
-              : ICON_SHAPE.OUTLINED
-            : undefined
-        }
+        filled={value}
+        shape={iconProps.icon ? ICON_SHAPE.OUTLINED : undefined}
         {...iconProps}
       />
     );

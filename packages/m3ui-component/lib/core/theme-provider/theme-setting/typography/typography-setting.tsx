@@ -17,32 +17,37 @@ export const TypographySetting: FC<TypographySettingProps> = ({
   classNamePrefix = "",
   children,
 }) => {
-  const globalStyle: ReactElement = useMemo(() => {
-    const style: TypographyConfig = {
+  const style: TypographyConfig = useMemo(
+    () => ({
       ...DEFAULT_TYPOGRAPHY,
       ...(typography ?? {}),
-    };
+    }),
+    [typography]
+  );
+  const globalStyle: ReactElement = useMemo(() => {
     return (
-      <>
-        <Global
-          styles={css`
-            ${rootClassName ? `.${rootClassName}` : ":root"} {
-              ${Object.entries(style).map(
-                ([className, style]) =>
-                  `.${classNamePrefix}${className} { ${Object.entries(style)
-                    .map(
-                      ([key, value]) => `${camelCaseToKebabCase(key)}:${value}`
-                    )
-                    .join(";\n")} }`
-              )}
-            }
-          `}
-        />
-        <TypographyContext.Provider value={style}>
-          {children}
-        </TypographyContext.Provider>
-      </>
+      <Global
+        styles={css`
+          ${rootClassName ? `.${rootClassName}` : ":root"} {
+            ${Object.entries(style).map(
+              ([className, style]) =>
+                `.${classNamePrefix}${className} { ${Object.entries(style)
+                  .map(
+                    ([key, value]) => `${camelCaseToKebabCase(key)}:${value}`
+                  )
+                  .join(";\n")} }`
+            )}
+          }
+        `}
+      />
     );
-  }, [rootClassName, typography]);
-  return globalStyle;
+  }, [rootClassName, style, typography]);
+  return (
+    <>
+      {globalStyle}
+      <TypographyContext.Provider value={style}>
+        {children}
+      </TypographyContext.Provider>
+    </>
+  );
 };

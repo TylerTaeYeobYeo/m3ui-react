@@ -1,5 +1,4 @@
 import styled from "@emotion/styled";
-import { MaterialIcon } from "material-icons";
 import { MaterialSymbol } from "material-symbols";
 import { HTMLAttributes, forwardRef } from "react";
 import { SHAPE, VARIANT } from "../../constant";
@@ -7,43 +6,34 @@ import { useTheme } from "../../core/theme-provider/hook";
 import { getColorVariable } from "../../utils/style.util";
 
 export enum ICON_SHAPE {
-  FILLED = SHAPE.FILLED,
   OUTLINED = SHAPE.OUTLINED,
   ROUNDED = "rounded",
   SHARP = "sharp",
-  TWO_TONE = "two-tone",
 }
 
 export const ICON_SHAPE_CLASSNAME: { [key in ICON_SHAPE]: string } = {
-  [ICON_SHAPE.FILLED]: "material-icons",
   [ICON_SHAPE.OUTLINED]: "material-symbols-outlined",
   [ICON_SHAPE.ROUNDED]: "material-symbols-rounded",
   [ICON_SHAPE.SHARP]: "material-symbols-sharp",
-  [ICON_SHAPE.TWO_TONE]: "material-icons-two-tone",
 } as const;
 
 type IconOptionProps =
   | {
       icon: MaterialSymbol;
-      shape?: Omit<ICON_SHAPE, ICON_SHAPE.FILLED | ICON_SHAPE.TWO_TONE>;
-      iconUrl?: never;
-    }
-  | {
-      icon: MaterialIcon;
-      shape?: Omit<
-        ICON_SHAPE,
-        ICON_SHAPE.OUTLINED | ICON_SHAPE.ROUNDED | ICON_SHAPE.SHARP
-      >;
       iconUrl?: never;
     }
   | {
       icon?: never;
-      shape?: never;
       iconUrl: string;
     };
 
 export type IconProps = {
   variant?: VARIANT;
+  shape?: ICON_SHAPE;
+  filled?: boolean;
+  weight?: 100 | 200 | 300 | 400 | 500 | 600 | 700;
+  grade?: -25 | 0 | 200;
+  opticalSize?: 20 | 24 | 40 | 48;
 } & IconOptionProps &
   Omit<HTMLAttributes<HTMLSpanElement>, "children">;
 
@@ -53,6 +43,7 @@ export const CustomIcon = styled.span(({ iconUrl, style }: IconProps) => ({
   backgroundPosition: "center",
   backgroundRepeat: "no-repeat",
   display: "inline-block",
+  fontSize: "24px",
   width: "24px",
   height: "24px",
   ...(style ?? {}),
@@ -68,17 +59,28 @@ export const BaseIcon = styled.span<Omit<IconProps, "iconUrl">>`
   font-size: 24px;
   width: 24px;
   height: 24px;
+  font-variation-settings: ${({
+    filled = false,
+    weight = 400,
+    grade = 0,
+    opticalSize = 24,
+  }) =>
+    `"FILL" ${
+      filled ? 1 : 0
+    }, "wght" ${weight}, "GRAD" ${grade}, "opsz" ${opticalSize}`};
 `;
 
 export const Icon = forwardRef<HTMLSpanElement, IconProps>(
-  ({ icon, shape = ICON_SHAPE.FILLED, iconUrl, className, ...props }, ref) => {
+  (
+    { icon, shape = ICON_SHAPE.OUTLINED, iconUrl, className, ...props },
+    ref
+  ) => {
     const { classNamePrefix } = useTheme();
     const commonProps = {
       ref,
-      className: `${classNamePrefix}icon ${
-        // @ts-ignore
-        ICON_SHAPE_CLASSNAME[shape]
-      } ${className ?? ""}`,
+      className: `${classNamePrefix}icon ${ICON_SHAPE_CLASSNAME[shape]} ${
+        className ?? ""
+      }`,
       ...props,
     };
     if (icon) {

@@ -71,6 +71,7 @@ export const ClickEvent: Story = {
     headline: "Headline",
     children: "Supporting Text",
     trailing: <Icon icon="wifi" />,
+    clickable: true,
     onClick: action("onClick"),
   },
   render: (props) => <ListItem {...props} />,

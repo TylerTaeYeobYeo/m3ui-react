@@ -173,16 +173,18 @@ export const ListItem = forwardRef<HTMLLIElement, ListItemProps>(
           <Children {...childrenWrapperProps}>{children}</Children>
         </Content>
         <TrailingContent {...trailingWrapperProps}>{trailing}</TrailingContent>
-        {bottomDivider && (
-          <Divider
-            style={{
-              position: "absolute",
-              bottom: 0,
-              width: "calc(100% - 32px)",
-              margin: 0,
-            }}
-          />
-        )}
+
+        <Divider
+          style={{
+            position: "absolute",
+            bottom: 0,
+            width: "calc(100% - 32px)",
+            margin: 0,
+            maxWidth: bottomDivider ? "100%" : "50%",
+            opacity: bottomDivider ? 1 : 0,
+            transition: "all 0.5s ease-in-out",
+          }}
+        />
       </BaseListItem>
     );
   }

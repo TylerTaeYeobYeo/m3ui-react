@@ -32,11 +32,6 @@ export const ThemeProvider: FC<ThemeProviderProps> = ({ theme, children }) => {
   const prefix = classNamePrefix ? `${classNamePrefix.trim()}-` : "";
   return (
     <ThemeContext.Provider value={{ ...theme, classNamePrefix: prefix }}>
-      <TypographySetting
-        rootClassName={rootClassName}
-        classNamePrefix={prefix}
-        {...typography}
-      />
       <BreakpointSetting
         rootClassName={rootClassName}
         classNamePrefix={prefix}
@@ -65,7 +60,13 @@ export const ThemeProvider: FC<ThemeProviderProps> = ({ theme, children }) => {
         classNamePrefix={prefix}
         mode={mode}
       >
-        {children}
+        <TypographySetting
+          rootClassName={rootClassName}
+          classNamePrefix={prefix}
+          {...typography}
+        >
+          {children}
+        </TypographySetting>
       </ColorSetting>
     </ThemeContext.Provider>
   );

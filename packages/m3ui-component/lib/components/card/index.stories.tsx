@@ -70,6 +70,7 @@ export const Clickable: Story = {
     children: "Filled",
     shape: CARD_SHAPE.FILLED,
     onClick: action("onClick"),
+    clickable: true,
     style: {
       padding: "1rem",
     },
