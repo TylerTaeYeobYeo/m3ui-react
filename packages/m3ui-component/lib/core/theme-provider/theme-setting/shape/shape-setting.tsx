@@ -1,15 +1,19 @@
 import { Global, css } from "@emotion/react";
-import { FC, ReactElement, useMemo } from "react";
+import { FC, PropsWithChildren, ReactElement, useMemo } from "react";
 import { RootClassNameProps } from "../../theme.context";
+import { ShapeScaleContext } from "./color.context";
 import { ShapeScale, defaultShapeScale } from "./shape.constant";
 
-export type ShapeSettingProps = RootClassNameProps & {
-  shapeScale?: ShapeScale;
-};
+export type ShapeSettingProps = PropsWithChildren<
+  RootClassNameProps & {
+    shapeScale?: ShapeScale;
+  }
+>;
 export const ShapeSetting: FC<ShapeSettingProps> = ({
   rootClassName,
   shapeScale,
   classNamePrefix = "",
+  children,
 }) => {
   const shapes = {
     ...defaultShapeScale,
@@ -30,5 +34,16 @@ export const ShapeSetting: FC<ShapeSettingProps> = ({
       />
     );
   }, [rootClassName]);
-  return globalStyle;
+  return (
+    <>
+      {globalStyle}
+      <ShapeScaleContext.Provider
+        value={{
+          shapeScale: shapes,
+        }}
+      >
+        {children}
+      </ShapeScaleContext.Provider>
+    </>
+  );
 };

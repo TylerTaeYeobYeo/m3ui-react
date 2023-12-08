@@ -49,11 +49,6 @@ export const ThemeProvider: FC<ThemeProviderProps> = ({ theme, children }) => {
         classes={classes}
         customStyles={customStyles}
       />
-      <ShapeSetting
-        rootClassName={rootClassName}
-        classNamePrefix={prefix}
-        shapeScale={shapeScale}
-      />
       <ColorSetting
         {...other}
         rootClassName={rootClassName}
@@ -65,7 +60,13 @@ export const ThemeProvider: FC<ThemeProviderProps> = ({ theme, children }) => {
           classNamePrefix={prefix}
           {...typography}
         >
-          {children}
+          <ShapeSetting
+            rootClassName={rootClassName}
+            classNamePrefix={prefix}
+            shapeScale={shapeScale}
+          >
+            {children}
+          </ShapeSetting>
         </TypographySetting>
       </ColorSetting>
     </ThemeContext.Provider>
