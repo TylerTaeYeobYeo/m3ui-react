@@ -28,21 +28,11 @@ export default meta;
 
 type Story = StoryObj<typeof FloatingActionButton>;
 
-export const Icon: Story = {
+export const FAB: Story = {
   args: {
     iconProps: {
       icon: "edit",
     },
-  },
-  render: (props) => <FloatingActionButton {...props} />,
-};
-
-export const Label: Story = {
-  args: {
-    iconProps: {
-      icon: "edit",
-    },
-    children: "Label",
   },
   render: (props) => <FloatingActionButton {...props} />,
 };

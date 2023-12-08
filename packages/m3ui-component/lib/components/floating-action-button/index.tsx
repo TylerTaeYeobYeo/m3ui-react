@@ -1,12 +1,11 @@
 import { css } from "@emotion/react";
 import styled from "@emotion/styled";
-import { ButtonHTMLAttributes, CSSProperties, forwardRef, useRef } from "react";
+import { ButtonHTMLAttributes, forwardRef, useRef } from "react";
 import { SIZE, VARIANT } from "../../constant";
 import { useTheme } from "../../core/theme-provider/hook";
 import { COLOR_DIVIERSION_TYPE } from "../../core/theme-provider/theme-setting/color/color.constant";
 import { ShapeScale } from "../../core/theme-provider/theme-setting/shape";
 import { useRipple } from "../../hooks/use-ripple";
-import { camelCaseToKebabCase } from "../../utils/string.util";
 import { getColorVariable, mixColor } from "../../utils/style.util";
 import { Icon, IconProps } from "../icon";
 
@@ -15,13 +14,11 @@ export type FloatingActionButtonProps = {
   variant?: VARIANT;
   size?: SIZE.SMALL | SIZE.MEDIUM | SIZE.LARGE;
   rippleEffect?: boolean;
-} & ButtonHTMLAttributes<HTMLButtonElement>;
+} & Omit<ButtonHTMLAttributes<HTMLButtonElement>, "children">;
 
 const BaseFloatingActionButton = styled.button<
   Omit<FloatingActionButtonProps, "iconProps"> & {
-    hasChildren: boolean;
     classNamePrefix: string;
-    typography?: CSSProperties;
     shapeScale?: ShapeScale;
   }
 >`
@@ -47,15 +44,15 @@ const BaseFloatingActionButton = styled.button<
   color: var(--fabPrimary);
   background-color: var(--fabSurface);
 
-  padding: ${({ size, hasChildren }) => {
+  padding: ${({ size }) => {
     switch (size) {
       case SIZE.SMALL:
-        return `8px ${8 + (hasChildren ? 4 : 0)}px`;
+        return "8px";
       case SIZE.LARGE:
-        return `30px ${30 + (hasChildren ? 4 : 0)}px`;
+        return "30px";
       default:
       case SIZE.MEDIUM:
-        return `16px ${16 + (hasChildren ? 4 : 0)}px`;
+        return "16px";
     }
   }};
   .${({ classNamePrefix }) => classNamePrefix}icon {
@@ -69,12 +66,6 @@ const BaseFloatingActionButton = styled.button<
       `;
     }}
   }
-  ${({ typography }) =>
-    typography
-      ? Object.entries(typography)
-          .map(([key, value]) => `${camelCaseToKebabCase(key)}: ${value};`)
-          .join("\n")
-      : ""}
 
   border: none;
   outline: none;
@@ -140,7 +131,6 @@ export const FloatingActionButton = forwardRef<
   (
     {
       iconProps,
-      children,
       variant = VARIANT.PRIMARY,
       size = SIZE.MEDIUM,
       rippleEffect = true,
@@ -148,7 +138,7 @@ export const FloatingActionButton = forwardRef<
     },
     ref
   ) => {
-    const { classNamePrefix, typography, shapeScale } = useTheme();
+    const { classNamePrefix, shapeScale } = useTheme();
     const buttonRef = useRef<HTMLButtonElement>();
     useRipple(buttonRef, rippleEffect);
     return (
@@ -164,15 +154,12 @@ export const FloatingActionButton = forwardRef<
           }
         }}
         variant={variant}
-        hasChildren={!!children}
         classNamePrefix={classNamePrefix}
-        typography={typography["label-large"]}
         shapeScale={shapeScale}
         size={size}
         {...props}
       >
         <Icon variant={variant} {...iconProps} />
-        {children}
       </BaseFloatingActionButton>
     );
   }
