@@ -2,7 +2,7 @@ import { action } from "@storybook/addon-actions";
 import type { Meta, StoryObj } from "@storybook/react";
 
 import { IconButton } from ".";
-import { SHAPE, VARIANT } from "../../constant";
+import { SHAPE, VARIANT } from "../../../constant";
 
 const meta: Meta<typeof IconButton> = {
   component: IconButton,

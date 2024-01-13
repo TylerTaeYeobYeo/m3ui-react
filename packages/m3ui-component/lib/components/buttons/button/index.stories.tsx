@@ -1,8 +1,8 @@
 import { action } from "@storybook/addon-actions";
 import type { Meta, StoryObj } from "@storybook/react";
 import { Button } from ".";
-import { SHAPE, VARIANT } from "../../constant";
-import { Icon } from "../icon";
+import { SHAPE, VARIANT } from "../../../constant";
+import { Icon } from "../../icon";
 
 const meta: Meta<typeof Button> = {
   component: Button,

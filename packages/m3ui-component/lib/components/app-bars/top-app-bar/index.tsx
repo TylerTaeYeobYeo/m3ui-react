@@ -1,7 +1,7 @@
 import styled from "@emotion/styled";
 import { CSSProperties, HTMLAttributes, forwardRef } from "react";
-import { SIZE } from "../../constant/style.constant";
-import { useTheme } from "../../core/theme-provider/hook";
+import { SIZE } from "../../../constant/style.constant";
+import { useTheme } from "../../../core/theme-provider/hook";
 
 export enum TOP_APP_BAR_SIZE {
   SMALL = SIZE.SMALL,

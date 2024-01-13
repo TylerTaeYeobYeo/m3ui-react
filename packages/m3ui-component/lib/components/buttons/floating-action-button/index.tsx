@@ -1,25 +1,24 @@
+import { css } from "@emotion/react";
 import styled from "@emotion/styled";
-import { ButtonHTMLAttributes, CSSProperties, forwardRef, useRef } from "react";
-import { VARIANT } from "../../constant";
-import { useTheme } from "../../core/theme-provider/hook";
-import { COLOR_DIVIERSION_TYPE } from "../../core/theme-provider/theme-setting/color/color.constant";
-import { ShapeScale } from "../../core/theme-provider/theme-setting/shape";
-import { useRipple } from "../../hooks/use-ripple";
-import { camelCaseToKebabCase } from "../../utils/string.util";
-import { getColorVariable, mixColor } from "../../utils/style.util";
-import { Icon, IconProps } from "../icon";
+import { ButtonHTMLAttributes, forwardRef, useRef } from "react";
+import { SIZE, VARIANT } from "../../../constant";
+import { useTheme } from "../../../core/theme-provider/hook";
+import { COLOR_DIVIERSION_TYPE } from "../../../core/theme-provider/theme-setting/color/color.constant";
+import { ShapeScale } from "../../../core/theme-provider/theme-setting/shape";
+import { useRipple } from "../../../hooks/use-ripple";
+import { getColorVariable, mixColor } from "../../../utils/style.util";
+import { Icon, IconProps } from "../../icon";
 
-export type ExtendedFABProps = {
+export type FloatingActionButtonProps = {
   iconProps: IconProps;
   variant?: VARIANT;
+  size?: SIZE.SMALL | SIZE.MEDIUM | SIZE.LARGE;
   rippleEffect?: boolean;
-} & ButtonHTMLAttributes<HTMLButtonElement>;
+} & Omit<ButtonHTMLAttributes<HTMLButtonElement>, "children">;
 
-const BaseExtendedFAB = styled.button<
-  Omit<ExtendedFABProps, "iconProps"> & {
-    hasChildren: boolean;
+const BaseFloatingActionButton = styled.button<
+  Omit<FloatingActionButtonProps, "iconProps"> & {
     classNamePrefix: string;
-    typography?: CSSProperties;
     shapeScale?: ShapeScale;
   }
 >`
@@ -45,23 +44,41 @@ const BaseExtendedFAB = styled.button<
   color: var(--fabPrimary);
   background-color: var(--fabSurface);
 
-  padding: 16px 20px;
+  padding: ${({ size }) => {
+    switch (size) {
+      case SIZE.SMALL:
+        return "8px";
+      case SIZE.LARGE:
+        return "30px";
+      default:
+      case SIZE.MEDIUM:
+        return "16px";
+    }
+  }};
   .${({ classNamePrefix }) => classNamePrefix}icon {
-    color: var(--fabPrimary);
-    width: 24px;
-    height: 24px;
-    font-size: 24px;
+    ${({ size }) => {
+      const iconSize = size === SIZE.LARGE ? 36 : 24;
+      return css`
+        color: var(--fabPrimary);
+        width: ${iconSize}px;
+        height: ${iconSize}px;
+        font-size: ${iconSize}px;
+      `;
+    }}
   }
-  ${({ typography }) =>
-    typography
-      ? Object.entries(typography)
-          .map(([key, value]) => `${camelCaseToKebabCase(key)}: ${value};`)
-          .join("\n")
-      : ""}
 
   border: none;
   outline: none;
-  border-radius: ${({ shapeScale }) => shapeScale?.large ?? 16}px;
+  border-radius: ${({ size, shapeScale }) => {
+    switch (size) {
+      case SIZE.SMALL:
+        return shapeScale?.medium ?? 12;
+      case SIZE.MEDIUM:
+        return shapeScale?.large ?? 16;
+      case SIZE.LARGE:
+        return shapeScale?.["extra-large"] ?? 28;
+    }
+  }}px;
 
   display: inline-flex;
   align-items: center;
@@ -107,22 +124,25 @@ const BaseExtendedFAB = styled.button<
   }
 `;
 
-export const ExtendedFAB = forwardRef<HTMLButtonElement, ExtendedFABProps>(
+export const FloatingActionButton = forwardRef<
+  HTMLButtonElement,
+  FloatingActionButtonProps
+>(
   (
     {
       iconProps,
-      children,
       variant = VARIANT.PRIMARY,
+      size = SIZE.MEDIUM,
       rippleEffect = true,
       ...props
     },
     ref
   ) => {
-    const { classNamePrefix, typography, shapeScale } = useTheme();
+    const { classNamePrefix, shapeScale } = useTheme();
     const buttonRef = useRef<HTMLButtonElement>();
     useRipple(buttonRef, rippleEffect);
     return (
-      <BaseExtendedFAB
+      <BaseFloatingActionButton
         ref={(el: HTMLButtonElement) => {
           buttonRef.current = el;
           if (ref) {
@@ -134,15 +154,13 @@ export const ExtendedFAB = forwardRef<HTMLButtonElement, ExtendedFABProps>(
           }
         }}
         variant={variant}
-        hasChildren={!!children}
         classNamePrefix={classNamePrefix}
-        typography={typography["label-large"]}
         shapeScale={shapeScale}
+        size={size}
         {...props}
       >
         <Icon variant={variant} {...iconProps} />
-        {children}
-      </BaseExtendedFAB>
+      </BaseFloatingActionButton>
     );
   }
 );

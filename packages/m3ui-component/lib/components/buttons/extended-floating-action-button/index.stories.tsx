@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from "@storybook/react";
 
 import { ExtendedFAB } from ".";
-import { VARIANT } from "../../constant";
+import { VARIANT } from "../../../constant";
 
 const meta: Meta<typeof ExtendedFAB> = {
   component: ExtendedFAB,

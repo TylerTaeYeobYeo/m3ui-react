@@ -7,11 +7,11 @@ import {
   forwardRef,
   useRef,
 } from "react";
-import { useTheme } from "../../core/theme-provider/hook";
-import { SHAPE_SCALE } from "../../core/theme-provider/theme-setting/shape";
-import { useRipple } from "../../hooks/use-ripple";
-import { mixColor } from "../../utils/style.util";
-import { Icon, IconProps } from "../icon";
+import { useTheme } from "../../../core/theme-provider/hook";
+import { SHAPE_SCALE } from "../../../core/theme-provider/theme-setting/shape";
+import { useRipple } from "../../../hooks/use-ripple";
+import { mixColor } from "../../../utils/style.util";
+import { Icon, IconProps } from "../../icon";
 
 type SegmentedButtonDensityType = 0 | -1 | -2 | -3;
 type ButtonPropWithoutChildren = Omit<

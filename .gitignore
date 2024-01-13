@@ -5,6 +5,7 @@ dist/
 .nx/cache/*
 .nx/*
 .env.*
+**/.nx/**
 
 **/*.log
 *.log

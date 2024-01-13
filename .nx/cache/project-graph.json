@@ -11652,6 +11652,15 @@
         "hash": "sha512-/2YoaB79IjUK2B2JB+vIXXYGtBfHb/XG66LvoKVM5ykHW7yfrV5SP6d7KLX6iijY6/G9GqwgtPQ/sbhFnOURVA=="
       }
     },
+    "npm:material-symbols": {
+      "type": "npm",
+      "name": "npm:material-symbols",
+      "data": {
+        "version": "0.14.1",
+        "packageName": "material-symbols",
+        "hash": "sha512-qFUhEt90BbKMkpUIN8OdrjFpFBSeQ2XyB6H2Z08wecOWJnbkvAgslejKivgEewtPse14ElkOwZeoHakPZYUEhQ=="
+      }
+    },
     "npm:mdast-util-definitions": {
       "type": "npm",
       "name": "npm:mdast-util-definitions",
@@ -14975,6 +14984,11 @@
       {
         "source": "@m3ui/component",
         "target": "npm:material-icons",
+        "type": "static"
+      },
+      {
+        "source": "@m3ui/component",
+        "target": "npm:material-symbols",
         "type": "static"
       },
       {

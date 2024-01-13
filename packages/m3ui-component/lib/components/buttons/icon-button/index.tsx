@@ -1,17 +1,17 @@
 import { css } from "@emotion/react";
 import styled from "@emotion/styled";
 import { ButtonHTMLAttributes, forwardRef, useRef } from "react";
-import { SHAPE, VARIANT } from "../../constant";
-import { useTheme } from "../../core/theme-provider/hook";
-import { COLOR_DIVIERSION_TYPE } from "../../core/theme-provider/theme-setting/color/color.constant";
-import { ClassNamePrefixProps } from "../../core/theme-provider/theme.context";
-import { useRipple } from "../../hooks/use-ripple";
+import { SHAPE, VARIANT } from "../../../constant";
+import { useTheme } from "../../../core/theme-provider/hook";
+import { COLOR_DIVIERSION_TYPE } from "../../../core/theme-provider/theme-setting/color/color.constant";
+import { ClassNamePrefixProps } from "../../../core/theme-provider/theme.context";
+import { useRipple } from "../../../hooks/use-ripple";
 import {
   getColorVariable,
   getTonalColor,
   mixColor,
-} from "../../utils/style.util";
-import { ICON_SHAPE, Icon, IconProps } from "../icon";
+} from "../../../utils/style.util";
+import { ICON_SHAPE, Icon, IconProps } from "../../icon";
 
 export type IconButtonProps = {
   shape?: Omit<SHAPE, SHAPE.ELEVATED>;

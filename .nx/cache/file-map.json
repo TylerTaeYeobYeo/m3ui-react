@@ -19,6 +19,7 @@
     "eslint-plugin-react": "^7.33.2",
     "lerna": "^8.0.0",
     "material-icons": "^1.13.12",
+    "material-symbols": "^0.14.1",
     "postcss-pxtorem": "^6.0.0",
     "storybook": "^7.6.3",
     "storybook-addon-package-json": "^2.0.0",
@@ -33,7 +34,7 @@
     "nonProjectFiles": [
       {
         "file": ".eslintrc.json",
-        "hash": "3082681085128690321"
+        "hash": "13681318893815758523"
       },
       {
         "file": ".gitignore",
@@ -45,7 +46,7 @@
       },
       {
         "file": "lerna.json",
-        "hash": "10307142885639291195"
+        "hash": "2565237123621199458"
       },
       {
         "file": "nx.json",
@@ -53,11 +54,11 @@
       },
       {
         "file": "package-lock.json",
-        "hash": "9954217952268338367"
+        "hash": "7990169099214133908"
       },
       {
         "file": "package.json",
-        "hash": "10666729149935748996"
+        "hash": "16652358887185963452"
       },
       {
         "file": "tsconfig.json",
@@ -65,6 +66,493 @@
       }
     ],
     "projectFileMap": {
+      "@m3ui/component": [
+        {
+          "file": "packages/m3ui-component/.gitignore",
+          "hash": "18299805718613144439"
+        },
+        {
+          "file": "packages/m3ui-component/.npmignore",
+          "hash": "2976224574755603820"
+        },
+        {
+          "file": "packages/m3ui-component/.storybook/decorator.tsx",
+          "hash": "8503356808070499027",
+          "deps": [
+            "npm:@storybook/react",
+            "npm:material-icons",
+            "npm:material-symbols",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "packages/m3ui-component/.storybook/main.ts",
+          "hash": "17225269464250230095",
+          "deps": [
+            "npm:@storybook/react-vite"
+          ]
+        },
+        {
+          "file": "packages/m3ui-component/.storybook/preview.ts",
+          "hash": "6435923082585520380",
+          "deps": [
+            "npm:@storybook/react"
+          ]
+        },
+        {
+          "file": "packages/m3ui-component/README.md",
+          "hash": "3914075194330296067"
+        },
+        {
+          "file": "packages/m3ui-component/__tests__/m3ui-component.test.js",
+          "hash": "13050455624711120056",
+          "deps": [
+            "npm:assert"
+          ]
+        },
+        {
+          "file": "packages/m3ui-component/lib/components/app-bars/bottom-app-bar/index.stories.tsx",
+          "hash": "1090882722945493937",
+          "deps": [
+            "npm:@storybook/react"
+          ]
+        },
+        {
+          "file": "packages/m3ui-component/lib/components/app-bars/bottom-app-bar/index.tsx",
+          "hash": "15959928230401223462",
+          "deps": [
+            "npm:@emotion/styled",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "packages/m3ui-component/lib/components/app-bars/index.tsx",
+          "hash": "17001964218481190289"
+        },
+        {
+          "file": "packages/m3ui-component/lib/components/app-bars/top-app-bar/index.stories.tsx",
+          "hash": "10534549589835493258",
+          "deps": [
+            "npm:@storybook/react"
+          ]
+        },
+        {
+          "file": "packages/m3ui-component/lib/components/app-bars/top-app-bar/index.tsx",
+          "hash": "5302601206535955759",
+          "deps": [
+            "npm:@emotion/styled",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "packages/m3ui-component/lib/components/badge/index.stories.tsx",
+          "hash": "16595774785299330667",
+          "deps": [
+            "npm:@storybook/react"
+          ]
+        },
+        {
+          "file": "packages/m3ui-component/lib/components/badge/index.tsx",
+          "hash": "12555154895478990622",
+          "deps": [
+            "npm:@emotion/styled",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "packages/m3ui-component/lib/components/buttons/button/index.stories.tsx",
+          "hash": "7445912554811575541",
+          "deps": [
+            "npm:@storybook/addon-actions",
+            "npm:@storybook/react"
+          ]
+        },
+        {
+          "file": "packages/m3ui-component/lib/components/buttons/button/index.tsx",
+          "hash": "14844533647301630381",
+          "deps": [
+            "npm:@emotion/styled",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "packages/m3ui-component/lib/components/buttons/extended-floating-action-button/index.stories.tsx",
+          "hash": "13170679451490434353",
+          "deps": [
+            "npm:@storybook/react"
+          ]
+        },
+        {
+          "file": "packages/m3ui-component/lib/components/buttons/extended-floating-action-button/index.tsx",
+          "hash": "221817435595979644",
+          "deps": [
+            "npm:@emotion/styled",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "packages/m3ui-component/lib/components/buttons/floating-action-button/index.stories.tsx",
+          "hash": "17667691682917110898",
+          "deps": [
+            "npm:@storybook/react"
+          ]
+        },
+        {
+          "file": "packages/m3ui-component/lib/components/buttons/floating-action-button/index.tsx",
+          "hash": "13507243208830760803",
+          "deps": [
+            "npm:@emotion/react",
+            "npm:@emotion/styled",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "packages/m3ui-component/lib/components/buttons/icon-button/index.stories.tsx",
+          "hash": "6787316106898251851",
+          "deps": [
+            "npm:@storybook/addon-actions",
+            "npm:@storybook/react"
+          ]
+        },
+        {
+          "file": "packages/m3ui-component/lib/components/buttons/icon-button/index.tsx",
+          "hash": "6042096523040028836",
+          "deps": [
+            "npm:@emotion/react",
+            "npm:@emotion/styled",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "packages/m3ui-component/lib/components/buttons/index.tsx",
+          "hash": "9824672721131817271"
+        },
+        {
+          "file": "packages/m3ui-component/lib/components/buttons/segmented-button/index.stories.tsx",
+          "hash": "2051481815409068343",
+          "deps": [
+            "npm:@storybook/react",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "packages/m3ui-component/lib/components/buttons/segmented-button/index.tsx",
+          "hash": "6677611822244927469",
+          "deps": [
+            "npm:@emotion/styled",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "packages/m3ui-component/lib/components/card/index.stories.tsx",
+          "hash": "16903454682812841534",
+          "deps": [
+            "npm:@storybook/addon-actions",
+            "npm:@storybook/react"
+          ]
+        },
+        {
+          "file": "packages/m3ui-component/lib/components/card/index.tsx",
+          "hash": "3847480240224922211",
+          "deps": [
+            "npm:react",
+            "npm:@emotion/react",
+            "npm:@emotion/styled"
+          ]
+        },
+        {
+          "file": "packages/m3ui-component/lib/components/divider/index.stories.tsx",
+          "hash": "10976746581959753574",
+          "deps": [
+            "npm:@storybook/react"
+          ]
+        },
+        {
+          "file": "packages/m3ui-component/lib/components/divider/index.tsx",
+          "hash": "17073960494483584287",
+          "deps": [
+            "npm:@emotion/styled",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "packages/m3ui-component/lib/components/icon/index.stories.tsx",
+          "hash": "7827394942998488425",
+          "deps": [
+            "npm:@storybook/react"
+          ]
+        },
+        {
+          "file": "packages/m3ui-component/lib/components/icon/index.tsx",
+          "hash": "17947364133786295580",
+          "deps": [
+            "npm:@emotion/styled",
+            "npm:material-symbols",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "packages/m3ui-component/lib/components/index.tsx",
+          "hash": "922388036939345222"
+        },
+        {
+          "file": "packages/m3ui-component/lib/components/list-item/index.stories.tsx",
+          "hash": "17830442632458874434",
+          "deps": [
+            "npm:@storybook/addon-actions",
+            "npm:@storybook/react"
+          ]
+        },
+        {
+          "file": "packages/m3ui-component/lib/components/list-item/index.tsx",
+          "hash": "7333878879995386494",
+          "deps": [
+            "npm:@emotion/react",
+            "npm:@emotion/styled",
+            "npm:lib/constant",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "packages/m3ui-component/lib/constant/index.ts",
+          "hash": "11596804395799563916"
+        },
+        {
+          "file": "packages/m3ui-component/lib/constant/style.constant.ts",
+          "hash": "2677227018947886181"
+        },
+        {
+          "file": "packages/m3ui-component/lib/core/index.tsx",
+          "hash": "11308285392092545613"
+        },
+        {
+          "file": "packages/m3ui-component/lib/core/theme-provider/hook/index.ts",
+          "hash": "15983286547986427035",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "packages/m3ui-component/lib/core/theme-provider/index.tsx",
+          "hash": "17680983438955028559"
+        },
+        {
+          "file": "packages/m3ui-component/lib/core/theme-provider/theme-provider.tsx",
+          "hash": "17786396013489801651",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "packages/m3ui-component/lib/core/theme-provider/theme-setting/breakpoint/breakpoint-setting.tsx",
+          "hash": "9671713255691125590",
+          "deps": [
+            "npm:@emotion/react",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "packages/m3ui-component/lib/core/theme-provider/theme-setting/breakpoint/breakpoint.constant.ts",
+          "hash": "7824289463974928993"
+        },
+        {
+          "file": "packages/m3ui-component/lib/core/theme-provider/theme-setting/breakpoint/index.tsx",
+          "hash": "12723845298962569784"
+        },
+        {
+          "file": "packages/m3ui-component/lib/core/theme-provider/theme-setting/color/color-setting.tsx",
+          "hash": "670847999711840227",
+          "deps": [
+            "npm:@emotion/react",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "packages/m3ui-component/lib/core/theme-provider/theme-setting/color/color.constant.ts",
+          "hash": "6703895965240560941",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "packages/m3ui-component/lib/core/theme-provider/theme-setting/color/color.context.ts",
+          "hash": "443162869517211679",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "packages/m3ui-component/lib/core/theme-provider/theme-setting/color/index.tsx",
+          "hash": "6696886700094523640"
+        },
+        {
+          "file": "packages/m3ui-component/lib/core/theme-provider/theme-setting/custom/custom-setting.tsx",
+          "hash": "5050638261307446696",
+          "deps": [
+            "npm:@emotion/react",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "packages/m3ui-component/lib/core/theme-provider/theme-setting/custom/custom.constant.ts",
+          "hash": "15190777608145750634",
+          "deps": [
+            "npm:@emotion/react",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "packages/m3ui-component/lib/core/theme-provider/theme-setting/custom/index.tsx",
+          "hash": "6167721540385401655"
+        },
+        {
+          "file": "packages/m3ui-component/lib/core/theme-provider/theme-setting/elevation/elevation-setting.tsx",
+          "hash": "10196419162453871185",
+          "deps": [
+            "npm:@emotion/react",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "packages/m3ui-component/lib/core/theme-provider/theme-setting/elevation/elevation.constant.ts",
+          "hash": "3482879241675328570",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "packages/m3ui-component/lib/core/theme-provider/theme-setting/elevation/index.tsx",
+          "hash": "8174615340114383679"
+        },
+        {
+          "file": "packages/m3ui-component/lib/core/theme-provider/theme-setting/index.ts",
+          "hash": "13479687138997709927"
+        },
+        {
+          "file": "packages/m3ui-component/lib/core/theme-provider/theme-setting/shape/color.context.ts",
+          "hash": "7763916759303817688",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "packages/m3ui-component/lib/core/theme-provider/theme-setting/shape/index.tsx",
+          "hash": "9902322003788263917"
+        },
+        {
+          "file": "packages/m3ui-component/lib/core/theme-provider/theme-setting/shape/shape-setting.tsx",
+          "hash": "9625431369808717655",
+          "deps": [
+            "npm:@emotion/react",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "packages/m3ui-component/lib/core/theme-provider/theme-setting/shape/shape.constant.ts",
+          "hash": "16794627477069073441"
+        },
+        {
+          "file": "packages/m3ui-component/lib/core/theme-provider/theme-setting/typography/index.tsx",
+          "hash": "1337539213953170444"
+        },
+        {
+          "file": "packages/m3ui-component/lib/core/theme-provider/theme-setting/typography/typography-setting.tsx",
+          "hash": "5640923032112149122",
+          "deps": [
+            "npm:@emotion/react",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "packages/m3ui-component/lib/core/theme-provider/theme-setting/typography/typography.constant.ts",
+          "hash": "4419725899327500842",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "packages/m3ui-component/lib/core/theme-provider/theme-setting/typography/typograpy.context.ts",
+          "hash": "13696793362301073023",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "packages/m3ui-component/lib/core/theme-provider/theme.context.ts",
+          "hash": "5933882573167513667",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "packages/m3ui-component/lib/hooks/use-ripple.ts",
+          "hash": "11304486373572320114",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "packages/m3ui-component/lib/index.tsx",
+          "hash": "2061553011024920667"
+        },
+        {
+          "file": "packages/m3ui-component/lib/utils/index.ts",
+          "hash": "10690660671058506466"
+        },
+        {
+          "file": "packages/m3ui-component/lib/utils/string.util.ts",
+          "hash": "12104116384652053011"
+        },
+        {
+          "file": "packages/m3ui-component/lib/utils/style.util.ts",
+          "hash": "6291209156840713460"
+        },
+        {
+          "file": "packages/m3ui-component/lib/utils/theme.util.ts",
+          "hash": "17447291497231435899",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "packages/m3ui-component/package.json",
+          "hash": "2929327022937574223",
+          "deps": [
+            "npm:@emotion/react",
+            "npm:@emotion/styled",
+            "npm:@storybook/addon-essentials",
+            "npm:@storybook/addon-interactions",
+            "npm:@storybook/addon-links",
+            "npm:@storybook/addon-onboarding",
+            "npm:@storybook/blocks",
+            "npm:@storybook/react",
+            "npm:@storybook/react-vite",
+            "npm:@storybook/test",
+            "npm:@vitejs/plugin-react",
+            "npm:prop-types",
+            "npm:react",
+            "npm:react-dom",
+            "npm:storybook",
+            "npm:vite"
+          ]
+        },
+        {
+          "file": "packages/m3ui-component/tsconfig.json",
+          "hash": "4494326152640056566"
+        },
+        {
+          "file": "packages/m3ui-component/vite.config.ts",
+          "hash": "10907331870265595511",
+          "deps": [
+            "npm:autoprefixer",
+            "npm:path",
+            "npm:postcss-pxtorem",
+            "npm:vite",
+            "npm:vite-plugin-dts",
+            "npm:vite-plugin-remove-console"
+          ]
+        }
+      ],
       "@m3ui/page": [
         {
           "file": "packages/m3ui-page/.eslintrc.json",
@@ -139,7 +627,7 @@
           "file": "packages/m3ui-page/src/app/page.tsx",
           "hash": "11044518443196167530",
           "deps": [
-            "@m3ui/component"
+            "npm:@m3ui/component/components/button/index"
           ]
         },
         {
@@ -152,292 +640,6 @@
         {
           "file": "packages/m3ui-page/tsconfig.json",
           "hash": "1542666182445234370"
-        }
-      ],
-      "@m3ui/component": [
-        {
-          "file": "packages/m3ui-component/.gitignore",
-          "hash": "15988153911525646898"
-        },
-        {
-          "file": "packages/m3ui-component/.npmignore",
-          "hash": "2976224574755603820"
-        },
-        {
-          "file": "packages/m3ui-component/.storybook/decorator.tsx",
-          "hash": "4264567511320239897",
-          "deps": [
-            "npm:@storybook/react",
-            "npm:material-icons",
-            "npm:react"
-          ]
-        },
-        {
-          "file": "packages/m3ui-component/.storybook/main.ts",
-          "hash": "9622741720297889805",
-          "deps": [
-            "npm:@storybook/react-vite"
-          ]
-        },
-        {
-          "file": "packages/m3ui-component/.storybook/preview.ts",
-          "hash": "12983561552271014893",
-          "deps": [
-            "npm:@storybook/react"
-          ]
-        },
-        {
-          "file": "packages/m3ui-component/README.md",
-          "hash": "3986819806583887532"
-        },
-        {
-          "file": "packages/m3ui-component/__tests__/m3ui-component.test.js",
-          "hash": "13050455624711120056",
-          "deps": [
-            "npm:assert"
-          ]
-        },
-        {
-          "file": "packages/m3ui-component/lib/components/badge/index.stories.tsx",
-          "hash": "13029938067870180502",
-          "deps": [
-            "npm:@storybook/react"
-          ]
-        },
-        {
-          "file": "packages/m3ui-component/lib/components/badge/index.tsx",
-          "hash": "5611012409565956782",
-          "deps": [
-            "npm:@emotion/styled",
-            "npm:react"
-          ]
-        },
-        {
-          "file": "packages/m3ui-component/lib/components/button/index.stories.tsx",
-          "hash": "8184145709501978427",
-          "deps": [
-            "npm:@storybook/addon-actions",
-            "npm:@storybook/react"
-          ]
-        },
-        {
-          "file": "packages/m3ui-component/lib/components/button/index.tsx",
-          "hash": "7756929000774062106",
-          "deps": [
-            "npm:@emotion/styled",
-            "npm:react"
-          ]
-        },
-        {
-          "file": "packages/m3ui-component/lib/components/floating-action-button/index.tsx",
-          "hash": "18265057544153491564",
-          "deps": [
-            "npm:react"
-          ]
-        },
-        {
-          "file": "packages/m3ui-component/lib/components/icon/index.tsx",
-          "hash": "3680793501718590192",
-          "deps": [
-            "npm:@emotion/styled",
-            "npm:material-icons",
-            "npm:react"
-          ]
-        },
-        {
-          "file": "packages/m3ui-component/lib/components/icon-button/index.stories.tsx",
-          "hash": "7296940298380756242",
-          "deps": [
-            "npm:@storybook/addon-actions",
-            "npm:@storybook/react"
-          ]
-        },
-        {
-          "file": "packages/m3ui-component/lib/components/icon-button/index.tsx",
-          "hash": "8655518002147769895",
-          "deps": [
-            "npm:@emotion/styled",
-            "npm:react"
-          ]
-        },
-        {
-          "file": "packages/m3ui-component/lib/components/index.tsx",
-          "hash": "1328739968008703832"
-        },
-        {
-          "file": "packages/m3ui-component/lib/constant/index.ts",
-          "hash": "1365678981119093369"
-        },
-        {
-          "file": "packages/m3ui-component/lib/constant/style.constant.ts",
-          "hash": "12972307627347548915"
-        },
-        {
-          "file": "packages/m3ui-component/lib/core/index.tsx",
-          "hash": "11308285392092545613"
-        },
-        {
-          "file": "packages/m3ui-component/lib/core/theme-provider/hook/index.ts",
-          "hash": "9887457334892560045",
-          "deps": [
-            "npm:react"
-          ]
-        },
-        {
-          "file": "packages/m3ui-component/lib/core/theme-provider/index.tsx",
-          "hash": "17680983438955028559"
-        },
-        {
-          "file": "packages/m3ui-component/lib/core/theme-provider/theme-provider.tsx",
-          "hash": "10867871500526058020",
-          "deps": [
-            "npm:react"
-          ]
-        },
-        {
-          "file": "packages/m3ui-component/lib/core/theme-provider/theme-setting/breakpoint/breakpoint.constant.ts",
-          "hash": "15159107229911286688"
-        },
-        {
-          "file": "packages/m3ui-component/lib/core/theme-provider/theme-setting/breakpoint/breakpoint.tsx",
-          "hash": "1634205077098999893",
-          "deps": [
-            "npm:@emotion/react",
-            "npm:react"
-          ]
-        },
-        {
-          "file": "packages/m3ui-component/lib/core/theme-provider/theme-setting/breakpoint/index.tsx",
-          "hash": "7168540191165746969"
-        },
-        {
-          "file": "packages/m3ui-component/lib/core/theme-provider/theme-setting/color/color-config.tsx",
-          "hash": "3519251386869556931",
-          "deps": [
-            "npm:@emotion/react",
-            "npm:react"
-          ]
-        },
-        {
-          "file": "packages/m3ui-component/lib/core/theme-provider/theme-setting/color/color.constant.ts",
-          "hash": "6633595597412969425",
-          "deps": [
-            "npm:react"
-          ]
-        },
-        {
-          "file": "packages/m3ui-component/lib/core/theme-provider/theme-setting/color/index.tsx",
-          "hash": "5231445372628532192"
-        },
-        {
-          "file": "packages/m3ui-component/lib/core/theme-provider/theme-setting/elevation/elevation.constant.ts",
-          "hash": "3482879241675328570",
-          "deps": [
-            "npm:react"
-          ]
-        },
-        {
-          "file": "packages/m3ui-component/lib/core/theme-provider/theme-setting/elevation/elevation.tsx",
-          "hash": "10196419162453871185",
-          "deps": [
-            "npm:@emotion/react",
-            "npm:react"
-          ]
-        },
-        {
-          "file": "packages/m3ui-component/lib/core/theme-provider/theme-setting/elevation/index.tsx",
-          "hash": "2428612821755417403"
-        },
-        {
-          "file": "packages/m3ui-component/lib/core/theme-provider/theme-setting/index.ts",
-          "hash": "16073269041943655519"
-        },
-        {
-          "file": "packages/m3ui-component/lib/core/theme-provider/theme-setting/typography/index.tsx",
-          "hash": "11330585569823409727"
-        },
-        {
-          "file": "packages/m3ui-component/lib/core/theme-provider/theme-setting/typography/typography-config.tsx",
-          "hash": "8552322612693313349",
-          "deps": [
-            "npm:@emotion/react",
-            "npm:react"
-          ]
-        },
-        {
-          "file": "packages/m3ui-component/lib/core/theme-provider/theme-setting/typography/typography.constant.ts",
-          "hash": "4419725899327500842",
-          "deps": [
-            "npm:react"
-          ]
-        },
-        {
-          "file": "packages/m3ui-component/lib/core/theme-provider/theme.context.ts",
-          "hash": "7920079380927349617",
-          "deps": [
-            "npm:react"
-          ]
-        },
-        {
-          "file": "packages/m3ui-component/lib/index.tsx",
-          "hash": "2061553011024920667"
-        },
-        {
-          "file": "packages/m3ui-component/lib/utils/index.ts",
-          "hash": "10855216222277915696"
-        },
-        {
-          "file": "packages/m3ui-component/lib/utils/string.util.ts",
-          "hash": "16169427390546716463"
-        },
-        {
-          "file": "packages/m3ui-component/lib/utils/style.util.ts",
-          "hash": "11495487984592481859"
-        },
-        {
-          "file": "packages/m3ui-component/lib/utils/theme.util.ts",
-          "hash": "6000285032847329748",
-          "deps": [
-            "npm:react"
-          ]
-        },
-        {
-          "file": "packages/m3ui-component/package.json",
-          "hash": "2929327022937574223",
-          "deps": [
-            "npm:@emotion/react",
-            "npm:@emotion/styled",
-            "npm:@storybook/addon-essentials",
-            "npm:@storybook/addon-interactions",
-            "npm:@storybook/addon-links",
-            "npm:@storybook/addon-onboarding",
-            "npm:@storybook/blocks",
-            "npm:@storybook/react",
-            "npm:@storybook/react-vite",
-            "npm:@storybook/test",
-            "npm:@vitejs/plugin-react",
-            "npm:prop-types",
-            "npm:react",
-            "npm:react-dom",
-            "npm:storybook",
-            "npm:vite"
-          ]
-        },
-        {
-          "file": "packages/m3ui-component/tsconfig.json",
-          "hash": "4494326152640056566"
-        },
-        {
-          "file": "packages/m3ui-component/vite.config.ts",
-          "hash": "10907331870265595511",
-          "deps": [
-            "npm:autoprefixer",
-            "npm:path",
-            "npm:postcss-pxtorem",
-            "npm:vite",
-            "npm:vite-plugin-dts",
-            "npm:vite-plugin-remove-console"
-          ]
         }
       ]
     }
