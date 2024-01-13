@@ -15,7 +15,7 @@ export const rippleEventFactory = (
       element.removeEventListener("mouseleave", onMouseUp);
       ripple.classList.add(`${classNamePrefix}ripple-fade-out`);
       ripple.addEventListener("transitionend", () => {
-        element.removeChild(ripple);
+        // element.removeChild(ripple);
       });
     };
     return onMouseUp;
@@ -25,9 +25,10 @@ export const rippleEventFactory = (
     e.stopPropagation();
     const ripple = document.createElement("span");
     ripple.classList.add(`${classNamePrefix}ripple`);
-
-    const x = e.clientX - element.offsetLeft;
-    const y = e.clientY - element.offsetTop;
+    // const x = e.clientX - element.offsetLeft;
+    // const y = e.clientY - element.offsetTop;
+    const x = e.layerX;
+    const y = e.layerY;
 
     const size = Math.max(element.clientWidth, element.clientHeight);
     const half = size / 2;
