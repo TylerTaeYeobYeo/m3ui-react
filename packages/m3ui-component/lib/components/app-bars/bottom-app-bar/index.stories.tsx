@@ -1,7 +1,8 @@
 import type { Meta, StoryObj } from "@storybook/react";
 
 import { BottomAppBar } from ".";
-import { Icon } from "../../icon";
+import { SHAPE } from "../../../constant";
+import { IconButton } from "../../buttons";
 
 const meta: Meta<typeof BottomAppBar> = {
   component: BottomAppBar,
@@ -16,8 +17,20 @@ type Story = StoryObj<typeof BottomAppBar>;
 export const Action: Story = {
   args: {
     actions: [
-      <Icon icon="favorite" key={"favorite"} />,
-      <Icon icon="more_vert" key={"more_vert"} />,
+      <IconButton
+        iconProps={{
+          icon: "favorite",
+        }}
+        shape={SHAPE.TEXT}
+        key={"favorite"}
+      />,
+      <IconButton
+        iconProps={{
+          icon: "more_vert",
+        }}
+        shape={SHAPE.TEXT}
+        key={"more_vert"}
+      />,
     ],
   },
   render: (props) => <BottomAppBar {...props} />,
@@ -25,8 +38,20 @@ export const Action: Story = {
 export const FAB: Story = {
   args: {
     actions: [
-      <Icon icon="favorite" key={"favorite"} />,
-      <Icon icon="more_vert" key={"more_vert"} />,
+      <IconButton
+        iconProps={{
+          icon: "favorite",
+        }}
+        shape={SHAPE.TEXT}
+        key={"favorite"}
+      />,
+      <IconButton
+        iconProps={{
+          icon: "more_vert",
+        }}
+        shape={SHAPE.TEXT}
+        key={"more_vert"}
+      />,
     ],
     floatingActionButton: {
       iconProps: {

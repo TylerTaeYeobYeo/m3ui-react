@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import { CSSProperties, HTMLAttributes, forwardRef } from "react";
+import { CSSProperties, HTMLAttributes, ReactNode, forwardRef } from "react";
 import { SIZE } from "../../../constant/style.constant";
 import { useTheme } from "../../../core/theme-provider/hook";
 
@@ -10,11 +10,11 @@ export enum TOP_APP_BAR_SIZE {
 }
 
 export type TopAppBarProps = {
-  leading?: React.ReactNode;
-  actions?: React.ReactNode[];
+  leading?: ReactNode;
+  actions?: ReactNode[];
   size?: TOP_APP_BAR_SIZE;
   centerTitle?: boolean;
-  headline?: React.ReactNode;
+  headline?: ReactNode;
 } & Omit<HTMLAttributes<HTMLDivElement>, "children">;
 
 const Wrapper = styled.div<{ size: TOP_APP_BAR_SIZE }>`
